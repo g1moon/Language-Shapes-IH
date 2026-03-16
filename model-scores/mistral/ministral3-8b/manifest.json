@@ -1,0 +1,870 @@
+{
+  "timestamp": "2026-02-19T07:06:56.959672",
+  "total_files": 216,
+  "files": [
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_en-tool_en/eval_results.json",
+      "hash": "9f1bb0707ece11d694e15e02ffe5b8ce"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_en-tool_de/eval_results.json",
+      "hash": "d5d7ca7671f1ad20cf1591aecc6d0a8c"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_en-tool_hi/eval_results.json",
+      "hash": "d86f8a8083e7fcd05fd5656f2d7de410"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_en-tool_zh/eval_results.json",
+      "hash": "1b9d940492901351be4201a69e7a55b2"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_en-tool_es/eval_results.json",
+      "hash": "9aaadc2f2a930d12eec5fdedfae0fdd1"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_en-tool_fr/eval_results.json",
+      "hash": "f19120b3f3739d7e42ed306ab5b4a891"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_de-tool_en/eval_results.json",
+      "hash": "a78219245e73e6435c8f8f6096873d22"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_de-tool_de/eval_results.json",
+      "hash": "64a40a7f788c394a9d93e862916141eb"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_de-tool_hi/eval_results.json",
+      "hash": "bbb84baf9d5e0409b95bd4b1ae4d9625"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_de-tool_zh/eval_results.json",
+      "hash": "ace9df787b781b8d6377ef2f96b50be6"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_de-tool_es/eval_results.json",
+      "hash": "aaf1476b8d0a10a5ed83a37b72fdcd04"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_de-tool_fr/eval_results.json",
+      "hash": "2986d41651e83a01f668826b568b3810"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_hi-tool_en/eval_results.json",
+      "hash": "fee5728bc744fffaae38a8ae66ff3df4"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_hi-tool_de/eval_results.json",
+      "hash": "66e541e5e8cb84e03c7fefbc06f63933"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_hi-tool_hi/eval_results.json",
+      "hash": "7aff4cb733b8cc7ac2c301981d2419fd"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_hi-tool_zh/eval_results.json",
+      "hash": "3ec01981d4c769584706908cc7bb824d"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_hi-tool_es/eval_results.json",
+      "hash": "0ca851d5f5d07dc08749dfa59dcaf1e9"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_hi-tool_fr/eval_results.json",
+      "hash": "2d8a6d5b5d0160842a77271362f90ed2"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_zh-tool_en/eval_results.json",
+      "hash": "c3bcfa7f0a8929eda530c1d48d981a4f"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_zh-tool_de/eval_results.json",
+      "hash": "f9e16f32869777b25bd16425c46462ec"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_zh-tool_hi/eval_results.json",
+      "hash": "265e34be21d3da650577ce640282be6d"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_zh-tool_zh/eval_results.json",
+      "hash": "ef0d6be1613a43713e0ab46d7965d48a"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_zh-tool_es/eval_results.json",
+      "hash": "274f0a9d8336954d9c2f3c326e6246ce"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_zh-tool_fr/eval_results.json",
+      "hash": "0985167d364e80b31f5b30a8f1f2308b"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_es-tool_en/eval_results.json",
+      "hash": "9ca3e2bf259a77235f20f7572751c9ea"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_es-tool_de/eval_results.json",
+      "hash": "cb9e91672dc9386e1bebbef5b7c67b85"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_es-tool_hi/eval_results.json",
+      "hash": "08bf456d2290af78ff288bad14a271b5"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_es-tool_zh/eval_results.json",
+      "hash": "0e33611589d57a551feb29009f554dd0"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_es-tool_es/eval_results.json",
+      "hash": "0910f81a5a92acc4ce77672a1b6040b9"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_es-tool_fr/eval_results.json",
+      "hash": "703cb1b541f0ec7b642c9a92abb4e2b3"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_fr-tool_en/eval_results.json",
+      "hash": "334bd063a4e2602f00221995ea7fa617"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_fr-tool_de/eval_results.json",
+      "hash": "8b56aaf607ac98ac4c5fae6eab9847c0"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_fr-tool_hi/eval_results.json",
+      "hash": "0cab80f63f9ff3b8683bc1f30a83ea6c"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_fr-tool_zh/eval_results.json",
+      "hash": "23af437bf841cc7848c0fa79808d43cf"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_fr-tool_es/eval_results.json",
+      "hash": "17cf79229f903f993eb53b71f082b4ed"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/ministral3-8b/input-sys_fr-tool_fr/eval_results.json",
+      "hash": "e765b63750a5185babdd02e8b180dd5d"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_en-tool_en/eval_results.json",
+      "hash": "9a8b1922daf3bbdef7302bb1872ce522"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_en-tool_de/eval_results.json",
+      "hash": "a8daee22ab102c2cb57805f6a96cc83e"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_en-tool_hi/eval_results.json",
+      "hash": "3725d4ffb6beb20ca56a90be57d76ce1"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_en-tool_zh/eval_results.json",
+      "hash": "4646458590aba1d6152bb2f59d937a99"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_en-tool_es/eval_results.json",
+      "hash": "748fba0fc1bd8b66482ab91850533660"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_en-tool_fr/eval_results.json",
+      "hash": "ba17ba468decc919a084494e088db7d6"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_de-tool_en/eval_results.json",
+      "hash": "b27b2b15fd69921fd700f8812497ba67"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_de-tool_de/eval_results.json",
+      "hash": "bedc2e15adccb4d91ede128137047020"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_de-tool_hi/eval_results.json",
+      "hash": "6d920fecd60336aa315f54523e9c58fe"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_de-tool_zh/eval_results.json",
+      "hash": "8c867a931ba84c1af65041594afbb2a5"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_de-tool_es/eval_results.json",
+      "hash": "c036a917dd8917d5cd5747d9ec121652"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_de-tool_fr/eval_results.json",
+      "hash": "5645b8b9c878178f165c2f9457a14a44"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_hi-tool_en/eval_results.json",
+      "hash": "8b99343278a8a27e7798afe6ed988fab"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_hi-tool_de/eval_results.json",
+      "hash": "59c2cf7c2e201c53d9f064b8664a6972"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_hi-tool_hi/eval_results.json",
+      "hash": "c3b7456e5a92a5ddcd2f7bd9f9a4feec"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_hi-tool_zh/eval_results.json",
+      "hash": "e1fc06b7242d756818de9db842b3e5e2"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_hi-tool_es/eval_results.json",
+      "hash": "a7bdabf89a1640470fa80a7d1fd476b3"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_hi-tool_fr/eval_results.json",
+      "hash": "307905c4cb64689a83d7ac609388a82d"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_zh-tool_en/eval_results.json",
+      "hash": "81367f7d333372e433eea40fa66570a9"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_zh-tool_de/eval_results.json",
+      "hash": "813c43d4ef17f33177daba196e14775d"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_zh-tool_hi/eval_results.json",
+      "hash": "b07d1a420801893161ca4a831d780e6d"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_zh-tool_zh/eval_results.json",
+      "hash": "66b813bc1b421bd0677aec29ffc4b1ea"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_zh-tool_es/eval_results.json",
+      "hash": "afbff26d31f8adc41df55f1ddb13f9e4"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_zh-tool_fr/eval_results.json",
+      "hash": "d7f079b181698abac8429995e8a7ade7"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_es-tool_en/eval_results.json",
+      "hash": "16cced83d5110117e16bd386177c53c2"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_es-tool_de/eval_results.json",
+      "hash": "95e50b340cb90796d0c7b456d29741cf"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_es-tool_hi/eval_results.json",
+      "hash": "e19d9710ab4761170d80a2edefab31a3"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_es-tool_zh/eval_results.json",
+      "hash": "eca051fec3d8bb79ceae29d96cd0c469"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_es-tool_es/eval_results.json",
+      "hash": "5f8fbf6d8aa1bad44176204217e20023"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_es-tool_fr/eval_results.json",
+      "hash": "975e873402462cb5ff0dc82f66d99a8b"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_fr-tool_en/eval_results.json",
+      "hash": "fab4d4eb0b58bf3c5f801d73a88da5ac"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_fr-tool_de/eval_results.json",
+      "hash": "f6712e79226f6c7509e6f5b5b45194e3"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_fr-tool_hi/eval_results.json",
+      "hash": "4c6a53ebdbfc9119a636ca4e469819fe"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_fr-tool_zh/eval_results.json",
+      "hash": "bdf03357cf5cdb95318b4ab09ccaec65"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_fr-tool_es/eval_results.json",
+      "hash": "d50d69a77af2e61bce2c72c4cc9766d0"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/ministral3-8b/input-sys_fr-tool_fr/eval_results.json",
+      "hash": "daa15bd23c4f964eaf196bb661b3f7e0"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_en-user_en/eval_results.json",
+      "hash": "65626e50f2312e3b0770062ffd50aa41"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_en-user_de/eval_results.json",
+      "hash": "a3f14f7a63a1ed3a27c63bd845e1232d"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_en-user_hi/eval_results.json",
+      "hash": "d1c930839aecf9a040cf549bbf1c353a"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_en-user_zh/eval_results.json",
+      "hash": "934e0e683a0c2f4aef0f8989db697c30"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_en-user_es/eval_results.json",
+      "hash": "ecfb8ead650cd4f429248270e30599cf"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_en-user_fr/eval_results.json",
+      "hash": "eae2354566464faa0ebe88cb68889ad0"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_de-user_en/eval_results.json",
+      "hash": "29572032d4135b71db20b7ed85d0ca85"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_de-user_de/eval_results.json",
+      "hash": "59d744ac0484f41b6e886d531617caba"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_de-user_hi/eval_results.json",
+      "hash": "5ca76e2bcb7a2bdc676006d50e595dea"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_de-user_zh/eval_results.json",
+      "hash": "35c26808c6d39255369473975a1a66ee"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_de-user_es/eval_results.json",
+      "hash": "04d7758929943759d3280345aa804f70"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_de-user_fr/eval_results.json",
+      "hash": "c6593f9ea0b5761141ff12a54ca72feb"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_hi-user_en/eval_results.json",
+      "hash": "d43f82fb018fb2d2a19dc2075d52d809"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_hi-user_de/eval_results.json",
+      "hash": "6a6d9315d29f7936cf498f618ca94e74"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_hi-user_hi/eval_results.json",
+      "hash": "3d28ab5781fa6f3ee6abc2898a1ad9aa"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_hi-user_zh/eval_results.json",
+      "hash": "a2fc4259a66e10c9d3f354fdb2c8549b"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_hi-user_es/eval_results.json",
+      "hash": "b5b924b4d8499749a7b450061d34ebb4"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_hi-user_fr/eval_results.json",
+      "hash": "04959173223073588c2f977a55a59f16"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_zh-user_en/eval_results.json",
+      "hash": "1c454185c5073edb7e86f9846172431d"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_zh-user_de/eval_results.json",
+      "hash": "901535b9e3ffa1db43b19423bd0f74da"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_zh-user_hi/eval_results.json",
+      "hash": "20d7ff67976e06e596fbed504f5b3e22"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_zh-user_zh/eval_results.json",
+      "hash": "e7969cce14ccdff61710f81b39a98ba7"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_zh-user_es/eval_results.json",
+      "hash": "61d6f14eee25b1e15f8170114fb6197f"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_zh-user_fr/eval_results.json",
+      "hash": "b3cbdd82ce4345dced383750c4f52a77"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_es-user_en/eval_results.json",
+      "hash": "66d737e6406426e51f15ccdfadef2746"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_es-user_de/eval_results.json",
+      "hash": "765317efcb75f65055f5848c7da06ded"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_es-user_hi/eval_results.json",
+      "hash": "98fc53fec369794dbd6d2c2950691ad8"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_es-user_zh/eval_results.json",
+      "hash": "ada9c4e4a8a580978d7cfd911e08e0c1"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_es-user_es/eval_results.json",
+      "hash": "85eed7c24a2fbcc42698ba15a63a8112"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_es-user_fr/eval_results.json",
+      "hash": "78a1cddf847762a544814c1297d2fba6"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_fr-user_en/eval_results.json",
+      "hash": "fc9fde2887ed463e9570e109fbd8fb5e"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_fr-user_de/eval_results.json",
+      "hash": "78dbbe49f2d3d7d82ef5268b23b97d05"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_fr-user_hi/eval_results.json",
+      "hash": "0f4e827d0d4540e88e002a56fb3d92c4"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_fr-user_zh/eval_results.json",
+      "hash": "560e686d0083bf91726ab011a4d45b68"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_fr-user_es/eval_results.json",
+      "hash": "833d3d9a09540e1978c637055a35abb8"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/ministral3-8b/input-sys_fr-user_fr/eval_results.json",
+      "hash": "06c9ec2eff496caa5534049a0cfacb4c"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_en-user_en/eval_results.json",
+      "hash": "f3220906eb1672365040da152096f65d"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_en-user_de/eval_results.json",
+      "hash": "385c8f386ef7a85c76c472f7496c5787"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_en-user_hi/eval_results.json",
+      "hash": "8252a82885828318487885378a9588da"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_en-user_zh/eval_results.json",
+      "hash": "e527ca3340e2b2594419388fe2dfdf61"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_en-user_es/eval_results.json",
+      "hash": "60bb175589366cb391af5b5170ad520b"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_en-user_fr/eval_results.json",
+      "hash": "a3b9c4687e4c9065bc4a766b365b51fa"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_de-user_en/eval_results.json",
+      "hash": "b9101af20f8290c42f3d767d2f998696"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_de-user_de/eval_results.json",
+      "hash": "d5966d38d717afc80f047ae2e3654d47"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_de-user_hi/eval_results.json",
+      "hash": "109830aaf6381ce29978058df031f829"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_de-user_zh/eval_results.json",
+      "hash": "5927cff36fddc191251815d91e99eee1"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_de-user_es/eval_results.json",
+      "hash": "844c7642da89e136cb1cbef2dffaa81e"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_de-user_fr/eval_results.json",
+      "hash": "f8cc56212485e7c99b7a986379679cf5"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_hi-user_en/eval_results.json",
+      "hash": "bf9f21cf1122916c0a8b06dcdec3f346"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_hi-user_de/eval_results.json",
+      "hash": "0ebe9c3b6d47517ac45fa7f3ab8d9709"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_hi-user_hi/eval_results.json",
+      "hash": "73101bfc61ef5ad3c8b0c619b7110499"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_hi-user_zh/eval_results.json",
+      "hash": "8100283f91299936542a25723d45fe7e"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_hi-user_es/eval_results.json",
+      "hash": "cf387757eac3fcadf3b34a88fe7441fa"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_hi-user_fr/eval_results.json",
+      "hash": "c1c5fdc172b9cc2ac37510f36535e0f6"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_zh-user_en/eval_results.json",
+      "hash": "0c6ab02898144a4df6c4c698b2770fc0"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_zh-user_de/eval_results.json",
+      "hash": "f22ce5a645fe4c8523c1c809f065f29d"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_zh-user_hi/eval_results.json",
+      "hash": "82b555b0eebf53495a43ec1cd6b92057"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_zh-user_zh/eval_results.json",
+      "hash": "13bde4cf43c1b7aa2f1bbedae2cce1f9"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_zh-user_es/eval_results.json",
+      "hash": "9c937a95d7b325fd8474dfa6bd591cb8"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_zh-user_fr/eval_results.json",
+      "hash": "b0e940588d22292029d9ea0a08b90c87"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_es-user_en/eval_results.json",
+      "hash": "8058c951c529748872e2a95eabc681af"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_es-user_de/eval_results.json",
+      "hash": "5e56e0068d415924a8208f5e642605a7"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_es-user_hi/eval_results.json",
+      "hash": "2c83b3e8d024d732ae59c9e95a531f59"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_es-user_zh/eval_results.json",
+      "hash": "2f6374404677ebd0b435717b4f05f1f5"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_es-user_es/eval_results.json",
+      "hash": "d9f88db69c8826c2924eb50567eafcc2"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_es-user_fr/eval_results.json",
+      "hash": "2ca2626f32721f4001bde6dd69ec6eea"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_fr-user_en/eval_results.json",
+      "hash": "0390174623adeea8681e6d96b9973e96"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_fr-user_de/eval_results.json",
+      "hash": "737bc067b42a94626140cdf1f4511239"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_fr-user_hi/eval_results.json",
+      "hash": "d60b881775b801c57af77c44a9c36e30"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_fr-user_zh/eval_results.json",
+      "hash": "cc2892b3bd1a0646b53c89ea2cecb783"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_fr-user_es/eval_results.json",
+      "hash": "a8b3f79bb533dc27fdacbf019800b470"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/ministral3-8b/input-sys_fr-user_fr/eval_results.json",
+      "hash": "92552eae872d969a870362e84d8dc728"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_en-tool_en/eval_results.json",
+      "hash": "dd5573799792c81f04e9f8e5e55a4bf6"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_en-tool_de/eval_results.json",
+      "hash": "252c63354e4a579f2e1daa65b67eb566"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_en-tool_hi/eval_results.json",
+      "hash": "cba60709820b7d115c22b80e09cda1a7"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_en-tool_zh/eval_results.json",
+      "hash": "f43b87683df92f6da973c6375108e48c"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_en-tool_es/eval_results.json",
+      "hash": "55ce89131fed332738ea20db950e7fb6"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_en-tool_fr/eval_results.json",
+      "hash": "7599d5201ac2945aeef25a5a473c2d15"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_de-tool_en/eval_results.json",
+      "hash": "e50c4af34655da847668f2625fd8da59"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_de-tool_de/eval_results.json",
+      "hash": "0425299f009a1b2bff37b336e027c10d"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_de-tool_hi/eval_results.json",
+      "hash": "85f49c55015e3620fd410838721ff09d"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_de-tool_zh/eval_results.json",
+      "hash": "51803e715dfafa3146552fd66067b0be"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_de-tool_es/eval_results.json",
+      "hash": "00da9fe74d74c0c66bef3b186a3b7a4c"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_de-tool_fr/eval_results.json",
+      "hash": "99c578197c4e6aff378e7e4d035b8b38"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_hi-tool_en/eval_results.json",
+      "hash": "85500852ee57131c63649fcc716b8644"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_hi-tool_de/eval_results.json",
+      "hash": "0920e4caf5cab16d394939d9a9b52bac"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_hi-tool_hi/eval_results.json",
+      "hash": "89a8fd86d96a654fc9bcf5124fc79be3"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_hi-tool_zh/eval_results.json",
+      "hash": "60884ebc360fd78b492d0f4c60741793"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_hi-tool_es/eval_results.json",
+      "hash": "c6eda755be5306fc7074b7326aa27316"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_hi-tool_fr/eval_results.json",
+      "hash": "7d6d60d5b7bbc1461981ee2de535993c"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_zh-tool_en/eval_results.json",
+      "hash": "7ca763fa239940a86bfa1f4f48ad687f"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_zh-tool_de/eval_results.json",
+      "hash": "43f4134b40e965e3792d00820fc9716f"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_zh-tool_hi/eval_results.json",
+      "hash": "91a5bf3139e321aa22bfdcdfd064f1e8"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_zh-tool_zh/eval_results.json",
+      "hash": "d0a3a0dd9c7c0d189246dd19f57d4d87"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_zh-tool_es/eval_results.json",
+      "hash": "4a166917fddcefb701b8bd740c347628"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_zh-tool_fr/eval_results.json",
+      "hash": "3439536c32a15ae8a9e86ca224a81ed1"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_es-tool_en/eval_results.json",
+      "hash": "60c3e35118262f2d703e0cca8084adc1"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_es-tool_de/eval_results.json",
+      "hash": "1b783668a0c759608aec2090bd229a86"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_es-tool_hi/eval_results.json",
+      "hash": "53d67d030b9adc70b36418b1f77b505f"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_es-tool_zh/eval_results.json",
+      "hash": "8b36a40ba2db1f59cae40d282e28a04c"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_es-tool_es/eval_results.json",
+      "hash": "30ff3d4b6581b55bd12b5097957268fd"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_es-tool_fr/eval_results.json",
+      "hash": "93eba20715fd23695cac214da3501e94"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_fr-tool_en/eval_results.json",
+      "hash": "e9c97ecdbd4bedec238f174f50421604"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_fr-tool_de/eval_results.json",
+      "hash": "38d276def10867c0d2008b199efb9080"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_fr-tool_hi/eval_results.json",
+      "hash": "3b974bf5c25c82c5a28fc917a8197db4"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_fr-tool_zh/eval_results.json",
+      "hash": "b0facf301137e10f3b58bc18102e388a"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_fr-tool_es/eval_results.json",
+      "hash": "cc47f67f8eb83525279ef8540721b0ad"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/ministral3-8b/input-user_fr-tool_fr/eval_results.json",
+      "hash": "496a915139db061ae2cec643748340c6"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_en-tool_en/eval_results.json",
+      "hash": "2c0956c5b459fa8a7a942acd989aebe2"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_en-tool_de/eval_results.json",
+      "hash": "1289163dd95b8b42748a632aef81759a"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_en-tool_hi/eval_results.json",
+      "hash": "d45f00514b4f0a06656598981bb8305a"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_en-tool_zh/eval_results.json",
+      "hash": "c4411779a0d7a7d2933a28cca3b52a4b"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_en-tool_es/eval_results.json",
+      "hash": "8896c28cc329b6ef77f41e3459c211f0"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_en-tool_fr/eval_results.json",
+      "hash": "a8ae70c3a7ea2b05427218823be59c8a"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_de-tool_en/eval_results.json",
+      "hash": "8c55540fcbd3749c1c148cbb482f4fa0"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_de-tool_de/eval_results.json",
+      "hash": "1e6a9cf9e3d59649539660a3a42e23f4"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_de-tool_hi/eval_results.json",
+      "hash": "0b08b53a71af927c74146c80ececb787"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_de-tool_zh/eval_results.json",
+      "hash": "ec0b79ab70d2c398a9a0647aa7eb17c2"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_de-tool_es/eval_results.json",
+      "hash": "cbe367602575e0e6429ad0d14c96bb4f"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_de-tool_fr/eval_results.json",
+      "hash": "043591dd3ebbf33a6cfea99dbd7a210e"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_hi-tool_en/eval_results.json",
+      "hash": "52c27ebebb4996f90e9fb6905c699baf"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_hi-tool_de/eval_results.json",
+      "hash": "166fcb96841cb59d480833ced4c9de28"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_hi-tool_hi/eval_results.json",
+      "hash": "4cb9be986d35c4f8eac24e4caab8aba7"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_hi-tool_zh/eval_results.json",
+      "hash": "94ac1de39acfe58b946b2283995e0968"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_hi-tool_es/eval_results.json",
+      "hash": "8249c9260740b49a1499e8493c788170"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_hi-tool_fr/eval_results.json",
+      "hash": "c2936992aa1c09b7d43b486aa6e6982b"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_zh-tool_en/eval_results.json",
+      "hash": "7e7f857fc728a09e05d85acd6cc6d0f5"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_zh-tool_de/eval_results.json",
+      "hash": "cbfe1c92892c6e116051ac89024f9831"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_zh-tool_hi/eval_results.json",
+      "hash": "074f3fdfe75f26e5d911f2c80668d6a7"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_zh-tool_zh/eval_results.json",
+      "hash": "0bb77beda00b51ce6484727474645656"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_zh-tool_es/eval_results.json",
+      "hash": "69d99cd4d564e88ecc5e1bd2638261d4"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_zh-tool_fr/eval_results.json",
+      "hash": "f5e076380fe06c19e6629b5e79221466"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_es-tool_en/eval_results.json",
+      "hash": "17c46d7cd85fc9b8ee124cfc9c003a35"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_es-tool_de/eval_results.json",
+      "hash": "2d7caf741b3a09285d047c35aa2b92ad"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_es-tool_hi/eval_results.json",
+      "hash": "b56b72edcdf1f3893e8161011b69e2d4"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_es-tool_zh/eval_results.json",
+      "hash": "a26eb155822b3c60501419f659f60286"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_es-tool_es/eval_results.json",
+      "hash": "af6b351be0c65f5bda586654b1f99143"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_es-tool_fr/eval_results.json",
+      "hash": "0f0609b34ba68367f314128281319533"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_fr-tool_en/eval_results.json",
+      "hash": "a14a928944bb367a28da58c5376c93cd"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_fr-tool_de/eval_results.json",
+      "hash": "98fdf8256aab023b70439f3a32efe8df"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_fr-tool_hi/eval_results.json",
+      "hash": "3f24f9b24fb72c3c2411920031e6c74a"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_fr-tool_zh/eval_results.json",
+      "hash": "46af1b6aacdc3f6bb00412951ccf198b"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_fr-tool_es/eval_results.json",
+      "hash": "a612fa72e5d37bbfd4c3091513426318"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/ministral3-8b/input-user_fr-tool_fr/eval_results.json",
+      "hash": "4944aadeae51c77d747b5f9904a3dccc"
+    }
+  ]
+}

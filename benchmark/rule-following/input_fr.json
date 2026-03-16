@@ -1,0 +1,1658 @@
+[
+  {
+    "id": 13,
+    "origin_inst": "L’intégralité de votre réponse doit être enveloppée au format JSON. Vous pouvez utiliser des accents graves de type markdown tels que ``` pour encadrer le contenu JSON.",
+    "task": "Quelle est l’histoire de Prospect Park à New York ?",
+    "conflict_inst": "L’intégralité de votre réponse doit être enveloppée au format XML. Vous pouvez utiliser des balises HTML telles que <xml> et </xml> pour encadrer le contenu XML.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "origin_inst": "Votre réponse ne doit contenir aucune virgule.",
+    "task": "Écris un limerick sur le fait d’écrire un limerick.",
+    "conflict_inst": "Votre réponse doit contenir au moins 3 virgules.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "origin_inst": "Votre réponse doit contenir exactement 3 puces au format markdown (utilisez « * » pour indiquer chaque puce) comme suit :\n* Ceci est le premier point.\n* Ceci est le deuxième point.",
+    "task": "Écris un dialogue entre deux personnes : l’une est habillée d’une robe de bal et l’autre est habillée de façon décontractée, en survêtement. Les deux se rendent à un événement nocturne.",
+    "conflict_inst": "Votre réponse doit contenir exactement 5 points numérotés au format markdown, par exemple :\n1. Ceci est le premier point.\n2. Ceci est le deuxième point.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 143,
+    "origin_inst": "Dans votre réponse, séparez votre raisonnement et la réponse finale par une ligne ne contenant que trois symboles « * » : ***. À la fin de votre réponse, veuillez ajouter explicitement un post-scriptum commençant par P.P.S",
+    "task": "Un poulain mesure 5 pieds. Il grandira de 6 pouces chaque mois. Quelle taille fera-t-il dans 3 ans ? Réfléchissez étape par étape, puis donnez votre réponse.",
+    "conflict_inst": "Votre réponse doit contenir un seul paragraphe sans aucune séparation. N’incluez aucun post-scriptum ni aucun texte supplémentaire après le contenu principal.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        },
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 168,
+    "origin_inst": "Votre réponse doit mettre en évidence au moins 3 sections avec du markdown, c’est-à-dire *section mise en évidence*.",
+    "task": "Rédige un modèle drôle et sarcastique pour évaluer la qualité du mariage entre deux personnes qui sont toutes les deux mamans. Ceci est destiné au couple lui-même.",
+    "conflict_inst": "Votre réponse doit être en texte brut, sans aucune syntaxe Markdown.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 179,
+    "origin_inst": "Votre réponse doit comporter au moins 50 phrases.",
+    "task": "Un cinéaste essaie d’obtenir un financement pour un film sur l’histoire d’Internet. Rédigez un essai destiné à être utilisé dans la proposition à des investisseurs potentiels.",
+    "conflict_inst": "Votre réponse doit être un court paragraphe de 20 phrases maximum.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 50
+        }
+      ]
+    }
+  },
+  {
+    "id": 219,
+    "origin_inst": "Votre réponse doit être encadrée par des guillemets doubles.",
+    "task": "Pensez-vous que Kareena Kapoor est une bonne actrice ?",
+    "conflict_inst": "Votre réponse doit être entourée de guillemets simples.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 247,
+    "origin_inst": "Donnez exactement deux réponses différentes séparées par 6 symboles astérisque ******.",
+    "task": "Peux-tu écrire des chansons de rap sur l’histoire du système des préfectures au Japon ?",
+    "conflict_inst": "Donnez exactement deux réponses différentes séparées par 3 lignes de tirets ---.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 292,
+    "origin_inst": "Votre réponse doit contenir au moins 20 phrases.",
+    "task": "Écris un e-mail long et drôle à ton ami au sujet des ingrédients d’une bonne vie.",
+    "conflict_inst": "Votre réponse ne doit pas dépasser 10 phrases.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 334,
+    "origin_inst": "L’intégralité de votre réponse doit être encadrée par des guillemets doubles. Votre réponse doit inclure exactement 2 puces au format markdown, comme ci-dessous :\n* puce 1\n* puce 2",
+    "task": "Créez un slogan pour mon entreprise. Le nom de mon entreprise est Color Paper. Nous produisons des essuie-tout en papier. Nous nous concentrons sur la production d’essuie-tout en papier colorés et accrocheurs.",
+    "conflict_inst": "L’intégralité de votre réponse doit être entourée de guillemets simples. Votre réponse ne doit contenir aucun point à puces.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 1001,
+    "origin_inst": "Vous n’êtes pas autorisé à utiliser de virgules dans votre réponse.",
+    "task": "Je planifie un voyage au Japon, et je souhaiterais que tu rédiges un itinéraire pour mon périple dans un style shakespearien.",
+    "conflict_inst": "Utilisez au moins 3 virgules dans votre réponse.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1075,
+    "origin_inst": "L’intégralité de votre sortie doit être au format JSON.",
+    "task": "Pouvez-vous m’aider à créer une publicité pour un nouveau produit ? C’est une couche conçue pour être plus confortable pour les bébés.",
+    "conflict_inst": "Votre réponse doit être au format texte brut, sans aucune structure JSON.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1082,
+    "origin_inst": "Votre réponse doit contenir exactement 2 paragraphes. Séparez les paragraphes avec le séparateur markdown : ***.",
+    "task": "Écris une histoire sur un homme qui se réveille un jour et se rend compte qu'il est à l'intérieur d'un jeu vidéo.",
+    "conflict_inst": "Votre réponse doit contenir exactement 3 paragraphes. N’utilisez aucun séparateur Markdown entre les paragraphes.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 1098,
+    "origin_inst": "Veuillez donner exactement deux réponses différentes. Séparez les réponses par 6 symboles astérisque : ******.",
+    "task": "Quel est un nom que les gens donnent à Dieu ?",
+    "conflict_inst": "Veuillez donner exactement deux réponses différentes. Séparez les réponses par 3 dièses : ###.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1180,
+    "origin_inst": "Votre réponse doit contenir un titre, encadré par des doubles chevrons, c’est-à-dire <<titre>>. Donnez exactement deux réponses différentes séparées par 6 symboles astérisque ******.",
+    "task": "Expliquez pourquoi les gens sont dégoûtés par les vers, mais pas par le fait de manger une vache morte.",
+    "conflict_inst": "Votre réponse doit contenir un titre, encadré par des chevrons simples, c’est-à-dire <titre>. Donnez exactement deux réponses différentes séparées par 3 signes dièse ###.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1262,
+    "origin_inst": "Votre réponse doit contenir un titre encadré par des doubles chevrons, c’est-à-dire <<titre>>. Utilisez moins de 5 phrases.",
+    "task": "Pouvez-vous développer le texte suivant : « L’augmentation du poids à l’essieu a accru les dommages causés à la route » ?",
+    "conflict_inst": "Votre réponse doit contenir un titre, encadré par des chevrons simples, c’est-à-dire <titre>. Utilisez plus de 10 phrases.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1268,
+    "origin_inst": "L’intégralité de votre réponse doit contenir moins de 6 phrases.",
+    "task": "Peux-tu me donner un exemple d’entrée de journal sur la gestion du stress ? Dis-moi comment tu conçois l’exemple.",
+    "conflict_inst": "L’intégralité de votre réponse doit contenir plus de 10 phrases.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 1305,
+    "origin_inst": "Votre réponse doit contenir un post-scriptum commençant par P.P.S à la fin. Les noms doivent être listés sous forme de puces indiquées par : * Ceci est un exemple de puce.",
+    "task": "Listez exactement 10 prénoms possibles pour un nouveau-né.",
+    "conflict_inst": "Votre réponse ne doit pas contenir de post-scriptum. Les noms doivent être listés sous forme de points numérotés indiqués par : 1. Ceci est un exemple de point numéroté.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        },
+        {
+          "num_bullets": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1307,
+    "origin_inst": "Votre réponse doit inclure un plan comportant au moins 15 sections mises en évidence en markdown, telles que *section mise en évidence*.",
+    "task": "Rédigez un plan pour un article sur l’histoire du café yéménite. Le plan doit inclure les points principaux de l’article.",
+    "conflict_inst": "Votre réponse doit inclure un plan comportant au maximum 10 sections mises en évidence avec des balises HTML telles que <highlight>section mise en évidence</highlight>.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1322,
+    "origin_inst": "Votre réponse doit comporter un titre contenu entre doubles chevrons, par exemple <<kotlin vs java>>.",
+    "task": "Quels sont les avantages et les inconvénients de Kotlin par rapport à Java ?",
+    "conflict_inst": "Votre réponse doit comporter un titre contenu entre chevrons simples, par exemple <kotlin vs java>",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1325,
+    "origin_inst": "Votre réponse doit être encadrée par des guillemets doubles. Votre réponse doit inclure exactement 8 puces sous la forme de :\n* Ceci est la puce 1\n* Ceci est la puce 2\n...",
+    "task": "Écrivez un article drôle sur les raisons pour lesquelles les dinosaures ont disparu.",
+    "conflict_inst": "Votre réponse doit être placée entre des guillemets simples. Votre réponse doit inclure exactement 5 puces sous la forme de :\n- Point 1\n- Point 2\n...",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 1332,
+    "origin_inst": "Votre réponse doit contenir deux parties distinctes, séparées par exactement 6 symboles astérisque : *******",
+    "task": "Créez un tableau avec un itinéraire de voyage de 7 jours pour l’Inde, et un itinéraire de voyage de 7 jours pour la Chine.",
+    "conflict_inst": "Votre réponse doit contenir trois parties distinctes, séparées par exactement 5 symboles dièse : #####",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1377,
+    "origin_inst": "Votre réponse doit contenir 5 paragraphes qui suivent exactement le format ci-dessous :\n\nPartie 1. Résumé de la tâche\n[mettez les détails ici]\n***\nPartie 2. Motivation\n[mettez les détails ici]\n***\nPartie 3. Objectifs des jalons\n[mettez les détails ici]\n***\nPartie 4. Calendrier\n[mettez les détails ici]\n***\nPartie 5. Historique du document\n[mettez les détails ici]",
+    "task": "Rédigez un document de planification pour une tâche d’ingénierie logicielle.",
+    "conflict_inst": "Votre réponse doit contenir exactement 3 paragraphes, chacun séparé par trois signes dièse : ###.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1381,
+    "origin_inst": "Votre réponse doit comporter moins de 10 phrases.",
+    "task": "Écris une chanson drôle pour une proposition visant à construire une nouvelle aire de jeux dans l’école primaire de ton quartier.",
+    "conflict_inst": "Votre réponse doit comporter plus de 15 phrases.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1512,
+    "origin_inst": "Votre réponse doit inclure au moins 20 espaces réservés représentant différents noms d’utilisateur, en utilisant des crochets comme [nomdutilisateur1], [nomdutilisateur2]. Toutes les phrases doivent être courtes et s abstenir d utiliser des virgules.",
+    "task": "Générez un fil de discussion sur un forum à propos de plusieurs personnes qui attendent d’entendre les dernières nouvelles locales.",
+    "conflict_inst": "Votre réponse doit inclure au moins 20 espaces réservés représentant différents noms d’utilisateur, en utilisant des chevrons comme <nomdutilisateur1>, <nomdutilisateur2>. Votre réponse doit contenir au moins 3 virgules.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 20
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1551,
+    "origin_inst": "Votre réponse doit comporter un titre encadré par des doubles chevrons, c’est-à-dire <<titre>>.",
+    "task": "Je souhaite postuler à un poste d’ingénieur logiciel chez Google. Peux-tu me rédiger deux lettres de motivation différentes — une version concise et une version longue ?",
+    "conflict_inst": "Votre réponse doit contenir un titre, encadré par des chevrons simples, c’est-à-dire <titre>",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1619,
+    "origin_inst": "Votre réponse doit contenir un post-scriptum commençant par P.P.S. Votre réponse doit contenir au moins 6 espaces réservés représentés par des crochets, tels que [nom].",
+    "task": "Écris un rap sur un nouveau smartphone.",
+    "conflict_inst": "Votre réponse ne doit contenir aucun post-scriptum. Votre réponse doit contenir exactement 3 espaces réservés représentés par des crochets.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        },
+        {
+          "num_placeholders": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 1620,
+    "origin_inst": "Votre réponse doit inclure un post-scriptum qui commence par « P.S. »",
+    "task": "J’aime vraiment beaucoup l’album intitulé Lilith. Je veux le présenter à mon ami Luheng. Rédige un e-mail à ce sujet.",
+    "conflict_inst": "Votre réponse ne doit inclure aucun post-scriptum ni aucun texte supplémentaire après le contenu principal.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 1646,
+    "origin_inst": "Votre réponse doit mettre en évidence au moins 5 sections en commençant et en terminant par « * », comme : *section de texte mise en évidence*.",
+    "task": "Rédigez un article de blog décontracté sur les similitudes entre les espèces animales.",
+    "conflict_inst": "Votre réponse doit mettre en évidence exactement 3 sections en commençant et en terminant par « * », comme : *section de texte mise en évidence*.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1773,
+    "origin_inst": "Votre réponse doit contenir un nom pour la chanson, mis en évidence en l’entourant de *.",
+    "task": "Écris une chanson sur les étés de mon enfance que j’ai passés à la campagne.",
+    "conflict_inst": "Donnez un nom à la chanson et mettez ce nom en évidence en l’entourant de chevrons. Par exemple : <petit moi à la campagne>.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 1823,
+    "origin_inst": "Votre réponse doit contenir au moins 40 phrases (n'oubliez pas d'ajouter la ponctuation). Vous devez mettre en évidence certains mots ou certaines expressions dans votre réponse, comme *expression mise en évidence*.",
+    "task": "Peux-tu écrire un poème sur les avantages et les inconvénients de jouer beaucoup aux jeux vidéo ?",
+    "conflict_inst": "Votre réponse ne doit pas contenir plus de 20 phrases. Vous devez mettre en évidence certains mots ou certaines expressions dans votre réponse, comme <<expression mise en évidence>>.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 40
+        },
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 1897,
+    "origin_inst": "Votre réponse doit mettre en italique au moins 10 parties de texte en markdown (en utilisant * pour mettre en italique, comme *texte en italique*). Votre réponse ne doit contenir aucune virgule.",
+    "task": "Développe ce qui suit et rends-le drôle : Jeanne a lancé les dés. Elle pensait avoir perdu, mais en fait elle a gagné.",
+    "conflict_inst": "Votre réponse doit mettre en italique 3 à 5 parties du texte en markdown (en utilisant * pour mettre en italique, comme *texte en italique*). Votre réponse doit contenir au moins 3 virgules.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 10
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1908,
+    "origin_inst": "Votre réponse doit contenir au moins 30 phrases. Votre réponse doit contenir exactement 2 puces. Utilisez les puces comme suit :\n* Ceci est une puce Votre réponse doit contenir au moins 8 espaces réservés représentés par des crochets, tels que [adresse].",
+    "task": "Que pensez-vous de cette affirmation : « Les magiciens sont plus puissants que les sorciers parce qu’ils étudient la magie au lieu de naître avec. » ?",
+    "conflict_inst": "Votre réponse ne doit pas contenir plus de 15 phrases. Votre réponse doit contenir au moins 3 puces. Utilisez les puces comme suit :\n- Ceci est une puce Votre réponse doit contenir de 3 à 5 espaces réservés représentés par des chevrons, tels que <adresse>.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_bullet_lists",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        },
+        {
+          "num_bullets": 2
+        },
+        {
+          "num_placeholders": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 1927,
+    "origin_inst": "Votre réponse doit contenir au moins 10 espaces réservés représentés par des crochets, tels que [nom].",
+    "task": "Réécrivez la phrase suivante sous forme d’e-mail : Les bottes sont chaudes mais un peu inconfortables.",
+    "conflict_inst": "Votre réponse doit contenir de 3 à 5 espaces réservés représentés par des crochets, tels que [nom].",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1934,
+    "origin_inst": "Votre réponse doit être sous la forme d’exactement 4 puces au format ci-dessous :\n* Ceci est le point à puce 1\n* Ceci est le point à puce 2",
+    "task": "Pourquoi Star Wars est-il si populaire ?",
+    "conflict_inst": "Votre réponse doit prendre la forme d’un seul paragraphe, sans aucun point à puces.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2035,
+    "origin_inst": "Votre réponse doit contenir au moins 5 phrases. Utilisez Markdown pour mettre en italique au moins 2 sections dans votre réponse, c’est-à-dire *texte en italique*. Votre réponse doit être entourée de guillemets doubles.",
+    "task": "Écris une blague.",
+    "conflict_inst": "Votre réponse ne doit utiliser aucun formatage Markdown. Votre réponse doit être encadrée par des triples guillemets. Votre réponse doit contenir exactement 3 phrases.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections",
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 5
+        },
+        {
+          "num_highlights": 2
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2118,
+    "origin_inst": "Votre réponse doit comporter exactement 3 paragraphes, chacun séparé par ***. Votre réponse doit également contenir exactement 3 puces au format markdown, par exemple :\n* Puce 1\n* Puce 2",
+    "task": "Écris un rap pour les mamans sur les avantages et les inconvénients de l’allaitement maternel par rapport au lait infantile.",
+    "conflict_inst": "Votre réponse doit comporter exactement 2 paragraphes séparés par une ligne vide. Votre réponse ne doit contenir aucun point à puces.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 3
+        },
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2136,
+    "origin_inst": "Votre réponse doit inclure au moins un espace réservé représenté par des crochets, tel que [nom].",
+    "task": "Écris une blague courte et drôle sur un gars qui travaille à l’IRS.",
+    "conflict_inst": "Votre réponse ne doit contenir aucun crochet.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2162,
+    "origin_inst": "Votre réponse doit contenir moins de 20 phrases. Votre réponse doit inclure au moins 3 espaces réservés représentés par des crochets, tels que [adresse].",
+    "task": "Quelles sont les principales différences entre les dénominations adventiste et baptiste ?",
+    "conflict_inst": "Votre réponse doit contenir plus de 25 phrases. Votre réponse ne doit inclure aucun espace réservé représenté par des crochets.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 20
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2164,
+    "origin_inst": "Votre réponse doit contenir au moins 3 espaces réservés représentés par des crochets, tels que [adresse], [nom] et [numéro de téléphone].",
+    "task": "Rédigez une description de produit pour une nouvelle gamme de jouets pour chiens, appelée « le couineur ». Elle est fabriquée en latex et est conçue pour les chiens de tous âges et de toutes espèces. Elle est également disponible dans une variété de couleurs et de formes.",
+    "conflict_inst": "Votre réponse ne doit contenir aucun espace réservé représenté par des crochets.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2195,
+    "origin_inst": "Votre réponse doit contenir exactement 3 puces au format markdown, par exemple :\n* Puce 1\n* Puce 2",
+    "task": "Rédigez une liste d’instructions à l’intention d’un dresseur de chiens pour apprendre à un chien à s’asseoir, à rester et à rapporter.",
+    "conflict_inst": "Votre réponse doit contenir exactement 5 éléments de liste numérotés au format markdown, tels que :\n1. Élément de liste 1\n2. Élément de liste 2\n3. Élément de liste 3\n4. Élément de liste 4\n5. Élément de liste 5",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2209,
+    "origin_inst": "L’intégralité de votre réponse doit être placée entre guillemets doubles.",
+    "task": "Rédigez une proposition académique à l’intention d’un client qui souhaite mettre en œuvre une nouvelle fonctionnalité pour son produit.",
+    "conflict_inst": "L’intégralité de votre réponse doit être placée entre des guillemets simples.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2229,
+    "origin_inst": "Votre réponse doit contenir un titre, encadré par des doubles chevrons, c’est-à-dire <<titre>>.",
+    "task": "Un argumentaire de vente destiné aux mamans est nécessaire pour un nouveau type de couche conçu pour être plus confortable pour les bébés. L’argumentaire de vente doit faire 500 mots, être drôle, captivant et se concentrer sur les avantages de la nouvelle couche sans mentionner le prix.",
+    "conflict_inst": "Vous n’avez pas besoin d’inclure un titre dans votre réponse.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2230,
+    "origin_inst": "Votre réponse ne doit contenir aucune virgule. Votre réponse doit mettre en évidence au moins 2 sections en utilisant le markdown, c’est-à-dire *section mise en évidence*.",
+    "task": "Rends ce texte bizarre : « La nouvelle version de l’application sera bientôt disponible sur l’App Store. Elle comprendra un certain nombre de nouvelles fonctionnalités, notamment une nouvelle interface utilisateur et la prise en charge de nouveaux appareils ».",
+    "conflict_inst": "Votre réponse doit contenir au moins 3 virgules. Votre réponse doit contenir uniquement du texte brut, sans aucune syntaxe Markdown.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2245,
+    "origin_inst": "Votre réponse ne doit contenir aucune virgule.",
+    "task": "JE SUIS FACILE D’Y ENTRER MAIS DIFFICILE D’EN SORTIR. JE SUIS ACCUEILLANT ET EXCITANT MAIS BEAUCOUP DE GENS ONT PEUR DE MOI. JE SUIS LÀ OÙ VOUS DEVEZ ÊTRE MAIS VOUS NE VOULEZ PEUT-ÊTRE PAS Y RESTER. JE SUIS PEUT-ÊTRE UN MYSTÈRE MAIS JE SUIS SÛR QUE VOUS POUVEZ ME DEVINER. QU’EST-CE QUE JE SUIS ?",
+    "conflict_inst": "Votre réponse doit contenir au moins 3 virgules.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2253,
+    "origin_inst": "Dans votre réponse, mettez en évidence au moins 3 sections avec du markdown, c’est-à-dire *section mise en évidence*.",
+    "task": "Rédigez un modèle d’atelier sur l’importance de la diversité sur le lieu de travail.",
+    "conflict_inst": "Votre réponse doit contenir uniquement du texte brut, sans aucune syntaxe Markdown.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2303,
+    "origin_inst": "Votre réponse doit être encadrée par des guillemets doubles. Votre réponse doit contenir 17 phrases ou plus.",
+    "task": "Rédigez un article de blog décontracté sur la façon dont le système solaire externe est différent du système solaire interne, et ce que cela signifie pour la possibilité de vie.",
+    "conflict_inst": "Votre réponse doit être entourée de guillemets simples. Votre réponse ne doit pas contenir plus de 10 phrases.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "at least",
+          "num_sentences": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": 2304,
+    "origin_inst": "Votre réponse doit contenir au moins 1 espace réservé représenté par des crochets, tel que [adresse].",
+    "task": "Rédigez un essai comme si vous étiez le président des États-Unis, en vous adressant à des mamans comme public. Le sujet est la manière dont le ballon du film « Ça » symbolise l’esprit des années cinquante.",
+    "conflict_inst": "Vous pouvez utiliser des espaces réservés dans votre réponse, mais ils doivent tous être entourés d’accolades, comme {adresse}.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2311,
+    "origin_inst": "Votre réponse ne doit contenir aucune virgule.",
+    "task": "Pourquoi y a-t-il 396 calories dans une portion de 32 grammes d’amandes non salées ?",
+    "conflict_inst": "Votre réponse doit contenir au moins 3 virgules.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2314,
+    "origin_inst": "Votre réponse doit contenir 3 puces en markdown, par exemple :\n* Point de puce 1",
+    "task": "Donne exactement 3 noms pour un chien noir et blanc.",
+    "conflict_inst": "Écrivez les trois noms dans une liste Python.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2324,
+    "origin_inst": "Votre réponse ne doit contenir aucune virgule.",
+    "task": "Écris une énigme sur une maman allongée sur une plage à Humboldt.",
+    "conflict_inst": "Votre réponse doit contenir au moins trois virgules.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2357,
+    "origin_inst": "Votre réponse doit comporter exactement 4 paragraphes et chaque paragraphe doit être séparé par le séparateur Markdown : ***.",
+    "task": "Rédigez un itinéraire de voyage pour un séjour à Paris adapté aux adolescents ayant une courte capacité d’attention.",
+    "conflict_inst": "Votre réponse doit comporter exactement 3 paragraphes séparés par un seul saut de ligne.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2362,
+    "origin_inst": "Votre réponse doit se terminer par un post-scriptum commençant par P.P.S",
+    "task": "Comment appelle-t-on un scientifique exclu à qui l’on demande de rester à la maison ?",
+    "conflict_inst": "Votre réponse ne doit contenir aucun post-scriptum.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2374,
+    "origin_inst": "Votre réponse ne doit contenir aucune virgule.",
+    "task": "Rédigez une proposition de projet expliquant comment utiliser l’apprentissage automatique et l’IA pour améliorer la qualité de l’éducation dans les pays en développement.",
+    "conflict_inst": "Utilisez au moins trois virgules dans votre réponse.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2380,
+    "origin_inst": "Votre réponse ne peut pas contenir de virgules. Votre réponse doit contenir exactement 4 puces au format markdown, comme suit :\n* Puce 1\n* Puce 2",
+    "task": "Veuillez rédiger un résumé de la page annonceur suivante : « Nous insistons pour avoir l’équipe la plus talentueuse de développeurs web, de rédacteurs de contenu, de graphistes et de spécialistes du marketing en ligne du secteur. Nous mettons en avant des personnes primées qui ont fait leurs preuves en matière de réussite ». Utilisez des balises markdown et ciblez les mamans.",
+    "conflict_inst": "Votre réponse doit contenir au moins 3 virgules. Votre réponse doit contenir exactement 5 puces au format markdown, par exemple :\n* Puce 1\n* Puce 2",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2381,
+    "origin_inst": "Votre réponse doit mettre en évidence au moins 3 sections au format markdown, c’est-à-dire *section mise en évidence*.",
+    "task": "Rédigez une lettre de motivation à un parti politique local, en demandant à être leur organisateur de rassemblements.",
+    "conflict_inst": "Votre réponse ne doit contenir aucune mise en forme Markdown.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2396,
+    "origin_inst": "Votre réponse doit inclure un post-scriptum à la fin commençant par P.P.S",
+    "task": "Écris-moi un poème sur une guerre qui dure longtemps.",
+    "conflict_inst": "Votre réponse ne doit inclure aucun post-scriptum à la fin.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2436,
+    "origin_inst": "Donnez exactement deux réponses différentes à la question. Séparez les réponses par 6 symboles astérisque ******. N’utilisez aucune virgule dans vos réponses.",
+    "task": "Répondez à la question « Est-il éthique de chasser et de manger des espèces envahissantes ? ».",
+    "conflict_inst": "Donnez une seule réponse à la question. Utilisez au moins 3 virgules dans votre réponse.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2441,
+    "origin_inst": "L’intégralité de votre réponse doit être encadrée par des guillemets doubles.",
+    "task": "Rédigez un paragraphe de type discours sur les élections américaines.",
+    "conflict_inst": "L’intégralité de votre réponse doit être entourée de guillemets simples.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2467,
+    "origin_inst": "Votre réponse doit comporter exactement 4 paragraphes. Séparez les paragraphes avec le séparateur Markdown : ***.",
+    "task": "Écris un rap sur un abîme.",
+    "conflict_inst": "Votre réponse doit comporter exactement 4 paragraphes. Séparez les paragraphes par 3 lignes de tirets : ---.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2497,
+    "origin_inst": "Votre réponse doit contenir au moins une section mise en évidence avec du markdown, c’est-à-dire *section mise en évidence*. Mettez l’intégralité de votre réponse entre guillemets doubles.",
+    "task": "Donne-moi une question logique sur le fait de discuter et de conquérir. Rends-la intéressante.",
+    "conflict_inst": "Votre réponse doit contenir uniquement du texte brut, sans aucune syntaxe Markdown. Mettez l’intégralité de votre réponse entre guillemets simples.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2515,
+    "origin_inst": "Votre réponse doit mettre en évidence au moins une section en markdown, c’est-à-dire *section mise en évidence*.",
+    "task": "Gideon est un agriculteur qui a un surplus de récoltes provenant de sa ferme cette année. Que pourrait-il faire de ce surplus ?",
+    "conflict_inst": "Votre réponse doit contenir uniquement du texte brut, sans aucune syntaxe Markdown.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2589,
+    "origin_inst": "Votre réponse doit contenir moins de 17 phrases.",
+    "task": "Rédigez un paragraphe qui énumère la longueur moyenne de divers spécimens animaux, du plus petit au plus grand.",
+    "conflict_inst": "Votre réponse doit contenir au moins 20 phrases.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": 2704,
+    "origin_inst": "Donnez exactement deux réponses différentes, séparées par 6 symboles astérisque (******). Incluez un titre encadré par des doubles chevrons, c’est-à-dire <<titre>>. N’utilisez pas de virgules.",
+    "task": "Écris un haïku sur un comportement insensé sous forme de question, destiné à un jeune public. Il doit inclure le thème du fait de ne pas étudier.",
+    "conflict_inst": "Donnez exactement deux réponses différentes séparées par 3 dièses ###. Votre réponse doit contenir un titre, encadré par des crochets, c’est-à-dire [titre]. Utilisez au moins deux virgules dans votre réponse.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "detectable_format:title",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2749,
+    "origin_inst": "Votre réponse doit contenir au moins 20 phrases.",
+    "task": "Rédigez un article de blog sur les avantages de faire appel à une agence de marketing digital.",
+    "conflict_inst": "Votre réponse doit être limitée à 10 phrases ou moins.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2780,
+    "origin_inst": "Votre réponse doit comporter moins de 6 phrases.",
+    "task": "Pouvez-vous me fournir l’horaire du prochain train pour Londres ?",
+    "conflict_inst": "Votre réponse doit contenir au moins 7 phrases.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 2785,
+    "origin_inst": "Votre réponse doit utiliser le markdown pour mettre en évidence au moins 3 sections (comme ceci : *section mise en évidence*). Votre réponse doit également contenir au moins 3 espaces réservés (un exemple d’espace réservé est [adresse]).",
+    "task": "Que trouve-t-on à l’intérieur des sanctuaires shinto ? Imaginez que vous donnez une conférence à des étudiants dans une école ou une université.",
+    "conflict_inst": "Votre réponse doit utiliser le markdown pour mettre en évidence exactement 2 sections (comme ceci : *section mise en évidence*). Votre réponse doit également contenir au moins 3 espaces réservés (un exemple d’espace réservé est {adresse})",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2790,
+    "origin_inst": "Votre réponse doit utiliser le markdown pour mettre en évidence au moins une section de votre réponse, c’est-à-dire *section mise en évidence*.",
+    "task": "Écris un rap drôle sur un homme qui reçoit un appel d’un responsable officiel lui disant qu’il est un parent éloigné perdu de vue du roi du Nigeria.",
+    "conflict_inst": "Votre réponse ne doit utiliser aucun formatage markdown.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2801,
+    "origin_inst": "Votre réponse doit être une liste de exactement 4 puces au format markdown, par exemple :\n* Point de puce 1\n* Point de puce 2",
+    "task": "Réécrivez le blog suivant : « Le monde est un endroit magnifique. Le soleil brille, les oiseaux chantent et les fleurs éclosent. C’est une journée parfaite pour sortir et profiter de tout ce que la nature a à offrir. »",
+    "conflict_inst": "Votre réponse doit être un seul paragraphe, sans puces ni listes. Le paragraphe doit comporter au moins 3 phrases.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2832,
+    "origin_inst": "Votre réponse doit inclure exactement un seul point à puce au format markdown, tel que :\n* Point à puce",
+    "task": "Imagine que tu as 19 ans et que tu crées un jeu vidéo. Le jeu raconte l’histoire d’un garçon qui doit sauver le monde d’un méchant. Rédige un pitch pour convaincre des adolescents que ton jeu vidéo vaut la peine d’être acheté.",
+    "conflict_inst": "Votre réponse doit inclure trois puces au format markdown, par exemple :\n* point à puce 1",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2857,
+    "origin_inst": "L’intégralité de votre réponse doit être enveloppée au format JSON. Vous pouvez utiliser des accents graves de markdown tels que ```.",
+    "task": "Rédigez une grille d’évaluation pour l’entretien annuel d’un ingénieur logiciel.",
+    "conflict_inst": "Votre réponse doit être encadrée par des balises XML.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2905,
+    "origin_inst": "Votre réponse doit utiliser * pour mettre en évidence au moins 2 sections dans votre texte. Par exemple : *ceci est une section de texte mise en évidence*.",
+    "task": "Développez l’énigme en une histoire sur un ton drôle :",
+    "conflict_inst": "Que peux-tu attraper mais pas lancer ?\nUn rhume\n\nTa réponse ne doit pas contenir le symbole astérisque (*).",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2918,
+    "origin_inst": "Rédigez un résumé après avoir répondu à la demande. Ces deux parties doivent être séparées par 6 symboles astérisque (******).",
+    "task": "Rédigez une grille d’évaluation pour noter la qualité de la rédaction d’un adolescent.",
+    "conflict_inst": "Rédigez un résumé après avoir répondu à la demande. Ces deux parties doivent être séparées par 6 signes dièse (######).",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2921,
+    "origin_inst": "Votre réponse doit comporter exactement deux paragraphes, séparés par le séparateur Markdown : ***.",
+    "task": "Si a = 10, b = 30 et c = 20, quelle est la valeur de (a + b) / c ?",
+    "conflict_inst": "Votre réponse doit tenir en un seul paragraphe.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2929,
+    "origin_inst": "Votre réponse doit inclure un post-scriptum commençant par « P.S. » à la fin.",
+    "task": "Rédigez une annonce textuelle pour un site web pour adultes qui n’est pas pornographique.",
+    "conflict_inst": "Votre réponse ne doit inclure aucun post-scriptum à la fin.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 2969,
+    "origin_inst": "Votre réponse doit contenir un titre encadré par des doubles chevrons, par exemple <<sloop en vente>>.",
+    "task": "Rédigez un texte publicitaire pour vendre un sloop. C’est un petit voilier à un seul mât, facile à naviguer et à comprendre. Une partie de votre réponse doit être au format tableau.",
+    "conflict_inst": "Vous n’avez pas besoin d’inclure un titre dans votre réponse.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2985,
+    "origin_inst": "L’intégralité de votre réponse doit être placée entre guillemets doubles.",
+    "task": "Pourquoi pensez-vous que les ingénieurs de Google restent plus souvent chez Google plutôt que de partir chez Microsoft ? Expliquez-le dans le style d’Alex Jones.",
+    "conflict_inst": "L’intégralité de votre réponse doit être entourée de guillemets simples.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3041,
+    "origin_inst": "Votre réponse doit comporter moins de 7 phrases. Votre réponse doit contenir exactement 1 point à puce en markdown, par exemple :\n* Point à puce",
+    "task": "Rédigez un pitch de startup créatif et persuasif pour une entreprise qui aide les personnes atteintes de maladies chroniques à trouver et à gérer des soins à domicile.",
+    "conflict_inst": "Votre réponse doit comporter plus de 10 phrases. Votre réponse ne doit contenir aucun point à puces.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 7
+        },
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3057,
+    "origin_inst": "Votre réponse doit contenir un titre encadré par des doubles chevrons, c’est-à-dire <<titre>>.",
+    "task": "Veuillez écrire une énigme sur la fonction inverse.",
+    "conflict_inst": "Vous n’avez pas besoin d’inclure un titre dans votre réponse.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3131,
+    "origin_inst": "Votre réponse doit contenir un titre, encadré par des doubles chevrons, comme <<article de blog sur ...>>. Aussi, ajoutez un post-scriptum commençant par P.S.",
+    "task": "Rédigez un article de blog sur le domaine de la biotechnologie en plein essor en 2023, puis critiquez l’article de blog.",
+    "conflict_inst": "Votre réponse doit contenir un titre, entouré d’accolades, c’est-à-dire {titre}. Votre réponse ne doit pas se terminer par un post-scriptum.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 3221,
+    "origin_inst": "Votre réponse doit contenir au moins 8 espaces réservés (c.-à-d., [restaurant]).",
+    "task": "Planifiez un voyage de 2 semaines en Europe et visitez Londres, Paris et Rome. Répondez en majuscules.",
+    "conflict_inst": "Votre réponse ne doit contenir pas plus de 3 espaces réservés (c.-à-d., [restaurant]).",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 3245,
+    "origin_inst": "Votre sortie ne doit contenir aucune virgule. Votre sortie doit comporter au moins 2 espaces réservés, entourés de crochets, tels que [auteur].",
+    "task": "Écrivez un article avec le titre « Layton est la meilleure ville du monde ».",
+    "conflict_inst": "Votre sortie doit contenir au moins 3 virgules. N’utilisez pas d’espaces réservés dans votre sortie.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_placeholders": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 3256,
+    "origin_inst": "Votre réponse doit contenir un titre encadré par des doubles chevrons, c’est-à-dire <<titre>>. Votre réponse doit contenir moins de 13 phrases. Votre réponse ne doit contenir aucune virgule mais les autres signes de ponctuation sont autorisés.",
+    "task": "Écris un poème sur un chat curieux.",
+    "conflict_inst": "Votre réponse doit contenir un titre, entouré d’accolades, c’est-à-dire {titre}. Votre réponse doit contenir au moins 15 phrases. Votre réponse doit contenir au moins 3 virgules.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "length_constraints:number_sentences",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 13
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3263,
+    "origin_inst": "Veuillez fournir deux réponses séparées par ******",
+    "task": "« jiang » est-il un nom chinois ? Quels sont d’autres noms similaires à « jiang » ?",
+    "conflict_inst": "Veuillez fournir exactement deux réponses, séparées par ------",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3280,
+    "origin_inst": "Votre réponse doit contenir au moins six espaces réservés, qui doivent être représentés par des crochets comme [nom].",
+    "task": "Quelle est la différence entre l’Apple et l’Albanie ? Répondez au format d’un e-mail.",
+    "conflict_inst": "Les espaces réservés dans votre réponse doivent être inférieurs à trois.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 3281,
+    "origin_inst": "Fournissez exactement deux versions de votre réponse. Séparez-les par six symboles astérisque : ******. Abstenez-vous d’utiliser des virgules dans votre réponse.",
+    "task": "Rédigez des lettres de motivation pour une candidature à un emploi. Il s’agit d’un poste de professeur assistant.",
+    "conflict_inst": "Fournissez exactement deux versions de votre réponse. Séparez-les par six tirets : ------. Utilisez au moins 3 virgules dans votre réponse.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3329,
+    "origin_inst": "Votre réponse doit comporter au moins 30 phrases.",
+    "task": "Salut ! J’ai besoin d’une grille d’évaluation pour juger les performances et le prix d’un ordinateur portable. Peux-tu me créer un exemple ? Ne me donne aucun point à puces, aucune liste ni aucun tableau. Rédige simplement la grille en paragraphes, en français courant.",
+    "conflict_inst": "Votre réponse ne doit pas dépasser 20 phrases.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        }
+      ]
+    }
+  },
+  {
+    "id": 3350,
+    "origin_inst": "Votre réponse ne doit contenir que des phrases courtes et ne doit contenir aucune virgule. Incluez au moins cinq espaces réservés représentés par des crochets, tels que [site web].",
+    "task": "Je dois rédiger une proposition de recherche pour un projet sur les effets des réseaux sociaux sur la santé mentale des adolescents.",
+    "conflict_inst": "Votre réponse doit contenir au moins trois virgules. N’incluez aucun espace réservé dans votre réponse.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_placeholders": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 3351,
+    "origin_inst": "Votre réponse doit comporter exactement 2 paragraphes. Séparez les paragraphes avec le séparateur Markdown : ***. De plus, mettez en italique au moins 3 sections en commençant et en terminant par un seul *, c’est-à-dire *texte en italique*.",
+    "task": "Voici une publication sur les réseaux sociaux : « Ma fille a obtenu son diplôme universitaire aujourd’hui ! Je suis tellement fier/fière d’elle ! » Peux-tu la rendre plus enthousiasmante ?",
+    "conflict_inst": "Votre réponse doit être un seul paragraphe, sans séparateurs ni mise en forme. N’utilisez aucun texte en italique.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        },
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 3409,
+    "origin_inst": "L’intégralité de votre réponse doit être entourée de guillemets doubles. Votre réponse doit également mettre en évidence au moins trois sections au format markdown en utilisant du *texte surligné*.",
+    "task": "Peux-tu m’écrire un slogan pour mon projet de jeu vidéo ? Le projet vise à créer un jeu de combat très drôle.",
+    "conflict_inst": "L’intégralité de votre réponse doit être entourée de guillemets simples. Votre réponse doit contenir exactement deux sections mises en évidence au format markdown en utilisant du *texte mis en évidence*.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 3557,
+    "origin_inst": "Votre réponse doit être une liste de 10 puces, en suivant le format ci-dessous :\n\n* Puce 1\n* Puce 2\n* ...",
+    "task": "J’ai besoin d’une liste des 10 meilleurs avocats aux États-Unis.",
+    "conflict_inst": "Votre réponse doit être un seul paragraphe, sans puces ni listes numérotées.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 3606,
+    "origin_inst": "Votre réponse doit inclure un titre entre doubles chevrons, c’est-à-dire <<titre>>.",
+    "task": "Peux-tu composer l’intrigue d’un film qui implique un rêve, des combats à mains nues et un superpouvoir ?",
+    "conflict_inst": "Vous n’avez pas besoin d’inclure un titre dans votre réponse.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3615,
+    "origin_inst": "Votre réponse ne doit contenir aucune virgule.",
+    "task": "Écris une énigme sur Camilla.",
+    "conflict_inst": "Votre réponse doit contenir au moins 3 virgules.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3619,
+    "origin_inst": "Votre réponse doit contenir au moins trois espaces réservés, tels que [prix], et vous ne devez pas utiliser de virgules dans votre réponse.",
+    "task": "Rédigez un document XML décrivant la sortie du dernier téléphone Google Pixel.",
+    "conflict_inst": "N’utilisez pas d’espaces réservés dans votre réponse. Vous devez utiliser au moins deux virgules dans votre réponse.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 3
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3629,
+    "origin_inst": "Mettez en évidence certaines parties clés de votre réponse avec « * », comme *texte mis en évidence*.",
+    "task": "Aujourd’hui, lors de la 54e cérémonie annuelle des Grammy Awards, la Recording Academy rend hommage au talent et à la créativité des artistes, des musiciens et des producteurs, qui sont les créateurs des meilleurs enregistrements de l’année écoulée. Veuillez continuer à rédiger ce texte dans un ton formel.",
+    "conflict_inst": "Votre réponse doit contenir uniquement du texte brut, sans aucune syntaxe Markdown.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3631,
+    "origin_inst": "Votre réponse ne doit contenir aucune virgule.",
+    "task": "Écris une chanson sur la façon de préparer un sandwich au beurre de cacahuète et à la confiture.",
+    "conflict_inst": "Votre réponse doit contenir au moins trois virgules.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3691,
+    "origin_inst": "Votre réponse doit contenir moins de 10 phrases. Votre réponse ne doit contenir aucune virgule.",
+    "task": "Écris un article de blog du point de vue d’une fille de 16 ans qui est suivie par un inconnu.",
+    "conflict_inst": "Votre réponse doit contenir plus de 15 phrases. Votre réponse doit inclure au moins 3 virgules.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 10
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3710,
+    "origin_inst": "Votre réponse doit contenir un titre encadré par des doubles chevrons, par exemple <<titre>>. De plus, vous devez mettre en évidence au moins 2 sections en markdown, c’est-à-dire *section mise en évidence*. Enfin, vous devez ajouter un post-scriptum à la fin de votre réponse, commençant par P.P.S",
+    "task": "J’ai besoin d’un rap qui explique aux professionnels comment faire dormir les bébés toute la nuit.",
+    "conflict_inst": "Votre réponse doit contenir un titre, entouré d’accolades, c’est-à-dire {titre}. Abstenez-vous d’utiliser le symbole astérisque (*) dans votre réponse. N’ajoutez pas de post-scriptum à la fin de votre réponse.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 2
+        },
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3719,
+    "origin_inst": "Votre réponse doit inclure un titre entre doubles chevrons, c’est-à-dire <<titre de ma chanson>>.",
+    "task": "Écris une chanson sur le fait de s’étouffer avec un morceau de poulet dans le fleuve Potomac.",
+    "conflict_inst": "Vous n’avez pas besoin d’inclure un titre dans votre réponse.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3739,
+    "origin_inst": "Votre réponse doit comporter moins de 3 phrases (une seule phrase ou 2 phrases).",
+    "task": "Quel est le nom du monstre aux yeux verts qui rend les gens jaloux ?",
+    "conflict_inst": "Votre réponse doit comporter au moins 4 phrases.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 3
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,4558 @@
+[
+  {
+    "id": 13,
+    "user": "Deine gesamte Antwort sollte im JSON-Format verpackt sein. Du kannst Markdown-Backticks wie ``` verwenden, um den JSON-Inhalt einzuschließen.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nWas ist die Geschichte des Prospect Park in NYC? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Was ist die Geschichte des Prospect Park in NYC?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "user": "Deine Antwort sollte keine Kommas enthalten.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe einen Limerick über das Schreiben eines Limericks. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe einen Limerick über das Schreiben eines Limericks."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "user": "Deine Antwort muss genau 3 Aufzählungspunkte im Markdown-Format enthalten (verwende „* “, um jeden Punkt zu kennzeichnen), zum Beispiel:\n* Dies ist der erste Punkt.\n* Dies ist der zweite Punkt.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe einen Dialog zwischen zwei Personen: Eine ist in einem Ballkleid herausgeputzt, und die andere ist lässig in Joggingkleidung gekleidet. Die beiden gehen zu einer nächtlichen Veranstaltung. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe einen Dialog zwischen zwei Personen: Eine ist in einem Ballkleid herausgeputzt, und die andere ist lässig in Joggingkleidung gekleidet. Die beiden gehen zu einer nächtlichen Veranstaltung."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 143,
+    "user": "Trenne in deiner Antwort deine Überlegungen und die endgültige Antwort durch eine Zeile, die nur aus drei „*“-Symbolen besteht: ***. Fügen Sie am Ende Ihrer Antwort bitte ausdrücklich ein Postskriptum hinzu, das mit P.P.S beginnt\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nEin Fohlen ist 5 Fuß groß. Es wird jeden Monat 6 Zoll wachsen. Wie groß wird es in 3 Jahren sein? Denke Schritt für Schritt nach und gib dann deine Antwort. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Ein Fohlen ist 5 Fuß groß. Es wird jeden Monat 6 Zoll wachsen. Wie groß wird es in 3 Jahren sein? Denke Schritt für Schritt nach und gib dann deine Antwort."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        },
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 168,
+    "user": "Ihre Antwort sollte mindestens 3 Abschnitte mit Markdown hervorheben, d. h. *hervorgehobener Abschnitt*.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe eine lustige und sarkastische Vorlage, um die Qualität einer Ehe zwischen zwei Personen zu bewerten, die beide Mütter sind. Das ist für das Paar selbst. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe eine lustige und sarkastische Vorlage, um die Qualität einer Ehe zwischen zwei Personen zu bewerten, die beide Mütter sind. Das ist für das Paar selbst."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 179,
+    "user": "Ihre Antwort sollte mindestens 50 Sätze lang sein.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nEin Filmemacher versucht, eine Finanzierung für einen Film über die Geschichte des Internets zu erhalten. Schreiben Sie einen Essay, der im Vorschlag an potenzielle Investoren verwendet werden soll. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Ein Filmemacher versucht, eine Finanzierung für einen Film über die Geschichte des Internets zu erhalten. Schreiben Sie einen Essay, der im Vorschlag an potenzielle Investoren verwendet werden soll."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 50
+        }
+      ]
+    }
+  },
+  {
+    "id": 219,
+    "user": "Ihre Antwort muss in doppelte Anführungszeichen gesetzt werden.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nGlaubst du, dass Kareena Kapoor eine gute Schauspielerin ist? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Glaubst du, dass Kareena Kapoor eine gute Schauspielerin ist?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 247,
+    "user": "Gib genau zwei unterschiedliche Antworten, getrennt durch 6 Sternchen-Symbole ******.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nKannst du Rap-Songs über die Geschichte des Präfektursystems in Japan schreiben? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Kannst du Rap-Songs über die Geschichte des Präfektursystems in Japan schreiben?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 292,
+    "user": "Ihre Antwort muss mindestens 20 Sätze enthalten.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe eine lange und lustige E-Mail an deinen Freund über die Zutaten eines guten Lebens. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe eine lange und lustige E-Mail an deinen Freund über die Zutaten eines guten Lebens."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 334,
+    "user": "Ihre gesamte Antwort muss in doppelte Anführungszeichen gesetzt werden. Ihre Antwort muss genau 2 Aufzählungspunkte im Markdown-Format enthalten, wie unten:\n* Aufzählungspunkt 1\n* Aufzählungspunkt 2\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nErstelle einen Slogan für mein Unternehmen. Der Name meines Unternehmens ist Color Paper. Wir produzieren Papierhandtücher. Wir konzentrieren uns darauf, auffällige, farbenfrohe Papierhandtücher herzustellen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Erstelle einen Slogan für mein Unternehmen. Der Name meines Unternehmens ist Color Paper. Wir produzieren Papierhandtücher. Wir konzentrieren uns darauf, auffällige, farbenfrohe Papierhandtücher herzustellen."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 1001,
+    "user": "Es ist dir nicht erlaubt in deiner Antwort Kommas zu verwenden.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nIch plane eine Reise nach Japan, und ich möchte, dass du mir eine Reiseroute für meine Reise in einem shakespeareanischen Stil schreibst. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Ich plane eine Reise nach Japan, und ich möchte, dass du mir eine Reiseroute für meine Reise in einem shakespeareanischen Stil schreibst."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1075,
+    "user": "Deine gesamte Ausgabe sollte im JSON-Format sein.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nKannst du mir helfen, eine Werbung für ein neues Produkt zu erstellen? Es ist eine Windel, die so konzipiert ist, dass sie für Babys bequemer ist. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Kannst du mir helfen, eine Werbung für ein neues Produkt zu erstellen? Es ist eine Windel, die so konzipiert ist, dass sie für Babys bequemer ist."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1082,
+    "user": "Ihre Antwort muss genau 2 Absätze enthalten. Trennen Sie die Absätze mit dem Markdown-Trennzeichen: ***.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe eine Geschichte über einen Mann, der eines Tages aufwacht und erkennt, dass er sich in einem Videospiel befindet. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe eine Geschichte über einen Mann, der eines Tages aufwacht und erkennt, dass er sich in einem Videospiel befindet."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 1098,
+    "user": "Bitte geben Sie genau zwei unterschiedliche Antworten. Trennen Sie die Antworten mit 6 Sternchen-Symbolen: ******.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nWie lautet ein Name, mit dem Menschen Gott bezeichnen? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Wie lautet ein Name, mit dem Menschen Gott bezeichnen?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1180,
+    "user": "Ihre Antwort muss einen Titel enthalten, der in doppelte spitze Klammern gesetzt ist, d. h. <<Titel>>. Gib genau zwei unterschiedliche Antworten, getrennt durch 6 Sternchen-Symbole ******.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nErkläre, warum Menschen sich vor Würmern ekeln, aber nicht davor, eine tote Kuh zu essen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Erkläre, warum Menschen sich vor Würmern ekeln, aber nicht davor, eine tote Kuh zu essen."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1262,
+    "user": "Ihre Antwort muss einen Titel enthalten, der in doppelte spitze Klammern gesetzt ist, d. h. <<Titel>>. Verwenden Sie weniger als 5 Sätze.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nKannst du den folgenden Text näher erläutern: „Ein erhöhtes Achsgewicht erhöhte die Schäden an der Straße“? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Kannst du den folgenden Text näher erläutern: „Ein erhöhtes Achsgewicht erhöhte die Schäden an der Straße“?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1268,
+    "user": "Ihre gesamte Antwort sollte weniger als 6 Sätze enthalten.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nKannst du mir ein Beispiel für einen Tagebucheintrag über Stressbewältigung geben? Erkläre mir, wie du auf das Beispiel kommst. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Kannst du mir ein Beispiel für einen Tagebucheintrag über Stressbewältigung geben? Erkläre mir, wie du auf das Beispiel kommst."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 1305,
+    "user": "Deine Antwort muss am Ende ein Postskriptum enthalten, das mit P.P.S beginnt. Die Namen sollten in Aufzählungspunkten aufgeführt werden, gekennzeichnet durch: * Dies ist ein Beispiel-Aufzählungspunkt.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nListe genau 10 mögliche Namen für einen neugeborenen Jungen auf. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Liste genau 10 mögliche Namen für einen neugeborenen Jungen auf."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        },
+        {
+          "num_bullets": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1307,
+    "user": "Ihre Antwort sollte eine Gliederung mit mindestens 15 Abschnitten enthalten, die mit Markdown hervorgehoben sind, z. B. *hervorgehobener Abschnitt*.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe eine Gliederung für eine Arbeit über die Geschichte des jemenitischen Kaffees. Die Gliederung sollte die Hauptpunkte der Arbeit enthalten. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe eine Gliederung für eine Arbeit über die Geschichte des jemenitischen Kaffees. Die Gliederung sollte die Hauptpunkte der Arbeit enthalten."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1322,
+    "user": "Deine Antwort muss einen Titel enthalten, der in doppelten spitzen Klammern steht, wie z. B. <<kotlin vs java>>.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nWas sind die Vor- und Nachteile von Kotlin im Vergleich zu Java? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Was sind die Vor- und Nachteile von Kotlin im Vergleich zu Java?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1325,
+    "user": "Ihre Antwort muss in doppelte Anführungszeichen gesetzt werden. Ihre Antwort muss genau 8 Aufzählungspunkte in der Form enthalten:\n* Dies ist Aufzählungspunkt 1\n* Dies ist Aufzählungspunkt 2\n...\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe einen lustigen Artikel darüber, warum die Dinosaurier ausgestorben sind. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe einen lustigen Artikel darüber, warum die Dinosaurier ausgestorben sind."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 1332,
+    "user": "Ihre Antwort sollte zwei separate Teile enthalten, getrennt durch genau 6 Sternchen-Symbole: *******\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nErstelle eine Tabelle mit einem 7-tägigen Reiseplan für Indien und einem 7-tägigen Reiseplan für China. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Erstelle eine Tabelle mit einem 7-tägigen Reiseplan für Indien und einem 7-tägigen Reiseplan für China."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1377,
+    "user": "Ihre Antwort muss 5 Absätze enthalten, die genau dem folgenden Format entsprechen:\n\nTeil 1. Aufgabenübersicht\n[Details hier einfügen]\n***\nTeil 2. Motivation\n[Details hier einfügen]\n***\nTeil 3. Meilensteinziele\n[Details hier einfügen]\n***\nTeil 4. Zeitplan\n[Details hier einfügen]\n***\nTeil 5. Dokumenthistorie\n[Details hier einfügen]\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe ein Planungsdokument für eine Aufgabe eines Softwareentwicklers. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe ein Planungsdokument für eine Aufgabe eines Softwareentwicklers."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1381,
+    "user": "Ihre Antwort muss weniger als 10 Sätze umfassen.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe ein lustiges Lied für einen Vorschlag, auf der örtlichen Grundschule einen neuen Spielplatz zu bauen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe ein lustiges Lied für einen Vorschlag, auf der örtlichen Grundschule einen neuen Spielplatz zu bauen."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1512,
+    "user": "Deine Antwort sollte mindestens 20 Platzhalter enthalten, die verschiedene Benutzernamen repräsentieren, und eckige Klammern wie [benutzername1], [benutzername2] verwenden. Alle Sätze sollten kurz sein und vermeiden Sie die Verwendung von Kommas.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nErstelle einen Foren-Thread über mehrere Personen, die darauf warten, die neuesten lokalen Nachrichten zu erfahren. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Erstelle einen Foren-Thread über mehrere Personen, die darauf warten, die neuesten lokalen Nachrichten zu erfahren."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 20
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1551,
+    "user": "Ihre Antwort muss einen Titel haben, der in doppelte spitze Klammern gesetzt ist, d. h. <<Titel>>.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nIch möchte mich bei Google als Softwareentwickler bewerben. Kannst du mir zwei verschiedene Anschreiben schreiben -- eine kurze Version und eine lange Version? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Ich möchte mich bei Google als Softwareentwickler bewerben. Kannst du mir zwei verschiedene Anschreiben schreiben -- eine kurze Version und eine lange Version?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1619,
+    "user": "Ihre Antwort muss ein Postskriptum enthalten, das mit P.P.S. beginnt. Ihre Antwort muss mindestens 6 Platzhalter enthalten, die durch eckige Klammern dargestellt werden, wie z. B. [Name].\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe einen Rap über ein neues Smartphone. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe einen Rap über ein neues Smartphone."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        },
+        {
+          "num_placeholders": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 1620,
+    "user": "Ihre Antwort muss ein Postskriptum enthalten, das mit „P.S.“ beginnt.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nIch liebe das Album namens Lilith wirklich sehr. Ich möchte es meinem Freund Luheng vorstellen. Verfasse dafür eine E-Mail. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Ich liebe das Album namens Lilith wirklich sehr. Ich möchte es meinem Freund Luheng vorstellen. Verfasse dafür eine E-Mail."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 1646,
+    "user": "Ihre Antwort muss mindestens 5 Abschnitte hervorheben, indem Sie sie mit „*“ beginnen und beenden, wie: *hervorgehobener Textabschnitt*.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe einen lockeren Blogbeitrag über Ähnlichkeiten zwischen verschiedenen Tierarten. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe einen lockeren Blogbeitrag über Ähnlichkeiten zwischen verschiedenen Tierarten."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1773,
+    "user": "Deine Antwort muss einen Namen für das Lied enthalten, hervorgehoben, indem du ihn mit * umschließt.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe ein Lied über die Sommer meiner Kindheit, die ich auf dem Land verbracht habe. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe ein Lied über die Sommer meiner Kindheit, die ich auf dem Land verbracht habe."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 1823,
+    "user": "Deine Antwort muss mindestens 40 Sätze enthalten (vergiss nicht, Satzzeichen hinzuzufügen). Du musst in deiner Antwort einige Wörter oder Ausdrücke hervorheben, wie *hervorgehobener Ausdruck*.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nKannst du ein Gedicht über die Vor- und Nachteile schreiben, wenn man sehr viele Videospiele spielt? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Kannst du ein Gedicht über die Vor- und Nachteile schreiben, wenn man sehr viele Videospiele spielt?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 40
+        },
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 1897,
+    "user": "Deine Antwort muss mindestens 10 Textteile mit Markdown kursiv formatieren (mit * zur Kursivsetzung, wie *kursiver Text*). Deine Antwort sollte keine Kommas enthalten.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nErweitere Folgendes und mach es lustig: Jeanne hat die Würfel geworfen. Sie dachte, sie hätte verloren, aber eigentlich hat sie gewonnen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Erweitere Folgendes und mach es lustig: Jeanne hat die Würfel geworfen. Sie dachte, sie hätte verloren, aber eigentlich hat sie gewonnen."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 10
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1908,
+    "user": "Ihre Antwort sollte mindestens 30 Sätze enthalten. Ihre Antwort sollte genau 2 Aufzählungspunkte enthalten. Verwenden Sie die Aufzählungspunkte wie:\n* Dies ist ein Aufzählungspunkt Ihre Antwort muss mindestens 8 Platzhalter enthalten, die durch eckige Klammern dargestellt werden, wie z. B. [Adresse].\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nWas hältst du von dieser Aussage: „Zauberer sind mächtiger als Hexenmeister, weil sie Magie studieren, statt damit geboren zu werden.“? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Was hältst du von dieser Aussage: „Zauberer sind mächtiger als Hexenmeister, weil sie Magie studieren, statt damit geboren zu werden.“?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_bullet_lists",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        },
+        {
+          "num_bullets": 2
+        },
+        {
+          "num_placeholders": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 1927,
+    "user": "Ihre Antwort muss mindestens 10 Platzhalter enthalten, die durch eckige Klammern dargestellt werden, wie z. B. [Name].\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nFormuliere den folgenden Satz als E-Mail um: Die Stiefel sind warm, aber ein wenig unbequem. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Formuliere den folgenden Satz als E-Mail um: Die Stiefel sind warm, aber ein wenig unbequem."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1934,
+    "user": "Ihre Antwort muss in Form von genau 4 Aufzählungspunkten im untenstehenden Format erfolgen:\n* Dies ist Aufzählungspunkt 1\n* Dies ist Aufzählungspunkt 2\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nWarum ist Star Wars so beliebt? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Warum ist Star Wars so beliebt?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2035,
+    "user": "Deine Antwort muss mindestens 5 Sätze enthalten. Verwende Markdown, um in deiner Antwort mindestens 2 Abschnitte kursiv zu setzen, d. h. *kursiver Text*. Ihre Antwort muss in doppelte Anführungszeichen gesetzt werden.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe einen Witz. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe einen Witz."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections",
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 5
+        },
+        {
+          "num_highlights": 2
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2118,
+    "user": "Ihre Antwort sollte genau 3 Absätze haben, die jeweils durch *** getrennt sind. Ihre Antwort sollte außerdem genau 3 Aufzählungspunkte im Markdown-Format enthalten, zum Beispiel:\n* Aufzählungspunkt 1\n* Aufzählungspunkt 2\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe einen Rap für Mütter über die Vor- und Nachteile des Stillens im Vergleich zur Flaschennahrung. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe einen Rap für Mütter über die Vor- und Nachteile des Stillens im Vergleich zur Flaschennahrung."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 3
+        },
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2136,
+    "user": "Ihre Antwort muss mindestens einen Platzhalter enthalten, der durch eckige Klammern dargestellt wird, wie z. B. [Name].\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe einen kurzen und lustigen Witz über einen Typen, der beim Finanzamt arbeitet. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe einen kurzen und lustigen Witz über einen Typen, der beim Finanzamt arbeitet."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2162,
+    "user": "Ihre Antwort sollte weniger als 20 Sätze enthalten. Ihre Antwort muss mindestens 3 Platzhalter enthalten, die durch eckige Klammern dargestellt werden, wie z. B. [Adresse].\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nWas sind die wichtigsten Unterschiede zwischen den adventistischen und den baptistischen Konfessionen? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Was sind die wichtigsten Unterschiede zwischen den adventistischen und den baptistischen Konfessionen?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 20
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2164,
+    "user": "Ihre Antwort muss mindestens 3 Platzhalter enthalten, die durch eckige Klammern dargestellt werden, wie z. B. [Adresse], [Name] und [Telefonnummer].\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe eine Produktbeschreibung für eine neue Reihe von Hundespielzeugen namens „der Quietscher“. Sie besteht aus Latex und ist für Hunde aller Altersstufen und Rassen konzipiert. Sie ist außerdem in einer Vielzahl von Farben und Formen erhältlich. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe eine Produktbeschreibung für eine neue Reihe von Hundespielzeugen namens „der Quietscher“. Sie besteht aus Latex und ist für Hunde aller Altersstufen und Rassen konzipiert. Sie ist außerdem in einer Vielzahl von Farben und Formen erhältlich."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2195,
+    "user": "Ihre Antwort sollte genau 3 Aufzählungspunkte im Markdown-Format enthalten, zum Beispiel:\n* Aufzählungspunkt 1\n* Aufzählungspunkt 2\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe eine Liste von Anweisungen für einen Hundetrainer, um einem Hund beizubringen, sich hinzusetzen, zu bleiben und zu apportieren. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe eine Liste von Anweisungen für einen Hundetrainer, um einem Hund beizubringen, sich hinzusetzen, zu bleiben und zu apportieren."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2209,
+    "user": "Ihre gesamte Antwort muss in doppelte Anführungszeichen eingeschlossen sein.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nVerfassen Sie einen akademischen Vorschlag für einen Kunden, der daran interessiert ist, eine neue Funktion für sein Produkt zu implementieren. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Verfassen Sie einen akademischen Vorschlag für einen Kunden, der daran interessiert ist, eine neue Funktion für sein Produkt zu implementieren."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2229,
+    "user": "Ihre Antwort muss einen Titel enthalten, der in doppelte spitze Klammern gesetzt ist, d. h. <<Titel>>.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nEs wird ein Verkaufspitch für Mütter für eine neue Art von Windel benötigt, die so entwickelt wurde, dass sie für Babys bequemer ist. Der Verkaufspitch sollte 500 Wörter lang, lustig, mitreißend sein und sich auf die Vorteile der neuen Windel konzentrieren, ohne den Preis zu erwähnen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Es wird ein Verkaufspitch für Mütter für eine neue Art von Windel benötigt, die so entwickelt wurde, dass sie für Babys bequemer ist. Der Verkaufspitch sollte 500 Wörter lang, lustig, mitreißend sein und sich auf die Vorteile der neuen Windel konzentrieren, ohne den Preis zu erwähnen."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2230,
+    "user": "Deine Antwort sollte keine Kommas enthalten. Deine Antwort sollte mindestens 2 Abschnitte mit Markdown hervorheben, d. h. *hervorgehobener Abschnitt*.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nMach diesen Text seltsam: „Die neue Version der App wird bald im App Store verfügbar sein. Sie wird eine Reihe neuer Funktionen enthalten, darunter eine neue Benutzeroberfläche und Unterstützung für neue Geräte“. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Mach diesen Text seltsam: „Die neue Version der App wird bald im App Store verfügbar sein. Sie wird eine Reihe neuer Funktionen enthalten, darunter eine neue Benutzeroberfläche und Unterstützung für neue Geräte“."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2245,
+    "user": "Ihre Antwort sollte keine Kommas enthalten.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nICH BIN LEICHT HINEINZUKOMMEN, ABER SCHWER WIEDER HERAUSZUKOMMEN. ICH BIN EINLADEND UND AUFREGEND, ABER VIELE MENSCHEN HABEN ANGST VOR MIR. ICH BIN DER ORT, AN DEM DU SEIN MUSST, ABER DU MÖCHTEST DORT VIELLEICHT NICHT BLEIBEN. ICH MAG EIN GEHEIMNIS SEIN, ABER ICH BIN SICHER, DU KANNST MICH ERRATEN. WAS BIN ICH? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "ICH BIN LEICHT HINEINZUKOMMEN, ABER SCHWER WIEDER HERAUSZUKOMMEN. ICH BIN EINLADEND UND AUFREGEND, ABER VIELE MENSCHEN HABEN ANGST VOR MIR. ICH BIN DER ORT, AN DEM DU SEIN MUSST, ABER DU MÖCHTEST DORT VIELLEICHT NICHT BLEIBEN. ICH MAG EIN GEHEIMNIS SEIN, ABER ICH BIN SICHER, DU KANNST MICH ERRATEN. WAS BIN ICH?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2253,
+    "user": "Heben Sie in Ihrer Antwort mindestens 3 Abschnitte mit Markdown hervor, d. h. *hervorgehobener Abschnitt*.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreiben Sie eine Vorlage für einen Workshop über die Bedeutung von Vielfalt am Arbeitsplatz. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreiben Sie eine Vorlage für einen Workshop über die Bedeutung von Vielfalt am Arbeitsplatz."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2303,
+    "user": "Ihre Antwort sollte in doppelte Anführungszeichen gesetzt werden. Deine Antwort sollte 17 oder mehr Sätze enthalten.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe einen lockeren Blogbeitrag darüber, wie sich das äußere Sonnensystem vom inneren Sonnensystem unterscheidet und was das für die Möglichkeit von Leben bedeutet. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe einen lockeren Blogbeitrag darüber, wie sich das äußere Sonnensystem vom inneren Sonnensystem unterscheidet und was das für die Möglichkeit von Leben bedeutet."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "at least",
+          "num_sentences": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": 2304,
+    "user": "Ihre Antwort muss mindestens 1 Platzhalter enthalten, der durch eckige Klammern dargestellt wird, wie z. B. [Adresse].\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe einen Aufsatz, als wärst du der Präsident der Vereinigten Staaten, und richte dich dabei an Mütter als Zielpublikum. Das Thema ist, wie der Wagen aus dem Film „Es“ den Geist der 1950er-Jahre symbolisiert. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe einen Aufsatz, als wärst du der Präsident der Vereinigten Staaten, und richte dich dabei an Mütter als Zielpublikum. Das Thema ist, wie der Wagen aus dem Film „Es“ den Geist der 1950er-Jahre symbolisiert."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2311,
+    "user": "Deine Antwort darf keine Kommas enthalten.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nWarum sind in einer Portion von 32 Gramm ungesalzenen Mandeln 396 Kalorien enthalten? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Warum sind in einer Portion von 32 Gramm ungesalzenen Mandeln 396 Kalorien enthalten?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2314,
+    "user": "Deine Antwort sollte 3 Markdown-Aufzählungspunkte enthalten, wie zum Beispiel:\n* Aufzählungspunkt 1\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nNenne genau 3 Namen für einen schwarz-weißen Hund. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Nenne genau 3 Namen für einen schwarz-weißen Hund."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2324,
+    "user": "Deine Antwort sollte keine Kommas enthalten.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe ein Rätsel über eine Mama, die an einem Strand in Humboldt liegt. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe ein Rätsel über eine Mama, die an einem Strand in Humboldt liegt."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2357,
+    "user": "Deine Antwort sollte genau 4 Absätze haben, und jeder Absatz sollte durch den Markdown-Trenner getrennt sein: ***.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe einen Reiseplan für eine Reise nach Paris, der für Teenager mit kurzer Aufmerksamkeitsspanne geeignet ist. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe einen Reiseplan für eine Reise nach Paris, der für Teenager mit kurzer Aufmerksamkeitsspanne geeignet ist."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2362,
+    "user": "Deine Antwort sollte mit einem Postskriptum enden, das mit P.P.S beginnt\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nWie nennt man einen ausgeschlossenen Wissenschaftler, der gebeten wird, zu Hause zu bleiben? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Wie nennt man einen ausgeschlossenen Wissenschaftler, der gebeten wird, zu Hause zu bleiben?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2374,
+    "user": "Deine Antwort sollte keine Kommas enthalten.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nVerfasse einen Projektvorschlag dazu, wie maschinelles Lernen und KI eingesetzt werden können, um die Qualität der Bildung in Entwicklungsländern zu verbessern. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Verfasse einen Projektvorschlag dazu, wie maschinelles Lernen und KI eingesetzt werden können, um die Qualität der Bildung in Entwicklungsländern zu verbessern."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2380,
+    "user": "Deine Antwort darf keine Kommas enthalten. Ihre Antwort muss genau 4 Aufzählungspunkte im Markdown-Format enthalten, wie zum Beispiel:\n* Aufzählungspunkt 1\n* Aufzählungspunkt 2\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nBitte verfassen Sie eine Zusammenfassung der folgenden Werbekundenseite: „Wir bestehen darauf, das talentierteste Team aus Webentwicklern, Content-Textern, Grafikdesignern und Online-Marketing-Experten der Branche zu haben. Wir präsentieren preisgekrönte Persönlichkeiten, die eine nachweisliche Erfolgsbilanz vorweisen“. Verwenden Sie Markdown und richten Sie sich an Mütter. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Bitte verfassen Sie eine Zusammenfassung der folgenden Werbekundenseite: „Wir bestehen darauf, das talentierteste Team aus Webentwicklern, Content-Textern, Grafikdesignern und Online-Marketing-Experten der Branche zu haben. Wir präsentieren preisgekrönte Persönlichkeiten, die eine nachweisliche Erfolgsbilanz vorweisen“. Verwenden Sie Markdown und richten Sie sich an Mütter."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2381,
+    "user": "Deine Antwort sollte mindestens 3 Abschnitte im Markdown-Format hervorheben, d. h. *hervorgehobener Abschnitt*.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreiben Sie ein Anschreiben an eine lokale politische Partei, in dem Sie darum bitten, ihr Kundgebungsorganisator zu werden. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreiben Sie ein Anschreiben an eine lokale politische Partei, in dem Sie darum bitten, ihr Kundgebungsorganisator zu werden."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2396,
+    "user": "Deine Antwort muss am Ende ein Postskriptum enthalten, das mit P.P.S beginnt\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe mir ein Gedicht über einen lang andauernden Krieg. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe mir ein Gedicht über einen lang andauernden Krieg."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2436,
+    "user": "Gib genau zwei unterschiedliche Antworten auf die Frage. Trenne die Antworten mit 6 Sternchen-Symbolen ******. Verwenden Sie in Ihren Antworten keine Kommas.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nBeantworte die Frage „Ist es ethisch vertretbar, invasive Arten zu jagen und zu essen?“. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Beantworte die Frage „Ist es ethisch vertretbar, invasive Arten zu jagen und zu essen?“."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2441,
+    "user": "Ihre gesamte Antwort muss in doppelte Anführungszeichen gesetzt werden.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe einen redeähnlichen Absatz über die US-Wahlen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe einen redeähnlichen Absatz über die US-Wahlen."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2467,
+    "user": "Deine Antwort muss aus genau 4 Absätzen bestehen. Trenne die Absätze mit dem Markdown-Trennzeichen: ***.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe einen Rap über einen Abgrund. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe einen Rap über einen Abgrund."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2497,
+    "user": "Ihre Antwort muss mindestens einen Abschnitt enthalten, der mit Markdown hervorgehoben ist, d. h. *hervorgehobener Abschnitt*. Setzen Sie Ihre gesamte Antwort in doppelte Anführungszeichen.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nGib mir eine logische Frage über Chatten und Erobern. Mach sie interessant. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Gib mir eine logische Frage über Chatten und Erobern. Mach sie interessant."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2515,
+    "user": "Ihre Antwort muss mindestens einen Abschnitt in Markdown hervorheben, d. h. *hervorgehobener Abschnitt*.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nGideon ist ein Landwirt, der in diesem Jahr einen Überschuss an Ernteerträgen von seinem Hof hat. Was könnte er mit diesem Überschuss tun? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Gideon ist ein Landwirt, der in diesem Jahr einen Überschuss an Ernteerträgen von seinem Hof hat. Was könnte er mit diesem Überschuss tun?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2589,
+    "user": "Deine Antwort sollte weniger als 17 Sätze enthalten.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe einen Absatz, der die durchschnittliche Länge verschiedener Tierexemplare vom kleinsten bis zum größten auflistet. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe einen Absatz, der die durchschnittliche Länge verschiedener Tierexemplare vom kleinsten bis zum größten auflistet."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": 2704,
+    "user": "Gib genau zwei unterschiedliche Antworten, getrennt durch 6 Sternchen-Symbole (******). Fügen Sie einen Titel ein, der in doppelte spitze Klammern gesetzt ist, d. h. <<Titel>>. Verwenden Sie keine Kommas.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe ein Haiku über törichtes Verhalten in Form einer Frage, für ein junges Publikum. Es sollte das Thema des Nichtlernens enthalten. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe ein Haiku über törichtes Verhalten in Form einer Frage, für ein junges Publikum. Es sollte das Thema des Nichtlernens enthalten."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "detectable_format:title",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2749,
+    "user": "Ihre Antwort muss mindestens 20 Sätze enthalten.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe einen Blogbeitrag über die Vorteile der Zusammenarbeit mit einer digitalen Marketingagentur. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe einen Blogbeitrag über die Vorteile der Zusammenarbeit mit einer digitalen Marketingagentur."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2780,
+    "user": "Deine Antwort muss weniger als 6 Sätze umfassen.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nKönnen Sie mir den Fahrplan für den nächsten Zug nach London geben? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Können Sie mir den Fahrplan für den nächsten Zug nach London geben?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 2785,
+    "user": "Deine Antwort muss Markdown verwenden, um mindestens 3 Abschnitte hervorzuheben (so wie hier: *hervorgehobener Abschnitt*). Ihre Antwort muss außerdem mindestens 3 Platzhalter enthalten (ein Beispiel für einen Platzhalter ist [Adresse]).\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nWas befindet sich in Shintō-Schreinen? Stellen Sie sich vor, dass Sie einen Vortrag vor Schülerinnen und Schülern an einer Schule oder Universität halten. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Was befindet sich in Shintō-Schreinen? Stellen Sie sich vor, dass Sie einen Vortrag vor Schülerinnen und Schülern an einer Schule oder Universität halten."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2790,
+    "user": "Deine Antwort muss Markdown verwenden, um mindestens einen Abschnitt deiner Antwort hervorzuheben, d. h. *hervorgehobener Abschnitt*.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe einen lustigen Rap über einen Mann, der einen Anruf von einem Beamten bekommt, der ihm sagt, dass er ein lange verschollener Verwandter des Königs von Nigeria ist. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe einen lustigen Rap über einen Mann, der einen Anruf von einem Beamten bekommt, der ihm sagt, dass er ein lange verschollener Verwandter des Königs von Nigeria ist."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2801,
+    "user": "Deine Antwort sollte eine Liste von genau 4 Aufzählungspunkten im Markdown-Format sein, zum Beispiel:\n* Aufzählungspunkt 1\n* Aufzählungspunkt 2\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe den folgenden Blogbeitrag um: „Die Welt ist ein wunderschöner Ort. Die Sonne scheint, die Vögel singen und die Blumen blühen. Es ist ein perfekter Tag, um nach draußen zu gehen und alles zu genießen, was die Natur zu bieten hat.“ Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe den folgenden Blogbeitrag um: „Die Welt ist ein wunderschöner Ort. Die Sonne scheint, die Vögel singen und die Blumen blühen. Es ist ein perfekter Tag, um nach draußen zu gehen und alles zu genießen, was die Natur zu bieten hat.“"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2832,
+    "user": "Deine Antwort muss genau einen Aufzählungspunkt im Markdown-Format enthalten, zum Beispiel:\n* Aufzählungspunkt\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nStell dir vor, du bist 19 Jahre alt und entwickelst ein Videospiel. Das Spiel handelt von einem Jungen, der die Welt vor einem Bösewicht retten muss. Schreibe einen Pitch, um Teenager davon zu überzeugen, dass dein Videospiel den Kauf wert ist. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Stell dir vor, du bist 19 Jahre alt und entwickelst ein Videospiel. Das Spiel handelt von einem Jungen, der die Welt vor einem Bösewicht retten muss. Schreibe einen Pitch, um Teenager davon zu überzeugen, dass dein Videospiel den Kauf wert ist."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2857,
+    "user": "Deine gesamte Antwort sollte im JSON-Format verpackt sein. Du kannst Markdown-Backticks wie ``` verwenden.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nErstellen Sie ein Bewertungsraster für die Leistungsbeurteilung eines Softwareentwicklers. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Erstellen Sie ein Bewertungsraster für die Leistungsbeurteilung eines Softwareentwicklers."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2905,
+    "user": "Deine Antwort muss * verwenden, um mindestens 2 Abschnitte in deinem Text hervorzuheben. Zum Beispiel: *dies ist ein hervorgehobener Textabschnitt*.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nErweitere das Rätsel zu einer Geschichte mit einem lustigen Ton: Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Erweitere das Rätsel zu einer Geschichte mit einem lustigen Ton:"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2918,
+    "user": "Schreibe nach der Beantwortung der Anfrage eine Zusammenfassung. Diese beiden Teile sollten durch 6 Sternchen-Symbole (******) getrennt werden.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe ein Bewertungsraster, um zu beurteilen, wie gut der Aufsatz eines Teenagers ist. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe ein Bewertungsraster, um zu beurteilen, wie gut der Aufsatz eines Teenagers ist."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2921,
+    "user": "Deine Antwort muss aus genau zwei Absätzen bestehen, getrennt durch den Markdown-Trenner: ***.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nWenn a = 10, b = 30 und c = 20 ist, wie groß ist der Wert von (a + b) / c? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Wenn a = 10, b = 30 und c = 20 ist, wie groß ist der Wert von (a + b) / c?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2929,
+    "user": "Deine Antwort muss am Ende ein Postskriptum enthalten, das mit „P.S.“ beginnt.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe eine Textanzeige für eine Website für Erwachsene, die nicht pornografisch ist. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe eine Textanzeige für eine Website für Erwachsene, die nicht pornografisch ist."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 2969,
+    "user": "Ihre Antwort muss einen Titel enthalten, der in doppelte spitze Klammern gesetzt ist, wie z. B. <<Schaluppe im Angebot>>.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe einen Werbetext für eine Anzeige, die eine Slup verkauft. Es ist ein kleines Segelboot mit einem Mast, das leicht zu segeln und zu verstehen ist. Ein Teil deiner Antwort sollte in einem Tabellenformat sein. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe einen Werbetext für eine Anzeige, die eine Slup verkauft. Es ist ein kleines Segelboot mit einem Mast, das leicht zu segeln und zu verstehen ist. Ein Teil deiner Antwort sollte in einem Tabellenformat sein."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2985,
+    "user": "Ihre gesamte Antwort muss in doppelte Anführungszeichen gesetzt werden.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nWarum glaubst du, dass Google-Ingenieure häufiger bei Google bleiben, statt zu Microsoft zu wechseln? Erkläre es im Stil von Alex Jones. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Warum glaubst du, dass Google-Ingenieure häufiger bei Google bleiben, statt zu Microsoft zu wechseln? Erkläre es im Stil von Alex Jones."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3041,
+    "user": "Deine Antwort sollte weniger als 7 Sätze umfassen. Ihre Antwort sollte genau 1 Aufzählungspunkt in Markdown enthalten, zum Beispiel:\n* Aufzählungspunkt\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nVerfasse einen kreativen und überzeugenden Startup-Pitch für ein Unternehmen, das Menschen mit chronischen Erkrankungen dabei hilft, häusliche Pflege zu finden und zu organisieren. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Verfasse einen kreativen und überzeugenden Startup-Pitch für ein Unternehmen, das Menschen mit chronischen Erkrankungen dabei hilft, häusliche Pflege zu finden und zu organisieren."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 7
+        },
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3057,
+    "user": "Deine Antwort muss einen Titel enthalten, der in doppelte spitze Klammern gesetzt ist, d. h. <<Titel>>.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nBitte schreibe ein Rätsel über die Umkehrfunktion. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Bitte schreibe ein Rätsel über die Umkehrfunktion."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3131,
+    "user": "Ihre Antwort muss einen Titel enthalten, der in doppelte spitze Klammern gesetzt ist, wie z. B. <<Blogbeitrag über ...>>. Füge außerdem ein Postskriptum hinzu, das mit P.S. beginnt.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe einen Blogbeitrag über das widerhallende Biotechnologiefeld im Jahr 2023 und kritisiere anschließend den Blogbeitrag. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe einen Blogbeitrag über das widerhallende Biotechnologiefeld im Jahr 2023 und kritisiere anschließend den Blogbeitrag."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 3221,
+    "user": "Deine Antwort muss mindestens 8 Platzhalter enthalten (d. h. [Restaurant]).\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nPlane eine 2-wöchige Europareise und besuche London, Paris und Rom. Antworte in GROSSBUCHSTABEN. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Plane eine 2-wöchige Europareise und besuche London, Paris und Rom. Antworte in GROSSBUCHSTABEN."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 3245,
+    "user": "Ihre Ausgabe darf keine Kommas enthalten. Ihre Ausgabe muss mindestens 2 Platzhalter enthalten, die in eckige Klammern gesetzt sind, wie z. B. [Autor].\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe einen Artikel mit dem Titel „Layton ist die beste Stadt der Welt“. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe einen Artikel mit dem Titel „Layton ist die beste Stadt der Welt“."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_placeholders": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 3256,
+    "user": "Ihre Antwort muss einen Titel enthalten, der in doppelte spitze Klammern gesetzt ist, d. h. <<Titel>>. Ihre Antwort muss weniger als 13 Sätze enthalten. Deine Antwort darf keine Kommas enthalten aber andere Satzzeichen sind erlaubt.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe ein Gedicht über eine neugierige Katze. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe ein Gedicht über eine neugierige Katze."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "length_constraints:number_sentences",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 13
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3263,
+    "user": "Bitte geben Sie zwei Antworten an, getrennt durch ******\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nIst „jiang“ ein chinesischer Name? Welche anderen Namen sind „jiang“ ähnlich? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Ist „jiang“ ein chinesischer Name? Welche anderen Namen sind „jiang“ ähnlich?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3280,
+    "user": "Ihre Antwort muss mindestens sechs Platzhalter enthalten, die durch eckige Klammern wie [Name] dargestellt werden sollen.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nWas ist der Unterschied zwischen dem Apfel und Albanien? Antworte im E-Mail-Format. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Was ist der Unterschied zwischen dem Apfel und Albanien? Antworte im E-Mail-Format."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 3281,
+    "user": "Gib genau zwei Versionen deiner Antwort. Trenne sie mit sechs Sternchen-Symbolen: ******. Verzichten Sie in Ihrer Antwort auf die Verwendung von Kommas.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreiben Sie Anschreiben für eine Bewerbung. Es handelt sich um eine Stelle als Assistenzprofessor/in. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreiben Sie Anschreiben für eine Bewerbung. Es handelt sich um eine Stelle als Assistenzprofessor/in."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3329,
+    "user": "Ihre Antwort sollte mindestens 30 Sätze lang sein.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nHey! Ich brauche ein Bewertungsraster, um die Leistung und den Preis eines Laptops zu beurteilen. Kannst du ein Beispiel für mich erstellen? Gib mir keine Aufzählungspunkte, Listen oder Tabellen. Schreib das Bewertungsraster einfach in einfachen englischen Absätzen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Hey! Ich brauche ein Bewertungsraster, um die Leistung und den Preis eines Laptops zu beurteilen. Kannst du ein Beispiel für mich erstellen? Gib mir keine Aufzählungspunkte, Listen oder Tabellen. Schreib das Bewertungsraster einfach in einfachen englischen Absätzen."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        }
+      ]
+    }
+  },
+  {
+    "id": 3350,
+    "user": "Deine Antwort sollte nur kurze Sätze enthalten und darf keine Kommas enthalten. Fügen Sie mindestens fünf Platzhalter ein, die durch eckige Klammern dargestellt werden, wie z. B. [Website].\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nIch muss einen Forschungsantrag für ein Projekt über die Auswirkungen sozialer Medien auf die psychische Gesundheit von Teenagern schreiben. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Ich muss einen Forschungsantrag für ein Projekt über die Auswirkungen sozialer Medien auf die psychische Gesundheit von Teenagern schreiben."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_placeholders": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 3351,
+    "user": "Deine Antwort muss genau aus 2 Absätzen bestehen. Trenne die Absätze mit dem Markdown-Trennzeichen: ***. Zusätzlich kursiviere mindestens 3 Abschnitte, indem du sie mit einem einzelnen * beginnst und beendest, d. h. *kursiver Text*.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nHier ist ein Social-Media-Post: „Meine Tochter hat heute ihr Studium abgeschlossen! Ich bin so stolz auf sie!“ Kannst du ihn spannender machen? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Hier ist ein Social-Media-Post: „Meine Tochter hat heute ihr Studium abgeschlossen! Ich bin so stolz auf sie!“ Kannst du ihn spannender machen?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        },
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 3409,
+    "user": "Ihre gesamte Antwort muss in doppelte Anführungszeichen gesetzt werden. Deine Antwort sollte außerdem mindestens drei Abschnitte im Markdown-Format mit *hervorgehobenem Text* hervorheben.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nKannst du mir einen Slogan für mein Videospielprojekt schreiben? Das Projekt zielt darauf ab, ein sehr lustiges Kampfspiel zu entwickeln. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Kannst du mir einen Slogan für mein Videospielprojekt schreiben? Das Projekt zielt darauf ab, ein sehr lustiges Kampfspiel zu entwickeln."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 3557,
+    "user": "Ihre Antwort sollte eine Liste mit 10 Aufzählungspunkten sein und dem untenstehenden Format folgen:\n\n* Aufzählungspunkt 1\n* Aufzählungspunkt 2\n* ...\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nIch brauche eine Liste der 10 besten Anwälte in den USA. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Ich brauche eine Liste der 10 besten Anwälte in den USA."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 3606,
+    "user": "Ihre Antwort muss einen Titel in doppelten spitzen Klammern enthalten, d. h. <<Titel>>.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nKannst du eine Filmhandlung verfassen, die Traum, Faustkampf und Superkraft beinhaltet? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Kannst du eine Filmhandlung verfassen, die Traum, Faustkampf und Superkraft beinhaltet?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3615,
+    "user": "Deine Antwort sollte keine Kommas enthalten.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe ein Rätsel über Camilla. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe ein Rätsel über Camilla."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3619,
+    "user": "Ihre Antwort muss mindestens drei Platzhalter enthalten, wie z. B. [Preis], und du darfst in deiner Antwort keine Kommas verwenden.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreiben Sie ein XML-Dokument, das die Veröffentlichung des neuesten Google-Pixel-Smartphones beschreibt. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreiben Sie ein XML-Dokument, das die Veröffentlichung des neuesten Google-Pixel-Smartphones beschreibt."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 3
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3629,
+    "user": "Hebe in deiner Antwort einige wichtige Teile mit „*“ hervor, wie *hervorgehobener Text*.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nHeute, bei der 54. jährlichen Grammy-Verleihung, ehrt die Recording Academy das Talent und die Kreativität der Künstlerinnen und Künstler, Musikerinnen und Musiker sowie Produzentinnen und Produzenten, die die Schöpferinnen und Schöpfer der besten Aufnahmen des vergangenen Jahres sind. Bitte schreiben Sie diesen Text in einem formellen Ton weiter. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Heute, bei der 54. jährlichen Grammy-Verleihung, ehrt die Recording Academy das Talent und die Kreativität der Künstlerinnen und Künstler, Musikerinnen und Musiker sowie Produzentinnen und Produzenten, die die Schöpferinnen und Schöpfer der besten Aufnahmen des vergangenen Jahres sind. Bitte schreiben Sie diesen Text in einem formellen Ton weiter."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3631,
+    "user": "Deine Antwort sollte keine Kommas enthalten.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe ein Lied darüber, wie man ein Erdnussbutter-und-Marmelade-Sandwich macht. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe ein Lied darüber, wie man ein Erdnussbutter-und-Marmelade-Sandwich macht."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3691,
+    "user": "Deine Antwort sollte weniger als 10 Sätze enthalten. Deine Antwort sollte keine Kommas enthalten.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe einen Blogbeitrag aus der Perspektive eines 16-jährigen Mädchens, das von einem Fremden verfolgt wird. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe einen Blogbeitrag aus der Perspektive eines 16-jährigen Mädchens, das von einem Fremden verfolgt wird."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 10
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3710,
+    "user": "Ihre Antwort muss einen Titel enthalten, der in doppelte spitze Klammern gesetzt ist, wie zum Beispiel <<Titel>>. Zusätzlich musst du mindestens 2 Abschnitte mit Markdown hervorheben, d. h. *hervorgehobener Abschnitt*. Schließlich musst du am Ende deiner Antwort ein Postskriptum hinzufügen, beginnend mit P.P.S\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nIch brauche einen Rap, der Fachleuten erklärt, wie man Babys dazu bringt, die ganze Nacht durchzuschlafen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Ich brauche einen Rap, der Fachleuten erklärt, wie man Babys dazu bringt, die ganze Nacht durchzuschlafen."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 2
+        },
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3719,
+    "user": "Deine Antwort muss einen Titel in doppelten spitzen Klammern enthalten, d. h. <<Titel meines Liedes>>.\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nSchreibe ein Lied darüber, wie man im Potomac River an einem Stück Hähnchen erstickt. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Schreibe ein Lied darüber, wie man im Potomac River an einem Stück Hähnchen erstickt."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3739,
+    "user": "Deine Antwort sollte weniger als 3 Sätze umfassen (nur 1 Satz oder 2 Sätze).\n\nRufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.\nWie heißt das grünäugige Monster, das Menschen eifersüchtig macht? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Wie heißt das grünäugige Monster, das Menschen eifersüchtig macht?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 3
+        }
+      ]
+    }
+  }
+]

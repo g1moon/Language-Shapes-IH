@@ -1,0 +1,870 @@
+{
+  "timestamp": "2026-02-19T07:06:59.809273",
+  "total_files": 216,
+  "files": [
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_en-tool_en/eval_results.json",
+      "hash": "4d2a101e93e10e0fe3cd1996cb0b8d86"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_en-tool_de/eval_results.json",
+      "hash": "dc0d68ce0f958530ce2d1ceb3fc18953"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_en-tool_hi/eval_results.json",
+      "hash": "35f9a370946bcc864183f1f62e10ca88"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_en-tool_zh/eval_results.json",
+      "hash": "532111a1cfb4511e4b95a7f1b869dc76"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_en-tool_es/eval_results.json",
+      "hash": "e8dc526fdd9fee004bbad9c500b64c7c"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_en-tool_fr/eval_results.json",
+      "hash": "300c64b9e63a1b4a002ae75847110eb4"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_de-tool_en/eval_results.json",
+      "hash": "c9b9738cbc7b2149c26758ccadb41957"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_de-tool_de/eval_results.json",
+      "hash": "42775a92a3d9b5a5c9dc6b4a17abea02"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_de-tool_hi/eval_results.json",
+      "hash": "e07cb125ca0bab1eeb22d4ef5f556a46"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_de-tool_zh/eval_results.json",
+      "hash": "d25e94035092951cdb65039d3237c4d2"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_de-tool_es/eval_results.json",
+      "hash": "27c7f8dba690da7347f09e50f98cb93d"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_de-tool_fr/eval_results.json",
+      "hash": "1d9ea1acb58e2ccfafde2571bae6321b"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_hi-tool_en/eval_results.json",
+      "hash": "873077e28738961749cd277918b22323"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_hi-tool_de/eval_results.json",
+      "hash": "0db99dc976e42e1b2932b158ca1ac642"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_hi-tool_hi/eval_results.json",
+      "hash": "2918ef51bb54f66a17234fc8c142a505"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_hi-tool_zh/eval_results.json",
+      "hash": "1b7fd3ac13e722540b6fe9ebf0a88bdd"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_hi-tool_es/eval_results.json",
+      "hash": "a4388f1f6e0bbfd1d92aa53e4fbefe2a"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_hi-tool_fr/eval_results.json",
+      "hash": "201ed134c13480b348076d555936e10f"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_zh-tool_en/eval_results.json",
+      "hash": "027c4990825875723c23a2a7085aee35"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_zh-tool_de/eval_results.json",
+      "hash": "ec78f57ed5e7fdc64b350a61faa379fb"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_zh-tool_hi/eval_results.json",
+      "hash": "030ff67a07921806f3891003441d161a"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_zh-tool_zh/eval_results.json",
+      "hash": "e37a6848e4ca19f2fda5e31065351e82"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_zh-tool_es/eval_results.json",
+      "hash": "d9d044ecac949005254bbb8230db72ef"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_zh-tool_fr/eval_results.json",
+      "hash": "22b2022c937460eaa502cf6eb9890e0d"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_es-tool_en/eval_results.json",
+      "hash": "0ac0a584cab92b66f9aa06d10b5c7531"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_es-tool_de/eval_results.json",
+      "hash": "2f353fdffb374660f1631450540d4c23"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_es-tool_hi/eval_results.json",
+      "hash": "a72d86f4a90bb915a6f6f9533a982b7f"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_es-tool_zh/eval_results.json",
+      "hash": "e8baf4def0b0b6cac5bc54360b1463dc"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_es-tool_es/eval_results.json",
+      "hash": "c83f667f59ab2f6654fc07f500fed403"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_es-tool_fr/eval_results.json",
+      "hash": "162cdf21f33c7eb2d6300a001bb99a4c"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_fr-tool_en/eval_results.json",
+      "hash": "85aac0cf83bc0790e8206216e4f251f8"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_fr-tool_de/eval_results.json",
+      "hash": "9dbe39d096715dd42169a0c1f97d9301"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_fr-tool_hi/eval_results.json",
+      "hash": "1f95eb774193163c0ae11007663dc9a5"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_fr-tool_zh/eval_results.json",
+      "hash": "7c9bbc7a516adb64f4796d31376ebfb9"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_fr-tool_es/eval_results.json",
+      "hash": "e8c0d70ec220b2d8cde94e6502fe4f5b"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/mistral/mistral-small-24b/input-sys_fr-tool_fr/eval_results.json",
+      "hash": "933f95d8378c634853a2a6fa98c05ec8"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_en-tool_en/eval_results.json",
+      "hash": "fd828a30e33bb6f2be76b37f56afdc04"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_en-tool_de/eval_results.json",
+      "hash": "f6687d3caaae657b1407bf2547ceb554"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_en-tool_hi/eval_results.json",
+      "hash": "6e48dc4ad3581ad989b1fc6aa81eb0b5"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_en-tool_zh/eval_results.json",
+      "hash": "cc37a618949d8070b4ae7f3c4e79fad5"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_en-tool_es/eval_results.json",
+      "hash": "eba7c84825a9497964869a608fb72876"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_en-tool_fr/eval_results.json",
+      "hash": "b0e6602279128e33d76aaa976bb10db2"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_de-tool_en/eval_results.json",
+      "hash": "b1cfcf5e15e445ba600aab6f8e67d42b"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_de-tool_de/eval_results.json",
+      "hash": "b8194fd493761ea0cd039fb0ce07c47a"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_de-tool_hi/eval_results.json",
+      "hash": "57d00411bf6a8fe2a36a811a04e5a890"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_de-tool_zh/eval_results.json",
+      "hash": "0c3a4a5966486951b20cb04db1a0958d"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_de-tool_es/eval_results.json",
+      "hash": "76309332159b50ab5f2a2d22c27bfa66"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_de-tool_fr/eval_results.json",
+      "hash": "5ea538bccd1481b2c950a911c1a52b04"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_hi-tool_en/eval_results.json",
+      "hash": "097e4ac15c29716721801be6500ea6b7"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_hi-tool_de/eval_results.json",
+      "hash": "02069c5115127a4defda9b0766061850"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_hi-tool_hi/eval_results.json",
+      "hash": "aa3ccba52a7cb4c66547745fcf4ed8f6"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_hi-tool_zh/eval_results.json",
+      "hash": "e8966ce880336b507301ddc3049fb530"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_hi-tool_es/eval_results.json",
+      "hash": "99ff889f36b2a15ec89a353fc50a69f9"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_hi-tool_fr/eval_results.json",
+      "hash": "39f954a031de2558aa96094ddad1722f"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_zh-tool_en/eval_results.json",
+      "hash": "ab838d5be020c4896e3b71f6a3c7af85"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_zh-tool_de/eval_results.json",
+      "hash": "913eafa6745e1b05351f10f4dff2b9c7"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_zh-tool_hi/eval_results.json",
+      "hash": "0b98e4199969c93527ca0a08416c061b"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_zh-tool_zh/eval_results.json",
+      "hash": "a05374e92b2adfbcee999bae4d8da60d"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_zh-tool_es/eval_results.json",
+      "hash": "a7b8fb901094dd693c5ab6216b20805c"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_zh-tool_fr/eval_results.json",
+      "hash": "bee8adf0833a8a1eac2d8476d9e80dcb"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_es-tool_en/eval_results.json",
+      "hash": "447b6b4e77ede81bf32f5b7bc58d742d"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_es-tool_de/eval_results.json",
+      "hash": "7fabafb2597f5ee6f0cd6cd9024fa81e"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_es-tool_hi/eval_results.json",
+      "hash": "0dfdc67b3ab4fd2513d12acc08bd2100"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_es-tool_zh/eval_results.json",
+      "hash": "baf29a7b2eaa0f39c33a6a70557facbf"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_es-tool_es/eval_results.json",
+      "hash": "f4597d291f89b72a65f0088536fb58e2"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_es-tool_fr/eval_results.json",
+      "hash": "40746561074dbbb07539be1e48baf764"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_fr-tool_en/eval_results.json",
+      "hash": "9e12fbf41bc714b85da9e9045ceec30d"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_fr-tool_de/eval_results.json",
+      "hash": "11b1f914682c14e46256c6e4b12ba376"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_fr-tool_hi/eval_results.json",
+      "hash": "b864a978c4842efe13b5e5a16793f73d"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_fr-tool_zh/eval_results.json",
+      "hash": "f361ebf4b6bbc6799ffd176c875aee7a"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_fr-tool_es/eval_results.json",
+      "hash": "c0f27dba0254e70c8a34f2146e9ccd6a"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/mistral/mistral-small-24b/input-sys_fr-tool_fr/eval_results.json",
+      "hash": "76d7bfd12d83f8ac828003090a7ee3f5"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_en-user_en/eval_results.json",
+      "hash": "6823749d18515aee01751ba998255259"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_en-user_de/eval_results.json",
+      "hash": "4558b809b1db9797720bcef3f4b4139a"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_en-user_hi/eval_results.json",
+      "hash": "cffd1bb4826542365ae9e9a693ed2d57"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_en-user_zh/eval_results.json",
+      "hash": "bd9ad1fc62d5272c08a1d409a8ca695d"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_en-user_es/eval_results.json",
+      "hash": "d9377b2c82ce9731394feedb8a0b869b"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_en-user_fr/eval_results.json",
+      "hash": "c56ccb15ea3fc9fca566c8d49030361b"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_de-user_en/eval_results.json",
+      "hash": "48e4101eb9dcb55e118633c81b130b4c"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_de-user_de/eval_results.json",
+      "hash": "1ea6ff29a2fa26606b883195d2dcbb94"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_de-user_hi/eval_results.json",
+      "hash": "cea9fd64225133d01402f69e30b2ff17"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_de-user_zh/eval_results.json",
+      "hash": "f3caca51b47bf5a103e75640ced56dd5"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_de-user_es/eval_results.json",
+      "hash": "7f76a8c998cd22a607178f0fafc771b7"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_de-user_fr/eval_results.json",
+      "hash": "02f2ddd35a8cd87616baf9938c50eea0"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_hi-user_en/eval_results.json",
+      "hash": "95bd0c7684faef3220e8bb31d218464c"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_hi-user_de/eval_results.json",
+      "hash": "d93e5da91b2d6a8deacbb3eb3bf625b3"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_hi-user_hi/eval_results.json",
+      "hash": "a40c0a87a9c366f1dc8adc8430f834bf"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_hi-user_zh/eval_results.json",
+      "hash": "e2d640f7be58a0c469f9348d73801b8d"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_hi-user_es/eval_results.json",
+      "hash": "c03696243f5babb83005649866e30b6d"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_hi-user_fr/eval_results.json",
+      "hash": "871988be68aaff6c8b1e7c5010922eee"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_zh-user_en/eval_results.json",
+      "hash": "8a6be94142fcf225243fd4ba2862a32b"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_zh-user_de/eval_results.json",
+      "hash": "b6c151e9ea9f23ce7b44c851a0a10db3"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_zh-user_hi/eval_results.json",
+      "hash": "b92d300814fb037b1cb62ea4274a74a5"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_zh-user_zh/eval_results.json",
+      "hash": "bd902b5eaa0ea51319b92b1dfc4d731c"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_zh-user_es/eval_results.json",
+      "hash": "15a02839d87bbe83e5446c7d93553941"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_zh-user_fr/eval_results.json",
+      "hash": "3286928ebe83eb739a57a81e7f8fcf7c"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_es-user_en/eval_results.json",
+      "hash": "91841adb53cf9910fb52632d51fbcc42"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_es-user_de/eval_results.json",
+      "hash": "51fd2eb9cd593db06959de0c2882337c"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_es-user_hi/eval_results.json",
+      "hash": "e7623cb7dc882a99fa98159492cf686e"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_es-user_zh/eval_results.json",
+      "hash": "07a30f25d0cc304fc3e7c1ee94865eba"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_es-user_es/eval_results.json",
+      "hash": "e3905dbd0d5078e1e5a69744197c39c1"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_es-user_fr/eval_results.json",
+      "hash": "e4f504ff8b07b08a6a5ab280913ed56a"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_fr-user_en/eval_results.json",
+      "hash": "72c63fa6e7c01b4f9369fb1910284240"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_fr-user_de/eval_results.json",
+      "hash": "bdd07e437bc93ece13ccde69e6241b70"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_fr-user_hi/eval_results.json",
+      "hash": "306016f968363c7aae7237b0a4588494"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_fr-user_zh/eval_results.json",
+      "hash": "b473e0cd40359dc1b205d3260eab21f2"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_fr-user_es/eval_results.json",
+      "hash": "44510616588aac5d7de4f15845ecda14"
+    },
+    {
+      "path": "results/persona/reference/sys-user/mistral/mistral-small-24b/input-sys_fr-user_fr/eval_results.json",
+      "hash": "251994b5ae689ba4269fef0260b530b9"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_en-user_en/eval_results.json",
+      "hash": "11aa3f8553473a8cea0e317ac89a73a8"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_en-user_de/eval_results.json",
+      "hash": "5e98369846956d4cedf2863182cb0bff"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_en-user_hi/eval_results.json",
+      "hash": "e6b5ce48595fc292a8b823a60b1e65ee"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_en-user_zh/eval_results.json",
+      "hash": "e1546115431ebce8a5cd5dd4b43afc52"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_en-user_es/eval_results.json",
+      "hash": "665f56738de21315a21c0e0e9ba897ed"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_en-user_fr/eval_results.json",
+      "hash": "cfea594023f707f440be69a1e4ce5cad"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_de-user_en/eval_results.json",
+      "hash": "901f0b59232afb6627026879076b9fb2"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_de-user_de/eval_results.json",
+      "hash": "e1facf1adcdc84ea723a657cc24fb76e"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_de-user_hi/eval_results.json",
+      "hash": "94235efc25d77c9e9592d84a272f412a"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_de-user_zh/eval_results.json",
+      "hash": "5463992f25fe074feaeee38e3bdf1a55"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_de-user_es/eval_results.json",
+      "hash": "5572abe017b27596aa1a76110e0d5e6a"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_de-user_fr/eval_results.json",
+      "hash": "081b6dcad9b74c5f89d11a25b5328bbb"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_hi-user_en/eval_results.json",
+      "hash": "09db94bfb705a3f768a249058f32a059"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_hi-user_de/eval_results.json",
+      "hash": "548382efdfb43bc76a22d8fb238453fc"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_hi-user_hi/eval_results.json",
+      "hash": "0b91a085b0066c9545356ce703ba7e18"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_hi-user_zh/eval_results.json",
+      "hash": "4831c646aa046698eea4dec9ddc06730"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_hi-user_es/eval_results.json",
+      "hash": "363bb10f8575424c8453d37a7d957b32"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_hi-user_fr/eval_results.json",
+      "hash": "5dcfdd5f7dd747d16818d46608e14423"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_zh-user_en/eval_results.json",
+      "hash": "2515f0bfc255578f340b775ad7656c61"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_zh-user_de/eval_results.json",
+      "hash": "3e32aa2fb61ca8af86cfcbbf46859c43"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_zh-user_hi/eval_results.json",
+      "hash": "c23f640652f485a8091d3877354d27c9"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_zh-user_zh/eval_results.json",
+      "hash": "3b64ffc414b9367b06528e5843e349b6"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_zh-user_es/eval_results.json",
+      "hash": "aba5c86749c4f321143f55fca114d2ea"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_zh-user_fr/eval_results.json",
+      "hash": "944fa9941b5a7980b7627833cabf4b35"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_es-user_en/eval_results.json",
+      "hash": "52f938dc65cf693bf02b3c548a553bd0"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_es-user_de/eval_results.json",
+      "hash": "d5299113fdbf8bea1c6ad1ac2b861ea0"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_es-user_hi/eval_results.json",
+      "hash": "01ee2d7dbe06155fa4d559d1ee3a6554"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_es-user_zh/eval_results.json",
+      "hash": "6fa6d4d25a2d57ff65805d480ea24555"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_es-user_es/eval_results.json",
+      "hash": "9b1afcb5fd39c34ec0ba5b27f6fd76e9"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_es-user_fr/eval_results.json",
+      "hash": "a7a818d0b9040d4ef52944b3dae233bb"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_fr-user_en/eval_results.json",
+      "hash": "20ac160df7cea77bfd1d19fdf071b55e"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_fr-user_de/eval_results.json",
+      "hash": "072f791d9587ece50a173a4b78526c2c"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_fr-user_hi/eval_results.json",
+      "hash": "d439e7f4083b7e2abd3068c63cc4feec"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_fr-user_zh/eval_results.json",
+      "hash": "c0d18f57a033c4e66c323cb0c2a1771d"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_fr-user_es/eval_results.json",
+      "hash": "5683d79d5dc6374fd8d7021e170590bc"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/mistral/mistral-small-24b/input-sys_fr-user_fr/eval_results.json",
+      "hash": "de5d2bb755fd6ab8ebfaa804873379ff"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_en-tool_en/eval_results.json",
+      "hash": "1f9c6852e618a38a3315f7bb77aaeb98"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_en-tool_de/eval_results.json",
+      "hash": "ad796601ea50792e5224293ded6a2b72"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_en-tool_hi/eval_results.json",
+      "hash": "632c6f514361feb3cd5f6921893841e0"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_en-tool_zh/eval_results.json",
+      "hash": "2dd1d5213a87052d22f4209d24d2673e"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_en-tool_es/eval_results.json",
+      "hash": "ba25c6b6c03c19c6776300984142e14a"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_en-tool_fr/eval_results.json",
+      "hash": "720cd8eba073b711bef30fbea5b577a1"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_de-tool_en/eval_results.json",
+      "hash": "90d3b0b43e90f8bb82aab08d22c7a1a4"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_de-tool_de/eval_results.json",
+      "hash": "20c8763bb4e7c8de10cf0504371e3fc6"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_de-tool_hi/eval_results.json",
+      "hash": "c39aeebb6ccff7a6d1767ea8d746174a"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_de-tool_zh/eval_results.json",
+      "hash": "d61baae73592d62a3b76e4c825718be0"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_de-tool_es/eval_results.json",
+      "hash": "a6583637cc4f4f7dfb4e3b164ed16931"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_de-tool_fr/eval_results.json",
+      "hash": "a837c85a967af0a93c87656a6d393275"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_hi-tool_en/eval_results.json",
+      "hash": "735423b61c7fc9497a46c32d0b3ca290"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_hi-tool_de/eval_results.json",
+      "hash": "fe525144ab240c9044c70915a912b2fc"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_hi-tool_hi/eval_results.json",
+      "hash": "559f0299b9aeb459e5771bc3d239d690"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_hi-tool_zh/eval_results.json",
+      "hash": "e4827e266ed71e8bf71b70da307f83ae"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_hi-tool_es/eval_results.json",
+      "hash": "162255ecdde41503739114cb6679f197"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_hi-tool_fr/eval_results.json",
+      "hash": "3fed6fb54d07563c649147371d48e85c"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_zh-tool_en/eval_results.json",
+      "hash": "d6d56e19abd3df1b1de16480d73413dc"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_zh-tool_de/eval_results.json",
+      "hash": "7f4f2760ad07ef7df11da3112d326c14"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_zh-tool_hi/eval_results.json",
+      "hash": "abd3e15ad5d864a5336fabaea671f019"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_zh-tool_zh/eval_results.json",
+      "hash": "2b9256dee767b50b1a1faba3e46875bd"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_zh-tool_es/eval_results.json",
+      "hash": "1b30629755e60eac728b3e14382b0c52"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_zh-tool_fr/eval_results.json",
+      "hash": "1dad7556c5f1c04f311e94f833264ef3"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_es-tool_en/eval_results.json",
+      "hash": "71e02c242f39dbbb46ae061315a4b5ef"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_es-tool_de/eval_results.json",
+      "hash": "31cac8a339fdfda3cbb95c5fc57f8e0e"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_es-tool_hi/eval_results.json",
+      "hash": "5d4d93baec3fec64198425272da4da54"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_es-tool_zh/eval_results.json",
+      "hash": "806c90a602ff28e4c5d883f09ff16899"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_es-tool_es/eval_results.json",
+      "hash": "2f506eea5672d2bbdd93f3336b8764a1"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_es-tool_fr/eval_results.json",
+      "hash": "1dfca09e49a064d26841f1888ac7172a"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_fr-tool_en/eval_results.json",
+      "hash": "08076d8d03d8082ecdf830dc4037fd39"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_fr-tool_de/eval_results.json",
+      "hash": "28909aa3b50a07d8cdfed1a8292f1c14"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_fr-tool_hi/eval_results.json",
+      "hash": "a8a52ccefbcdd205850b0f8039f988d2"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_fr-tool_zh/eval_results.json",
+      "hash": "f1c07bf9bb1a14e23ca9d52c9590ac03"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_fr-tool_es/eval_results.json",
+      "hash": "19919b584ae1066c098e616a7493fa2b"
+    },
+    {
+      "path": "results/persona/reference/user-tool/mistral/mistral-small-24b/input-user_fr-tool_fr/eval_results.json",
+      "hash": "a956bf5e2f9743bc3550dc0db2493be8"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_en-tool_en/eval_results.json",
+      "hash": "453d49dc37133188b4ae1987beac8d98"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_en-tool_de/eval_results.json",
+      "hash": "059640c5a73149eb331752f709fce65d"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_en-tool_hi/eval_results.json",
+      "hash": "d921d81d6fba3bc2fe9dd3a7f99e2939"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_en-tool_zh/eval_results.json",
+      "hash": "234b076f73bce409ae91b09fc9f7dacf"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_en-tool_es/eval_results.json",
+      "hash": "7387e0c290ac0a39f4ef4e15d16ad54d"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_en-tool_fr/eval_results.json",
+      "hash": "cf9283ed1fe39b162e23de0c1a0fa6a7"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_de-tool_en/eval_results.json",
+      "hash": "a74ba05f3fbbd4a9c0458747d321d61c"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_de-tool_de/eval_results.json",
+      "hash": "85b31623cc43e4eead0e1ba4eaa9b4d5"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_de-tool_hi/eval_results.json",
+      "hash": "dafff9fa72487f6d790c0b86bb438b63"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_de-tool_zh/eval_results.json",
+      "hash": "d1e7d70674723cc44f8fbb790081feb8"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_de-tool_es/eval_results.json",
+      "hash": "cb36c17ce9f7746b17c91a91028b0e26"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_de-tool_fr/eval_results.json",
+      "hash": "a1a15c804d97a43e545e00dfb66f8a1b"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_hi-tool_en/eval_results.json",
+      "hash": "bc13ee5670bfc9733447df738143e236"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_hi-tool_de/eval_results.json",
+      "hash": "069c488cba1b7d037ac5c9db34fd8ad9"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_hi-tool_hi/eval_results.json",
+      "hash": "02572308122fed8fa4ec1c0555efce92"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_hi-tool_zh/eval_results.json",
+      "hash": "a32be033b2a24f48e7d03ea9e91bca7f"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_hi-tool_es/eval_results.json",
+      "hash": "a6ad77bc52e50ed6caa1254997189232"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_hi-tool_fr/eval_results.json",
+      "hash": "93badbe579b39fcb833ba6b81839dcb0"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_zh-tool_en/eval_results.json",
+      "hash": "e194f1d299ee6e4585ea74c750da72c2"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_zh-tool_de/eval_results.json",
+      "hash": "3dcb54caa8b9cfc5321ce5ce1a2d3636"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_zh-tool_hi/eval_results.json",
+      "hash": "7a5c1ef78235c1c6c6a688be96282861"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_zh-tool_zh/eval_results.json",
+      "hash": "d6d9867c2968393139297ddbd3b3c760"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_zh-tool_es/eval_results.json",
+      "hash": "ae42ec6c25d24d7761ca0d6a8fa088bb"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_zh-tool_fr/eval_results.json",
+      "hash": "016036b2c6ca299277c155e7c6c20273"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_es-tool_en/eval_results.json",
+      "hash": "e98aad6256e65edca96edbc14671c1ce"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_es-tool_de/eval_results.json",
+      "hash": "d1c4a63ce68f050b9b87beb82e4fd060"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_es-tool_hi/eval_results.json",
+      "hash": "b940f35a8b11a8f2e8f6ac51171839ee"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_es-tool_zh/eval_results.json",
+      "hash": "d2811866931e8759938e92ed6c95451f"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_es-tool_es/eval_results.json",
+      "hash": "b0ced4cae069cd5fd7f2e5e3e51de0e3"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_es-tool_fr/eval_results.json",
+      "hash": "88482f953152e683db8bab08c93fad78"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_fr-tool_en/eval_results.json",
+      "hash": "becd452538b0c9b023a77710392662e2"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_fr-tool_de/eval_results.json",
+      "hash": "6eb64a41ec78cc243a385aee33890c34"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_fr-tool_hi/eval_results.json",
+      "hash": "3fd42d9596dbfa93f6ee823b235d030c"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_fr-tool_zh/eval_results.json",
+      "hash": "4e6ecb6a7ed3f45e443cc81a7a0b0336"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_fr-tool_es/eval_results.json",
+      "hash": "cc41abbad428767a5d86451460664a36"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/mistral/mistral-small-24b/input-user_fr-tool_fr/eval_results.json",
+      "hash": "fd1132907af352f79cad9441a008502d"
+    }
+  ]
+}

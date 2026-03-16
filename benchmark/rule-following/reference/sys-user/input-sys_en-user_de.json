@@ -1,0 +1,1558 @@
+[
+  {
+    "id": 13,
+    "system": "Your entire answer should be wrapped in JSON format. You can use markdown ticks such as ``` to enclose the JSON content.",
+    "user": "Was ist die Geschichte des Prospect Park in NYC? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "system": "Your response should not contain any commas.",
+    "user": "Schreibe einen Limerick über das Schreiben eines Limericks. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "system": "Your answer must contain exactly 3 bullet points in the markdown format (use \"* \" to indicate each bullet) such as:\n* This is the first point.\n* This is the second point.",
+    "user": "Schreibe einen Dialog zwischen zwei Personen: Eine ist in einem Ballkleid herausgeputzt, und die andere ist lässig in Joggingkleidung gekleidet. Die beiden gehen zu einer nächtlichen Veranstaltung. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 143,
+    "system": "In your response, separate your thinking and the final answer by a line with just three \"*\" symbols: ***. At the end of your response, please explicitly add a postscript starting with P.P.S",
+    "user": "Ein Fohlen ist 5 Fuß groß. Es wird jeden Monat 6 Zoll wachsen. Wie groß wird es in 3 Jahren sein? Denke Schritt für Schritt nach und gib dann deine Antwort. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        },
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 168,
+    "system": "Your response should highlight at least 3 sections with markdown, i.e *highlighted section*.",
+    "user": "Schreibe eine lustige und sarkastische Vorlage, um die Qualität einer Ehe zwischen zwei Personen zu bewerten, die beide Mütter sind. Das ist für das Paar selbst. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 179,
+    "system": "Your response should be at least 50 sentences long.",
+    "user": "Ein Filmemacher versucht, eine Finanzierung für einen Film über die Geschichte des Internets zu erhalten. Schreiben Sie einen Essay, der im Vorschlag an potenzielle Investoren verwendet werden soll. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 50
+        }
+      ]
+    }
+  },
+  {
+    "id": 219,
+    "system": "Your response must be wrapped with double quotation marks.",
+    "user": "Glaubst du, dass Kareena Kapoor eine gute Schauspielerin ist? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 247,
+    "system": "Give exactly two different responses separated by 6 asterisk symbols ******.",
+    "user": "Kannst du Rap-Songs über die Geschichte des Präfektursystems in Japan schreiben? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 292,
+    "system": "Your response must contain at least 20 sentences.",
+    "user": "Schreibe eine lange und lustige E-Mail an deinen Freund über die Zutaten eines guten Lebens. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 334,
+    "system": "Your entire response must be wrapped with double quotation marks. Your response must include exactly 2 bullet points in markdown format, like below:\n* bullet point 1\n* bullet point 2",
+    "user": "Erstelle einen Slogan für mein Unternehmen. Der Name meines Unternehmens ist Color Paper. Wir produzieren Papierhandtücher. Wir konzentrieren uns darauf, auffällige, farbenfrohe Papierhandtücher herzustellen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 1001,
+    "system": "You are not allowed to use any commas in your response.",
+    "user": "Ich plane eine Reise nach Japan, und ich möchte, dass du mir eine Reiseroute für meine Reise in einem shakespeareanischen Stil schreibst. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1075,
+    "system": "Your entire output should be in JSON format.",
+    "user": "Kannst du mir helfen, eine Werbung für ein neues Produkt zu erstellen? Es ist eine Windel, die so konzipiert ist, dass sie für Babys bequemer ist. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1082,
+    "system": "Your response must contain exactly 2 paragraphs. Separate the paragraphs with the markdown divider: ***.",
+    "user": "Schreibe eine Geschichte über einen Mann, der eines Tages aufwacht und erkennt, dass er sich in einem Videospiel befindet. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 1098,
+    "system": "Please give exactly two different responses. Separate the responses with 6 asterisk symbols: ******.",
+    "user": "Wie lautet ein Name, mit dem Menschen Gott bezeichnen? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1180,
+    "system": "Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>. Give exactly two different responses separated by 6 asterisk symbols ******.",
+    "user": "Erkläre, warum Menschen sich vor Würmern ekeln, aber nicht davor, eine tote Kuh zu essen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1262,
+    "system": "Your response must contain a title wrapped in double angular brackets, i.e. <<title>>. Use less than 5 sentences.",
+    "user": "Kannst du den folgenden Text näher erläutern: „Ein erhöhtes Achsgewicht erhöhte die Schäden an der Straße“? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1268,
+    "system": "Your entire response should contain less than 6 sentences.",
+    "user": "Kannst du mir ein Beispiel für einen Tagebucheintrag über Stressbewältigung geben? Erkläre mir, wie du auf das Beispiel kommst. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 1305,
+    "system": "Your response must contain a postscript starting with P.P.S at the end. The names should be listed in bullet points indicated by: * This is an example bullet.",
+    "user": "Liste genau 10 mögliche Namen für einen neugeborenen Jungen auf. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        },
+        {
+          "num_bullets": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1307,
+    "system": "Your response should include an outline with at least 15 sections highlighted with markdown such as *highlighted section*.",
+    "user": "Schreibe eine Gliederung für eine Arbeit über die Geschichte des jemenitischen Kaffees. Die Gliederung sollte die Hauptpunkte der Arbeit enthalten. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1322,
+    "system": "Your answer must have a title contained in double angular brackets, such as <<kotlin vs java>>.",
+    "user": "Was sind die Vor- und Nachteile von Kotlin im Vergleich zu Java? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1325,
+    "system": "Your response must be enclosed in double quotation marks. Your response must include exactly 8 bullet points in the form of:\n* This is bullet 1\n* This is bullet 2\n...",
+    "user": "Schreibe einen lustigen Artikel darüber, warum die Dinosaurier ausgestorben sind. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 1332,
+    "system": "Your response should contain two separate parts, separated by exactly 6 asterisk symbols: *******",
+    "user": "Erstelle eine Tabelle mit einem 7-tägigen Reiseplan für Indien und einem 7-tägigen Reiseplan für China. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1377,
+    "system": "Your response must contain 5 paragraphs that follow the exact format below:\n\nPart 1. Task Summary\n[put details here]\n***\nPart 2. Motivation\n[put details here]\n***\nPart 3. Milestone objectives\n[put details here]\n***\nPart 4. Timeline\n[put details here]\n***\nPart 5. Doc history\n[put details here]",
+    "user": "Schreibe ein Planungsdokument für eine Aufgabe eines Softwareentwicklers. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1381,
+    "system": "Your response must be less than 10 sentences.",
+    "user": "Schreibe ein lustiges Lied für einen Vorschlag, auf der örtlichen Grundschule einen neuen Spielplatz zu bauen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1512,
+    "system": "Your response should include at least 20 placeholders representing different usernames, using square brackets like [username1], [username2]. All sentences should be short and refrain from using any commas.",
+    "user": "Erstelle einen Foren-Thread über mehrere Personen, die darauf warten, die neuesten lokalen Nachrichten zu erfahren. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 20
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1551,
+    "system": "Your response must have a title wrapped in double angular brackets, i.e. <<title>>.",
+    "user": "Ich möchte mich bei Google als Softwareentwickler bewerben. Kannst du mir zwei verschiedene Anschreiben schreiben -- eine kurze Version und eine lange Version? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1619,
+    "system": "Your response must contain a postscript starting with P.P.S. Your response must contain at least 6 placeholders represented by square brackets, such as [name].",
+    "user": "Schreibe einen Rap über ein neues Smartphone. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        },
+        {
+          "num_placeholders": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 1620,
+    "system": "Your response must include a postscript that starts with \"P.S.\"",
+    "user": "Ich liebe das Album namens Lilith wirklich sehr. Ich möchte es meinem Freund Luheng vorstellen. Verfasse dafür eine E-Mail. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 1646,
+    "system": "Your response must highlight at least 5 sections by starting and ending with \"*\", like: *highlighted text section*.",
+    "user": "Schreibe einen lockeren Blogbeitrag über Ähnlichkeiten zwischen verschiedenen Tierarten. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1773,
+    "system": "Your response must contain a name for the song, highlighted by wrapping it with *.",
+    "user": "Schreibe ein Lied über die Sommer meiner Kindheit, die ich auf dem Land verbracht habe. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 1823,
+    "system": "Your response must contain at least 40 sentences (don't forget to add punctuations). You must highlight some words or phrases in your response, like *highlighted phrase*.",
+    "user": "Kannst du ein Gedicht über die Vor- und Nachteile schreiben, wenn man sehr viele Videospiele spielt? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 40
+        },
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 1897,
+    "system": "Your response must italicize at least 10 text parts with markdown (using * to italicize, like *italic text*). Your response should not contain any commas.",
+    "user": "Erweitere Folgendes und mach es lustig: Jeanne hat die Würfel geworfen. Sie dachte, sie hätte verloren, aber eigentlich hat sie gewonnen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 10
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1908,
+    "system": "Your response should contain at least 30 sentences. Your response should contain exactly 2 bullet points. Use the bullet points like:\n* This is a bullet point\n Your response must contain at least 8 placeholders represented by square brackets, such as [address].",
+    "user": "Was hältst du von dieser Aussage: „Zauberer sind mächtiger als Hexenmeister, weil sie Magie studieren, statt damit geboren zu werden.“? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_bullet_lists",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        },
+        {
+          "num_bullets": 2
+        },
+        {
+          "num_placeholders": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 1927,
+    "system": "Your response must contain at least 10 placeholders represented by square brackets, such as [name].",
+    "user": "Formuliere den folgenden Satz als E-Mail um: Die Stiefel sind warm, aber ein wenig unbequem. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1934,
+    "system": "Your answer must be in the form of exactly 4 bullet points with the format below:\n* This is bullet point 1\n* This is bullet point 2",
+    "user": "Warum ist Star Wars so beliebt? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2035,
+    "system": "Your response must contain at least 5 sentences. Use Markdown to italicize at least 2 sections in your response, i.e. *italic text*. Your response must be wrapped in double quotes.",
+    "user": "Schreibe einen Witz. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections",
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 5
+        },
+        {
+          "num_highlights": 2
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2118,
+    "system": "Your response should have exactly 3 paragraphs each separated by ***. Your response should also contain exactly 3 bullet points in markdown format such as:\n* Bullet point 1\n* Bullet point 2",
+    "user": "Schreibe einen Rap für Mütter über die Vor- und Nachteile des Stillens im Vergleich zur Flaschennahrung. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 3
+        },
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2136,
+    "system": "Your response must include at least one placeholder represented by square brackets, such as [name].",
+    "user": "Schreibe einen kurzen und lustigen Witz über einen Typen, der beim Finanzamt arbeitet. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2162,
+    "system": "Your response should contain less than 20 sentences. Your response must include at least 3 placeholders represented by square brackets, such as [address].",
+    "user": "Was sind die wichtigsten Unterschiede zwischen den adventistischen und den baptistischen Konfessionen? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 20
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2164,
+    "system": "Your response must contain at least 3 placeholders represented by square brackets, such as [address], [name], and [phone number].",
+    "user": "Schreibe eine Produktbeschreibung für eine neue Reihe von Hundespielzeugen namens „der Quietscher“. Sie besteht aus Latex und ist für Hunde aller Altersstufen und Rassen konzipiert. Sie ist außerdem in einer Vielzahl von Farben und Formen erhältlich. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2195,
+    "system": "Your response should contain exactly 3 bullet points in the markdown format such as:\n* Bullet point 1\n* Bullet point 2",
+    "user": "Schreibe eine Liste von Anweisungen für einen Hundetrainer, um einem Hund beizubringen, sich hinzusetzen, zu bleiben und zu apportieren. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2209,
+    "system": "Your entire response must be enclosed in double quotes.",
+    "user": "Verfassen Sie einen akademischen Vorschlag für einen Kunden, der daran interessiert ist, eine neue Funktion für sein Produkt zu implementieren. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2229,
+    "system": "Your response must contain a title, wrapped in double angular brackets, i.e. <<title>>.",
+    "user": "Es wird ein Verkaufspitch für Mütter für eine neue Art von Windel benötigt, die so entwickelt wurde, dass sie für Babys bequemer ist. Der Verkaufspitch sollte 500 Wörter lang, lustig, mitreißend sein und sich auf die Vorteile der neuen Windel konzentrieren, ohne den Preis zu erwähnen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2230,
+    "system": "Your response should not contain any commas. Your response should highlight at least 2 sections using markdown, i.e. *highlighted section*.",
+    "user": "Mach diesen Text seltsam: „Die neue Version der App wird bald im App Store verfügbar sein. Sie wird eine Reihe neuer Funktionen enthalten, darunter eine neue Benutzeroberfläche und Unterstützung für neue Geräte“. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2245,
+    "system": "Your response should not contain any commas.",
+    "user": "ICH BIN LEICHT HINEINZUKOMMEN, ABER SCHWER WIEDER HERAUSZUKOMMEN. ICH BIN EINLADEND UND AUFREGEND, ABER VIELE MENSCHEN HABEN ANGST VOR MIR. ICH BIN DER ORT, AN DEM DU SEIN MUSST, ABER DU MÖCHTEST DORT VIELLEICHT NICHT BLEIBEN. ICH MAG EIN GEHEIMNIS SEIN, ABER ICH BIN SICHER, DU KANNST MICH ERRATEN. WAS BIN ICH? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2253,
+    "system": "In your response, highlight at least 3 sections with markdown, i.e. *highlighted section*.",
+    "user": "Schreiben Sie eine Vorlage für einen Workshop über die Bedeutung von Vielfalt am Arbeitsplatz. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2303,
+    "system": "Your response should be wrapped with double quotation marks. Your response should contain 17 or more sentences.",
+    "user": "Schreibe einen lockeren Blogbeitrag darüber, wie sich das äußere Sonnensystem vom inneren Sonnensystem unterscheidet und was das für die Möglichkeit von Leben bedeutet. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "at least",
+          "num_sentences": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": 2304,
+    "system": "Your response must contain at least 1 placeholder represented by square brackets, such as [address].",
+    "user": "Schreibe einen Aufsatz, als wärst du der Präsident der Vereinigten Staaten, und richte dich dabei an Mütter als Zielpublikum. Das Thema ist, wie der Wagen aus dem Film „Es“ den Geist der 1950er-Jahre symbolisiert. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2311,
+    "system": "Your response should not contain any commas.",
+    "user": "Warum sind in einer Portion von 32 Gramm ungesalzenen Mandeln 396 Kalorien enthalten? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2314,
+    "system": "Your response should contain 3 markdown bullet points such as:\n* Bullet point 1",
+    "user": "Nenne genau 3 Namen für einen schwarz-weißen Hund. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2324,
+    "system": "Your response should not contain any commas.",
+    "user": "Schreibe ein Rätsel über eine Mama, die an einem Strand in Humboldt liegt. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2357,
+    "system": "Your response should have exactly 4 paragraphs and each paragraph should be separated by the markdown divider: ***.",
+    "user": "Schreibe einen Reiseplan für eine Reise nach Paris, der für Teenager mit kurzer Aufmerksamkeitsspanne geeignet ist. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2362,
+    "system": "Your response should finish with a postscript starting with P.P.S",
+    "user": "Wie nennt man einen ausgeschlossenen Wissenschaftler, der gebeten wird, zu Hause zu bleiben? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2374,
+    "system": "Your response should not contain any commas.",
+    "user": "Verfasse einen Projektvorschlag dazu, wie maschinelles Lernen und KI eingesetzt werden können, um die Qualität der Bildung in Entwicklungsländern zu verbessern. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2380,
+    "system": "Your answer cannot contain commas. Your answer must contain exactly 4 bullet points in markdown format such as:\n* Bullet point 1\n* Bullet point 2",
+    "user": "Bitte verfassen Sie eine Zusammenfassung der folgenden Werbekundenseite: „Wir bestehen darauf, das talentierteste Team aus Webentwicklern, Content-Textern, Grafikdesignern und Online-Marketing-Experten der Branche zu haben. Wir präsentieren preisgekrönte Persönlichkeiten, die eine nachweisliche Erfolgsbilanz vorweisen“. Verwenden Sie Markdown und richten Sie sich an Mütter. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2381,
+    "system": "Your response should highlight at least 3 sections in markdown format, i.e *highlighted section*.",
+    "user": "Schreiben Sie ein Anschreiben an eine lokale politische Partei, in dem Sie darum bitten, ihr Kundgebungsorganisator zu werden. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2396,
+    "system": "Your response must include a postscript at the end starting with P.P.S",
+    "user": "Schreibe mir ein Gedicht über einen lang andauernden Krieg. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2436,
+    "system": "Give exactly two different responses to the question. Separate the responses with 6 asterisk symbols ******. Do not use any commas in your responses.",
+    "user": "Beantworte die Frage „Ist es ethisch vertretbar, invasive Arten zu jagen und zu essen?“. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2441,
+    "system": "Your entire response must be wrapped with double quotation marks.",
+    "user": "Schreibe einen redeähnlichen Absatz über die US-Wahlen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2467,
+    "system": "Your response must be in exactly 4 paragraphs. Separate paragraphs with the markdown divider: ***.",
+    "user": "Schreibe einen Rap über einen Abgrund. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2497,
+    "system": "Your response must contain at least one section highlighted with markdown, i.e. *highlighted section*. Put your entire response inside double quotation marks.",
+    "user": "Gib mir eine logische Frage über Chatten und Erobern. Mach sie interessant. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2515,
+    "system": "Your response must highlight at least one section in markdown, i.e *highlighted section*.",
+    "user": "Gideon ist ein Landwirt, der in diesem Jahr einen Überschuss an Ernteerträgen von seinem Hof hat. Was könnte er mit diesem Überschuss tun? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2589,
+    "system": "Your response should contain less than 17 sentences.",
+    "user": "Schreibe einen Absatz, der die durchschnittliche Länge verschiedener Tierexemplare vom kleinsten bis zum größten auflistet. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": 2704,
+    "system": "Give exactly two different responses, separated by 6 asterisk symbols (******). Include a title wrapped in double angular brackets, i.e. <<title>>. Do not use commas.",
+    "user": "Schreibe ein Haiku über törichtes Verhalten in Form einer Frage, für ein junges Publikum. Es sollte das Thema des Nichtlernens enthalten. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "detectable_format:title",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2749,
+    "system": "Your response must contain at least 20 sentences.",
+    "user": "Schreibe einen Blogbeitrag über die Vorteile der Zusammenarbeit mit einer digitalen Marketingagentur. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2780,
+    "system": "Your response must be less than 6 sentences.",
+    "user": "Können Sie mir den Fahrplan für den nächsten Zug nach London geben? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 2785,
+    "system": "Your answer must use markdown to highlight at least 3 sections (like this: *highlighted section*). Your answer must also contain at least 3 placeholders (an example of a placeholder is [address]).",
+    "user": "Was befindet sich in Shintō-Schreinen? Stellen Sie sich vor, dass Sie einen Vortrag vor Schülerinnen und Schülern an einer Schule oder Universität halten. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2790,
+    "system": "Your response must use markdown to highlight at least one section of your answer, i.e. *highlighted section*.",
+    "user": "Schreibe einen lustigen Rap über einen Mann, der einen Anruf von einem Beamten bekommt, der ihm sagt, dass er ein lange verschollener Verwandter des Königs von Nigeria ist. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2801,
+    "system": "Your response should be a list of exactly 4 bullet points in markdown format, such as:\n* Bullet point 1\n* Bullet point 2",
+    "user": "Schreibe den folgenden Blogbeitrag um: „Die Welt ist ein wunderschöner Ort. Die Sonne scheint, die Vögel singen und die Blumen blühen. Es ist ein perfekter Tag, um nach draußen zu gehen und alles zu genießen, was die Natur zu bieten hat.“ Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2832,
+    "system": "Your answer must include exactly one bullet point in markdown format such as:\n* Bullet point",
+    "user": "Stell dir vor, du bist 19 Jahre alt und entwickelst ein Videospiel. Das Spiel handelt von einem Jungen, der die Welt vor einem Bösewicht retten muss. Schreibe einen Pitch, um Teenager davon zu überzeugen, dass dein Videospiel den Kauf wert ist. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2857,
+    "system": "Your entire response should be wrapped in JSON format. You can use markdown ticks such as ```.",
+    "user": "Erstellen Sie ein Bewertungsraster für die Leistungsbeurteilung eines Softwareentwicklers. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2905,
+    "system": "Your response must use * to highlight at least 2 sections in your text. For example: *this is a highlighted text section*.",
+    "user": "Erweitere das Rätsel zu einer Geschichte mit einem lustigen Ton: Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2918,
+    "system": "Write a summary after answering the request. These two parts should be separated by 6 asterisk symbols (******).",
+    "user": "Schreibe ein Bewertungsraster, um zu beurteilen, wie gut der Aufsatz eines Teenagers ist. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2921,
+    "system": "Your response must be in exactly two paragraphs, separated with the markdown divider: ***.",
+    "user": "Wenn a = 10, b = 30 und c = 20 ist, wie groß ist der Wert von (a + b) / c? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2929,
+    "system": "Your response must include a postscript starting with \"P.S.\" at the end.",
+    "user": "Schreibe eine Textanzeige für eine Website für Erwachsene, die nicht pornografisch ist. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 2969,
+    "system": "Your response must contain a title wrapped in double angular brackets, such as <<sloop on sale>>.",
+    "user": "Schreibe einen Werbetext für eine Anzeige, die eine Slup verkauft. Es ist ein kleines Segelboot mit einem Mast, das leicht zu segeln und zu verstehen ist. Ein Teil deiner Antwort sollte in einem Tabellenformat sein. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2985,
+    "system": "Your entire response must be wrapped inside double quotation marks.",
+    "user": "Warum glaubst du, dass Google-Ingenieure häufiger bei Google bleiben, statt zu Microsoft zu wechseln? Erkläre es im Stil von Alex Jones. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3041,
+    "system": "Your response should be less than 7 sentences. Your response should contain exactly 1 bullet point in markdown such as:\n* Bullet point",
+    "user": "Verfasse einen kreativen und überzeugenden Startup-Pitch für ein Unternehmen, das Menschen mit chronischen Erkrankungen dabei hilft, häusliche Pflege zu finden und zu organisieren. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 7
+        },
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3057,
+    "system": "Your response must contain a title wrapped in double angular brackets, i.e. <<title>>.",
+    "user": "Bitte schreibe ein Rätsel über die Umkehrfunktion. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3131,
+    "system": "Your response must contain a title, wrapped in double angular brackets, such as <<blog post of ...>>. Also, add a postscript starting with P.S.",
+    "user": "Schreibe einen Blogbeitrag über das widerhallende Biotechnologiefeld im Jahr 2023 und kritisiere anschließend den Blogbeitrag. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 3221,
+    "system": "Your response must contain at least 8 placeholders (i.e., [restaurant]).",
+    "user": "Plane eine 2-wöchige Europareise und besuche London, Paris und Rom. Antworte in GROSSBUCHSTABEN. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 3245,
+    "system": "Your output must not contain any commas. Your output must have at least 2 placeholders, wrapped in square brackets, such as [author].",
+    "user": "Schreibe einen Artikel mit dem Titel „Layton ist die beste Stadt der Welt“. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_placeholders": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 3256,
+    "system": "Your response must contain a title wrapped in double angular brackets, i.e. <<title>>. Your response must contain less than 13 sentences. Your response must not contain any commas, but other punctuations are allowed.",
+    "user": "Schreibe ein Gedicht über eine neugierige Katze. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "length_constraints:number_sentences",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 13
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3263,
+    "system": "Please provide two answers separated by ******",
+    "user": "Ist „jiang“ ein chinesischer Name? Welche anderen Namen sind „jiang“ ähnlich? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3280,
+    "system": "Your response must contain at least six placeholders which should be represented by square brackets like [name].",
+    "user": "Was ist der Unterschied zwischen dem Apfel und Albanien? Antworte im E-Mail-Format. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 3281,
+    "system": "Provide exactly two versions of your response. Separate them with six asterisk symbols: ******. Refrain from using commas in your response.",
+    "user": "Schreiben Sie Anschreiben für eine Bewerbung. Es handelt sich um eine Stelle als Assistenzprofessor/in. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3329,
+    "system": "Your response should be at least 30 sentences long.",
+    "user": "Hey! Ich brauche ein Bewertungsraster, um die Leistung und den Preis eines Laptops zu beurteilen. Kannst du ein Beispiel für mich erstellen? Gib mir keine Aufzählungspunkte, Listen oder Tabellen. Schreib das Bewertungsraster einfach in einfachen englischen Absätzen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        }
+      ]
+    }
+  },
+  {
+    "id": 3350,
+    "system": "Your response should only contain short sentences and must not contain any commas. Include at least five placeholders represented by square brackets, such as [website].",
+    "user": "Ich muss einen Forschungsantrag für ein Projekt über die Auswirkungen sozialer Medien auf die psychische Gesundheit von Teenagern schreiben. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_placeholders": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 3351,
+    "system": "Your response must be exactly 2 paragraphs. Separate paragraphs with the markdown divider: ***. Additionally, italicize at least 3 sections by starting and ending with single *, i.e. *italic text*.",
+    "user": "Hier ist ein Social-Media-Post: „Meine Tochter hat heute ihr Studium abgeschlossen! Ich bin so stolz auf sie!“ Kannst du ihn spannender machen? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        },
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 3409,
+    "system": "Your entire response must be wrapped with double quotation marks. Your response should also highlight at least three sections in markdown format using *highlighted text*.",
+    "user": "Kannst du mir einen Slogan für mein Videospielprojekt schreiben? Das Projekt zielt darauf ab, ein sehr lustiges Kampfspiel zu entwickeln. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 3557,
+    "system": "Your response should be a list of 10 bullet points, following the format below:\n\n* Bullet 1\n* Bullet 2\n* ...",
+    "user": "Ich brauche eine Liste der 10 besten Anwälte in den USA. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 3606,
+    "system": "Your response must include a title in double angular brackets, i.e. <<title>>.",
+    "user": "Kannst du eine Filmhandlung verfassen, die Traum, Faustkampf und Superkraft beinhaltet? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3615,
+    "system": "Your response should not contain any commas.",
+    "user": "Schreibe ein Rätsel über Camilla. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3619,
+    "system": "Your response must contain at least three placeholders, such as [price], and you must not use commas in your response.",
+    "user": "Schreiben Sie ein XML-Dokument, das die Veröffentlichung des neuesten Google-Pixel-Smartphones beschreibt. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 3
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3629,
+    "system": "Highlight some key parts in your response with \"*\", like *highlighted text*.",
+    "user": "Heute, bei der 54. jährlichen Grammy-Verleihung, ehrt die Recording Academy das Talent und die Kreativität der Künstlerinnen und Künstler, Musikerinnen und Musiker sowie Produzentinnen und Produzenten, die die Schöpferinnen und Schöpfer der besten Aufnahmen des vergangenen Jahres sind. Bitte schreiben Sie diesen Text in einem formellen Ton weiter. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3631,
+    "system": "Your response should not contain any commas.",
+    "user": "Schreibe ein Lied darüber, wie man ein Erdnussbutter-und-Marmelade-Sandwich macht. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3691,
+    "system": "Your response should contain less than 10 sentences. Your response should not contain any commas.",
+    "user": "Schreibe einen Blogbeitrag aus der Perspektive eines 16-jährigen Mädchens, das von einem Fremden verfolgt wird. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 10
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3710,
+    "system": "Your response must contain a title wrapped in double angular brackets, such as <<title>>. Additionally, you must highlight at least 2 sections with markdown, i.e. *highlighted section*. Finally, you must add a postscript at the end of your response, starting with P.P.S",
+    "user": "Ich brauche einen Rap, der Fachleuten erklärt, wie man Babys dazu bringt, die ganze Nacht durchzuschlafen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 2
+        },
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3719,
+    "system": "Your response must include a title in double angular brackets, i.e. <<title of my song>>.",
+    "user": "Schreibe ein Lied darüber, wie man im Potomac River an einem Stück Hähnchen erstickt. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3739,
+    "system": "Your response should be less than 3 sentences (just 1 sentence or 2 sentences).",
+    "user": "Wie heißt das grünäugige Monster, das Menschen eifersüchtig macht? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 3
+        }
+      ]
+    }
+  }
+]

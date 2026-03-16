@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-03-16T13:56:33.170040",
+  "models": [
+    "qwen3-30b",
+    "qwen3-4b"
+  ],
+  "total_models": 2
+}

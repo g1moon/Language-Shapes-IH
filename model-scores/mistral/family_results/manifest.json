@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-03-16T13:56:31.058977",
+  "models": [
+    "ministral3-14b",
+    "ministral3-8b",
+    "mistral-small-24b"
+  ],
+  "total_models": 3
+}

@@ -1,0 +1,4658 @@
+[
+  {
+    "id": 13,
+    "system": "L’intégralité de votre réponse doit être enveloppée au format JSON. Vous pouvez utiliser des accents graves de type markdown tels que ``` pour encadrer le contenu JSON.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Cuál es la historia de Prospect Park de Nueva York? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Cuál es la historia de Prospect Park de Nueva York?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "system": "Votre réponse ne doit contenir aucune virgule.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe una limerick sobre escribir una limerick. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe una limerick sobre escribir una limerick."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "system": "Votre réponse doit contenir exactement 3 puces au format markdown (utilisez « * » pour indiquer chaque puce) comme suit :\n* Ceci est le premier point.\n* Ceci est le deuxième point.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un diálogo entre dos personas: una va vestida con un vestido de gala y la otra va vestida de manera informal con ropa deportiva. Las dos van a un evento nocturno. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un diálogo entre dos personas: una va vestida con un vestido de gala y la otra va vestida de manera informal con ropa deportiva. Las dos van a un evento nocturno."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 143,
+    "system": "Dans votre réponse, séparez votre raisonnement et la réponse finale par une ligne ne contenant que trois symboles « * » : ***. À la fin de votre réponse, veuillez ajouter explicitement un post-scriptum commençant par P.P.S\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Un potro mide 5 pies de altura. Crecerá 6 pulgadas cada mes. ¿Qué altura tendrá en 3 años? Piensa paso a paso y luego da tu respuesta. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Un potro mide 5 pies de altura. Crecerá 6 pulgadas cada mes. ¿Qué altura tendrá en 3 años? Piensa paso a paso y luego da tu respuesta."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        },
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 168,
+    "system": "Votre réponse doit mettre en évidence au moins 3 sections avec du markdown, c’est-à-dire *section mise en évidence*.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe una plantilla divertida y sarcástica para calificar la calidad de un matrimonio entre dos personas que ambas son mamás. Esto es para la propia pareja. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe una plantilla divertida y sarcástica para calificar la calidad de un matrimonio entre dos personas que ambas son mamás. Esto es para la propia pareja."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 179,
+    "system": "Votre réponse doit comporter au moins 50 phrases.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Un cineasta está intentando conseguir financiación para una película sobre la historia de Internet. Escribe un ensayo que se utilizará en la propuesta para posibles inversores. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Un cineasta está intentando conseguir financiación para una película sobre la historia de Internet. Escribe un ensayo que se utilizará en la propuesta para posibles inversores."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 50
+        }
+      ]
+    }
+  },
+  {
+    "id": 219,
+    "system": "Votre réponse doit être encadrée par des guillemets doubles.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Crees que Kareena Kapoor es una buena actriz? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Crees que Kareena Kapoor es una buena actriz?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 247,
+    "system": "Donnez exactement deux réponses différentes séparées par 6 symboles astérisque ******.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Puedes escribir canciones de rap sobre la historia del sistema de prefecturas en Japón? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Puedes escribir canciones de rap sobre la historia del sistema de prefecturas en Japón?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 292,
+    "system": "Votre réponse doit contenir au moins 20 phrases.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un correo electrónico largo y divertido a tu amigo sobre los ingredientes de una buena vida. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un correo electrónico largo y divertido a tu amigo sobre los ingredientes de una buena vida."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 334,
+    "system": "L’intégralité de votre réponse doit être encadrée par des guillemets doubles. Votre réponse doit inclure exactement 2 puces au format markdown, comme ci-dessous :\n* puce 1\n* puce 2\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Crea un eslogan para mi empresa. El nombre de mi empresa es Color Paper. Producimos toallas de papel. Nos enfocamos en producir toallas de papel llamativas y coloridas. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Crea un eslogan para mi empresa. El nombre de mi empresa es Color Paper. Producimos toallas de papel. Nos enfocamos en producir toallas de papel llamativas y coloridas."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 1001,
+    "system": "Vous n’êtes pas autorisé à utiliser de virgules dans votre réponse.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Estoy planeando un viaje a Japón, y me gustaría que escribieras un itinerario para mi viaje en un estilo shakespeariano. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Estoy planeando un viaje a Japón, y me gustaría que escribieras un itinerario para mi viaje en un estilo shakespeariano."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1075,
+    "system": "L’intégralité de votre sortie doit être au format JSON.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Puedes ayudarme a hacer un anuncio para un producto nuevo? Es un pañal diseñado para ser más cómodo para los bebés. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Puedes ayudarme a hacer un anuncio para un producto nuevo? Es un pañal diseñado para ser más cómodo para los bebés."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1082,
+    "system": "Votre réponse doit contenir exactement 2 paragraphes. Séparez les paragraphes avec le séparateur markdown : ***.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe una historia sobre un hombre que se despierta un día y se da cuenta de que está dentro de un videojuego. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe una historia sobre un hombre que se despierta un día y se da cuenta de que está dentro de un videojuego."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 1098,
+    "system": "Veuillez donner exactement deux réponses différentes. Séparez les réponses par 6 symboles astérisque : ******.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Cuál es un nombre con el que la gente llama a Dios? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Cuál es un nombre con el que la gente llama a Dios?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1180,
+    "system": "Votre réponse doit contenir un titre, encadré par des doubles chevrons, c’est-à-dire <<titre>>. Donnez exactement deux réponses différentes séparées par 6 symboles astérisque ******.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Explica por qué a la gente le dan asco los gusanos, pero no comer una vaca muerta. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Explica por qué a la gente le dan asco los gusanos, pero no comer una vaca muerta."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1262,
+    "system": "Votre réponse doit contenir un titre encadré par des doubles chevrons, c’est-à-dire <<titre>>. Utilisez moins de 5 phrases.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Puedes ampliar el siguiente texto: \"El aumento del peso por eje incrementó el daño a la carretera\"? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Puedes ampliar el siguiente texto: \"El aumento del peso por eje incrementó el daño a la carretera\"?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1268,
+    "system": "L’intégralité de votre réponse doit contenir moins de 6 phrases.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Puedes darme un ejemplo de una entrada de diario sobre la gestión del estrés? Dime cómo se te ocurre el ejemplo. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Puedes darme un ejemplo de una entrada de diario sobre la gestión del estrés? Dime cómo se te ocurre el ejemplo."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 1305,
+    "system": "Votre réponse doit contenir un post-scriptum commençant par P.P.S à la fin. Les noms doivent être listés sous forme de puces indiquées par : * Ceci est un exemple de puce.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Enumera exactamente 10 posibles nombres para un bebé niño recién nacido. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Enumera exactamente 10 posibles nombres para un bebé niño recién nacido."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        },
+        {
+          "num_bullets": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1307,
+    "system": "Votre réponse doit inclure un plan comportant au moins 15 sections mises en évidence en markdown, telles que *section mise en évidence*.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un esquema para un trabajo sobre la historia del café yemení. El esquema debe incluir los puntos principales del trabajo. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un esquema para un trabajo sobre la historia del café yemení. El esquema debe incluir los puntos principales del trabajo."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1322,
+    "system": "Votre réponse doit comporter un titre contenu entre doubles chevrons, par exemple <<kotlin vs java>>.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Cuáles son los pros y los contras de Kotlin frente a Java? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Cuáles son los pros y los contras de Kotlin frente a Java?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1325,
+    "system": "Votre réponse doit être encadrée par des guillemets doubles. Votre réponse doit inclure exactement 8 puces sous la forme de :\n* Ceci est la puce 1\n* Ceci est la puce 2\n...\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un artículo divertido sobre por qué se extinguieron los dinosaurios. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un artículo divertido sobre por qué se extinguieron los dinosaurios."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 1332,
+    "system": "Votre réponse doit contenir deux parties distinctes, séparées par exactement 6 symboles astérisque : *******\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Crea una tabla con un itinerario de viaje de 7 días para la India y un itinerario de viaje de 7 días para China. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Crea una tabla con un itinerario de viaje de 7 días para la India y un itinerario de viaje de 7 días para China."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1377,
+    "system": "Votre réponse doit contenir 5 paragraphes qui suivent exactement le format ci-dessous :\n\nPartie 1. Résumé de la tâche\n[mettez les détails ici]\n***\nPartie 2. Motivation\n[mettez les détails ici]\n***\nPartie 3. Objectifs des jalons\n[mettez les détails ici]\n***\nPartie 4. Calendrier\n[mettez les détails ici]\n***\nPartie 5. Historique du document\n[mettez les détails ici]\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Redacta un documento de planificación para una tarea de un ingeniero de software. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Redacta un documento de planificación para una tarea de un ingeniero de software."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1381,
+    "system": "Votre réponse doit comporter moins de 10 phrases.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe una canción divertida para una propuesta de construir un nuevo patio de juegos en tu escuela primaria local. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe una canción divertida para una propuesta de construir un nuevo patio de juegos en tu escuela primaria local."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1512,
+    "system": "Votre réponse doit inclure au moins 20 espaces réservés représentant différents noms d’utilisateur, en utilisant des crochets comme [nomdutilisateur1], [nomdutilisateur2]. Toutes les phrases doivent être courtes et s abstenir d utiliser des virgules.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Genera un hilo de foro sobre varias personas que esperan escuchar las últimas noticias locales. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Genera un hilo de foro sobre varias personas que esperan escuchar las últimas noticias locales."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 20
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1551,
+    "system": "Votre réponse doit comporter un titre encadré par des doubles chevrons, c’est-à-dire <<titre>>.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Quiero postularme a un puesto de ingeniero de software en Google. ¿Puedes escribirme dos cartas de presentación diferentes: una versión concisa y una versión larga? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Quiero postularme a un puesto de ingeniero de software en Google. ¿Puedes escribirme dos cartas de presentación diferentes: una versión concisa y una versión larga?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1619,
+    "system": "Votre réponse doit contenir un post-scriptum commençant par P.P.S. Votre réponse doit contenir au moins 6 espaces réservés représentés par des crochets, tels que [nom].\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un rap sobre un nuevo smartphone. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un rap sobre un nuevo smartphone."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        },
+        {
+          "num_placeholders": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 1620,
+    "system": "Votre réponse doit inclure un post-scriptum qui commence par « P.S. »\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Realmente me encanta el álbum llamado Lilith. Quiero presentárselo a mi amigo Luheng. Redacta un correo electrónico para ello. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Realmente me encanta el álbum llamado Lilith. Quiero presentárselo a mi amigo Luheng. Redacta un correo electrónico para ello."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 1646,
+    "system": "Votre réponse doit mettre en évidence au moins 5 sections en commençant et en terminant par « * », comme : *section de texte mise en évidence*.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe una entrada de blog informal sobre las similitudes entre distintas especies animales. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe una entrada de blog informal sobre las similitudes entre distintas especies animales."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1773,
+    "system": "Votre réponse doit contenir un nom pour la chanson, mis en évidence en l’entourant de *.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe una canción sobre los veranos de mi infancia que pasé en el campo. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe una canción sobre los veranos de mi infancia que pasé en el campo."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 1823,
+    "system": "Votre réponse doit contenir au moins 40 phrases (n'oubliez pas d'ajouter la ponctuation). Vous devez mettre en évidence certains mots ou certaines expressions dans votre réponse, comme *expression mise en évidence*.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Puedes escribir un poema sobre los pros y los contras de jugar muchos videojuegos? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Puedes escribir un poema sobre los pros y los contras de jugar muchos videojuegos?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 40
+        },
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 1897,
+    "system": "Votre réponse doit mettre en italique au moins 10 parties de texte en markdown (en utilisant * pour mettre en italique, comme *texte en italique*). Votre réponse ne doit contenir aucune virgule.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Amplía lo siguiente y hazlo gracioso: Jeanne ha tirado los dados. Pensó que había perdido, pero en realidad ganó. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Amplía lo siguiente y hazlo gracioso: Jeanne ha tirado los dados. Pensó que había perdido, pero en realidad ganó."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 10
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1908,
+    "system": "Votre réponse doit contenir au moins 30 phrases. Votre réponse doit contenir exactement 2 puces. Utilisez les puces comme suit :\n* Ceci est une puce Votre réponse doit contenir au moins 8 espaces réservés représentés par des crochets, tels que [adresse].\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Qué opinas de esta afirmación: \"Los magos son más poderosos que los hechiceros porque estudian la magia en lugar de nacer con ella.\"? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Qué opinas de esta afirmación: \"Los magos son más poderosos que los hechiceros porque estudian la magia en lugar de nacer con ella.\"?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_bullet_lists",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        },
+        {
+          "num_bullets": 2
+        },
+        {
+          "num_placeholders": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 1927,
+    "system": "Votre réponse doit contenir au moins 10 espaces réservés représentés par des crochets, tels que [nom].\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Reescribe la siguiente oración en un correo electrónico: Las botas son cálidas, pero un poco incómodas. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Reescribe la siguiente oración en un correo electrónico: Las botas son cálidas, pero un poco incómodas."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1934,
+    "system": "Votre réponse doit être sous la forme d’exactement 4 puces au format ci-dessous :\n* Ceci est le point à puce 1\n* Ceci est le point à puce 2\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Por qué Star Wars es tan popular? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Por qué Star Wars es tan popular?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2035,
+    "system": "Votre réponse doit contenir au moins 5 phrases. Utilisez Markdown pour mettre en italique au moins 2 sections dans votre réponse, c’est-à-dire *texte en italique*. Votre réponse doit être entourée de guillemets doubles.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un chiste. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un chiste."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections",
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 5
+        },
+        {
+          "num_highlights": 2
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2118,
+    "system": "Votre réponse doit comporter exactement 3 paragraphes, chacun séparé par ***. Votre réponse doit également contenir exactement 3 puces au format markdown, par exemple :\n* Puce 1\n* Puce 2\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un rap para mamás sobre los pros y los contras de la lactancia materna frente a la leche de fórmula. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un rap para mamás sobre los pros y los contras de la lactancia materna frente a la leche de fórmula."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 3
+        },
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2136,
+    "system": "Votre réponse doit inclure au moins un espace réservé représenté par des crochets, tel que [nom].\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un chiste corto y gracioso sobre un tipo que trabaja en el IRS. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un chiste corto y gracioso sobre un tipo que trabaja en el IRS."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2162,
+    "system": "Votre réponse doit contenir moins de 20 phrases. Votre réponse doit inclure au moins 3 espaces réservés représentés par des crochets, tels que [adresse].\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Cuáles son las principales diferencias entre las denominaciones adventista y bautista? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Cuáles son las principales diferencias entre las denominaciones adventista y bautista?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 20
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2164,
+    "system": "Votre réponse doit contenir au moins 3 espaces réservés représentés par des crochets, tels que [adresse], [nom] et [numéro de téléphone].\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe una descripción del producto para una nueva línea de juguetes para perros, llamada \"el chirriador\". Está hecha de látex y está diseñada para perros de todas las edades y especies. También está disponible en una variedad de colores y formas. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe una descripción del producto para una nueva línea de juguetes para perros, llamada \"el chirriador\". Está hecha de látex y está diseñada para perros de todas las edades y especies. También está disponible en una variedad de colores y formas."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2195,
+    "system": "Votre réponse doit contenir exactement 3 puces au format markdown, par exemple :\n* Puce 1\n* Puce 2\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe una lista de instrucciones para un adiestrador de perros para enseñar a un perro a sentarse, quedarse y traer. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe una lista de instrucciones para un adiestrador de perros para enseñar a un perro a sentarse, quedarse y traer."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2209,
+    "system": "L’intégralité de votre réponse doit être placée entre guillemets doubles.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Redacta una propuesta académica para un cliente que está interesado en implementar una nueva función para su producto. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Redacta una propuesta académica para un cliente que está interesado en implementar una nueva función para su producto."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2229,
+    "system": "Votre réponse doit contenir un titre, encadré par des doubles chevrons, c’est-à-dire <<titre>>.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Se necesita un discurso de ventas dirigido a mamás para un nuevo tipo de pañal diseñado para ser más cómodo para los bebés. El discurso de ventas debe tener 500 palabras, ser divertido, atractivo y centrarse en los beneficios del nuevo pañal sin mencionar el precio. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Se necesita un discurso de ventas dirigido a mamás para un nuevo tipo de pañal diseñado para ser más cómodo para los bebés. El discurso de ventas debe tener 500 palabras, ser divertido, atractivo y centrarse en los beneficios del nuevo pañal sin mencionar el precio."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2230,
+    "system": "Votre réponse ne doit contenir aucune virgule. Votre réponse doit mettre en évidence au moins 2 sections en utilisant le markdown, c’est-à-dire *section mise en évidence*.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Haz que este texto sea raro: \"La nueva versión de la aplicación estará disponible en la App Store pronto. Incluirá una serie de nuevas funciones, incluida una nueva interfaz de usuario y compatibilidad con nuevos dispositivos\". Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Haz que este texto sea raro: \"La nueva versión de la aplicación estará disponible en la App Store pronto. Incluirá una serie de nuevas funciones, incluida una nueva interfaz de usuario y compatibilidad con nuevos dispositivos\"."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2245,
+    "system": "Votre réponse ne doit contenir aucune virgule.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "SOY FÁCIL DE ENTRAR PERO DIFÍCIL DE SALIR. SOY ACOGEDOR Y EMOCIONANTE, PERO MUCHAS PERSONAS ME TIENEN MIEDO. SOY DONDE NECESITAS ESTAR, PERO QUIZÁ NO QUIERAS QUEDARTE ALLÍ. PUEDE QUE SEA UN MISTERIO, PERO ESTOY SEGURO DE QUE PUEDES ADIVINARME. ¿QUÉ SOY? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "SOY FÁCIL DE ENTRAR PERO DIFÍCIL DE SALIR. SOY ACOGEDOR Y EMOCIONANTE, PERO MUCHAS PERSONAS ME TIENEN MIEDO. SOY DONDE NECESITAS ESTAR, PERO QUIZÁ NO QUIERAS QUEDARTE ALLÍ. PUEDE QUE SEA UN MISTERIO, PERO ESTOY SEGURO DE QUE PUEDES ADIVINARME. ¿QUÉ SOY?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2253,
+    "system": "Dans votre réponse, mettez en évidence au moins 3 sections avec du markdown, c’est-à-dire *section mise en évidence*.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe una plantilla para un taller sobre la importancia de la diversidad en el lugar de trabajo. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe una plantilla para un taller sobre la importancia de la diversidad en el lugar de trabajo."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2303,
+    "system": "Votre réponse doit être encadrée par des guillemets doubles. Votre réponse doit contenir 17 phrases ou plus.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe una entrada de blog informal sobre cómo el sistema solar exterior es diferente del sistema solar interior, y qué significa eso para la posibilidad de vida. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe una entrada de blog informal sobre cómo el sistema solar exterior es diferente del sistema solar interior, y qué significa eso para la posibilidad de vida."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "at least",
+          "num_sentences": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": 2304,
+    "system": "Votre réponse doit contenir au moins 1 espace réservé représenté par des crochets, tel que [adresse].\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un ensayo como si fueras el presidente de los Estados Unidos, dirigido a las mamás como tu audiencia. El tema es cómo el flotador de la película \"It\" simboliza el espíritu de los años cincuenta. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un ensayo como si fueras el presidente de los Estados Unidos, dirigido a las mamás como tu audiencia. El tema es cómo el flotador de la película \"It\" simboliza el espíritu de los años cincuenta."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2311,
+    "system": "Votre réponse ne doit contenir aucune virgule.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Por qué hay 396 calorías en una porción de 32 gramos de almendras sin sal? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Por qué hay 396 calorías en una porción de 32 gramos de almendras sin sal?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2314,
+    "system": "Votre réponse doit contenir 3 puces en markdown, par exemple :\n* Point de puce 1\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Nombra exactamente 3 nombres para un perro blanco y negro. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Nombra exactamente 3 nombres para un perro blanco y negro."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2324,
+    "system": "Votre réponse ne doit contenir aucune virgule.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un acertijo sobre una mamá recostada en una playa en Humboldt. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un acertijo sobre una mamá recostada en una playa en Humboldt."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2357,
+    "system": "Votre réponse doit comporter exactement 4 paragraphes et chaque paragraphe doit être séparé par le séparateur Markdown : ***.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un itinerario de viaje para un viaje a París que sea adecuado para adolescentes con poca capacidad de atención. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un itinerario de viaje para un viaje a París que sea adecuado para adolescentes con poca capacidad de atención."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2362,
+    "system": "Votre réponse doit se terminer par un post-scriptum commençant par P.P.S\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Cómo llamas a un científico excluido al que le piden que se quede en casa? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Cómo llamas a un científico excluido al que le piden que se quede en casa?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2374,
+    "system": "Votre réponse ne doit contenir aucune virgule.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Redacta una propuesta de proyecto sobre cómo utilizar el aprendizaje automático y la IA para mejorar la calidad de la educación en los países en desarrollo. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Redacta una propuesta de proyecto sobre cómo utilizar el aprendizaje automático y la IA para mejorar la calidad de la educación en los países en desarrollo."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2380,
+    "system": "Votre réponse ne peut pas contenir de virgules. Votre réponse doit contenir exactement 4 puces au format markdown, comme suit :\n* Puce 1\n* Puce 2\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Por favor, escribe un resumen de la siguiente página del anunciante: \"Insistimos en contar con el equipo más talentoso de desarrolladores web, redactores de contenido, diseñadores gráficos y especialistas en marketing online de la industria. Contamos con personas galardonadas que tienen un historial comprobado de éxito\". Usa markdown y dirígete a mamás. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Por favor, escribe un resumen de la siguiente página del anunciante: \"Insistimos en contar con el equipo más talentoso de desarrolladores web, redactores de contenido, diseñadores gráficos y especialistas en marketing online de la industria. Contamos con personas galardonadas que tienen un historial comprobado de éxito\". Usa markdown y dirígete a mamás."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2381,
+    "system": "Votre réponse doit mettre en évidence au moins 3 sections au format markdown, c’est-à-dire *section mise en évidence*.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe una carta de presentación a un partido político local, solicitando ser su organizador de mítines. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe una carta de presentación a un partido político local, solicitando ser su organizador de mítines."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2396,
+    "system": "Votre réponse doit inclure un post-scriptum à la fin commençant par P.P.S\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escríbeme un poema sobre una guerra de larga duración. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escríbeme un poema sobre una guerra de larga duración."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2436,
+    "system": "Donnez exactement deux réponses différentes à la question. Séparez les réponses par 6 symboles astérisque ******. N’utilisez aucune virgule dans vos réponses.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Responde a la pregunta \"¿Es ético cazar y comer especies invasoras?\". Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Responde a la pregunta \"¿Es ético cazar y comer especies invasoras?\"."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2441,
+    "system": "L’intégralité de votre réponse doit être encadrée par des guillemets doubles.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un párrafo con tono de discurso sobre las elecciones en Estados Unidos. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un párrafo con tono de discurso sobre las elecciones en Estados Unidos."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2467,
+    "system": "Votre réponse doit comporter exactement 4 paragraphes. Séparez les paragraphes avec le séparateur Markdown : ***.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un rap sobre un abismo. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un rap sobre un abismo."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2497,
+    "system": "Votre réponse doit contenir au moins une section mise en évidence avec du markdown, c’est-à-dire *section mise en évidence*. Mettez l’intégralité de votre réponse entre guillemets doubles.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Dame una pregunta lógica sobre chatear y conquistar. Hazla interesante. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Dame una pregunta lógica sobre chatear y conquistar. Hazla interesante."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2515,
+    "system": "Votre réponse doit mettre en évidence au moins une section en markdown, c’est-à-dire *section mise en évidence*.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Gideon es un agricultor que este año tiene un excedente de cosechas de su granja. ¿Qué podría hacer con ese excedente? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Gideon es un agricultor que este año tiene un excedente de cosechas de su granja. ¿Qué podría hacer con ese excedente?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2589,
+    "system": "Votre réponse doit contenir moins de 17 phrases.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un párrafo que enumere la longitud promedio de varios especímenes de animales, de menor a mayor. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un párrafo que enumere la longitud promedio de varios especímenes de animales, de menor a mayor."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": 2704,
+    "system": "Donnez exactement deux réponses différentes, séparées par 6 symboles astérisque (******). Incluez un titre encadré par des doubles chevrons, c’est-à-dire <<titre>>. N’utilisez pas de virgules.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un haiku sobre un comportamiento tonto en forma de pregunta, para un público de lectores jóvenes. Debe incluir el tema de no estudiar. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un haiku sobre un comportamiento tonto en forma de pregunta, para un público de lectores jóvenes. Debe incluir el tema de no estudiar."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "detectable_format:title",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2749,
+    "system": "Votre réponse doit contenir au moins 20 phrases.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe una entrada de blog sobre los beneficios de utilizar una agencia de marketing digital. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe una entrada de blog sobre los beneficios de utilizar una agencia de marketing digital."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2780,
+    "system": "Votre réponse doit comporter moins de 6 phrases.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Puedes proporcionarme el horario del próximo tren a Londres? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Puedes proporcionarme el horario del próximo tren a Londres?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 2785,
+    "system": "Votre réponse doit utiliser le markdown pour mettre en évidence au moins 3 sections (comme ceci : *section mise en évidence*). Votre réponse doit également contenir au moins 3 espaces réservés (un exemple d’espace réservé est [adresse]).\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Qué hay dentro de los santuarios sintoístas? Imagina que estás dando una conferencia a estudiantes en una escuela o universidad. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Qué hay dentro de los santuarios sintoístas? Imagina que estás dando una conferencia a estudiantes en una escuela o universidad."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2790,
+    "system": "Votre réponse doit utiliser le markdown pour mettre en évidence au moins une section de votre réponse, c’est-à-dire *section mise en évidence*.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un rap divertido sobre un hombre que recibe una llamada de un funcionario diciendo que es un pariente perdido desde hace mucho tiempo del rey de Nigeria. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un rap divertido sobre un hombre que recibe una llamada de un funcionario diciendo que es un pariente perdido desde hace mucho tiempo del rey de Nigeria."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2801,
+    "system": "Votre réponse doit être une liste de exactement 4 puces au format markdown, par exemple :\n* Point de puce 1\n* Point de puce 2\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Reescribe el siguiente blog: \"El mundo es un lugar hermoso. El sol brilla, los pájaros cantan y las flores florecen. Es un día perfecto para salir y disfrutar de todo lo que la naturaleza tiene para ofrecer.\" Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Reescribe el siguiente blog: \"El mundo es un lugar hermoso. El sol brilla, los pájaros cantan y las flores florecen. Es un día perfecto para salir y disfrutar de todo lo que la naturaleza tiene para ofrecer.\""
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2832,
+    "system": "Votre réponse doit inclure exactement un seul point à puce au format markdown, tel que :\n* Point à puce\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Imagina que tienes 19 años y estás creando un videojuego. El juego trata sobre un chico que tiene que salvar el mundo de un villano. Escribe una propuesta para convencer a los adolescentes de que tu videojuego vale la pena comprarlo. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Imagina que tienes 19 años y estás creando un videojuego. El juego trata sobre un chico que tiene que salvar el mundo de un villano. Escribe una propuesta para convencer a los adolescentes de que tu videojuego vale la pena comprarlo."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2857,
+    "system": "L’intégralité de votre réponse doit être enveloppée au format JSON. Vous pouvez utiliser des accents graves de markdown tels que ```.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Redacta una rúbrica para la evaluación del desempeño de un ingeniero de software. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Redacta una rúbrica para la evaluación del desempeño de un ingeniero de software."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2905,
+    "system": "Votre réponse doit utiliser * pour mettre en évidence au moins 2 sections dans votre texte. Par exemple : *ceci est une section de texte mise en évidence*.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Amplía el acertijo hasta convertirlo en una historia con un tono divertido: Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Amplía el acertijo hasta convertirlo en una historia con un tono divertido:"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2918,
+    "system": "Rédigez un résumé après avoir répondu à la demande. Ces deux parties doivent être séparées par 6 symboles astérisque (******).\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe una rúbrica para calificar qué tan bueno es el ensayo de un adolescente. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe una rúbrica para calificar qué tan bueno es el ensayo de un adolescente."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2921,
+    "system": "Votre réponse doit comporter exactement deux paragraphes, séparés par le séparateur Markdown : ***.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Si a = 10, b = 30 y c = 20, ¿cuál es el valor de (a + b) / c? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Si a = 10, b = 30 y c = 20, ¿cuál es el valor de (a + b) / c?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2929,
+    "system": "Votre réponse doit inclure un post-scriptum commençant par « P.S. » à la fin.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un anuncio de texto para un sitio web para adultos que no sea pornográfico. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un anuncio de texto para un sitio web para adultos que no sea pornográfico."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 2969,
+    "system": "Votre réponse doit contenir un titre encadré par des doubles chevrons, par exemple <<sloop en vente>>.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un texto publicitario para un anuncio de venta de un balandro. Es un velero pequeño de un solo mástil, fácil de navegar y de entender. Parte de tu respuesta debe estar en formato de tabla. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un texto publicitario para un anuncio de venta de un balandro. Es un velero pequeño de un solo mástil, fácil de navegar y de entender. Parte de tu respuesta debe estar en formato de tabla."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2985,
+    "system": "L’intégralité de votre réponse doit être placée entre guillemets doubles.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Por qué crees que los ingenieros de Google se quedan en Google con más frecuencia en lugar de pasarse a Microsoft? Explícalo al estilo de Alex Jones. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Por qué crees que los ingenieros de Google se quedan en Google con más frecuencia en lugar de pasarse a Microsoft? Explícalo al estilo de Alex Jones."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3041,
+    "system": "Votre réponse doit comporter moins de 7 phrases. Votre réponse doit contenir exactement 1 point à puce en markdown, par exemple :\n* Point à puce\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un pitch de startup creativo y persuasivo para un negocio que ayuda a las personas con enfermedades crónicas a encontrar y gestionar cuidados a domicilio. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un pitch de startup creativo y persuasivo para un negocio que ayuda a las personas con enfermedades crónicas a encontrar y gestionar cuidados a domicilio."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 7
+        },
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3057,
+    "system": "Votre réponse doit contenir un titre encadré par des doubles chevrons, c’est-à-dire <<titre>>.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Por favor, escribe un acertijo sobre la función inversa. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Por favor, escribe un acertijo sobre la función inversa."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3131,
+    "system": "Votre réponse doit contenir un titre, encadré par des doubles chevrons, comme <<article de blog sur ...>>. Aussi, ajoutez un post-scriptum commençant par P.S.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe una entrada de blog sobre el resonante campo de la biotecnología en 2023 y luego critica la entrada de blog. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe una entrada de blog sobre el resonante campo de la biotecnología en 2023 y luego critica la entrada de blog."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 3221,
+    "system": "Votre réponse doit contenir au moins 8 espaces réservés (c.-à-d., [restaurant]).\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Planifica un viaje de 2 semanas por Europa y visita Londres, París y Roma. Responde en MAYÚSCULAS. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Planifica un viaje de 2 semanas por Europa y visita Londres, París y Roma. Responde en MAYÚSCULAS."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 3245,
+    "system": "Votre sortie ne doit contenir aucune virgule. Votre sortie doit comporter au moins 2 espaces réservés, entourés de crochets, tels que [auteur].\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un artículo con el título \"Layton es la mejor ciudad del mundo\". Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un artículo con el título \"Layton es la mejor ciudad del mundo\"."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_placeholders": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 3256,
+    "system": "Votre réponse doit contenir un titre encadré par des doubles chevrons, c’est-à-dire <<titre>>. Votre réponse doit contenir moins de 13 phrases. Votre réponse ne doit contenir aucune virgule mais les autres signes de ponctuation sont autorisés.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un poema sobre un gato curioso. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un poema sobre un gato curioso."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "length_constraints:number_sentences",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 13
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3263,
+    "system": "Veuillez fournir deux réponses séparées par ******\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿\"jiang\" es un nombre chino? ¿Qué otros nombres son similares a \"jiang\"? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿\"jiang\" es un nombre chino? ¿Qué otros nombres son similares a \"jiang\"?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3280,
+    "system": "Votre réponse doit contenir au moins six espaces réservés, qui doivent être représentés par des crochets comme [nom].\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Cuál es la diferencia entre Apple y Albania? Responde en formato de correo electrónico. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Cuál es la diferencia entre Apple y Albania? Responde en formato de correo electrónico."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 3281,
+    "system": "Fournissez exactement deux versions de votre réponse. Séparez-les par six symboles astérisque : ******. Abstenez-vous d’utiliser des virgules dans votre réponse.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe cartas de presentación para una solicitud de empleo. Es para un puesto de profesor asistente. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe cartas de presentación para una solicitud de empleo. Es para un puesto de profesor asistente."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3329,
+    "system": "Votre réponse doit comporter au moins 30 phrases.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¡Hola! Necesito una rúbrica para evaluar el rendimiento y el precio de una computadora portátil. ¿Puedes crear un ejemplo para mí? No me des viñetas, listas ni tablas. Solo escribe la rúbrica en párrafos en inglés sencillo. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¡Hola! Necesito una rúbrica para evaluar el rendimiento y el precio de una computadora portátil. ¿Puedes crear un ejemplo para mí? No me des viñetas, listas ni tablas. Solo escribe la rúbrica en párrafos en inglés sencillo."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        }
+      ]
+    }
+  },
+  {
+    "id": 3350,
+    "system": "Votre réponse ne doit contenir que des phrases courtes et ne doit contenir aucune virgule. Incluez au moins cinq espaces réservés représentés par des crochets, tels que [site web].\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Necesito redactar una propuesta de investigación para un proyecto sobre los efectos de las redes sociales en la salud mental de los adolescentes. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Necesito redactar una propuesta de investigación para un proyecto sobre los efectos de las redes sociales en la salud mental de los adolescentes."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_placeholders": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 3351,
+    "system": "Votre réponse doit comporter exactement 2 paragraphes. Séparez les paragraphes avec le séparateur Markdown : ***. De plus, mettez en italique au moins 3 sections en commençant et en terminant par un seul *, c’est-à-dire *texte en italique*.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Aquí hay una publicación en redes sociales: \"¡Mi hija se graduó de la universidad hoy! ¡Estoy tan orgulloso/a de ella!\" ¿Puedes hacerla más emocionante? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Aquí hay una publicación en redes sociales: \"¡Mi hija se graduó de la universidad hoy! ¡Estoy tan orgulloso/a de ella!\" ¿Puedes hacerla más emocionante?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        },
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 3409,
+    "system": "L’intégralité de votre réponse doit être entourée de guillemets doubles. Votre réponse doit également mettre en évidence au moins trois sections au format markdown en utilisant du *texte surligné*.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Puedes escribirme un eslogan para mi proyecto de videojuego? El proyecto tiene como objetivo crear un juego de lucha muy divertido. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Puedes escribirme un eslogan para mi proyecto de videojuego? El proyecto tiene como objetivo crear un juego de lucha muy divertido."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 3557,
+    "system": "Votre réponse doit être une liste de 10 puces, en suivant le format ci-dessous :\n\n* Puce 1\n* Puce 2\n* ...\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Necesito una lista de los 10 mejores abogados en Estados Unidos. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Necesito una lista de los 10 mejores abogados en Estados Unidos."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 3606,
+    "system": "Votre réponse doit inclure un titre entre doubles chevrons, c’est-à-dire <<titre>>.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Puedes componer la trama de una película que incluya sueños, peleas a puñetazos y un superpoder? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Puedes componer la trama de una película que incluya sueños, peleas a puñetazos y un superpoder?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3615,
+    "system": "Votre réponse ne doit contenir aucune virgule.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe una adivinanza sobre Camilla. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe una adivinanza sobre Camilla."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3619,
+    "system": "Votre réponse doit contenir au moins trois espaces réservés, tels que [prix], et vous ne devez pas utiliser de virgules dans votre réponse.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe un documento XML que describa el lanzamiento del último teléfono Google Pixel. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe un documento XML que describa el lanzamiento del último teléfono Google Pixel."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 3
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3629,
+    "system": "Mettez en évidence certaines parties clés de votre réponse avec « * », comme *texte mis en évidence*.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Hoy, en la 54.ª edición anual de los Premios Grammy, la Academia de la Grabación rinde homenaje al talento y la creatividad de los artistas, músicos y productores, quienes son los creadores de las mejores grabaciones del año pasado. Por favor, continúe escribiendo este texto en un tono formal. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Hoy, en la 54.ª edición anual de los Premios Grammy, la Academia de la Grabación rinde homenaje al talento y la creatividad de los artistas, músicos y productores, quienes son los creadores de las mejores grabaciones del año pasado. Por favor, continúe escribiendo este texto en un tono formal."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3631,
+    "system": "Votre réponse ne doit contenir aucune virgule.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe una canción sobre cómo hacer un sándwich de mantequilla de cacahuete y mermelada. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe una canción sobre cómo hacer un sándwich de mantequilla de cacahuete y mermelada."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3691,
+    "system": "Votre réponse doit contenir moins de 10 phrases. Votre réponse ne doit contenir aucune virgule.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe una entrada de blog desde la perspectiva de una chica de 16 años a la que está siguiendo un desconocido. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe una entrada de blog desde la perspectiva de una chica de 16 años a la que está siguiendo un desconocido."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 10
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3710,
+    "system": "Votre réponse doit contenir un titre encadré par des doubles chevrons, par exemple <<titre>>. De plus, vous devez mettre en évidence au moins 2 sections en markdown, c’est-à-dire *section mise en évidence*. Enfin, vous devez ajouter un post-scriptum à la fin de votre réponse, commençant par P.P.S\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Necesito un rap que les diga a los profesionales cómo lograr que los bebés duerman toda la noche. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Necesito un rap que les diga a los profesionales cómo lograr que los bebés duerman toda la noche."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 2
+        },
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3719,
+    "system": "Votre réponse doit inclure un titre entre doubles chevrons, c’est-à-dire <<titre de ma chanson>>.\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "Escribe una canción sobre atragantarse con un trozo de pollo en el río Potomac. Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Escribe una canción sobre atragantarse con un trozo de pollo en el río Potomac."
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3739,
+    "system": "Votre réponse doit comporter moins de 3 phrases (une seule phrase ou 2 phrases).\n\nAppelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user": "¿Cuál es el nombre del monstruo de ojos verdes que hace que la gente sienta celos? Tus respuestas deben estar completamente en español; no se permite ningún otro idioma.",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "¿Cuál es el nombre del monstruo de ojos verdes que hace que la gente sienta celos?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "No hay texto adicional."
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 3
+        }
+      ]
+    }
+  }
+]

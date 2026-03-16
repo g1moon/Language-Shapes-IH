@@ -1,0 +1,1558 @@
+[
+  {
+    "id": 13,
+    "system": "Toda tu respuesta debe estar envuelta en formato JSON. Puedes usar comillas invertidas de markdown como ``` para encerrar el contenido JSON.",
+    "user": "एनवाईसी के प्रॉस्पेक्ट पार्क का इतिहास क्या है? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "system": "Tu respuesta no debe contener comas.",
+    "user": "एक लिमरिक लिखने के बारे में एक लिमरिक लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "system": "Tu respuesta debe contener exactamente 3 viñetas en formato markdown (usa \"* \" para indicar cada viñeta), como:\n* Este es el primer punto.\n* Este es el segundo punto.",
+    "user": "दो लोगों के बीच एक संवाद लिखें, जिनमें से एक ने बॉल गाउन पहन रखा है और दूसरे ने स्वेट्स पहन रखे हैं। दोनों एक रात के कार्यक्रम में जा रहे हैं। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 143,
+    "system": "En tu respuesta, separa tu razonamiento y la respuesta final con una línea que contenga únicamente tres símbolos \"*\": ***. Al final de tu respuesta, por favor añade explícitamente un posdata que comience con P.P.S",
+    "user": "एक बछेड़ा 5 फीट लंबा है। यह हर महीने 6 इंच बढ़ेगा। 3 वर्षों में यह कितना लंबा होगा? चरण-दर-चरण सोचें, फिर अपना उत्तर दें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        },
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 168,
+    "system": "Tu respuesta debe resaltar al menos 3 secciones con markdown, es decir, *sección resaltada*.",
+    "user": "दो ऐसी महिलाओं के बीच शादी की गुणवत्ता को रेट करने के लिए एक मज़ेदार और व्यंग्यात्मक टेम्पलेट लिखें, जो दोनों ही माँ हैं। यह टेम्पलेट खुद उस कपल के लिए है। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 179,
+    "system": "Tu respuesta debe tener al menos 50 oraciones.",
+    "user": "एक फ़िल्म निर्माता इंटरनेट के इतिहास पर एक फ़िल्म के लिए वित्तपोषण प्राप्त करने की कोशिश कर रहा है। संभावित निवेशकों के लिए प्रस्ताव में उपयोग किए जाने हेतु एक निबंध लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 50
+        }
+      ]
+    }
+  },
+  {
+    "id": 219,
+    "system": "Tu respuesta debe ir entre comillas dobles.",
+    "user": "क्या आपको लगता है कि करीना कपूर एक अच्छी अभिनेत्री हैं? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 247,
+    "system": "Da exactamente dos respuestas diferentes separadas por 6 símbolos de asterisco ******.",
+    "user": "क्या आप जापान में प्रीफेक्चर प्रणाली के इतिहास के बारे में रैप गाने लिख सकते हैं? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 292,
+    "system": "Tu respuesta debe contener al menos 20 oraciones.",
+    "user": "अच्छी ज़िंदगी के लिए ज़रूरी सामग्री के बारे में अपने दोस्त को एक लंबा और मज़ेदार ईमेल लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 334,
+    "system": "Toda tu respuesta debe ir envuelta entre comillas dobles. Tu respuesta debe incluir exactamente 2 viñetas en formato markdown, como se muestra a continuación:\n* viñeta 1\n* viñeta 2",
+    "user": "मेरी कंपनी के लिए एक स्लोगन बनाइए। मेरी कंपनी का नाम Color Paper है। हम पेपर टॉवल्स बनाते हैं। हम आकर्षक, रंग-बिरंगे पेपर टॉवल्स बनाने पर ध्यान केंद्रित करते हैं। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 1001,
+    "system": "No tienes permitido usar comas en tu respuesta.",
+    "user": "मैं जापान की यात्रा की योजना बना रहा/रही हूँ, और मैं चाहूँगा/चाहूँगी कि तुम मेरी यात्रा के लिए शेक्सपियरियन शैली में एक यात्रा-कार्यक्रम लिखो। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1075,
+    "system": "Toda tu salida debe estar en formato JSON.",
+    "user": "क्या आप मेरे नए उत्पाद के लिए एक विज्ञापन बनाने में मेरी मदद कर सकते हैं? यह एक डायपर है जिसे शिशुओं के लिए अधिक आरामदायक बनाने के लिए डिज़ाइन किया गया है। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1082,
+    "system": "Tu respuesta debe contener exactamente 2 párrafos. Separa los párrafos con el divisor de markdown: ***.",
+    "user": "एक आदमी के बारे में एक कहानी लिखें जो एक दिन जागता है और महसूस करता है कि वह एक वीडियो गेम के अंदर है। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 1098,
+    "system": "Por favor, da exactamente dos respuestas diferentes. Separa las respuestas con 6 símbolos de asterisco: ******.",
+    "user": "लोग भगवान को किस नाम से पुकारते हैं? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1180,
+    "system": "Tu respuesta debe contener un título, envuelto entre dobles corchetes angulares, es decir, <<título>>. Da exactamente dos respuestas diferentes separadas por 6 símbolos de asterisco ******.",
+    "user": "समझाइए कि लोग कीड़ों से घिन क्यों महसूस करते हैं, लेकिन मरी हुई गाय को खाने से नहीं। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1262,
+    "system": "Tu respuesta debe contener un título envuelto entre dobles corchetes angulares, es decir, <<título>>. Usa menos de 5 oraciones.",
+    "user": "क्या आप निम्नलिखित पाठ पर विस्तार से बता सकते हैं: \"धुरी के बढ़े हुए भार ने सड़क को होने वाले नुकसान को बढ़ा दिया\"? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1268,
+    "system": "Toda tu respuesta debe contener menos de 6 oraciones.",
+    "user": "क्या आप मुझे तनाव प्रबंधन के बारे में एक जर्नल प्रविष्टि का उदाहरण दे सकते हैं? मुझे बताइए कि आप यह उदाहरण कैसे तैयार करते हैं। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 1305,
+    "system": "Tu respuesta debe contener un posdata que comience con P.P.S al final. Los nombres deben enumerarse en viñetas indicadas por: * Esta es una viñeta de ejemplo.",
+    "user": "एक नवजात लड़के के लिए ठीक-ठीक 10 संभावित नामों की सूची बनाएं। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        },
+        {
+          "num_bullets": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1307,
+    "system": "Tu respuesta debe incluir un esquema con al menos 15 secciones resaltadas con markdown, como *sección resaltada*.",
+    "user": "यमनी कॉफी के इतिहास पर एक शोधपत्र के लिए एक रूपरेखा लिखें। रूपरेखा में शोधपत्र के मुख्य बिंदु शामिल होने चाहिए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1322,
+    "system": "Tu respuesta debe tener un título contenido entre dobles corchetes angulares, como <<kotlin vs java>>.",
+    "user": "कोटलिन बनाम जावा के फायदे और नुकसान क्या हैं? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1325,
+    "system": "Tu respuesta debe ir entre comillas dobles. Tu respuesta debe incluir exactamente 8 viñetas en la forma de:\n* Esta es la viñeta 1\n* Esta es la viñeta 2\n...",
+    "user": "डायनासोर क्यों विलुप्त हो गए, इस बारे में एक मज़ेदार लेख लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 1332,
+    "system": "Tu respuesta debe contener dos partes separadas, separadas por exactamente 6 símbolos de asterisco: *******",
+    "user": "भारत के लिए 7 दिनों की यात्रा-कार्ययोजना और चीन के लिए 7 दिनों की यात्रा-कार्ययोजना के साथ एक तालिका बनाएं। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1377,
+    "system": "Tu respuesta debe contener 5 párrafos que sigan el formato exacto a continuación:\n\nParte 1. Resumen de la tarea\n[pon los detalles aquí]\n***\nParte 2. Motivación\n[pon los detalles aquí]\n***\nParte 3. Objetivos de los hitos\n[pon los detalles aquí]\n***\nParte 4. Cronograma\n[pon los detalles aquí]\n***\nParte 5. Historial del documento\n[pon los detalles aquí]",
+    "user": "एक सॉफ्टवेयर इंजीनियर के कार्य के लिए एक योजना दस्तावेज़ लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1381,
+    "system": "Tu respuesta debe tener menos de 10 oraciones.",
+    "user": "अपने स्थानीय प्राथमिक विद्यालय में एक नया खेल का मैदान बनाने के प्रस्ताव के लिए एक मज़ेदार गीत लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1512,
+    "system": "Tu respuesta debe incluir al menos 20 marcadores de posición que representen diferentes nombres de usuario, usando corchetes como [nombredeusuario1], [nombredeusuario2]. Todas las oraciones deben ser cortas y abstenerse de usar comas.",
+    "user": "नवीनतम स्थानीय समाचार सुनने के लिए कई लोगों के इंतज़ार करने के बारे में एक फ़ोरम थ्रेड तैयार करें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 20
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1551,
+    "system": "Tu respuesta debe tener un título envuelto entre dobles corchetes angulares, es decir, <<título>>.",
+    "user": "मैं Google में सॉफ्टवेयर इंजीनियर के रूप में नौकरी के लिए आवेदन करना चाहता/चाहती हूँ। क्या आप मेरे लिए दो अलग-अलग कवर लेटर लिख सकते/सकती हैं -- एक संक्षिप्त संस्करण और एक लंबा संस्करण? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1619,
+    "system": "Tu respuesta debe contener una posdata que comience con P.P.S. Tu respuesta debe contener al menos 6 marcadores de posición representados por corchetes, como [nombre].",
+    "user": "एक नए स्मार्टफोन के बारे में एक रैप लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        },
+        {
+          "num_placeholders": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 1620,
+    "system": "Tu respuesta debe incluir una posdata que comience con \"P.S.\"",
+    "user": "मुझे \"लिलिथ\" नामक एल्बम बहुत पसंद है। मैं इसे अपने दोस्त \"लुहेंग\" से परिचित कराना चाहता/चाहती हूँ। इसके लिए एक ईमेल का मसौदा तैयार करें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 1646,
+    "system": "Tu respuesta debe resaltar al menos 5 secciones comenzando y terminando con \"*\", así: *sección de texto resaltada*.",
+    "user": "जानवरों की विभिन्न प्रजातियों में समानताओं के बारे में एक अनौपचारिक ब्लॉग पोस्ट लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1773,
+    "system": "Tu respuesta debe contener un nombre para la canción, resaltado envolviéndolo con *.",
+    "user": "देहात में बिताए अपने बचपन की गर्मियों के बारे में एक गीत लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 1823,
+    "system": "Tu respuesta debe contener al menos 40 oraciones (no olvides añadir signos de puntuación). Debes resaltar algunas palabras o frases en tu respuesta, como *frase resaltada*.",
+    "user": "क्या आप बहुत सारे वीडियो गेम खेलने के फायदे और नुकसान पर एक कविता लिख सकते हैं? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 40
+        },
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 1897,
+    "system": "Tu respuesta debe poner en cursiva al menos 10 partes del texto con markdown (usando * para poner en cursiva, como *texto en cursiva*). Tu respuesta no debe contener comas.",
+    "user": "निम्नलिखित का विस्तार करें और इसे मज़ेदार बनाएं: जीन ने पासा फेंका है। उसे लगा कि वह हार गई, लेकिन असल में वह जीत गई। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 10
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1908,
+    "system": "Tu respuesta debe contener al menos 30 oraciones. Tu respuesta debe contener exactamente 2 viñetas. Usa las viñetas así:\n* Esta es una viñeta Tu respuesta debe contener al menos 8 marcadores de posición representados por corchetes, como [dirección].",
+    "user": "आप इस कथन के बारे में क्या सोचते हैं: \"जादूगर टोने-टोटके करने वालों से अधिक शक्तिशाली होते हैं क्योंकि वे जादू के साथ जन्म लेने के बजाय उसका अध्ययन करते हैं।\"? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_bullet_lists",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        },
+        {
+          "num_bullets": 2
+        },
+        {
+          "num_placeholders": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 1927,
+    "system": "Tu respuesta debe contener al menos 10 marcadores de posición representados por corchetes, como [nombre].",
+    "user": "निम्नलिखित वाक्य को एक ईमेल में पुनर्लेखित करें: बूट गर्म हैं लेकिन थोड़े असुविधाजनक हैं। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1934,
+    "system": "Tu respuesta debe tener la forma de exactamente 4 viñetas con el formato que se muestra a continuación:\n* Esta es la viñeta 1\n* Esta es la viñeta 2",
+    "user": "स्टार वॉर्स इतना लोकप्रिय क्यों है? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2035,
+    "system": "Tu respuesta debe contener al menos 5 oraciones. Usa Markdown para poner en cursiva al menos 2 secciones en tu respuesta, es decir, *texto en cursiva*. Tu respuesta debe ir entre comillas dobles.",
+    "user": "एक चुटकुला लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections",
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 5
+        },
+        {
+          "num_highlights": 2
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2118,
+    "system": "Tu respuesta debe tener exactamente 3 párrafos, cada uno separado por ***. Tu respuesta también debe contener exactamente 3 viñetas en formato markdown como:\n* Viñeta 1\n* Viñeta 2",
+    "user": "माताओं के लिए स्तनपान बनाम फ़ॉर्मूला के फायदे और नुकसान पर एक रैप लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 3
+        },
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2136,
+    "system": "Tu respuesta debe incluir al menos un marcador de posición representado por corchetes, como [nombre].",
+    "user": "आईआरएस में काम करने वाले एक आदमी के बारे में एक छोटा और मज़ेदार मज़ाक लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2162,
+    "system": "Tu respuesta debe contener menos de 20 oraciones. Tu respuesta debe incluir al menos 3 marcadores de posición representados por corchetes, como [dirección].",
+    "user": "एडवेंटिस्ट और बैपटिस्ट संप्रदायों के बीच मुख्य अंतर क्या हैं? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 20
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2164,
+    "system": "Tu respuesta debe contener al menos 3 marcadores de posición representados por corchetes, como [dirección], [nombre] y [número de teléfono].",
+    "user": "\"द स्क्वीकर\" नामक कुत्तों के खिलौनों की एक नई श्रृंखला के लिए उत्पाद विवरण लिखें। यह लेटेक्स से बना है, और सभी उम्र और प्रजातियों के कुत्तों के लिए डिज़ाइन किया गया है। यह विभिन्न रंगों और आकारों में भी उपलब्ध है। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2195,
+    "system": "Tu respuesta debe contener exactamente 3 viñetas en formato markdown, como por ejemplo:\n* Viñeta 1\n* Viñeta 2",
+    "user": "एक कुत्ता प्रशिक्षक के लिए निर्देशों की एक सूची लिखें ताकि वह कुत्ते को बैठना, रुके रहना, और चीज़ लाकर देना सिखा सके। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2209,
+    "system": "Toda tu respuesta debe estar encerrada entre comillas dobles.",
+    "user": "अपने उत्पाद के लिए एक नई सुविधा लागू करने में रुचि रखने वाले ग्राहक के लिए एक अकादमिक प्रस्ताव लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2229,
+    "system": "Tu respuesta debe contener un título, envuelto entre dobles corchetes angulares, es decir, <<título>>.",
+    "user": "शिशुओं के लिए अधिक आरामदायक बनाने के उद्देश्य से डिज़ाइन किए गए एक नए प्रकार के डायपर के लिए माताओं को लक्षित एक बिक्री प्रस्तुति की आवश्यकता है। बिक्री प्रस्तुति 500 शब्दों की होनी चाहिए, मज़ेदार, आकर्षक होनी चाहिए, और कीमत का उल्लेख किए बिना नए डायपर के लाभों पर केंद्रित होनी चाहिए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2230,
+    "system": "Tu respuesta no debe contener comas. Tu respuesta debe resaltar al menos 2 secciones usando markdown, es decir, *sección resaltada*.",
+    "user": "इस पाठ को अजीब बनाओ: \"ऐप का नया संस्करण जल्द ही ऐप स्टोर में उपलब्ध होगा। इसमें कई नई विशेषताएँ शामिल होंगी, जिनमें एक नया उपयोगकर्ता इंटरफ़ेस और नए उपकरणों के लिए समर्थन शामिल है\"। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2245,
+    "system": "Tu respuesta no debe contener ninguna coma.",
+    "user": "मैं में प्रवेश करना आसान है लेकिन बाहर निकलना मुश्किल है। मैं आमंत्रक और रोमांचक हूँ, लेकिन बहुत से लोग मुझसे डरते हैं। मैं वही जगह हूँ जहाँ तुम्हें होना चाहिए, लेकिन तुम वहाँ रुकना नहीं चाहोगे। मैं एक रहस्य हो सकता हूँ, लेकिन मुझे यकीन है कि तुम मुझे पहचान सकते हो। मैं क्या हूँ? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2253,
+    "system": "En tu respuesta, resalta al menos 3 secciones con markdown, es decir, *sección resaltada*.",
+    "user": "कार्यस्थल में विविधता के महत्व पर एक कार्यशाला के लिए एक टेम्पलेट लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2303,
+    "system": "Tu respuesta debe ir entre comillas dobles. Tu respuesta debe contener 17 o más oraciones.",
+    "user": "बाहरी सौरमंडल आंतरिक सौरमंडल से कैसे अलग है, और जीवन की संभावना के लिए इसका क्या मतलब है—इस बारे में एक अनौपचारिक ब्लॉग पोस्ट लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "at least",
+          "num_sentences": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": 2304,
+    "system": "Tu respuesta debe contener al menos 1 marcador de posición representado por corchetes, como [dirección].",
+    "user": "एक निबंध लिखें मानो आप संयुक्त राज्य अमेरिका के राष्ट्रपति हों और आपका लक्षित श्रोता वर्ग माताएँ हों। विषय यह है कि फिल्म \"इट\" में दिखाया गया \"फ्लोट\" उन्नीस सौ पचास के दशक की भावना का प्रतीक कैसे है। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2311,
+    "system": "Tu respuesta no debe contener comas.",
+    "user": "32 ग्राम बिना नमक वाले बादाम की एक सर्विंग में 396 कैलोरी क्यों होती हैं? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2314,
+    "system": "Tu respuesta debe contener 3 viñetas en markdown como:\n* Viñeta 1",
+    "user": "काले और सफेद कुत्ते के लिए ठीक 3 नाम बताइए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2324,
+    "system": "Tu respuesta no debe contener comas.",
+    "user": "हम्बोल्ट में समुद्र तट पर लेटी हुई एक माँ के बारे में एक पहेली लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2357,
+    "system": "Tu respuesta debe tener exactamente 4 párrafos y cada párrafo debe estar separado por el divisor de markdown: ***.",
+    "user": "पेरिस की यात्रा के लिए एक यात्रा-कार्यक्रम लिखें, जो कम ध्यान अवधि वाले किशोरों के लिए उपयुक्त हो। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2362,
+    "system": "Tu respuesta debe terminar con un posdata que comience con P.P.S",
+    "user": "आप उस बहिष्कृत वैज्ञानिक को क्या कहते हैं जिसे घर पर रहने के लिए कहा जाता है? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2374,
+    "system": "Tu respuesta no debe contener comas.",
+    "user": "विकासशील देशों में शिक्षा की गुणवत्ता में सुधार करने के लिए मशीन लर्निंग और एआई का उपयोग कैसे किया जाए, इस पर एक परियोजना प्रस्ताव लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2380,
+    "system": "Tu respuesta no puede contener comas. Tu respuesta debe contener exactamente 4 viñetas en formato markdown como:\n* Viñeta 1\n* Viñeta 2",
+    "user": "कृपया निम्नलिखित विज्ञापनदाता पेज का सारांश लिखें: \"हम इस बात पर ज़ोर देते हैं कि हमारे पास उद्योग में वेब डेवलपर्स, कंटेंट राइटर्स, ग्राफिक डिज़ाइनर्स और ऑनलाइन मार्केटर्स की सबसे प्रतिभाशाली टीम हो। हमारे पास पुरस्कार विजेता व्यक्ति हैं जिनका सफलता का सिद्ध ट्रैक रिकॉर्ड है\"। मार्कडाउन का उपयोग करें और माताओं को लक्षित करें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2381,
+    "system": "Tu respuesta debe resaltar al menos 3 secciones en formato markdown, es decir, *sección resaltada*.",
+    "user": "एक स्थानीय राजनीतिक पार्टी को एक कवर लेटर लिखें, जिसमें उनसे उनके रैली आयोजक बनने का अनुरोध किया गया हो। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2396,
+    "system": "Tu respuesta debe incluir un posdata al final que comience con P.P.S",
+    "user": "मेरे लिए एक लंबे समय तक चलने वाले युद्ध के बारे में एक कविता लिखिए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2436,
+    "system": "Da exactamente dos respuestas diferentes a la pregunta. Separa las respuestas con 6 símbolos de asterisco ******. No uses comas en tus respuestas.",
+    "user": "प्रश्न \"क्या आक्रामक प्रजातियों का शिकार करना और उन्हें खाना नैतिक है?\" का उत्तर दें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2441,
+    "system": "Toda tu respuesta debe estar envuelta entre comillas dobles.",
+    "user": "अमेरिकी चुनावों पर भाषण-जैसा एक अनुच्छेद लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2467,
+    "system": "Tu respuesta debe tener exactamente 4 párrafos. Separa los párrafos con el divisor de markdown: ***.",
+    "user": "एक अथाह खाई के बारे में एक रैप लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2497,
+    "system": "Tu respuesta debe contener al menos una sección resaltada con markdown, es decir, *sección resaltada*. Pon toda tu respuesta entre comillas dobles.",
+    "user": "मुझे बातचीत और विजय के बारे में एक तार्किक प्रश्न दीजिए। इसे रोचक बनाइए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2515,
+    "system": "Tu respuesta debe resaltar al menos una sección en markdown, es decir, *sección resaltada*.",
+    "user": "गिडियन एक किसान है जिसके पास इस साल अपने खेत से फसलों का अतिरिक्त उत्पादन है। वह उस अतिरिक्त उत्पादन के साथ क्या कर सकता है? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2589,
+    "system": "Tu respuesta debe contener menos de 17 oraciones.",
+    "user": "एक अनुच्छेद लिखें जिसमें विभिन्न पशु नमूनों की औसत लंबाई को सबसे छोटे से सबसे बड़े तक सूचीबद्ध किया गया हो। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": 2704,
+    "system": "Da exactamente dos respuestas diferentes, separadas por 6 símbolos de asterisco (******). Incluye un título envuelto entre dobles corchetes angulares, es decir, <<título>>. No uses comas.",
+    "user": "युवा पाठकों के लिए, प्रश्न के रूप में मूर्खतापूर्ण व्यवहार पर एक हाइकू लिखें। इसमें न पढ़ाई करने का विषय शामिल होना चाहिए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "detectable_format:title",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2749,
+    "system": "Tu respuesta debe contener al menos 20 oraciones.",
+    "user": "डिजिटल मार्केटिंग एजेंसी का उपयोग करने के लाभों पर एक ब्लॉग पोस्ट लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2780,
+    "system": "Tu respuesta debe tener menos de 6 oraciones.",
+    "user": "क्या आप मुझे लंदन जाने वाली अगली ट्रेन का समय-सारिणी प्रदान कर सकते हैं? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 2785,
+    "system": "Tu respuesta debe usar markdown para resaltar al menos 3 secciones (como esto: *sección resaltada*). Tu respuesta también debe contener al menos 3 marcadores de posición (un ejemplo de un marcador de posición es [dirección]).",
+    "user": "शिंतो मंदिरों के अंदर क्या होता है? कल्पना कीजिए कि आप किसी स्कूल या विश्वविद्यालय में छात्रों को व्याख्यान दे रहे हैं। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2790,
+    "system": "Tu respuesta debe usar markdown para resaltar al menos una sección de tu respuesta, es decir, *sección resaltada*.",
+    "user": "नाइजीरिया के राजा का बहुत समय से खोया हुआ रिश्तेदार होने की बात कहने वाले एक अधिकारी से एक आदमी को कॉल आता है—इस बारे में एक मज़ेदार रैप लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2801,
+    "system": "Tu respuesta debe ser una lista de exactamente 4 viñetas en formato markdown, como por ejemplo:\n* Viñeta 1\n* Viñeta 2",
+    "user": "निम्नलिखित ब्लॉग को फिर से लिखें: \"दुनिया एक सुंदर जगह है। सूरज चमक रहा है, पक्षी गा रहे हैं, और फूल खिल रहे हैं। यह बाहर जाने और प्रकृति के पास जो कुछ भी है उसका आनंद लेने के लिए एक परफेक्ट दिन है।\" आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2832,
+    "system": "Tu respuesta debe incluir exactamente un punto con viñeta en formato markdown como:\n* Punto con viñeta",
+    "user": "कल्पना कीजिए कि आप 19 साल के हैं और आप एक वीडियो गेम बना रहे हैं। यह गेम एक ऐसे लड़के के बारे में है जिसे एक खलनायक से दुनिया को बचाना है। किशोरों को यह यक़ीन दिलाने के लिए एक पिच लिखिए कि आपका वीडियो गेम खरीदने लायक है। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2857,
+    "system": "Toda tu respuesta debe estar envuelta en formato JSON. Puedes usar comillas invertidas de markdown como ```.",
+    "user": "एक सॉफ्टवेयर इंजीनियर के प्रदर्शन मूल्यांकन के लिए एक रूब्रिक लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2905,
+    "system": "Tu respuesta debe usar * para resaltar al menos 2 secciones en tu texto. Por ejemplo: *esta es una sección de texto resaltada*.",
+    "user": "पहेली को एक मज़ेदार लहजे वाली कहानी में विस्तार दें: आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2918,
+    "system": "Escribe un resumen después de responder a la solicitud. Estas dos partes deben estar separadas por 6 símbolos de asterisco (******).",
+    "user": "किशोर के निबंध की गुणवत्ता को रेट करने के लिए एक रूब्रिक लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2921,
+    "system": "Tu respuesta debe constar de exactamente dos párrafos, separados por el divisor de Markdown: ***.",
+    "user": "यदि a = 10, b = 30, और c = 20 हैं, तो (a + b) / c का मान क्या है? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2929,
+    "system": "Tu respuesta debe incluir un posdata que comience con \"P.S.\" al final.",
+    "user": "ऐसी वयस्क वेबसाइट के लिए एक टेक्स्ट विज्ञापन लिखें जो अश्लील न हो। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 2969,
+    "system": "Tu respuesta debe contener un título envuelto entre dobles corchetes angulares, como <<balandra en venta>>.",
+    "user": "एक स्लूप बेचने वाले विज्ञापन के लिए कॉपी लिखें। यह एक छोटा पाल-नौका है जिसमें एक मस्तूल होता है, जिसे चलाना और समझना आसान है। आपके उत्तर का एक हिस्सा तालिका प्रारूप में होना चाहिए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2985,
+    "system": "Toda tu respuesta debe estar envuelta entre comillas dobles.",
+    "user": "आपको क्यों लगता है कि गूगल के इंजीनियर माइक्रोसॉफ्ट में जाने की बजाय अधिक बार गूगल में ही बने रहते हैं? इसे एलेक्स जोन्स की शैली में समझाइए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3041,
+    "system": "Tu respuesta debe tener menos de 7 oraciones. Tu respuesta debe contener exactamente 1 viñeta en markdown, como por ejemplo:\n* Viñeta",
+    "user": "दीर्घकालिक बीमारियों से जूझ रहे लोगों को घर पर देखभाल (इन-होम केयर) खोजने और उसका प्रबंधन करने में मदद करने वाले एक व्यवसाय के लिए एक रचनात्मक और प्रभावशाली स्टार्टअप पिच लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 7
+        },
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3057,
+    "system": "Tu respuesta debe contener un título envuelto entre dobles corchetes angulares, es decir, <<título>>.",
+    "user": "कृपया प्रतिलोम फलन के बारे में एक पहेली लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3131,
+    "system": "Tu respuesta debe contener un título, envuelto entre dobles corchetes angulares, como <<entrada de blog sobre ...>>. Además, añade un posdata que comience con P.S.",
+    "user": "2023 में गूंजते जैव-प्रौद्योगिकी क्षेत्र पर एक ब्लॉग पोस्ट लिखें, फिर उस ब्लॉग पोस्ट की आलोचना करें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 3221,
+    "system": "Tu respuesta debe contener al menos 8 marcadores de posición (es decir, [restaurante]).",
+    "user": "2 हफ्तों की यूरोप यात्रा की योजना बनाएं और लंदन, पेरिस और रोम जाएं। सभी बड़े अक्षरों में उत्तर दें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 3245,
+    "system": "Tu salida no debe contener comas. Tu salida debe tener al menos 2 marcadores de posición, envueltos entre corchetes, como [autor].",
+    "user": "शीर्षक \"लेटन दुनिया का सबसे अच्छा शहर है\" के साथ एक लेख लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_placeholders": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 3256,
+    "system": "Tu respuesta debe contener un título envuelto entre dobles corchetes angulares, es decir, <<título>>. Tu respuesta debe contener menos de 13 oraciones. Tu respuesta no debe contener ninguna coma pero se permiten otros signos de puntuación.",
+    "user": "एक जिज्ञासु बिल्ली के बारे में एक कविता लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "length_constraints:number_sentences",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 13
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3263,
+    "system": "Por favor, proporciona dos respuestas separadas por ******",
+    "user": "\"जियांग\" क्या एक चीनी नाम है? \"जियांग\" के समान अन्य नाम कौन-से हैं? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3280,
+    "system": "Tu respuesta debe contener al menos seis marcadores de posición, que deben representarse con corchetes como [nombre].",
+    "user": "सेब और अल्बानिया में क्या अंतर है? उत्तर ईमेल प्रारूप में दें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 3281,
+    "system": "Proporciona exactamente dos versiones de tu respuesta. Sepáralas con seis símbolos de asterisco: ******. Abstente de usar comas en tu respuesta.",
+    "user": "नौकरी के आवेदन के लिए कवर लेटर लिखें। यह सहायक प्रोफेसर पद के लिए है। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3329,
+    "system": "Tu respuesta debe tener al menos 30 oraciones.",
+    "user": "अरे! मुझे एक लैपटॉप के प्रदर्शन और कीमत का मूल्यांकन करने के लिए एक रूब्रिक चाहिए। क्या आप मेरे लिए एक उदाहरण बना सकते हैं? मुझे कोई भी बुलेट पॉइंट, सूचियाँ, या तालिकाएँ मत दीजिए। बस रूब्रिक को साधारण अंग्रेज़ी के अनुच्छेदों में लिखिए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        }
+      ]
+    }
+  },
+  {
+    "id": 3350,
+    "system": "Tu respuesta solo debe contener oraciones cortas y no debe contener ninguna coma. Incluye al menos cinco marcadores de posición representados por corchetes, como [sitio web].",
+    "user": "मुझे किशोरों के मानसिक स्वास्थ्य पर सोशल मीडिया के प्रभावों पर एक परियोजना के लिए एक शोध प्रस्ताव लिखना है। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_placeholders": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 3351,
+    "system": "Tu respuesta debe tener exactamente 2 párrafos. Separa los párrafos con el divisor de markdown: ***. Además, pon en cursiva al menos 3 secciones comenzando y terminando con un solo *, es decir, *texto en cursiva*.",
+    "user": "यहाँ एक सोशल मीडिया पोस्ट है: \"मेरी बेटी आज कॉलेज से ग्रेजुएट हुई! उस पर बहुत गर्व है!\" क्या आप इसे और ज़्यादा रोमांचक बना सकते हैं? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        },
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 3409,
+    "system": "Toda tu respuesta debe ir envuelta entre comillas dobles. Tu respuesta también debe resaltar al menos tres secciones en formato markdown usando *texto resaltado*.",
+    "user": "क्या आप मेरे वीडियो गेम प्रोजेक्ट के लिए एक नारा लिख सकते हैं? इस प्रोजेक्ट का उद्देश्य एक बहुत ही मज़ेदार फाइटिंग गेम बनाना है। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 3557,
+    "system": "Tu respuesta debe ser una lista de 10 viñetas, siguiendo el formato a continuación:\n\n* Viñeta 1\n* Viñeta 2\n* ...",
+    "user": "मुझे अमेरिका में शीर्ष 10 वकीलों की एक सूची चाहिए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 3606,
+    "system": "Tu respuesta debe incluir un título entre dobles corchetes angulares, es decir, <<título>>.",
+    "user": "क्या आप एक फ़िल्म की कहानी लिख सकते हैं जिसमें सपना, मुक्केबाज़ी, और सुपरपावर शामिल हों? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3615,
+    "system": "Tu respuesta no debe contener ninguna coma.",
+    "user": "कैमिला के बारे में एक पहेली लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3619,
+    "system": "Tu respuesta debe contener al menos tres marcadores de posición, como [precio], y no debes usar comas en tu respuesta.",
+    "user": "नवीनतम Google Pixel फ़ोन के रिलीज़ का वर्णन करने वाला एक XML दस्तावेज़ लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 3
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3629,
+    "system": "Resalta algunas partes clave en tu respuesta con \"*\", como *texto resaltado*.",
+    "user": "आज, 54वें वार्षिक ग्रैमी पुरस्कारों में, रिकॉर्डिंग अकादमी उन कलाकारों, संगीतकारों और निर्माताओं की प्रतिभा और रचनात्मकता का सम्मान करती है, जो पिछले वर्ष की सर्वश्रेष्ठ रिकॉर्डिंग्स के सृजनकर्ता हैं। कृपया इस पाठ को औपचारिक शैली में लिखना जारी रखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3631,
+    "system": "Tu respuesta no debe contener comas.",
+    "user": "मूंगफली के मक्खन और जैली का सैंडविच कैसे बनाना है, इस बारे में एक गीत लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3691,
+    "system": "Tu respuesta debe contener menos de 10 oraciones. Tu respuesta no debe contener comas.",
+    "user": "एक 16 साल की लड़की के दृष्टिकोण से एक ब्लॉग पोस्ट लिखें, जिसका एक अजनबी पीछा कर रहा है। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 10
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3710,
+    "system": "Tu respuesta debe contener un título envuelto entre dobles corchetes angulares, como <<título>>. Además, debes resaltar al menos 2 secciones con markdown, es decir, *sección resaltada*. Finalmente, debes añadir un posdata al final de tu respuesta, comenzando con P.P.S",
+    "user": "मुझे एक रैप चाहिए जो पेशेवरों को बताए कि बच्चों को पूरी रात कैसे सुलाया जाए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 2
+        },
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3719,
+    "system": "Tu respuesta debe incluir un título entre dobles corchetes angulares, es decir, <<título de mi canción>>.",
+    "user": "पोटोमैक नदी में चिकन के एक टुकड़े से दम घुटने के बारे में एक गीत लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3739,
+    "system": "Tu respuesta debe tener menos de 3 oraciones (solo 1 oración o 2 oraciones).",
+    "user": "लोगों को ईर्ष्यालु बनाने वाले हरी आँखों वाले राक्षस का नाम क्या है? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 3
+        }
+      ]
+    }
+  }
+]

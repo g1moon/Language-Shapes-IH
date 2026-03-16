@@ -1,0 +1,4658 @@
+[
+  {
+    "id": 13,
+    "system": "Deine gesamte Antwort sollte im JSON-Format verpackt sein. Du kannst Markdown-Backticks wie ``` verwenden, um den JSON-Inhalt einzuschließen.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "纽约市展望公园的历史是什么？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "纽约市展望公园的历史是什么？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "system": "Deine Antwort sollte keine Kommas enthalten.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一首关于写打油诗的打油诗。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一首关于写打油诗的打油诗。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "system": "Deine Antwort muss genau 3 Aufzählungspunkte im Markdown-Format enthalten (verwende „* “, um jeden Punkt zu kennzeichnen), zum Beispiel:\n* Dies ist der erste Punkt.\n* Dies ist der zweite Punkt.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一段两个人之间的对话，其中一个人穿着舞会礼服盛装打扮，另一个人穿着运动服随意打扮。两人要去参加一个每晚举行的活动。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一段两个人之间的对话，其中一个人穿着舞会礼服盛装打扮，另一个人穿着运动服随意打扮。两人要去参加一个每晚举行的活动。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 143,
+    "system": "Trenne in deiner Antwort deine Überlegungen und die endgültige Antwort durch eine Zeile, die nur aus drei „*“-Symbolen besteht: ***. Fügen Sie am Ende Ihrer Antwort bitte ausdrücklich ein Postskriptum hinzu, das mit P.P.S beginnt\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "一匹小马驹身高5英尺。它每个月会长高6英寸。3年后它会有多高？请一步一步地思考，然后给出你的答案。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "一匹小马驹身高5英尺。它每个月会长高6英寸。3年后它会有多高？请一步一步地思考，然后给出你的答案。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        },
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 168,
+    "system": "Ihre Antwort sollte mindestens 3 Abschnitte mit Markdown hervorheben, d. h. *hervorgehobener Abschnitt*.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "为两位都是妈妈的两个人之间的婚姻质量评分，写一个有趣又讽刺的模板。这是给这对伴侣自己使用的。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "为两位都是妈妈的两个人之间的婚姻质量评分，写一个有趣又讽刺的模板。这是给这对伴侣自己使用的。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 179,
+    "system": "Ihre Antwort sollte mindestens 50 Sätze lang sein.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "一位电影制作人正试图为一部关于互联网历史的电影获得融资。撰写一篇文章，用于向潜在投资者提交的提案中。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "一位电影制作人正试图为一部关于互联网历史的电影获得融资。撰写一篇文章，用于向潜在投资者提交的提案中。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 50
+        }
+      ]
+    }
+  },
+  {
+    "id": 219,
+    "system": "Ihre Antwort muss in doppelte Anführungszeichen gesetzt werden.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "你认为卡琳娜·卡普尔是个好演员吗？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "你认为卡琳娜·卡普尔是个好演员吗？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 247,
+    "system": "Gib genau zwei unterschiedliche Antworten, getrennt durch 6 Sternchen-Symbole ******.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "你能写关于日本都道府县制度历史的说唱歌曲吗？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "你能写关于日本都道府县制度历史的说唱歌曲吗？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 292,
+    "system": "Ihre Antwort muss mindestens 20 Sätze enthalten.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一封又长又搞笑的邮件给你的朋友，内容是关于美好生活的组成要素。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一封又长又搞笑的邮件给你的朋友，内容是关于美好生活的组成要素。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 334,
+    "system": "Ihre gesamte Antwort muss in doppelte Anführungszeichen gesetzt werden. Ihre Antwort muss genau 2 Aufzählungspunkte im Markdown-Format enthalten, wie unten:\n* Aufzählungspunkt 1\n* Aufzählungspunkt 2\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "为我的公司创作一句口号。我的公司名称是 Color Paper。我们生产纸巾。我们专注于生产吸睛、色彩缤纷的纸巾。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "为我的公司创作一句口号。我的公司名称是 Color Paper。我们生产纸巾。我们专注于生产吸睛、色彩缤纷的纸巾。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 1001,
+    "system": "Es ist dir nicht erlaubt in deiner Antwort Kommas zu verwenden.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "我正计划前往日本旅行，并希望汝以莎士比亚式的文风为吾之旅程撰写一份行程安排。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "我正计划前往日本旅行，并希望汝以莎士比亚式的文风为吾之旅程撰写一份行程安排。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1075,
+    "system": "Deine gesamte Ausgabe sollte im JSON-Format sein.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "你能帮我为一款新产品制作一则广告吗？这是一种纸尿裤，设计得让宝宝穿起来更舒适。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "你能帮我为一款新产品制作一则广告吗？这是一种纸尿裤，设计得让宝宝穿起来更舒适。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1082,
+    "system": "Ihre Antwort muss genau 2 Absätze enthalten. Trennen Sie die Absätze mit dem Markdown-Trennzeichen: ***.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一个故事，讲述一个男人某天醒来，意识到自己身处一款电子游戏之中。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一个故事，讲述一个男人某天醒来，意识到自己身处一款电子游戏之中。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 1098,
+    "system": "Bitte geben Sie genau zwei unterschiedliche Antworten. Trennen Sie die Antworten mit 6 Sternchen-Symbolen: ******.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "人们用什么名字称呼上帝？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "人们用什么名字称呼上帝？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1180,
+    "system": "Ihre Antwort muss einen Titel enthalten, der in doppelte spitze Klammern gesetzt ist, d. h. <<Titel>>. Gib genau zwei unterschiedliche Antworten, getrennt durch 6 Sternchen-Symbole ******.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "解释为什么人们会觉得蠕虫很恶心，但吃一头死牛却不会。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "解释为什么人们会觉得蠕虫很恶心，但吃一头死牛却不会。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1262,
+    "system": "Ihre Antwort muss einen Titel enthalten, der in doppelte spitze Klammern gesetzt ist, d. h. <<Titel>>. Verwenden Sie weniger als 5 Sätze.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "你能详细阐述以下文本吗：“轴载重量增加会加剧对道路的损坏”？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "你能详细阐述以下文本吗：“轴载重量增加会加剧对道路的损坏”？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1268,
+    "system": "Ihre gesamte Antwort sollte weniger als 6 Sätze enthalten.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "你能给我一个关于压力管理的日记条目示例吗？告诉我你是如何想出这个示例的。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "你能给我一个关于压力管理的日记条目示例吗？告诉我你是如何想出这个示例的。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 1305,
+    "system": "Deine Antwort muss am Ende ein Postskriptum enthalten, das mit P.P.S beginnt. Die Namen sollten in Aufzählungspunkten aufgeführt werden, gekennzeichnet durch: * Dies ist ein Beispiel-Aufzählungspunkt.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "列出恰好 10 个新生男婴的可能名字。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "列出恰好 10 个新生男婴的可能名字。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        },
+        {
+          "num_bullets": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1307,
+    "system": "Ihre Antwort sollte eine Gliederung mit mindestens 15 Abschnitten enthalten, die mit Markdown hervorgehoben sind, z. B. *hervorgehobener Abschnitt*.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "为一篇关于也门咖啡历史的论文撰写提纲。提纲应包括论文的要点。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "为一篇关于也门咖啡历史的论文撰写提纲。提纲应包括论文的要点。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1322,
+    "system": "Deine Antwort muss einen Titel enthalten, der in doppelten spitzen Klammern steht, wie z. B. <<kotlin vs java>>.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "Kotlin 与 Java 相比有哪些优点和缺点？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "Kotlin 与 Java 相比有哪些优点和缺点？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1325,
+    "system": "Ihre Antwort muss in doppelte Anführungszeichen gesetzt werden. Ihre Antwort muss genau 8 Aufzählungspunkte in der Form enthalten:\n* Dies ist Aufzählungspunkt 1\n* Dies ist Aufzählungspunkt 2\n...\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一篇有趣的文章，讲讲为什么恐龙会灭绝。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一篇有趣的文章，讲讲为什么恐龙会灭绝。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 1332,
+    "system": "Ihre Antwort sollte zwei separate Teile enthalten, getrennt durch genau 6 Sternchen-Symbole: *******\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "创建一个表格，包含印度的7天旅行行程，以及中国的7天旅行行程。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "创建一个表格，包含印度的7天旅行行程，以及中国的7天旅行行程。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1377,
+    "system": "Ihre Antwort muss 5 Absätze enthalten, die genau dem folgenden Format entsprechen:\n\nTeil 1. Aufgabenübersicht\n[Details hier einfügen]\n***\nTeil 2. Motivation\n[Details hier einfügen]\n***\nTeil 3. Meilensteinziele\n[Details hier einfügen]\n***\nTeil 4. Zeitplan\n[Details hier einfügen]\n***\nTeil 5. Dokumenthistorie\n[Details hier einfügen]\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "为一项软件工程师任务撰写一份规划文档。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "为一项软件工程师任务撰写一份规划文档。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1381,
+    "system": "Ihre Antwort muss weniger als 10 Sätze umfassen.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "为在你当地的小学提出建设一个新游乐场的提案写一首搞笑的歌曲。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "为在你当地的小学提出建设一个新游乐场的提案写一首搞笑的歌曲。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1512,
+    "system": "Deine Antwort sollte mindestens 20 Platzhalter enthalten, die verschiedene Benutzernamen repräsentieren, und eckige Klammern wie [benutzername1], [benutzername2] verwenden. Alle Sätze sollten kurz sein und vermeiden Sie die Verwendung von Kommas.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "生成一个论坛帖子串，内容是几个人在等待听到最新的本地新闻。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "生成一个论坛帖子串，内容是几个人在等待听到最新的本地新闻。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 20
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1551,
+    "system": "Ihre Antwort muss einen Titel haben, der in doppelte spitze Klammern gesetzt ist, d. h. <<Titel>>.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "我想申请谷歌的软件工程师职位。你能帮我写两封不同的求职信吗——一封简洁版和一封长版？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "我想申请谷歌的软件工程师职位。你能帮我写两封不同的求职信吗——一封简洁版和一封长版？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1619,
+    "system": "Ihre Antwort muss ein Postskriptum enthalten, das mit P.P.S. beginnt. Ihre Antwort muss mindestens 6 Platzhalter enthalten, die durch eckige Klammern dargestellt werden, wie z. B. [Name].\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一首关于一款新智能手机的说唱。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一首关于一款新智能手机的说唱。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        },
+        {
+          "num_placeholders": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 1620,
+    "system": "Ihre Antwort muss ein Postskriptum enthalten, das mit „P.S.“ beginnt.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "我真的很喜欢那张名为《Lilith》的专辑。我想把它介绍给我的朋友陆恒。请为此起草一封电子邮件。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "我真的很喜欢那张名为《Lilith》的专辑。我想把它介绍给我的朋友陆恒。请为此起草一封电子邮件。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 1646,
+    "system": "Ihre Antwort muss mindestens 5 Abschnitte hervorheben, indem Sie sie mit „*“ beginnen und beenden, wie: *hervorgehobener Textabschnitt*.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一篇轻松随意的博客文章，内容是关于不同动物物种之间的相似之处。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一篇轻松随意的博客文章，内容是关于不同动物物种之间的相似之处。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1773,
+    "system": "Deine Antwort muss einen Namen für das Lied enthalten, hervorgehoben, indem du ihn mit * umschließt.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一首关于我童年在乡村度过的那些夏天的歌曲。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一首关于我童年在乡村度过的那些夏天的歌曲。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 1823,
+    "system": "Deine Antwort muss mindestens 40 Sätze enthalten (vergiss nicht, Satzzeichen hinzuzufügen). Du musst in deiner Antwort einige Wörter oder Ausdrücke hervorheben, wie *hervorgehobener Ausdruck*.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "你能写一首关于大量玩电子游戏的利与弊的诗吗？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "你能写一首关于大量玩电子游戏的利与弊的诗吗？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 40
+        },
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 1897,
+    "system": "Deine Antwort muss mindestens 10 Textteile mit Markdown kursiv formatieren (mit * zur Kursivsetzung, wie *kursiver Text*). Deine Antwort sollte keine Kommas enthalten.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "扩写以下内容并让它变得搞笑：Jeanne 已经掷了骰子。她以为自己输了，但其实她赢了。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "扩写以下内容并让它变得搞笑：Jeanne 已经掷了骰子。她以为自己输了，但其实她赢了。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 10
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1908,
+    "system": "Ihre Antwort sollte mindestens 30 Sätze enthalten. Ihre Antwort sollte genau 2 Aufzählungspunkte enthalten. Verwenden Sie die Aufzählungspunkte wie:\n* Dies ist ein Aufzählungspunkt Ihre Antwort muss mindestens 8 Platzhalter enthalten, die durch eckige Klammern dargestellt werden, wie z. B. [Adresse].\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "你怎么看待这句话：“巫师比术士更强大，因为他们学习魔法，而不是与生俱来就拥有魔法。”？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "你怎么看待这句话：“巫师比术士更强大，因为他们学习魔法，而不是与生俱来就拥有魔法。”？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_bullet_lists",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        },
+        {
+          "num_bullets": 2
+        },
+        {
+          "num_placeholders": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 1927,
+    "system": "Ihre Antwort muss mindestens 10 Platzhalter enthalten, die durch eckige Klammern dargestellt werden, wie z. B. [Name].\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "将以下句子改写成一封电子邮件：这双靴子很保暖，但有点不舒服。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "将以下句子改写成一封电子邮件：这双靴子很保暖，但有点不舒服。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1934,
+    "system": "Ihre Antwort muss in Form von genau 4 Aufzählungspunkten im untenstehenden Format erfolgen:\n* Dies ist Aufzählungspunkt 1\n* Dies ist Aufzählungspunkt 2\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "《星球大战》为什么这么受欢迎？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "《星球大战》为什么这么受欢迎？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2035,
+    "system": "Deine Antwort muss mindestens 5 Sätze enthalten. Verwende Markdown, um in deiner Antwort mindestens 2 Abschnitte kursiv zu setzen, d. h. *kursiver Text*. Ihre Antwort muss in doppelte Anführungszeichen gesetzt werden.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一个笑话。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一个笑话。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections",
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 5
+        },
+        {
+          "num_highlights": 2
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2118,
+    "system": "Ihre Antwort sollte genau 3 Absätze haben, die jeweils durch *** getrennt sind. Ihre Antwort sollte außerdem genau 3 Aufzählungspunkte im Markdown-Format enthalten, zum Beispiel:\n* Aufzählungspunkt 1\n* Aufzählungspunkt 2\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "为妈妈们写一段说唱，内容关于母乳喂养与配方奶喂养的优缺点对比。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "为妈妈们写一段说唱，内容关于母乳喂养与配方奶喂养的优缺点对比。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 3
+        },
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2136,
+    "system": "Ihre Antwort muss mindestens einen Platzhalter enthalten, der durch eckige Klammern dargestellt wird, wie z. B. [Name].\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一个关于在美国国税局（IRS）工作的男人的简短又搞笑的笑话。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一个关于在美国国税局（IRS）工作的男人的简短又搞笑的笑话。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2162,
+    "system": "Ihre Antwort sollte weniger als 20 Sätze enthalten. Ihre Antwort muss mindestens 3 Platzhalter enthalten, die durch eckige Klammern dargestellt werden, wie z. B. [Adresse].\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "复临会和浸信会这两个宗派之间的主要区别是什么？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "复临会和浸信会这两个宗派之间的主要区别是什么？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 20
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2164,
+    "system": "Ihre Antwort muss mindestens 3 Platzhalter enthalten, die durch eckige Klammern dargestellt werden, wie z. B. [Adresse], [Name] und [Telefonnummer].\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "为一款名为“the squeaker”的全新狗玩具系列撰写产品描述。它由乳胶制成，专为所有年龄段和所有犬种的狗设计。它还提供多种颜色和形状可选。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "为一款名为“the squeaker”的全新狗玩具系列撰写产品描述。它由乳胶制成，专为所有年龄段和所有犬种的狗设计。它还提供多种颜色和形状可选。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2195,
+    "system": "Ihre Antwort sollte genau 3 Aufzählungspunkte im Markdown-Format enthalten, zum Beispiel:\n* Aufzählungspunkt 1\n* Aufzählungspunkt 2\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一份给训犬师的指令清单，用于教狗学会坐下、停留和捡回。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一份给训犬师的指令清单，用于教狗学会坐下、停留和捡回。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2209,
+    "system": "Ihre gesamte Antwort muss in doppelte Anführungszeichen eingeschlossen sein.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "撰写一份学术风格的提案，面向一位有意为其产品实施新功能的客户。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "撰写一份学术风格的提案，面向一位有意为其产品实施新功能的客户。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2229,
+    "system": "Ihre Antwort muss einen Titel enthalten, der in doppelte spitze Klammern gesetzt ist, d. h. <<Titel>>.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "需要为妈妈们撰写一段销售推介，用于一种新型纸尿裤，该纸尿裤旨在让宝宝穿得更舒适。销售推介应为500词，风趣幽默、引人入胜，并聚焦于这款新纸尿裤的优势，但不要提及价格。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "需要为妈妈们撰写一段销售推介，用于一种新型纸尿裤，该纸尿裤旨在让宝宝穿得更舒适。销售推介应为500词，风趣幽默、引人入胜，并聚焦于这款新纸尿裤的优势，但不要提及价格。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2230,
+    "system": "Deine Antwort sollte keine Kommas enthalten. Deine Antwort sollte mindestens 2 Abschnitte mit Markdown hervorheben, d. h. *hervorgehobener Abschnitt*.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "让这段文字变得怪异：“该应用的新版本将很快在 App Store 上线。它将包含多项新功能，包括全新的用户界面以及对新设备的支持”。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "让这段文字变得怪异：“该应用的新版本将很快在 App Store 上线。它将包含多项新功能，包括全新的用户界面以及对新设备的支持”。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2245,
+    "system": "Ihre Antwort sollte keine Kommas enthalten.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "我很容易进去，但很难出来。我既诱人又令人兴奋，但很多人都害怕我。我是你需要去的地方，但你可能不想待在那里。我也许是个谜，但我相信你能猜到我。我是什么？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "我很容易进去，但很难出来。我既诱人又令人兴奋，但很多人都害怕我。我是你需要去的地方，但你可能不想待在那里。我也许是个谜，但我相信你能猜到我。我是什么？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2253,
+    "system": "Heben Sie in Ihrer Antwort mindestens 3 Abschnitte mit Markdown hervor, d. h. *hervorgehobener Abschnitt*.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "撰写一个关于职场多样性重要性的研讨会模板。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "撰写一个关于职场多样性重要性的研讨会模板。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2303,
+    "system": "Ihre Antwort sollte in doppelte Anführungszeichen gesetzt werden. Deine Antwort sollte 17 oder mehr Sätze enthalten.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一篇轻松随意的博客文章，介绍外太阳系与内太阳系有哪些不同，以及这对生命存在的可能性意味着什么。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一篇轻松随意的博客文章，介绍外太阳系与内太阳系有哪些不同，以及这对生命存在的可能性意味着什么。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "at least",
+          "num_sentences": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": 2304,
+    "system": "Ihre Antwort muss mindestens 1 Platzhalter enthalten, der durch eckige Klammern dargestellt wird, wie z. B. [Adresse].\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一篇文章，仿佛你是美国总统，并以妈妈们为受众。主题是电影“它”中的气球如何象征二十世纪五十年代的精神。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一篇文章，仿佛你是美国总统，并以妈妈们为受众。主题是电影“它”中的气球如何象征二十世纪五十年代的精神。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2311,
+    "system": "Deine Antwort darf keine Kommas enthalten.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "为什么一份32克的无盐杏仁含有396卡路里？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "为什么一份32克的无盐杏仁含有396卡路里？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2314,
+    "system": "Deine Antwort sollte 3 Markdown-Aufzählungspunkte enthalten, wie zum Beispiel:\n* Aufzählungspunkt 1\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "准确说出 3 个黑白狗的名字。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "准确说出 3 个黑白狗的名字。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2324,
+    "system": "Deine Antwort sollte keine Kommas enthalten.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一个关于一位妈妈在洪堡的海滩上躺着晒太阳的谜语。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一个关于一位妈妈在洪堡的海滩上躺着晒太阳的谜语。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2357,
+    "system": "Deine Antwort sollte genau 4 Absätze haben, und jeder Absatz sollte durch den Markdown-Trenner getrennt sein: ***.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "为一次前往巴黎的旅行撰写一份行程安排，要求适合注意力持续时间较短的青少年。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "为一次前往巴黎的旅行撰写一份行程安排，要求适合注意力持续时间较短的青少年。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2362,
+    "system": "Deine Antwort sollte mit einem Postskriptum enden, das mit P.P.S beginnt\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "你会怎么称呼一个被排斥、被要求待在家里的科学家？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "你会怎么称呼一个被排斥、被要求待在家里的科学家？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2374,
+    "system": "Deine Antwort sollte keine Kommas enthalten.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "撰写一份项目提案，说明如何使用机器学习和人工智能来提升发展中国家的教育质量。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "撰写一份项目提案，说明如何使用机器学习和人工智能来提升发展中国家的教育质量。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2380,
+    "system": "Deine Antwort darf keine Kommas enthalten. Ihre Antwort muss genau 4 Aufzählungspunkte im Markdown-Format enthalten, wie zum Beispiel:\n* Aufzählungspunkt 1\n* Aufzählungspunkt 2\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "请为以下广告主页面撰写一份摘要：“我们坚持拥有业内最有才华的网页开发人员、内容撰稿人、平面设计师和线上营销人员团队。我们汇聚了屡获殊荣、并拥有经验证成功业绩记录的个人”。使用 Markdown，并以妈妈群体为目标受众。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "请为以下广告主页面撰写一份摘要：“我们坚持拥有业内最有才华的网页开发人员、内容撰稿人、平面设计师和线上营销人员团队。我们汇聚了屡获殊荣、并拥有经验证成功业绩记录的个人”。使用 Markdown，并以妈妈群体为目标受众。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2381,
+    "system": "Deine Antwort sollte mindestens 3 Abschnitte im Markdown-Format hervorheben, d. h. *hervorgehobener Abschnitt*.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "给当地一个政党写一封求职信，申请担任他们的集会组织者。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "给当地一个政党写一封求职信，申请担任他们的集会组织者。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2396,
+    "system": "Deine Antwort muss am Ende ein Postskriptum enthalten, das mit P.P.S beginnt\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "给我写一首关于一场持久战争的诗。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "给我写一首关于一场持久战争的诗。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2436,
+    "system": "Gib genau zwei unterschiedliche Antworten auf die Frage. Trenne die Antworten mit 6 Sternchen-Symbolen ******. Verwenden Sie in Ihren Antworten keine Kommas.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "回答问题“捕猎并食用入侵物种是否合乎伦理？”。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "回答问题“捕猎并食用入侵物种是否合乎伦理？”。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2441,
+    "system": "Ihre gesamte Antwort muss in doppelte Anführungszeichen gesetzt werden.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一段关于美国选举的演讲式段落。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一段关于美国选举的演讲式段落。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2467,
+    "system": "Deine Antwort muss aus genau 4 Absätzen bestehen. Trenne die Absätze mit dem Markdown-Trennzeichen: ***.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一段关于深渊的说唱。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一段关于深渊的说唱。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2497,
+    "system": "Ihre Antwort muss mindestens einen Abschnitt enthalten, der mit Markdown hervorgehoben ist, d. h. *hervorgehobener Abschnitt*. Setzen Sie Ihre gesamte Antwort in doppelte Anführungszeichen.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "给我一个关于聊天与征服的逻辑问题。让它有趣一些。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "给我一个关于聊天与征服的逻辑问题。让它有趣一些。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2515,
+    "system": "Ihre Antwort muss mindestens einen Abschnitt in Markdown hervorheben, d. h. *hervorgehobener Abschnitt*.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "吉迪恩是一位农民，今年他的农场有多余的农作物。他可能会如何处理这些剩余的农作物？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "吉迪恩是一位农民，今年他的农场有多余的农作物。他可能会如何处理这些剩余的农作物？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2589,
+    "system": "Deine Antwort sollte weniger als 17 Sätze enthalten.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一段文字，按从小到大的顺序列出各种动物标本的平均长度。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一段文字，按从小到大的顺序列出各种动物标本的平均长度。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": 2704,
+    "system": "Gib genau zwei unterschiedliche Antworten, getrennt durch 6 Sternchen-Symbole (******). Fügen Sie einen Titel ein, der in doppelte spitze Klammern gesetzt ist, d. h. <<Titel>>. Verwenden Sie keine Kommas.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一首关于愚蠢行为的俳句，以提问的形式呈现，面向年轻读者。内容应包含“不学习”这一主题。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一首关于愚蠢行为的俳句，以提问的形式呈现，面向年轻读者。内容应包含“不学习”这一主题。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "detectable_format:title",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2749,
+    "system": "Ihre Antwort muss mindestens 20 Sätze enthalten.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "撰写一篇博客文章，介绍使用数字营销代理机构的好处。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "撰写一篇博客文章，介绍使用数字营销代理机构的好处。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2780,
+    "system": "Deine Antwort muss weniger als 6 Sätze umfassen.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "你能给我提供下一班去伦敦的火车时刻表吗？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "你能给我提供下一班去伦敦的火车时刻表吗？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 2785,
+    "system": "Deine Antwort muss Markdown verwenden, um mindestens 3 Abschnitte hervorzuheben (so wie hier: *hervorgehobener Abschnitt*). Ihre Antwort muss außerdem mindestens 3 Platzhalter enthalten (ein Beispiel für einen Platzhalter ist [Adresse]).\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "神道神社里面有什么？请想象你正在给学校或大学的学生做一场讲座。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "神道神社里面有什么？请想象你正在给学校或大学的学生做一场讲座。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2790,
+    "system": "Deine Antwort muss Markdown verwenden, um mindestens einen Abschnitt deiner Antwort hervorzuheben, d. h. *hervorgehobener Abschnitt*.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一段搞笑的说唱，内容是一个男人接到一位官员的电话，对方说他是尼日利亚国王失散多年的亲戚。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一段搞笑的说唱，内容是一个男人接到一位官员的电话，对方说他是尼日利亚国王失散多年的亲戚。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2801,
+    "system": "Deine Antwort sollte eine Liste von genau 4 Aufzählungspunkten im Markdown-Format sein, zum Beispiel:\n* Aufzählungspunkt 1\n* Aufzählungspunkt 2\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "重写以下博客：“世界是一个美丽的地方。阳光明媚，鸟儿在歌唱，花儿在绽放。这是一个走到户外，享受大自然所能提供的一切的完美日子。” 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "重写以下博客：“世界是一个美丽的地方。阳光明媚，鸟儿在歌唱，花儿在绽放。这是一个走到户外，享受大自然所能提供的一切的完美日子。”"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2832,
+    "system": "Deine Antwort muss genau einen Aufzählungspunkt im Markdown-Format enthalten, zum Beispiel:\n* Aufzählungspunkt\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "想象你是一个19岁的年轻人，正在制作一款电子游戏。这款游戏讲的是一个男孩必须从反派手中拯救世界。写一段推介文案，说服青少年相信你的电子游戏值得购买。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "想象你是一个19岁的年轻人，正在制作一款电子游戏。这款游戏讲的是一个男孩必须从反派手中拯救世界。写一段推介文案，说服青少年相信你的电子游戏值得购买。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2857,
+    "system": "Deine gesamte Antwort sollte im JSON-Format verpackt sein. Du kannst Markdown-Backticks wie ``` verwenden.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "为软件工程师的绩效评估编写一份评分标准。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "为软件工程师的绩效评估编写一份评分标准。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2905,
+    "system": "Deine Antwort muss * verwenden, um mindestens 2 Abschnitte in deinem Text hervorzuheben. Zum Beispiel: *dies ist ein hervorgehobener Textabschnitt*.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "将这个谜语扩写成一个带有幽默语气的故事： 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "将这个谜语扩写成一个带有幽默语气的故事："
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2918,
+    "system": "Schreibe nach der Beantwortung der Anfrage eine Zusammenfassung. Diese beiden Teile sollten durch 6 Sternchen-Symbole (******) getrennt werden.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "编写一份用于评估青少年作文质量的评分量表。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "编写一份用于评估青少年作文质量的评分量表。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2921,
+    "system": "Deine Antwort muss aus genau zwei Absätzen bestehen, getrennt durch den Markdown-Trenner: ***.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "如果 a = 10，b = 30，且 c = 20，那么 (a + b) / c 的值是多少？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "如果 a = 10，b = 30，且 c = 20，那么 (a + b) / c 的值是多少？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2929,
+    "system": "Deine Antwort muss am Ende ein Postskriptum enthalten, das mit „P.S.“ beginnt.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "为一个不含色情内容的成人网站撰写一则文字广告。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "为一个不含色情内容的成人网站撰写一则文字广告。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 2969,
+    "system": "Ihre Antwort muss einen Titel enthalten, der in doppelte spitze Klammern gesetzt ist, wie z. B. <<Schaluppe im Angebot>>.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "为一则出售单桅帆船（sloop）的广告撰写文案。它是一种小型帆船，只有一根桅杆，易于驾驶和理解。你的回答中应有一部分采用表格格式。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "为一则出售单桅帆船（sloop）的广告撰写文案。它是一种小型帆船，只有一根桅杆，易于驾驶和理解。你的回答中应有一部分采用表格格式。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2985,
+    "system": "Ihre gesamte Antwort muss in doppelte Anführungszeichen gesetzt werden.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "你为什么认为谷歌工程师更常选择留在谷歌，而不是跳槽去微软？请用亚历克斯·琼斯的风格来解释。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "你为什么认为谷歌工程师更常选择留在谷歌，而不是跳槽去微软？请用亚历克斯·琼斯的风格来解释。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3041,
+    "system": "Deine Antwort sollte weniger als 7 Sätze umfassen. Ihre Antwort sollte genau 1 Aufzählungspunkt in Markdown enthalten, zum Beispiel:\n* Aufzählungspunkt\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "为一家帮助慢性病患者寻找并管理居家护理的企业撰写一份富有创意且具有说服力的创业路演稿。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "为一家帮助慢性病患者寻找并管理居家护理的企业撰写一份富有创意且具有说服力的创业路演稿。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 7
+        },
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3057,
+    "system": "Deine Antwort muss einen Titel enthalten, der in doppelte spitze Klammern gesetzt ist, d. h. <<Titel>>.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "请写一个关于反函数的谜语。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "请写一个关于反函数的谜语。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3131,
+    "system": "Ihre Antwort muss einen Titel enthalten, der in doppelte spitze Klammern gesetzt ist, wie z. B. <<Blogbeitrag über ...>>. Füge außerdem ein Postskriptum hinzu, das mit P.S. beginnt.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一篇关于2023年回响的生物技术领域的博客文章，然后批评这篇博客文章。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一篇关于2023年回响的生物技术领域的博客文章，然后批评这篇博客文章。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 3221,
+    "system": "Deine Antwort muss mindestens 8 Platzhalter enthalten (d. h. [Restaurant]).\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "规划一次为期2周的欧洲旅行，并游览伦敦、巴黎和罗马。用全大写回答。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "规划一次为期2周的欧洲旅行，并游览伦敦、巴黎和罗马。用全大写回答。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 3245,
+    "system": "Ihre Ausgabe darf keine Kommas enthalten. Ihre Ausgabe muss mindestens 2 Platzhalter enthalten, die in eckige Klammern gesetzt sind, wie z. B. [Autor].\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一篇标题为“莱顿是世界上最好的城市”的文章。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一篇标题为“莱顿是世界上最好的城市”的文章。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_placeholders": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 3256,
+    "system": "Ihre Antwort muss einen Titel enthalten, der in doppelte spitze Klammern gesetzt ist, d. h. <<Titel>>. Ihre Antwort muss weniger als 13 Sätze enthalten. Deine Antwort darf keine Kommas enthalten aber andere Satzzeichen sind erlaubt.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一首关于一只好奇的猫的诗。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一首关于一只好奇的猫的诗。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "length_constraints:number_sentences",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 13
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3263,
+    "system": "Bitte geben Sie zwei Antworten an, getrennt durch ******\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "“jiang”是中文名字吗？还有哪些与“jiang”相似的名字？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "“jiang”是中文名字吗？还有哪些与“jiang”相似的名字？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3280,
+    "system": "Ihre Antwort muss mindestens sechs Platzhalter enthalten, die durch eckige Klammern wie [Name] dargestellt werden sollen.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "苹果和阿尔巴尼亚之间有什么区别？请用电子邮件格式回答。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "苹果和阿尔巴尼亚之间有什么区别？请用电子邮件格式回答。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 3281,
+    "system": "Gib genau zwei Versionen deiner Antwort. Trenne sie mit sechs Sternchen-Symbolen: ******. Verzichten Sie in Ihrer Antwort auf die Verwendung von Kommas.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "为求职申请撰写求职信。这是一个助理教授职位。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "为求职申请撰写求职信。这是一个助理教授职位。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3329,
+    "system": "Ihre Antwort sollte mindestens 30 Sätze lang sein.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "嘿！我需要一个用于评估笔记本电脑性能和价格的评分标准。你能给我创建一个示例吗？不要给我任何项目符号、列表或表格。只需用纯英文段落写出评分标准。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "嘿！我需要一个用于评估笔记本电脑性能和价格的评分标准。你能给我创建一个示例吗？不要给我任何项目符号、列表或表格。只需用纯英文段落写出评分标准。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        }
+      ]
+    }
+  },
+  {
+    "id": 3350,
+    "system": "Deine Antwort sollte nur kurze Sätze enthalten und darf keine Kommas enthalten. Fügen Sie mindestens fünf Platzhalter ein, die durch eckige Klammern dargestellt werden, wie z. B. [Website].\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "我需要为一个关于社交媒体对青少年心理健康影响的项目撰写一份研究计划书。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "我需要为一个关于社交媒体对青少年心理健康影响的项目撰写一份研究计划书。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_placeholders": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 3351,
+    "system": "Deine Antwort muss genau aus 2 Absätzen bestehen. Trenne die Absätze mit dem Markdown-Trennzeichen: ***. Zusätzlich kursiviere mindestens 3 Abschnitte, indem du sie mit einem einzelnen * beginnst und beendest, d. h. *kursiver Text*.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "这是一条社交媒体帖子：“我女儿今天大学毕业了！为她感到无比骄傲！”你能把它写得更激动人心一些吗？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "这是一条社交媒体帖子：“我女儿今天大学毕业了！为她感到无比骄傲！”你能把它写得更激动人心一些吗？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        },
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 3409,
+    "system": "Ihre gesamte Antwort muss in doppelte Anführungszeichen gesetzt werden. Deine Antwort sollte außerdem mindestens drei Abschnitte im Markdown-Format mit *hervorgehobenem Text* hervorheben.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "你能为我的电子游戏项目写一句宣传口号吗？该项目旨在打造一款非常搞笑的格斗游戏。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "你能为我的电子游戏项目写一句宣传口号吗？该项目旨在打造一款非常搞笑的格斗游戏。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 3557,
+    "system": "Ihre Antwort sollte eine Liste mit 10 Aufzählungspunkten sein und dem untenstehenden Format folgen:\n\n* Aufzählungspunkt 1\n* Aufzählungspunkt 2\n* ...\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "我需要一份美国排名前 10 的律师名单。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "我需要一份美国排名前 10 的律师名单。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 3606,
+    "system": "Ihre Antwort muss einen Titel in doppelten spitzen Klammern enthalten, d. h. <<Titel>>.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "你能创作一个包含梦境、徒手格斗和超能力的电影剧情吗？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "你能创作一个包含梦境、徒手格斗和超能力的电影剧情吗？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3615,
+    "system": "Deine Antwort sollte keine Kommas enthalten.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一个关于卡米拉的谜语。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一个关于卡米拉的谜语。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3619,
+    "system": "Ihre Antwort muss mindestens drei Platzhalter enthalten, wie z. B. [Preis], und du darfst in deiner Antwort keine Kommas verwenden.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "编写一份 XML 文档，描述最新款 Google Pixel 手机的发布。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "编写一份 XML 文档，描述最新款 Google Pixel 手机的发布。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 3
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3629,
+    "system": "Hebe in deiner Antwort einige wichtige Teile mit „*“ hervor, wie *hervorgehobener Text*.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "今天，在第54届格莱美年度颁奖典礼上，美国录音学院表彰艺术家、音乐人和制作人的才华与创造力，他们是过去一年最佳录音作品的创作者。请以正式的语气继续撰写这段文字。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "今天，在第54届格莱美年度颁奖典礼上，美国录音学院表彰艺术家、音乐人和制作人的才华与创造力，他们是过去一年最佳录音作品的创作者。请以正式的语气继续撰写这段文字。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3631,
+    "system": "Deine Antwort sollte keine Kommas enthalten.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一首关于如何制作花生酱和果酱三明治的歌曲。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一首关于如何制作花生酱和果酱三明治的歌曲。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3691,
+    "system": "Deine Antwort sollte weniger als 10 Sätze enthalten. Deine Antwort sollte keine Kommas enthalten.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "以一个16岁女孩的视角写一篇博客文章，她正被一个陌生人跟踪。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "以一个16岁女孩的视角写一篇博客文章，她正被一个陌生人跟踪。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 10
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3710,
+    "system": "Ihre Antwort muss einen Titel enthalten, der in doppelte spitze Klammern gesetzt ist, wie zum Beispiel <<Titel>>. Zusätzlich musst du mindestens 2 Abschnitte mit Markdown hervorheben, d. h. *hervorgehobener Abschnitt*. Schließlich musst du am Ende deiner Antwort ein Postskriptum hinzufügen, beginnend mit P.P.S\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "我需要一段说唱，告诉专业人士如何让婴儿整夜安睡。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "我需要一段说唱，告诉专业人士如何让婴儿整夜安睡。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 2
+        },
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3719,
+    "system": "Deine Antwort muss einen Titel in doppelten spitzen Klammern enthalten, d. h. <<Titel meines Liedes>>.\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "写一首关于在波托马克河里被一块鸡肉噎住的歌曲。 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "写一首关于在波托马克河里被一块鸡肉噎住的歌曲。"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3739,
+    "system": "Deine Antwort sollte weniger als 3 Sätze umfassen (nur 1 Satz oder 2 Sätze).\n\nRufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user": "那种让人嫉妒的“绿眼怪物”叫什么名字？ 你的回复必须完全使用中文，不允许使用任何其他语言。",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "那种让人嫉妒的“绿眼怪物”叫什么名字？"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "无额外文本。"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 3
+        }
+      ]
+    }
+  }
+]

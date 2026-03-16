@@ -1,0 +1,16 @@
+openai>=2.11.0
+anthropic>=0.71.0
+transformers>=4.57.3
+sacrebleu>=2.6.0
+pandas>=2.3.3
+numpy>=2.2.5
+absl-py>=2.4.0
+bert-score>=0.3.12
+tqdm
+httpx
+fastapi
+PyICU
+
+# GPU-required packages (install separately based on your CUDA version):
+# torch>=2.9.0
+# vllm>=0.13.0  (requires CUDA 12.x)

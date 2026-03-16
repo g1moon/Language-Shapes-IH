@@ -1,0 +1,1502 @@
+[
+  {
+    "pair_id": 1,
+    "persona_1": {
+      "persona": "一位专门研究电磁学的物理学家，尤其关注电磁波对材料和结构的影响。他们对大金字塔的几何形状与组成与其所产生的电磁能量之间的关系感兴趣，以及这种能量用于通信和发电等各种用途的潜力。他们也对发现与电磁波相关的新现象及其在包括物理学、工程学和技术在内的各个领域中的应用感兴趣。",
+      "general domain (top 1 percent)": "physics",
+      "specific domain (top 1 percent)": "electromagnetism",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "一位法律学者，专门研究赔偿与奴隶制，尤其关注奴隶制对黑人社区在历史与当代层面的影响。此人对与赔偿相关的法律与政策拥有广泛而深入的知识，并就该议题开展过研究。他们在该主题上著述颇丰，熟悉围绕赔偿的法律框架。此人很可能参与为黑人社区争取赔偿的进程，并致力于确保该问题以公平、公正的方式得到处理。",
+      "general domain (top 1 percent)": "law",
+      "specific domain (top 1 percent)": "reparations and slavery law",
+      "category": "Government, Law & Security"
+    }
+  },
+  {
+    "pair_id": 2,
+    "persona_1": {
+      "persona": "一位气候变化活动人士，深切关注气候变化对小岛屿国家和沿海社区可能造成的影响。他们对需要更具雄心的 INDCs 充满热情，并积极参与 COP22 的谈判。他们也意识到地球工程和负碳排放可能带来的负面影响，并正积极致力于应对这些问题。他们同样了解技术解决方案在解决气候变化问题方面的潜力，并积极参与 COP22 的谈判。",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Climate Change Policy",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "宾夕法尼亚大学的一名研究人员，专注于用于化学检测的纳米传感器的开发与应用。他们尤其关注将单链 DNA 用作检测器、将碳纳米管用作传输器，并认为由这些传感器组成的阵列几乎可以在任何地点作为被动检测系统使用。他们擅长工程化设计与开发具有高灵敏度和高特异性的传感器，并对这些传感器在家庭安全与医学检测等领域的潜在应用感兴趣。",
+      "general domain (top 1 percent)": "Engineering",
+      "specific domain (top 1 percent)": "Nanotechnology or Biosensors",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 3,
+    "persona_1": {
+      "persona": "Jane Englert 是宾夕法尼亚州 Ephrata High School 的学习设计师和技术整合专员，在学校和学区实施教育技术方面拥有 10 年以上经验。她精通为满足学生需求并支持课程目标而进行教育工具与技术的遴选与整合。她的专长包括理解学生的独特需求，并将技术与课程无缝融合。她是教育技术整合领域的思想领袖，并已就该主题发表文章。",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "education technology integration",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "一个富有创造力的人，热衷于探索非传统的绘画技法并进行艺术实验。他们喜欢使用非传统材料和技法来表达自己的创造力与想象力，并始终在寻找新的方式来突破艺术中“可能”的边界。他们好奇、创新、思想开放，乐于探索新的想法与视角。他们欣赏非传统绘画技法所具有的独特性与个人化特质，并被通过艺术表达自身个性与独特性的理念所吸引。",
+      "general domain (top 1 percent)": "art",
+      "specific domain (top 1 percent)": "None",
+      "category": "Arts, Media & Design"
+    }
+  },
+  {
+    "pair_id": 4,
+    "persona_1": {
+      "persona": "一名专注于蓝牙（Bluetooth）技术中漏洞与利用方式的技术安全研究员或专业人士。此人了解蓝牙实现中的最新漏洞及其对用户的潜在影响。他们擅长对漏洞进行测试与缓解，并了解 Bluetooth Special Interest Group 的最新规范与建议。该角色致力于持续跟进蓝牙安全领域的最新进展，并积极主动地识别与应对潜在威胁。",
+      "general domain (top 1 percent)": "computer security",
+      "specific domain (top 1 percent)": "Bluetooth security",
+      "category": "Digital & Computing"
+    },
+    "persona_2": {
+      "persona": "一位企业主或管理者，对业务运营的现代化感兴趣，并在寻找精简流程、减少纸质文书、提升效率的方法。他们具备较强的技术能力，并有使用电子签名和数字文档的经验。他们对新技术持开放态度，愿意尝试新方法以改进业务。他们重视便利性和易用性，并愿意投资新的工具和系统来实现这些目标。他们熟悉 ESIGN Act，并了解电子签名的法律影响。",
+      "general domain (top 1 percent)": "business",
+      "specific domain (top 1 percent)": "business operations",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 5,
+    "persona_1": {
+      "persona": "一位对促进积极行为并制定课堂有效纪律策略感兴趣的教师。该角色画像很可能具有教育背景，并对儿童发展与行为管理有浓厚兴趣。他们可能拥有与不同年龄和背景的学生共事的经验，并可能热衷于为学生促进积极成果。该角色画像也可能有兴趣探讨纪律的生态框架，以及在课堂内外影响学生行为的潜在因素。",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "educational psychology or child development",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "一名 Java 开发者，熟悉与 Java Application Server 相关的概念与技术，包括 Application Server、Applet 以及 CGI 程序。他们精通 C/C++ 编程语言，并具备 Common Gateway Interface（CGI）方面的经验。他们也熟悉 cookies、数据库与防火墙等概念，并能够以实用且有效的方式实现这些技术。他们对 Web 开发基础有扎实的理解，能够使用广泛的技术与框架开展工作。",
+      "general domain (top 1 percent)": "Computer Science",
+      "specific domain (top 1 percent)": "Web Development",
+      "category": "Digital & Computing"
+    }
+  },
+  {
+    "pair_id": 6,
+    "persona_1": {
+      "persona": "一位充满热情的植物生态学家，对自然与生态学科学怀有深厚的热爱。Dr. Virginia E. (March) Kline 在恢复生态学方面的专长，以及她不懈地教育并激励他人的努力，使她成为该领域备受尊敬的人物。她的幻灯片收藏以威斯康星州自然史的影像为特色，体现了她对自然世界的热情以及对教学与研究的投入。该收藏还包括一系列来自她“Reading the Landscape”课程的录音带，见证了她致力于与他人分享自身知识的承诺。",
+      "general domain (top 1 percent)": "ecology",
+      "specific domain (top 1 percent)": "restoration ecology",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "一位罗马历史学家，专门研究罗马历史，尤其是奥古斯都（Augustus）的统治时期。他的研究兴趣包括但不限于公元1世纪罗马帝国的政治、社会与文化层面。他尤其关注奥古斯都统治对罗马社会发展所产生的影响、奥古斯都与其他罗马皇帝之间的关系，以及奥古斯都政策与决策的历史遗产。他对罗马神话及其在奥古斯都生平与统治背景中的意义有着深刻理解。",
+      "general domain (top 1 percent)": "history",
+      "specific domain (top 1 percent)": "Roman history",
+      "category": "Humanities & Culture"
+    }
+  },
+  {
+    "pair_id": 7,
+    "persona_1": {
+      "persona": "一位保护主义者，对南北战争战役的历史与遗产充满热情，并致力于保护和保存重要的历史遗址。他们对肯尼索山战役（Battle of Kennesaw Mountain）及其周边地区十分了解，并坚定承诺确保该遗址在未来世代仍然保持可达性并具备教育意义。他们对美国国家公园管理局（National Park Service）及其保护与保存历史遗址的使命抱有浓厚兴趣，并致力于倡导收购肯尼索地块（Kennesaw tract），以纳入肯尼索山国家战场公园（Kennesaw Mountain National Battlefield Park）。",
+      "general domain (top 1 percent)": "History",
+      "specific domain (top 1 percent)": "Civil War history",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "一名金融分析师，对股票拆分和股票股利对股东权益的影响感兴趣。此人很可能在一家经纪公司或金融咨询公司工作，负责分析财务报告，并基于股票拆分和股利情况提出投资建议。他们对会计原则有深入理解，并熟悉上市公司的财务报表。他们也精通股票市场，并对这些事件对股价和公司价值的影响抱有浓厚兴趣。",
+      "general domain (top 1 percent)": "finance",
+      "specific domain (top 1 percent)": "financial analysis",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 8,
+    "persona_1": {
+      "persona": "一位精通科技的个人，充分了解与网络犯罪相关的风险，并采取主动措施来保护自己及其数字资产。此人熟悉网络钓鱼攻击，知道如何识别并避免它们。他们也了解强密码和多因素认证的重要性，并定期更新其安全设置，以确保获得最大程度的保护。此人同样了解网络钓鱼骗局的危险性，知道如何识别它们并采取行动，防止自己成为这些攻击的受害者。",
+      "general domain (top 1 percent)": "Computer Security",
+      "specific domain (top 1 percent)": "Cybersecurity Awareness",
+      "category": "Digital & Computing"
+    },
+    "persona_2": {
+      "persona": "一位关心社会的公民，热衷于动物福利与保护工作，尤其关注鲨鱼及其栖息地的保护。此人了解割取鲨鱼鱼翅（shark finning）对海洋生态系统造成的毁灭性影响以及鲨鱼种群数量的下降，并致力于采取行动来应对这一问题。他们很可能会成为鲨鱼保护的积极发声者，并对该议题背后的科学有深入理解，包括维持健康生态系统的重要性，以及不可持续捕捞做法所带来的不利影响。",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Shark Conservation",
+      "category": "Earth, Environment & Agriculture"
+    }
+  },
+  {
+    "pair_id": 9,
+    "persona_1": {
+      "persona": "一位古典音乐爱好者与乐理爱好者，对路德维希·范·贝多芬（Ludwig van Beethoven）的音乐与作品感兴趣，尤其是他的《回旋曲与随想曲》作品129号（Rondo e Capriccio Opus 129）。他们很可能对贝多芬的生平、音乐以及他所处的时代背景有所了解，并有兴趣探究其作品的细微之处与其作品的历史意义。他们也可能对了解贝多芬在创作中所采用的技法与音乐风格抱有浓厚兴趣，并可能有意研究西方艺术音乐史。",
+      "general domain (top 1 percent)": "music",
+      "specific domain (top 1 percent)": "music theory",
+      "category": "Arts, Media & Design"
+    },
+    "persona_2": {
+      "persona": "这段文字很可能会被公司的财务分析师或负责确定公司产品生产成本的管理人员阅读。此人可能在成本会计、财务分析和产品定价方面具备专业知识。他们会关注评估公司成本确定方法的有效性，并将其与公司的实际销售价格进行比较。他们还会寻求提高生产成本信息的准确性和可靠性的方法，以用于确定产品的销售价格。",
+      "general domain (top 1 percent)": "finance and accounting",
+      "specific domain (top 1 percent)": "cost accounting",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 10,
+    "persona_1": {
+      "persona": "一位野生动物保护主义者，对野生动物管理的私有化以及在南部非洲国家促进生物多样性感兴趣。他们很可能了解南部非洲野生动物管理的历史与现状，并对从野生动物私有化与商业化的成功经验中汲取的教训感兴趣。他们也可能对私有化在世界其他地区的潜在益处感兴趣，并愿意考虑在未来促进野生动物种群的替代性激励机制。",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Wildlife Conservation",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "一位声乐教练，专注于教授歌唱技巧与练习，并拥有与初学者、中级及高级歌手合作的经验。她热衷于帮助歌手提升发声控制、音域与舞台表现。她认为，歌唱是一种艺术形式，既需要技术能力，也需要艺术表达；同时，歌手了解歌唱的历史与理论也很重要。她还强调，聆听那些受过良好训练的嗓音并坚持每日练习，对于培养训练有素的嗓音至关重要。",
+      "general domain (top 1 percent)": "music",
+      "specific domain (top 1 percent)": "singing",
+      "category": "Arts, Media & Design"
+    }
+  },
+  {
+    "pair_id": 11,
+    "persona_1": {
+      "persona": "一位发明家兼工程师，专注于交通运输技术的开发，尤其是车轮。他们以其创新理念以及对交通运输工程领域的贡献而闻名。他们擅长设计与开发新型车轮和轮胎技术，并致力于降低摩擦、提升交通运输应用中的效率。他们也对车轮与轮胎技术的历史与演变感兴趣，并积极参与新材料与制造工艺的开发。",
+      "general domain (top 1 percent)": "engineering",
+      "specific domain (top 1 percent)": "transportation engineering",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "一名兽医，专门从事犬库欣病（Cushing's Disease）的诊断与治疗，尤其擅长处理中年犬只。他们熟悉该疾病的症状、诊断方法与治疗选择，并在开展诊断检测与外科手术操作方面经验丰富。他们对该疾病的潜在机制有深入理解，能够为患者提供准确且有效的治疗方案。他们也很可能精通口服药物的使用以及库欣病的其他非手术治疗方式。",
+      "general domain (top 1 percent)": "Veterinary Medicine",
+      "specific domain (top 1 percent)": "Canine Endocrinology",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 12,
+    "persona_1": {
+      "persona": "《联合国气候变化框架公约》(UNFCCC)的一名成员，自该条约创立之初便持续关注，并对其目标、原则及缔约方有深入理解。此人很可能熟悉UNFCCC的历史、演变与现状，以及其在应对气候变化中的作用。此人也可能对该条约设定强制性排放限额的潜力及其后续将制定的议定书抱有浓厚兴趣，并且其对条约的参与可能不仅限于阅读文本。",
+      "general domain (top 1 percent)": "International Relations",
+      "specific domain (top 1 percent)": "Climate Change Policy",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "一名专注于公司金融的金融分析师，尤其擅长对股权与债务投资进行分析与估值。她具备使用财务比率与 CAPM 模型计算股权成本与资本成本的经验，并熟悉运用历史平均值与 Black-Scholes 期权定价公式对股权认股权证进行估值。她也了解商誉摊销对财务报表的影响，以及在计算企业价值时为反映公司的盈利增长率而进行调整的重要性。",
+      "general domain (top 1 percent)": "finance",
+      "specific domain (top 1 percent)": "corporate finance",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 13,
+    "persona_1": {
+      "persona": "一名灾害管理与社区预警系统领域的研究人员和专家，重点关注社交媒体在危机沟通中的应用。他们已就社交媒体在灾害响应中的使用开展研究，并采访了灾害救援领域的传播或社交媒体专家。他们对利用 Twitter 数据检测灾害事件感兴趣，并提出了一个地理空间信息存储库，用于初始状况报告与更新，以在大规模灾害响应情境中指导搜救行动。",
+      "general domain (top 1 percent)": "Computer Science",
+      "specific domain (top 1 percent)": "Crisis Informatics",
+      "category": "Digital & Computing"
+    },
+    "persona_2": {
+      "persona": "一位气候变化教育者，热衷于通过互动性强、引人入胜的线上实地考察，激励并吸引学生投身于对抗气候变化的行动。他们致力于运用技术将真实世界的体验与解决方案带给学生，并有兴趣制作高质量的教育内容，使其对不同类型的学习者都易于获取且富有吸引力。他们擅长开发与实施高效的数字化实地考察，并承诺运用自身专长，为气候变化运动带来积极影响。",
+      "general domain (top 1 percent)": "Education",
+      "specific domain (top 1 percent)": "Environmental Education",
+      "category": "Society, Education & Lifestyle"
+    }
+  },
+  {
+    "pair_id": 14,
+    "persona_1": {
+      "persona": "一位地质学家，专门研究地球的地质历史，尤其是冰期以及地球上生命的出现。他/她尤其关注环境变化在生命演化中的作用，以及地球地球化学的变化与氧和磷的上升如何成为地球上复杂生命出现的关键因素。该角色很可能对研究人员所取得的科学发现以及这些发现对地球历史研究和我们星球上生命演化研究的意义感到好奇。",
+      "general domain (top 1 percent)": "geology",
+      "specific domain (top 1 percent)": "paleoclimatology",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "一位信奉德性伦理学理论的哲学家，尤其认同将幸福视为终极目标及其实现途径这一概念。此人很可能对幸福的本质、其定义以及其在人类生活中的作用抱有浓厚兴趣。他们会熟悉亚里士多德的哲学及其对幸福研究的贡献，并且很可能会批判该理论在实践中的局限性。他们也会有兴趣探讨幸福的伦理含义，以及幸福如何与个体所做出的行动与选择相关联。",
+      "general domain (top 1 percent)": "philosophy",
+      "specific domain (top 1 percent)": "ethics",
+      "category": "Humanities & Culture"
+    }
+  },
+  {
+    "pair_id": 15,
+    "persona_1": {
+      "persona": "一位护理教育者，对用于高风险考试设定切分分数（cut scores）的 Angoff 方法感兴趣，并已就该方法在临床技能核对清单中设定及格分数的应用开展研究。她尤其关注将 Foley 导尿管置入核对清单作为示例，以及在不同课程中核对清单可能存在的不同变体，以及该技能在教学实践中的差异。她正在寻找循证方法以改进评估流程，并渴望与护理界分享她的研究发现。",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "nursing education",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "一个对国际气候谈判感兴趣，并积极参与倡导美国参与这些谈判的人。他们了解谈判的当前进展，以及正在讨论的、用于克服美国所面临障碍的各种策略。他们也意识到谈判可能对世界各国政府和环境产生的潜在影响。他们对这一议题充满热情，并积极投入推动美国气候变化立法与政策的相关工作。",
+      "general domain (top 1 percent)": "Politics",
+      "specific domain (top 1 percent)": "Environmental Policy",
+      "category": "Government, Law & Security"
+    }
+  },
+  {
+    "pair_id": 16,
+    "persona_1": {
+      "persona": "一位自然保护爱好者，关注濒危物种的保育与保护，尤其是热带雨林中发现的物种。此人很可能熟悉国际自然保护联盟（IUCN）《受威胁物种红色名录》，并热衷于支持相关行动，保护这些物种免受森林砍伐与栖息地丧失的影响。此人也很可能有兴趣前往并了解 Taman Tugu 地点，在那里，Merawan Jangkang 树正被加入极危物种名单。",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Conservation Biology",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "一位专业工程师，对计算流体力学（Computational Fluid Dynamics，CFD）在工业设备设计与分析中的应用抱有浓厚兴趣。此人尤其擅长使用CFD对流体流动、传热及相关现象进行模拟与预测，并正在寻找一本内容全面的教材，以简明清晰的方式学习CFD的基础知识。此人很可能熟悉流体力学、热力学以及计算机编程的原理，并渴望将这些概念应用于实际工程问题。",
+      "general domain (top 1 percent)": "engineering",
+      "specific domain (top 1 percent)": "mechanical/aerospace engineering",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 17,
+    "persona_1": {
+      "persona": "一名科学家或环境科学家，关注污染物及其从危险废物场址迁移的研究。他们很可能对使用 p,p'-DDD: p,p'-DDE 浓度比来追踪污染物迁移感兴趣，并对监测研究中总 PCB（t-PCBs）和总 DDT（t-DDT）数据的解读感兴趣。他们也可能对 Quantico Embayment 鱼类与附近 Powells Creek 鱼类之间的差异感兴趣，以及关于环境科学家在调查存在 DDT 污染的场址时使用该比值的建议感兴趣。",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Environmental Toxicology or Contaminant Hydrology",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "一名技艺高超且经验丰富的情报官员，具有反颠覆与间谍活动背景。以其渗透并潜入各类英国法西斯运动与网络的能力而闻名，其中包括Sir Oswald Mosley的相关组织与网络。他也参与了揭露Special Branch遭苏联情报机构渗透的间谍行动。他的工作受到阻碍，原因在于历任Home Secretary不愿签署Home Office Warrant (HOW)，以拦截British Union of Fascists领袖Sir Oswald Mosley的通信。",
+      "general domain (top 1 percent)": "intelligence gathering",
+      "specific domain (top 1 percent)": "counter-subversion and espionage",
+      "category": "Government, Law & Security"
+    }
+  },
+  {
+    "pair_id": 18,
+    "persona_1": {
+      "persona": "一位充满热情的海洋保护主义者，致力于保护濒危物种并为其权利发声。他们是棱皮海龟的坚定倡导者，并热衷于强调加利福尼亚水域作为该物种关键觅食区域的重要性。他们对海洋生态系统有深刻理解，并熟知人类活动对这些脆弱生态系统的影响。他们积极公开支持海洋保护工作，并致力于确保棱皮海龟及其他濒危物种的生存。",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Marine Conservation",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "一位对物理学充满热情的科学家或研究人员，尤其对粒子物理学的研究感兴趣，特别关注大型强子对撞机（LHC）及其在发现希格斯玻色子方面的潜力；希格斯玻色子是物理学标准模型的一个组成部分。他们也熟悉科学史与理论的发展，并了解科学研究所伴随的潜在风险与不确定性。他们同样关注LHC更广泛的影响，以及其在推动科学知识与技术进步方面的潜力。",
+      "general domain (top 1 percent)": "physics",
+      "specific domain (top 1 percent)": "particle physics",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 19,
+    "persona_1": {
+      "persona": "一名金融分析师，专门分析运输成本及其对向发电厂交付煤炭成本的影响。此人对美国煤炭行业有深入理解，包括主要煤炭盆地及其各自的运输成本。他们熟悉铁路运价变化对煤炭成本的影响，并能够解读和分析报告中呈现的数据。此人也了解六大主要煤炭盆地之间的区域动态，以及这些动态如何影响运输成本和整体煤炭成本。",
+      "general domain (top 1 percent)": "Business/Finance",
+      "specific domain (top 1 percent)": "Energy/Coal Industry",
+      "category": "Business & Economy"
+    },
+    "persona_2": {
+      "persona": "一位古典山水画家，以其在宋代（960–1279）推动中国山水画流派发展方面的贡献而闻名。一般认为，他受到古典山水画家 Bifaji 以及新儒家哲学家 Jing Hao 的作品影响；二者均与该山水画流派相关。他的作品包括《Mount Kuanglu》和《Travelers in a Snowy Landscape》，对中国山水画的发展产生了深远影响，并在数百年来一直为学者与艺术家所研究。",
+      "general domain (top 1 percent)": "Art",
+      "specific domain (top 1 percent)": "Chinese Landscape Painting",
+      "category": "Arts, Media & Design"
+    }
+  },
+  {
+    "pair_id": 20,
+    "persona_1": {
+      "persona": "一位加利福尼亚州的政治人物，对气候变化和环境议题充满热情，尤其关注在该州实现 100% 可再生能源这一目标。他们很可能是加利福尼亚州立法机构的成员，并积极推动 SB100 法案的落实。他们熟悉能源储存的技术细节，并了解技术进步带来成本节约的潜力。他们也清楚当前技术的局限性，并愿意探索零碳能源的替代来源。",
+      "general domain (top 1 percent)": "Politics",
+      "specific domain (top 1 percent)": "Renewable Energy Policy",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "一位科学家或环保人士，关注水污染的影响以及缓解水污染的解决方案。他们有兴趣了解饮用受污染水的健康后果、气候变化的成因、一次性塑料禁令的积极影响、应对塑料污染的科学解决方案、航空旅行如何促成气候变化、扭转气候变化的步骤，以及与水污染相关的常见疾病或健康并发症。他们也有兴趣了解减少塑料污染的简单步骤。",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Environmental Health",
+      "category": "Earth, Environment & Agriculture"
+    }
+  },
+  {
+    "pair_id": 21,
+    "persona_1": {
+      "persona": "一位数字营销经理，热衷于在快速变化的数字化环境中利用社交学习来提升员工培训与发展。他们擅长运用现代沟通与协作工具，打造引人入胜且互动性强的学习体验，培育持续学习的文化，并提升团队的决策与问题解决能力。他们重视创新，并乐于探索能够提高公司培训项目效率与效果的新学习方法。",
+      "general domain (top 1 percent)": "business",
+      "specific domain (top 1 percent)": "digital marketing",
+      "category": "Business & Economy"
+    },
+    "persona_2": {
+      "persona": "一位理论物理学家，对物理学与哲学的交叉领域感兴趣，尤其关注宇宙学以及现实的本质。此人熟悉量子力学、广义相对论与宇宙学的理论，并对“绝对现实”的概念有深刻理解。他们也关注这些理论的哲学含义，以及非物质现实存在的可能性。此人很可能具有数学与物理学背景，并对这些领域的交叉有强烈兴趣。",
+      "general domain (top 1 percent)": "physics",
+      "specific domain (top 1 percent)": "cosmology",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 22,
+    "persona_1": {
+      "persona": "一名对向原住民开展关于风湿性心脏病和风湿热的教育与培训感兴趣的卫生专业人员或卫生工作者。他们很可能在健康教育、健康促进和健康传播方面具备知识与经验。他们有兴趣使用清晰、易懂的语言来解释复杂的健康主题，并熟悉使用图表和视频等视觉辅助工具。他们也很可能具有与原住民社区合作的经验，并热衷于改善原住民的健康结局。",
+      "general domain (top 1 percent)": "healthcare",
+      "specific domain (top 1 percent)": "health education",
+      "category": "Life & Health"
+    },
+    "persona_2": {
+      "persona": "一位具有环境营销与绿色营销背景的市场营销专业人士。他们擅长识别并传达产品或服务的环境效益，并在绿色产品的营销策略研究、分析与实施方面拥有经验。他们熟悉绿色营销领域的最新进展，例如 Seven Sins of Greenwashing 以及关于提出环境声明的指南。他们也有意从事绿色营销工作，并正在寻求机会在该领域应用其技能与知识。",
+      "general domain (top 1 percent)": "Marketing",
+      "specific domain (top 1 percent)": "Green Marketing",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 23,
+    "persona_1": {
+      "persona": "一位政治分析师，专门研究中东政治与伊朗危机，尤其聚焦于礼萨·沙阿·巴列维（Reza Shah Pahlavi）的兴衰及其对该国历史的影响。该人设致力于理解导致沙阿垮台的政治、社会与经济因素，以及随后阿亚图拉·霍梅尼（Ayatollah Khomeini）与伊朗伊斯兰革命的崛起。他们也关注美国与英国秘密情报局（British Secret Intelligence Service）在推翻沙阿的政变及其后续事件中所扮演的角色。",
+      "general domain (top 1 percent)": "History",
+      "specific domain (top 1 percent)": "Middle Eastern History",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "一位金融学教授，专注于公司金融研究，尤其关注公司债券市场及其在亚洲的发展等相关议题。他的研究兴趣包括：影响公司债券市场发展的因素、在亚洲国家推行创新可能面临的挑战，以及监管机构可用来提升公司债券市场效率的工具。他在多个国家的高管课程项目中拥有丰富的教学经验，并在公司金融领域发表了大量论文与著作。",
+      "general domain (top 1 percent)": "finance",
+      "specific domain (top 1 percent)": "corporate finance",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 24,
+    "persona_1": {
+      "persona": "一位学习技术专家，热衷于打造引人入胜且高效的学习体验。他们对设计与实施学习技术感兴趣，这些技术能够有效传递内容并衡量学习成效。他们意识到清晰且可衡量的学习目标的重要性，并愿意挑战自我，跳出固有思维，调整方法以适应新技术。他们乐于将游戏设计实践融入工作，并有兴趣进一步了解如何将游戏设计原则应用于教育。",
+      "general domain (top 1 percent)": "Education",
+      "specific domain (top 1 percent)": "Learning Technology",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "一位宪法专家，曾为南非设计并实施联邦宪法，确保人口中的多数得到代表，同时使精英对省级政府拥有足够的控制权。该专家成功平衡了省级对重要公共服务的控制需求与国家税收收入公平分配的需求。该专家的工作改善了南非多数居民与精英居民的福祉，并为其他寻求过渡到稳定民主制度的国家提供了范例。",
+      "general domain (top 1 percent)": "Politics/Constitutional Law",
+      "specific domain (top 1 percent)": "Constitutional Design and Implementation",
+      "category": "Government, Law & Security"
+    }
+  },
+  {
+    "pair_id": 25,
+    "persona_1": {
+      "persona": "一位具备网络管理与运维专长的技术专业人士，尤其专注于 Netezza 网络领域。此人对高级配置选项感兴趣，并热衷于理解网络绑定（bonding）与虚拟化所涉及的概念与流程。他们熟悉 Linux 操作系统，并在网络设备、绑定与虚拟化方面拥有经验。该画像也对与网络相关的问题与建议感兴趣，并积极寻求在 Twitter 及其他平台与他人互动。",
+      "general domain (top 1 percent)": "computer networking",
+      "specific domain (top 1 percent)": "Netezza networking",
+      "category": "Digital & Computing"
+    },
+    "persona_2": {
+      "persona": "一位行星动力学领域的研究人员，尤其关注小行星带的混沌行为。他们了解主小行星带中混沌区域的存在，并在数值模拟中研究过小行星的演化。他们也对小行星带的结构以及其如何被各种平均运动共振纵横交错地贯穿感兴趣。此外，他们对近地小行星（Near-Earth Asteroids）和陨石的起源与分布，以及主带小行星的半长轴如何随时间演化，抱有浓厚兴趣。",
+      "general domain (top 1 percent)": "astronomy",
+      "specific domain (top 1 percent)": "planetary dynamics",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 26,
+    "persona_1": {
+      "persona": "一位加拿大政治人物，是加拿大议会成员，以倡导反对核武器以及反对向有核试验历史的国家提供核援助而闻名。她尤其关注印度的核试验，以及加拿大在推动向印度输出核技术方面所扮演的角色。她批评联邦政府在推动核出口方面的作用，并批评政府在核试验问题上的虚伪立场。她也担忧核反应堆中产生的材料可能被用于核武器研发。",
+      "general domain (top 1 percent)": "Politics/Politics and Government",
+      "specific domain (top 1 percent)": "None",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "一家领先农产品加工企业的高层管理人员，负责监督生物乙醇（Bioethanol）的生产与分销。该人士擅长管理复杂流程，确保全程可追溯性与环境可持续性。他们对生产流程以及生物乙醇的优势有深入理解，包括其在汽车中的使用，以及与标准无铅汽油进行掺混的潜力。他们也熟悉英国的 Renewable Transport Fuels Obligation（RTFO），并了解未来掺混更高比例生物乙醇的潜力。",
+      "general domain (top 1 percent)": "Business/Management",
+      "specific domain (top 1 percent)": "Biofuels/Bioenergy",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 27,
+    "persona_1": {
+      "persona": "一位在环境科学与工程方面具有专长的科学家，尤其擅长生物修复与微生物混合物（microbial stew）领域。他们曾参与溢油清理工作，并提出了一种利用食油微生物进行生物修复的方法。他们对其他清理方法的有效性持怀疑态度，并认为生物修复是一种相对非侵入性的工具，可用于对沼泽进行去油处理。他们也有在其他溢油事件与污染场地工作的经验，并有理由认为至少会被允许进行测试。",
+      "general domain (top 1 percent)": "environmental science",
+      "specific domain (top 1 percent)": "bioremediation",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "一位前拉斐尔派画家，受但丁·加百列·罗塞蒂（Dante Gabriel Rossetti）影响，并采纳了PRB的风格倾向。布朗的绘画常描绘现代生活题材，尤其是工人阶级，并且比许多同时代人更重视直接观察与细节的明确性。他的画作《Work》描绘了一群在建筑工地劳作的挖土工（navvies），对“work”的角色及其与维多利亚时代阶级结构的关系作出了评论。布朗也因与但丁·加百列·罗塞蒂的友谊以及他与PRB的关联而闻名。",
+      "general domain (top 1 percent)": "Art",
+      "specific domain (top 1 percent)": "Pre-Raphaelite painting",
+      "category": "Arts, Media & Design"
+    }
+  },
+  {
+    "pair_id": 28,
+    "persona_1": {
+      "persona": "一位专攻科学哲学的哲学家，尤其侧重于社会建构主义与科学社会学等领域。此人很可能深度参与社会建构主义者与传统科学唯物主义者之间持续进行的争论，并且很可能对其中涉及的哲学问题具有细致入微的理解。他们很可能熟悉科学社会学与科学哲学中的一系列例证与论证，并且很可能对提出针对建构主义论证的新反驳抱有强烈兴趣。",
+      "general domain (top 1 percent)": "philosophy",
+      "specific domain (top 1 percent)": "philosophy of science",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "一位热衷于设计引人入胜且互动性强的课堂活动的教师，以激发学生的参与度与成长。他们相信头脑风暴、自由写作和破冰活动的重要性，能够帮助学生发展全面且批判性的思维能力。他们擅长运用案例研究、角色扮演和访谈活动来教授实用课程，并为课程内容提供新的视角。他们也熟练使用 TIMESAVERS for TEACHERS Interactive Classroom Forms Collection 来节省时间并有效管理课堂。",
+      "general domain (top 1 percent)": "Education",
+      "specific domain (top 1 percent)": "Classroom Management and Pedagogy",
+      "category": "Society, Education & Lifestyle"
+    }
+  },
+  {
+    "pair_id": 29,
+    "persona_1": {
+      "persona": "一位国防战略家，对激光武器在作战场景中的发展与潜在使用感兴趣。此人了解将激光武器集成到作战系统中的技术挑战，并具备开展研究与分析的经验，用以评估这些系统的可行性与有效性。他们也关注激光技术更广泛的影响，包括其对军事战略、技术进步的潜在影响，以及围绕使用先进武器系统的伦理考量。",
+      "general domain (top 1 percent)": "Military Strategy",
+      "specific domain (top 1 percent)": "Laser Weaponry",
+      "category": "Business & Economy"
+    },
+    "persona_2": {
+      "persona": "一位自然保护主义者和环境倡导者，关注野火对森林、社区以及环境的影响。他们热衷于保护自然资源，并倡导负责任的森林管理实践。他们熟悉野火科学，并对伐木对森林与生态系统的影响有深刻理解。他们很可能参与有关森林火灾立法与保护工作的讨论，并致力于寻找能够平衡森林与社区需求的解决方案。",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Wildland Fire Management",
+      "category": "Earth, Environment & Agriculture"
+    }
+  },
+  {
+    "pair_id": 30,
+    "persona_1": {
+      "persona": "一名资源专员，倡导在课堂中使用辅助技术，帮助残障学生达到学业熟练水平并克服沟通障碍。他们熟悉不同类型的辅助技术，了解其优势与劣势，并掌握如何对使用者进行适当培训，以避免对技术过度依赖所带来的隐患。该资源专员热衷于赋能学生在课堂内外充分参与，并致力于确保所有学生都能获得其成功所需的工具。",
+      "general domain (top 1 percent)": "Education",
+      "specific domain (top 1 percent)": "Special Education or Assistive Technology",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "一位商业专业人士，负责基于数据与分析做出战略决策。他们有兴趣通过分析数据，并借助管理信息系统（MIS）做出有依据的决策，从而改进运营。他们熟悉 MIS 的功能与能力，并在寻找将其整合到其组织运营中的方法，以提升决策质量和整体绩效。他们愿意投入资源实施 MIS，并乐于了解其使用所涉及的成本与收益。",
+      "general domain (top 1 percent)": "Business",
+      "specific domain (top 1 percent)": "Business Intelligence",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 31,
+    "persona_1": {
+      "persona": "一位对学习如何识读乐谱感兴趣，并愿意投入时间和精力来发展其音乐词汇的音乐人。他们不惧探索不同的音乐流派和技巧，并乐于从多种来源学习。他们不会被学习一门新乐器的挑战所吓倒，并愿意定期练习以提升技能。他们对音乐的历史与理论充满好奇，并愿意探索不同的音乐风格与流派。他们不怕冒险，并愿意尝试新事物。",
+      "general domain (top 1 percent)": "music",
+      "specific domain (top 1 percent)": "None",
+      "category": "Arts, Media & Design"
+    },
+    "persona_2": {
+      "persona": "一位历史学家兼占星师，对天文学与历史的交汇点感兴趣，尤其关注天象事件与重大历史事件的对应关系，以及它们所传达的预言信息。此人精通古埃及神话及其与巨蟹座（Cancer）星座的关联；在《圣经》预言中，巨蟹座曾被用作保护与复活的象征。他们也熟悉木星与金星的合相在“复活应许”中的意义，以及它们在发出“被提”（Rapture）信号方面所扮演的角色。",
+      "general domain (top 1 percent)": "History",
+      "specific domain (top 1 percent)": "Ancient Egyptian mythology and its connection to astronomy",
+      "category": "Humanities & Culture"
+    }
+  },
+  {
+    "pair_id": 32,
+    "persona_1": {
+      "persona": "一位专注于环境与健康科学的科学家或研究人员，尤其在水净化与环境污染控制领域具有专长。此人很可能对发表在 Industrial and Engineering Chemistry Research 上的研究发现感兴趣，该研究讨论了香蕉皮在从饮用水中去除有毒金属方面的有效性。该画像也可能有兴趣进一步了解关于抑郁症与肾脏疾病的研究，以及地中海饮食对心脏健康与腰围健康的潜在益处。",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Water Purification",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "一位学校校长，致力于改善其所在学校学生的学习环境与学习成果。该人士专注于校长的持续专业发展，并坚信实践共同体、协作式教练辅导以及探究式模式的力量，以发展并精进其领导力技能。他们热衷于与500多位校长合作，并与学区及校长中心建立伙伴关系，以对学校领导者的学习产生积极影响，并在全国范围内对50万名学生产生积极影响。",
+      "general domain (top 1 percent)": "Education",
+      "specific domain (top 1 percent)": "Educational Leadership",
+      "category": "Society, Education & Lifestyle"
+    }
+  },
+  {
+    "pair_id": 33,
+    "persona_1": {
+      "persona": "一名流（flow）设计师，负责在组织的流编排器（flow orchestrator）中创建和管理流。他们对流设计流程有深入理解，包括流、变量和消息的创建与管理。他们擅长使用流设计器创建在效率与效果方面经过优化的流，并能够对流设计过程中出现的问题进行故障排查与解决。他们具备使用多种流设计工具的经验，并能够适应新技术以及流设计流程中的变化。",
+      "general domain (top 1 percent)": "Software Development",
+      "specific domain (top 1 percent)": "Flow Design",
+      "category": "Digital & Computing"
+    },
+    "persona_2": {
+      "persona": "一位睡眠研究者，关注睡眠剥夺的负面影响以及它如何影响健康与行为的各个方面。他们对睡眠与情绪健康之间的联系、睡眠对学习与记忆的影响，以及睡眠与体重增加之间的关系感到好奇。他们也关注睡眠剥夺对心脏健康、视力、免疫系统功能以及经济风险承担的影响。他们致力于理解睡眠剥夺的潜在机制，并探索如何减轻其对人类健康的影响。",
+      "general domain (top 1 percent)": "psychology",
+      "specific domain (top 1 percent)": "sleep research",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 34,
+    "persona_1": {
+      "persona": "一个对梦的概念及其背后的象征意义着迷的人。他们对沙子的象征体系有深刻理解，包括其二元性以及与微观世界和宏观世界的关联。他们也对梦的心理学以及梦如何与我们的清醒生活相关感兴趣。他们对沙子的象征意义以及如何借助它来探索我们梦境复杂而难以捉摸的本质抱有浓厚兴趣。他们很可能是一名梦境分析师，或是一位专门研究梦及其象征意义的心理学家。",
+      "general domain (top 1 percent)": "psychology",
+      "specific domain (top 1 percent)": "dream analysis/psychology of dreams",
+      "category": "Life & Health"
+    },
+    "persona_2": {
+      "persona": "一位对语言、语法和标点符号感兴趣的记者，尤其是在写作与编辑方面。他们熟悉各种标点符号及其在不同语境中的用法，并擅长运用这些标点来提升写作的清晰度与表达效果。他们也对标点符号的历史与演变感兴趣，以及这些符号如何随着时间被使用并加以调整。他们可能对某些特定的标点符号有特别兴趣，例如分号，并可能收集了其用法的示例或解释。",
+      "general domain (top 1 percent)": "Language and Linguistics",
+      "specific domain (top 1 percent)": "Punctuation",
+      "category": "Humanities & Culture"
+    }
+  },
+  {
+    "pair_id": 35,
+    "persona_1": {
+      "persona": "一位专攻量子物理与人工智能的物理学家，尤其聚焦于自适应量子计量（adaptive quantum metrology）领域。他发表了开创性研究，利用人工智能制定策略，以尽可能最佳地利用量子性质来实现尽可能精确的测量，并超越由不确定性原理所施加的量子极限。他的工作有望促成超高精度原子钟、极其精确的 Global Positioning System（GPS）仪器，或提供一种测量“gravitational waves”的方法，而这种现象迄今尚未被探测到。",
+      "general domain (top 1 percent)": "physics",
+      "specific domain (top 1 percent)": "quantum physics",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "一位专门研究古代文明的历史学家，尤其关注地中海地区的文明。此人对“sassi dwellers”和曾经生活在 South End 的人们的历史与文化有着深刻的理解。他们热衷于保护这些社区独特且无价的传统与文化遗产，并致力于理解并应对他们所面临的挑战。他们也有兴趣探讨全球化更广泛的影响，以及现代化对世界各地社区所造成的影响。",
+      "general domain (top 1 percent)": "history",
+      "specific domain (top 1 percent)": "ancient mediterranean history",
+      "category": "Humanities & Culture"
+    }
+  },
+  {
+    "pair_id": 36,
+    "persona_1": {
+      "persona": "一位历史学家，致力于发掘其家园及其社区历史中隐藏的故事。他们热衷于了解自己的过去，以及家园与自然世界之间的关系。他们喜欢破解与本地历史相关的谜团并解答谜题。他们对周围建筑与景观的建筑语言充满好奇，并希望学习如何阅读与解读它。他们不惧运用自己的知识与技能来破解历史谜团，并解答与本地历史相关的谜题。",
+      "general domain (top 1 percent)": "history",
+      "specific domain (top 1 percent)": "local history",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "一位制药公司CEO，对发现脱发的新疗法感兴趣，尤其被JAK抑制剂在治疗斑秃（alopecia areata）及其他自身免疫性疾病方面所展现的可喜结果所吸引。他们对JAK抑制剂在治疗男性型与女性型脱发方面的潜力感到好奇，并热切希望看到Aclaris Therapeutics开发的新型ATI-502外用溶液能否在这方面取得成功。他们也清楚新疗法的开发过程漫长且充满不确定性，因此在采取行动时持谨慎态度。",
+      "general domain (top 1 percent)": "Business/Management",
+      "specific domain (top 1 percent)": "None",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 37,
+    "persona_1": {
+      "persona": "一个对在路由器上配置和管理网络设置感兴趣的人，具体来说是 Linksys WRT54G 路由器。此人很可能是精通技术的个体，喜欢对网络配置进行故障排查与优化。他们可能在寻找提升网速的方法、排查连接问题，并确保其网络安全。该画像熟悉基本的路由器配置，并可能具备一定的网络设置管理经验。他们也很可能具备较强的技术能力，并能熟练使用基于 Web 的配置工具。",
+      "general domain (top 1 percent)": "Computer Science",
+      "specific domain (top 1 percent)": "Network Administration",
+      "category": "Digital & Computing"
+    },
+    "persona_2": {
+      "persona": "一位专门研究褪黑素受体及其在人体内功能的研究人员，尤其关注其在昼夜节律系统和生殖系统中的作用。此人很可能从事医学研究，特别是在药理学和生理学领域，并有兴趣理解褪黑素在人类健康与疾病中的作用。他们很可能熟悉褪黑素研究领域的最新研究发现与进展，并有兴趣为推动我们对这一重要激素的理解作出贡献。",
+      "general domain (top 1 percent)": "medicine",
+      "specific domain (top 1 percent)": "pharmacology",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 38,
+    "persona_1": {
+      "persona": "一位技术官僚，在将 JEE (Advanced) 考试从纸笔考试转型为计算机化考试（CBT）方面发挥了关键作用。该人士监督了 JEE (Advanced) 考试 CBT 形式的实施，确保所有考生都能获取试卷的印地语和英语版本。他们还实施了防止错误的措施，并确保考试以公平、透明的方式进行。该人物在管理大规模考试方面技艺精湛，并对 JEE (Advanced) 考试流程有着深刻理解。",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "exam management",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "一家领先汽车公司的CEO，专注于开发并实施创新技术，以提升燃油效率并减少排放。出于对突破传统内燃机边界的热情驱动，他不断寻求优化性能、最大限度减少浪费的新方法。凭借敏锐的细节洞察力以及对汽车行业的深刻理解，他持续寻找改进燃油消耗、降低环境影响的途径。他的目标是引领行业迈向可持续且高效交通运输的未来。",
+      "general domain (top 1 percent)": "Business/Management",
+      "specific domain (top 1 percent)": "Automotive Industry",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 39,
+    "persona_1": {
+      "persona": "一个对《怀唐伊条约》(Treaty of Waitangi)中所阐述的毛利人与王室之间“伙伴关系”这一概念持高度批判态度的人。此人坚定主张所有新西兰人一律适用同一套法律，不因种族或族裔而有差别，并认为应以促进人人平等与正义的方式来解释并执行该条约。此人很可能是一名社会正义活动家或人权倡导者，对《怀唐伊条约》的原则充满热情，并致力于在当代社会推动其价值与原则。",
+      "general domain (top 1 percent)": "Politics/Policy",
+      "specific domain (top 1 percent)": "Indigenous Rights/Treaty of Waitangi",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "一位资深且经验丰富的能源行业专业人士，专注于天然气和石油市场，尤其是在美国和中国。他们在自愿性标准的制定与实施、能源出口以及全球经济趋势对行业影响方面拥有广泛的知识与经验。他们熟悉当前市场状况，包括价格波动、供需关系，以及中国作为美国能源潜在买方所扮演的角色。他们对市场趋势具有敏锐洞察力，并精通国际贸易谈判。",
+      "general domain (top 1 percent)": "Business",
+      "specific domain (top 1 percent)": "Energy Industry",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 40,
+    "persona_1": {
+      "persona": "一位对前列腺癌感兴趣的医疗专业人士，尤其关注其诊断与治疗。他们了解认知提升与筛查对前列腺癌发病率的影响，并关注筛查方法与治疗手段的最新进展。他们很可能了解PCA3尿液检测，以及了解前列腺癌风险因素的重要性。他们也很可能意识到前列腺癌筛查需要采取平衡的方式，认识到并非所有前列腺癌病例都需要积极治疗。",
+      "general domain (top 1 percent)": "medicine",
+      "specific domain (top 1 percent)": "prostate cancer diagnosis and treatment",
+      "category": "Life & Health"
+    },
+    "persona_2": {
+      "persona": "一位专注于虚拟筛选与药物发现的计算科学家，尤其聚焦于 HIV/AIDS 治疗药物。LaLonde 使用计算方法来识别可能抑制 HIV 进入细胞的候选抑制剂，采用蛋白质结构分析与基于形状的相似性匹配。她的工作包括利用 PSC 的高性能计算资源运行虚拟筛选程序并合成新化合物。她是机器学习社区的一员，并拥有使用 GraphLab（用于大型机器学习问题的并行计算软件）的工作经验。",
+      "general domain (top 1 percent)": "Computer Science/Computational Science",
+      "specific domain (top 1 percent)": "Drug Discovery/Virtual Screening",
+      "category": "Digital & Computing"
+    }
+  },
+  {
+    "pair_id": 41,
+    "persona_1": {
+      "persona": "欧洲航空危机协调小组（EACCC）的一名高级成员，负责协调并实施措施，以减轻自然灾害和人为灾害对欧洲航空网络的影响。该角色精通灾害管理与危机响应，擅长与利益相关方协调、分析并传播相关信息，以及与航空界沟通。他们也熟悉EACCC的组织架构与流程，曾参与其会议并与其他利益相关方进行协调。",
+      "general domain (top 1 percent)": "Crisis Management",
+      "specific domain (top 1 percent)": "Aviation Crisis Management",
+      "category": "Business & Economy"
+    },
+    "persona_2": {
+      "persona": "一位医疗保健专业人士，关注于了解电子健康记录（EHR）系统的技术要求和认证标准。该画像正在寻找一款在功能性方面通过 CCHIT 认证、同时也通过 ONC-ATCB 认证的产品；后者既出于功能性目的，也为了符合“有意义使用”（meaningful use）支付的资格要求。他们也对同时符合两项认证的产品感兴趣，并愿意投资于一款更具灵活性、能够在不改变系统其余部分的情况下新增功能的产品。",
+      "general domain (top 1 percent)": "healthcare",
+      "specific domain (top 1 percent)": "healthcare technology",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 42,
+    "persona_1": {
+      "persona": "一位专门研究磁重联及其对太阳和地球影响的科学家。该科学家参与 Magnetospheric Multiscale 任务，并在快速等离子体仪器方面具备专业知识。他/她有兴趣将这些知识应用于宇宙中的其他过程，并对太阳日冕和太阳风抱有浓厚兴趣。该科学家很可能是参与空间天气研究的科学界成员，并热衷于发现新现象、为该领域作出重要贡献。",
+      "general domain (top 1 percent)": "space physics",
+      "specific domain (top 1 percent)": "magnetic reconnection",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "一位致力于减少碳排放并推动可再生能源发展的世界领导人。此人了解化石燃料补贴对环境和经济的影响，并有意实施政策以逐步取消这些补贴。他们理解能源安全以及减少温室气体排放的重要性，并愿意采取行动来应对这些问题。此人很可能是G20或类似全球组织的成员，并对推动可持续发展和应对气候变化抱有强烈兴趣。",
+      "general domain (top 1 percent)": "Politics/International Relations",
+      "specific domain (top 1 percent)": "Climate Change Policy",
+      "category": "Government, Law & Security"
+    }
+  },
+  {
+    "pair_id": 43,
+    "persona_1": {
+      "persona": "一位课程开发者与教育研究者，关注课程的开发与评估，尤其是在以成果为导向的测量以及课程的实践（praxis）模型语境下。他们擅长将与课程相关事务的不同方面加以区分并进行更深入的探究，同时强调各个方面与其教学实践的相关性。他们对开发并精简课程的重要性充满热情，以确保课程具有相关性、有效性，并符合道德与文化条件。",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "curriculum development",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "一位专注的环境保护主义者与教育工作者，对水质监测与相关教育充满热情。此人精通水体检测，尤其擅长运用化学与生物方法评估溪流健康状况。他们具备领导公民科学项目的经验，并致力于在其社区推动保护工作。此人有意与当地机构和组织开展合作，以促进对水生生态系统重要性以及开展保护行动必要性的更深入理解。",
+      "general domain (top 1 percent)": "environmental science",
+      "specific domain (top 1 percent)": "None",
+      "category": "Earth, Environment & Agriculture"
+    }
+  },
+  {
+    "pair_id": 44,
+    "persona_1": {
+      "persona": "一位美国国会议员，对能源政策充满热情，并认为国家应优先发展本国国内资源。他们是共和党成员，在经济学和能源领域拥有深厚背景。他们关注可再生能源的使用，并认为国家应投资新技术，以减少对化石燃料的依赖。他们也对国家的能源储备有深刻理解，并致力于确保国家能够获得多元化的能源来源。",
+      "general domain (top 1 percent)": "energy policy",
+      "specific domain (top 1 percent)": "None",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "一名医学专业人士，专长于血管加压药的药理学，尤其关注alpha 1和beta 1激动剂对心血管系统及外周血管收缩的影响。他们具备关于alpha methylnorepinephrine和alpha methylepinephrine转化过程的经验，了解快速给予dexmedetomidine的影响，以及epinephrine的药理学。他们很可能熟悉血管加压药在心血管疾病治疗中的应用，并对alpha 1和beta 1激动剂的作用机制有深刻理解。",
+      "general domain (top 1 percent)": "medicine",
+      "specific domain (top 1 percent)": "pharmacology",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 45,
+    "persona_1": {
+      "persona": "一名在学校安全与暴力预防领域的专业人士，熟悉在学校中对各种形式暴力的识别、预防与应对，包括同伴压力、不健康关系以及自杀行为。他们具备开展学校安全综合评估并制定应对与预防暴力策略的经验。他们在识别与应对暴力迹象以及制定有效干预措施方面受过高度专业训练，以支持学生与教职员工共同营造安全且支持性的校园环境。",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "school safety and violence prevention",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "一位 GIS 专业人士，精通 3D 数据的创建与处理，尤其擅长使用 heightmaps。他们在使用开源工具和软件（如 QGIS 和 GRASS）提取并处理 3D 数据方面拥有丰富经验。他们也熟练掌握 3D 分析与建模技术，用于创建 3D 模型与场景，并且对 Web 地图技术的使用十分熟悉，能够展示并分享其工作成果。他们致力于运用自身专长创建并分享可在各类平台与应用中使用的 3D 数据。",
+      "general domain (top 1 percent)": "Computer Science",
+      "specific domain (top 1 percent)": "Geographic Information Systems (GIS)",
+      "category": "Digital & Computing"
+    }
+  },
+  {
+    "pair_id": 46,
+    "persona_1": {
+      "persona": "一名负责在澳大利亚不同州和领地制定并执行工作健康与安全（WHS）法律的人。他们熟悉协调统一的WHS立法，包括WHS示范法案（model WHS Act）、法规、实践准则（Codes of Practice）以及国家合规与执法政策。他们也了解法规与实践准则之间的差异，以及它们在控制工作场所危害方面所发挥的作用。期望他们定期更新自身的知识与技能，以跟上WHS立法不断演进的要求。",
+      "general domain (top 1 percent)": "law",
+      "specific domain (top 1 percent)": "Workplace Health and Safety (WHS) Law",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "一位对人工智能及其在各行业中的应用充满热情的技术专家。他们对 AI 领域、其架构以及图灵测试都很了解。他们关注 AI 技术的最新进展及其对社会的影响。他们也意识到 AI 的伦理与社会层面的影响，例如 AI 可能取代人类工作岗位，以及需要通过监管来确保 AI 的负责任使用。他们关注 AI 对未来工作的影响，以及 AI 创造新工作岗位的潜力。",
+      "general domain (top 1 percent)": "Computer Science",
+      "specific domain (top 1 percent)": "Artificial Intelligence",
+      "category": "Digital & Computing"
+    }
+  },
+  {
+    "pair_id": 47,
+    "persona_1": {
+      "persona": "一位英国大律师（barrister）及前律师，曾在印度为大英帝国工作，尤其是在旁遮普省和孟加拉省。Radcliffe 以其在边界划定领域的工作而闻名，并通过其工作为国际社会作出了重要贡献。他也因其在法律领域的工作而知名，并曾参与多起备受关注的重大法律案件。尽管成就斐然，Radcliffe 也因其在 1947 年印度分治期间的争议性行为而为人所知，尤其是他在绘制国际边界线方面所扮演的角色。",
+      "general domain (top 1 percent)": "law",
+      "specific domain (top 1 percent)": "international law/boundary demarcation",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "一名金融分析师，关注于理解一家公司的现金流模式，以及其如何使用和管理其财务资源。此人很可能对现金流量表的细节与微妙之处感兴趣，例如经营、投资和筹资部分，以及它们如何与公司的整体财务健康状况和现金流管理相关联。此人也可能对随附于财务报表的附注感兴趣，这些附注为现金流量表中所呈现的数字提供背景与解释。",
+      "general domain (top 1 percent)": "finance",
+      "specific domain (top 1 percent)": "financial analysis",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 48,
+    "persona_1": {
+      "persona": "一个对技术感兴趣的人，尤其关注万维网（World Wide Web）及其各个组成部分。此人很可能是 Web 开发者、设计师或爱好者，想要了解互联网的结构与运作方式。他们也可能对学习互联网上使用的不同协议和技术感兴趣，例如 email、Web、FTP 和 telnet。他们可能在寻找有关如何创建一个 web site、如何访问 web，以及如何使用 Firefox、Internet Explorer 和 Netscape 等计算机软件来浏览 web 的信息。",
+      "general domain (top 1 percent)": "computer science",
+      "specific domain (top 1 percent)": "web development",
+      "category": "Digital & Computing"
+    },
+    "persona_2": {
+      "persona": "一位心理学家兼研究人员，对灵性与成瘾的交叉领域以及正念作为应对物质滥用工具的潜力抱有浓厚兴趣。他们开展了关于灵性、正念与物质滥用之间关系的研究，并发表了研究结果，指出更高水平的灵性与物质使用减少之间存在正相关。他们也有兴趣进一步探索灵性与成瘾之间的关系，以及正念在应对成瘾方面作为一种有用工具的潜力。",
+      "general domain (top 1 percent)": "psychology",
+      "specific domain (top 1 percent)": "addiction psychology",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 49,
+    "persona_1": {
+      "persona": "一位南北战争历史学家，对第43美国有色人种部队团（43rd USCT Regiment）在荒原战役（Wilderness Campaign）和彼得堡围城战（Siege of Petersburg）期间的经历与行动感兴趣。他们尤其关注该团在火山口战役（Battle of the Crater）中的作用，以及邦联军队所采用的战略。他们也对该团在彼得堡周边的行动感兴趣，包括其疲劳勤务（fatigue duty）以及在哈彻斯河战役（Battle of Hatcher's Run）中的作战。他们可能在寻找关于该团在这一时期的调动细节，以及邦联在此期间所采用战略的详细信息。",
+      "general domain (top 1 percent)": "history",
+      "specific domain (top 1 percent)": "american civil war history",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "一位法国化学家与化学教授，以其在温度测量学方面的贡献以及发现勒夏特列原理（Le Chatelier's principle）而闻名；该原理在化学工程领域具有工业意义。他很可能对化学平衡及其在外部约束条件下对系统的影响的研究感兴趣，并且很可能对热力学原理与质量作用定律有深刻理解。他很可能热衷于教学与科研，并且很可能在矿物及其化学研究方面具有扎实背景。",
+      "general domain (top 1 percent)": "chemistry",
+      "specific domain (top 1 percent)": "thermodynamics",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 50,
+    "persona_1": {
+      "persona": "一位对机器人技术与工程教育充满热情的教师，致力于将这些学科融入其小学课程体系。他们具备教育学背景，并有教授其他学科的经验，但也渴望进一步学习机器人技术与工程。他们愿意向其他教师和工程师学习，并愿意迎接将这些学科引入学校的挑战。他们正在寻找资源与导师指导，以帮助他们起步，并在必要时愿意适应课堂环境。",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "None",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "一位技艺精湛的验光师，在验光领域拥有30余年经验，专注于散光、近视和远视等屈光不正的诊断与治疗。Frank 医生及其团队采用最新技术提供全面的眼科检查，以准确诊断散光，并推荐合适的视力矫正方案（包括眼镜和隐形眼镜），帮助患者即使双眼均有散光也能清晰视物。他们还提供不同类型屈光手术的咨询服务，以及术前与术后护理。",
+      "general domain (top 1 percent)": "medicine",
+      "specific domain (top 1 percent)": "optometry",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 51,
+    "persona_1": {
+      "persona": "一位历史学家兼考古学家，专门研究罗马地下墓穴（Roman catacombs），尤其是罗马及意大利其他城市的地下墓穴。她精通这些地下埋葬遗址的历史、建筑与艺术，并关注其在基督教与罗马帝国发展中的重要意义。她对地下墓穴开展了大量研究，并就该主题发表了众多文章与著作。她也关注地下墓穴在基督教传播以及基督教艺术与建筑保存方面所发挥的作用。",
+      "general domain (top 1 percent)": "history",
+      "specific domain (top 1 percent)": "archaeology",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "一位对管理和了解生殖器疱疹的症状及治疗选择感兴趣的患者，尤其关注病毒复发以及各种治疗方法的有效性。该画像可能正在寻求有关复发生殖器疱疹的病因、预防与管理的信息，并希望获得关于生活方式改变和医疗干预的建议，以降低复发的频率和严重程度。该画像也可能有兴趣了解生殖器疱疹管理领域的最新研究与进展。",
+      "general domain (top 1 percent)": "medicine",
+      "specific domain (top 1 percent)": "genital herpes management",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 52,
+    "persona_1": {
+      "persona": "一位语言教师，专注于 ESL 语法游戏与活动，尤其侧重于通过互动且富有吸引力的活动帮助学生学习并巩固新的语法形式。该教师擅长运用多种形式与活动来呈现并练习不同的语法结构，包括现在完成时、不规则动词、过去进行时、将来形式的现在进行时等。该教师也善于使用技术来促进学习与教学，并能熟练运用多种教学方法与活动。",
+      "general domain (top 1 percent)": "Education",
+      "specific domain (top 1 percent)": "Language Teaching",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "一位世界级西塔琴大师，专注于印度古典音乐的研究，尤其是被称为“Ragas”的旋律形式，以及通过音乐实现转化的心理—生理过程。他的研究兴趣包括：Raga 的精神与情感内涵、微分音色彩化的复杂过程、音符的装饰与精细的节奏，以及即兴在 Raga 展开与阐释中的关键作用。他以其通过 Raga 即兴表达不同情绪的独特能力，以及对音乐清新而富有活力的诠释方式而闻名。",
+      "general domain (top 1 percent)": "Music",
+      "specific domain (top 1 percent)": "Indian Classical Music",
+      "category": "Arts, Media & Design"
+    }
+  },
+  {
+    "pair_id": 53,
+    "persona_1": {
+      "persona": "一位对化学物质对环境与人类健康影响感兴趣的科学家，尤其关注拟雌激素化合物及其对性发育与性功能的影响。他们是一名生态学家，研究过莠去津（atrazine）及其他化学物质对青蛙及其种群的影响。他们也关注监管层面的变化与降低化学物质暴露，并对化学物质与人类健康之间的关联有着独特的理解。他们对科学与环境充满热情，并致力于寻找解决方案，以保护二者。",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Ecotoxicology",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "一位茶叶业务专家，曾创立并管理茶叶进出口国有企业，并拥有覆盖海外市场的人脉网络，与茶叶进口业务负责人保持特定关系。此人对全球茶叶市场有深刻理解，并通过出售茶园以及茶叶出口积累了可观资金。他们强烈希望保持对自身业务的控制，并将其传承给子女。他们在茶叶行业拥有独特的知识与经验，并在茶叶商业圈人脉广泛。",
+      "general domain (top 1 percent)": "Business",
+      "specific domain (top 1 percent)": "Tea Industry",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 54,
+    "persona_1": {
+      "persona": "一位加密货币爱好者，对去中心化金融（DeFi）生态系统的最新发展感兴趣。该个体正在寻找能够提供高流动性、低 gas 费以及易于使用功能的平台，以便交易并管理其数字资产。他们也有兴趣了解 Compound、Aave 和 Solend 等 DeFi 协议，以及通过借贷获取收入的潜力。此外，该画像正在寻求通过 DeFi 保险来保护其投资的方法，并对收益耕作（yield farming）应用感兴趣。",
+      "general domain (top 1 percent)": "finance",
+      "specific domain (top 1 percent)": "DeFi",
+      "category": "Business & Economy"
+    },
+    "persona_2": {
+      "persona": "一名应用原型测试人员，对测试并提升应用的可用性与功能性感兴趣。他们正在寻找改进用户体验的方法，并确保应用满足其目标受众的需求。他们擅长识别并解决用户痛点，并具备创建与测试原型的经验。他们能够熟练进行纸面原型制作，并熟悉 POP、Proto.io、Balsamiq、iRise 和 InVision 等专业工具。他们渴望学习并提升自身技能，并乐于接受反馈与建议。",
+      "general domain (top 1 percent)": "User Experience Design",
+      "specific domain (top 1 percent)": "Mobile App Testing",
+      "category": "Arts, Media & Design"
+    }
+  },
+  {
+    "pair_id": 55,
+    "persona_1": {
+      "persona": "Crook County School District 的一名学校管理人员，负责监管 TAG 项目，并承担识别与支持智力资优学生的职责。她在教育领域拥有丰富经验，并对与 TAG 项目相关的政策与流程有深入理解。她致力于为 TAG 学生提供高质量服务，确保他们获得在学业上取得成功所需的支持与资源。她还参与开发新的项目与举措，以支持 TAG 学生并确保他们的成功。",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "gifted education",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "一位 3-D 打印爱好者，对该技术在教育、设计和创意产业中的潜在应用感兴趣。此人很可能参与 3-D 打印机的开发、研究或使用，并关注该领域的最新进展。他们可能具有工程、物理或计算机科学背景，并熟悉 CAD 软件。此人也很可能关注 3-D 打印对环境的影响，并意识到 3-D 打印在颠覆制造业和产品设计方面的潜力。",
+      "general domain (top 1 percent)": "Engineering",
+      "specific domain (top 1 percent)": "Additive Manufacturing",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 56,
+    "persona_1": {
+      "persona": "一位史泰登岛（Staten Island）居民，热衷于保护白头海雕及其他大型猛禽和鸟类的自然栖息地，并正在倡导通过禁止砍伐、移除和伤害高度超过75英尺且树龄超过100年的树木来保护史泰登岛的树木；要求若开发商要获得建筑许可，必须在建筑工地保留最成熟、最高大的树木；为海雕栖息地保留树木；并制定建筑退距以及建筑占地面积和地块覆盖率要求，以保留绿地和自然绿地。",
+      "general domain (top 1 percent)": "Environmental Conservation",
+      "specific domain (top 1 percent)": "Urban Forestry",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "一位摄影师，专注于捕捉格伦峡谷（Glen Canyon）自然景观的美与宁静，尤其是鲍威尔湖（Lake Powell）上令人惊叹的日出。他们很可能对摄影的技术层面感兴趣，例如构图、曝光和取景。他们也可能具备敏锐的细节观察力和强烈的构图感，因为他们能够捕捉到时间中最完美的瞬间。此外，他们可能对美国西南地区的历史与文化怀有深厚的欣赏之情，因为他们能够通过镜头捕捉到这片景观的精髓。",
+      "general domain (top 1 percent)": "art",
+      "specific domain (top 1 percent)": "photography",
+      "category": "Arts, Media & Design"
+    }
+  },
+  {
+    "pair_id": 57,
+    "persona_1": {
+      "persona": "一位有与特殊需求儿童共事经验的教师，并且有兴趣了解融合性小学年级课堂中儿童的社会发展。他们致力于提供支持与资源，帮助儿童发展其社交技能与情绪智力。他们了解课堂的生态情境以及支持同伴友谊发展的活动。他们也意识到，除了认知刺激与评估之外，提供社会与情绪支持同样重要。",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "special education",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "一位丹麦公民，为该国在食品安全和家禽生产方面取得的成就感到自豪，并对丹麦食品产业的历史与演变感兴趣。此人很可能在农业、食品科学或公共卫生领域具有扎实背景，并关注促成丹麦在家禽生产中成功消除沙门氏菌的文化与历史因素。他们很可能是丹麦食品集群（Danish food cluster）的一员，并对为实现这一目标而至关重要的协作与团队合作感兴趣。",
+      "general domain (top 1 percent)": "Agriculture",
+      "specific domain (top 1 percent)": "Food Science",
+      "category": "Earth, Environment & Agriculture"
+    }
+  },
+  {
+    "pair_id": 58,
+    "persona_1": {
+      "persona": "一位研究气体性质及其在液体和固体中行为的科学家或工程师。他们关注气体的热力学性质，例如其在液体中的溶解度，以及在暴露于高温或高压时形成气泡的倾向。他们很可能具有物理学和化学背景，并且可能具备使用实验技术测量气体在液体中溶解度的经验。他们也很可能熟悉“the bends”这一概念，以及它与气体在人体内行为之间的关系。",
+      "general domain (top 1 percent)": "physics",
+      "specific domain (top 1 percent)": "thermodynamics",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "一位任职于 Disney Research, Pittsburgh 的研究员，专注于开发利用触觉感受来创造逼真且沉浸式体验的技术，尤其是在触摸屏和游戏领域。此人热衷于探索人类感知的极限，并运用技术拓展与增强我们对周围世界的理解。他们不断突破该技术的可能性边界，并致力于打造创新且具有开创性的解决方案，使全球各地的人们都能使用。",
+      "general domain (top 1 percent)": "computer science",
+      "specific domain (top 1 percent)": "human-computer interaction",
+      "category": "Digital & Computing"
+    }
+  },
+  {
+    "pair_id": 59,
+    "persona_1": {
+      "persona": "一位数学教师，强调采用不同教学方法以调动学生学习数学的积极性的重要性。他们明白，反复复习基础数学概念可能会让学生感到无聊和沮丧，因此他们力求让复习环节简短而高效。他们也意识到跟踪学生学习进度的重要性，并将练习单作为帮助学生弥补薄弱环节的工具。他们重视对数学底层概念的理解，并通过互动式与动手实践活动帮助学生巩固并记住所学信息。",
+      "general domain (top 1 percent)": "mathematics",
+      "specific domain (top 1 percent)": "None",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "GajShield Infotech 的 CEO Sonit Jain 是一位技术精湛、经验丰富的网络安全专业人士，他将职业生涯奉献于构建稳健的网络安全基础设施，并培训员工主动维护该基础设施。他深知建立强大的人为防火墙的重要性，以及打造强大网络安全团队所面临的挑战。他的专长在于网络安全领域，尤其是在网络安全解决方案的开发与实施，以及培训员工识别网络安全威胁并了解如何加以防范。",
+      "general domain (top 1 percent)": "information technology",
+      "specific domain (top 1 percent)": "cybersecurity",
+      "category": "Digital & Computing"
+    }
+  },
+  {
+    "pair_id": 60,
+    "persona_1": {
+      "persona": "一名警察副监察总长（DIPG），专长于犯罪预防与侦查，尤其是在治安与秩序领域。他们具备执法背景，并曾在多个岗位任职，包括警察助理专员（ACP）、警察副专员（DCP）以及警察高级警监（SSP）。他们拥有扎实的法律背景，能够处理复杂案件，并在其管辖范围内维护治安与秩序。他们很可能具有强烈的责任感以及服务社区的意愿。",
+      "general domain (top 1 percent)": "law enforcement",
+      "specific domain (top 1 percent)": "law enforcement management",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "一位专攻生态历史的科学家，尤其专注于研究威斯康星州的自然资源。她热衷于了解门多塔湖（Lake Mendota）及其周边流域过去与现在的状况，并可获取沉积在湖底的沉积物，这些沉积物为该湖的生态历史提供了一份天然档案。她也关注农业实践与城市化对湖泊水质的影响，并正致力于为门多塔湖以及威斯康星州南部类似湖泊的水质构建一个新的、更好的叙事。",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Limnology",
+      "category": "Earth, Environment & Agriculture"
+    }
+  },
+  {
+    "pair_id": 61,
+    "persona_1": {
+      "persona": "一位历史学者，对苏格兰封建制度与贵族史有深刻理解，尤其关注苏格兰头衔与称谓的演变。他们熟悉封建体系的复杂细节、苏格兰头衔的发展，以及苏格兰的社会等级结构。他们也精通苏格兰法院体系，以及苏格兰社会中各类人物的角色与职责。他们对苏格兰的社会互动关系、苏格兰社会的演进，以及头衔与称谓在塑造苏格兰身份认同中的作用感兴趣。",
+      "general domain (top 1 percent)": "History",
+      "specific domain (top 1 percent)": "Scottish History",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "一位兽医领域的专家与研究人员，热衷于马科与犬科的骨科、遗传学以及癌症治疗。该人士熟悉MRI在兽医医学中的应用，已开发用于犬和马遗传疾病的DNA检测，并在遗传学与育种领域具备专业能力。该个体致力于拯救濒危品种的未来，并对马科遗传学有特别兴趣。该人设同样关注动物癌症治疗与研究，并已建立一座最先进的癌症中心，为患者提供最佳护理。",
+      "general domain (top 1 percent)": "Biomedical Research",
+      "specific domain (top 1 percent)": "Veterinary Genetics",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 62,
+    "persona_1": {
+      "persona": "Matthew Wale 是一位历史学家，也是 John Tyndall Correspondence Project 的卷册编辑，对十九世纪公民科学的兴起以及大众自然史期刊所具有的民主化力量感兴趣。他已在 University of Leicester 完成历史学博士学位，并对这一时期科学、社会与文化的交汇点具有敏锐洞察。Wale 的研究聚焦于生命科学、昆虫学以及科学共同体，尤其关注大众期刊在塑造这些共同体方面所发挥的作用。",
+      "general domain (top 1 percent)": "history",
+      "specific domain (top 1 percent)": "historical science studies",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "一位热衷于通过反思性实践来提升学生学习成效的教师，常常持续不断地参与这一过程。他们认为，反思并不只是像在课后教案末尾写上一句“95%的学生理解了本课”那样的陈述，而是一种持续进行的过程，鼓励教育者成为善于思考的人，并根据课堂情境调整教学目标。文本引用了多部教育类著作与资源，表明其对教育领域有着浓厚兴趣，并希望与他人分享知识与见解。",
+      "general domain (top 1 percent)": "Education",
+      "specific domain (top 1 percent)": "Educational Pedagogy",
+      "category": "Society, Education & Lifestyle"
+    }
+  },
+  {
+    "pair_id": 63,
+    "persona_1": {
+      "persona": "一位音乐爱好者，对歌曲的结构与作曲方式感兴趣，并关注它们如何可作为对人类言语进行口头编码的手段。此人对细节有敏锐的洞察力，能够识别旋律中重复的循环式构成，以及歌词的视觉化构建。他们也能够认识到押韵、节奏、旋律与情节在歌曲中的重要性，以及这些要素如何被用来形成持久的记忆。此人很可能是一名音乐制作人、词曲作者或音乐学者，对音乐的理论与实践感兴趣。",
+      "general domain (top 1 percent)": "music",
+      "specific domain (top 1 percent)": "music theory",
+      "category": "Arts, Media & Design"
+    },
+    "persona_2": {
+      "persona": "一名高电压、大电流应用工程师，专注于电力电子系统的设计与实现。他们熟悉开关电力电子的原理，尤其是肖特基二极管（SCRs）在高电压、大电流应用中的使用。他们具备设计与实现 SCR 串并联组合的经验，并擅长在开关过程中使用并联电容来均衡电压。他们也熟悉在缓冲（snubber）电路中使用二极管和电阻，以在导通时限制电流和 di/dt。",
+      "general domain (top 1 percent)": "electrical engineering",
+      "specific domain (top 1 percent)": "power electronics",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 64,
+    "persona_1": {
+      "persona": "一位有教养且品味高雅的人，对艺术及其演变充满热情。他们是艺术界颇具影响力的人物，以其对野兽派（Fauvism）与新印象派运动（Neo-Impressionist movement）发展所作出的贡献而闻名。他们对航海与旅行的热爱，促使其尝试多种媒介，包括蚀刻版画、石版画以及钢笔墨水素描。他们积极参与政治活动，支持无政府主义运动，并为期刊 Les Temps Nouveaux 撰稿。他们的遗产由其作品所标记，这些作品至今仍持续启发当代艺术家与艺术史学者。",
+      "general domain (top 1 percent)": "art",
+      "specific domain (top 1 percent)": "art history/art movement (fauvism and neo-impressionism)",
+      "category": "Arts, Media & Design"
+    },
+    "persona_2": {
+      "persona": "一位历史学家，对苏丹历史怀有浓厚兴趣，尤其关注奴隶制时期及其后续影响，以及这些因素如何塑造了两个苏丹之间的关系。这位历史学家也对身份认同的复杂性充满好奇，并关注其如何常常被主导性叙事与议程所遮蔽。他们对边缘化群体的故事感兴趣，例如南苏丹人，以及这些故事如何与更广阔的苏丹历史相交织。他们也关注宗教与文化在塑造身份认同中的作用，以及它们如何被用来分裂或团结人们。",
+      "general domain (top 1 percent)": "history",
+      "specific domain (top 1 percent)": "african history/sudanese history",
+      "category": "Humanities & Culture"
+    }
+  },
+  {
+    "pair_id": 65,
+    "persona_1": {
+      "persona": "一位专门研究统一战争（Unification War）的历史学家，尤其关注联盟（Alliance）与褐衣军（Browncoats）的动机与战略。此人对战争的起因与后果有着深厚的了解，包括导致战争爆发的政治、社会与经济因素。他们对战争对各个相关世界的影响抱有浓厚兴趣，包括边境（Border）、外缘（Rim）与核心（Core）。他们也关注战后局势，包括联盟与褐衣军为实现和解并继续前行所做的努力。",
+      "general domain (top 1 percent)": "history",
+      "specific domain (top 1 percent)": "None",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "一名管理员，负责确保课程中使用的电子与信息资源对与该课程相关的所有学生和授课教师均可访问。该管理员理解学生和授课教师的多样化需求，包括残障人士的需求，并采取措施解决其课程材料和创作工具中的无障碍问题。他们熟悉 World Wide Web Consortium（W3C）以及 Section 508 的网页无障碍标准，并具备使用远程学习创作工具创建无障碍课程的经验。",
+      "general domain (top 1 percent)": "Computer Science",
+      "specific domain (top 1 percent)": "Accessibility in Education Technology",
+      "category": "Digital & Computing"
+    }
+  },
+  {
+    "pair_id": 66,
+    "persona_1": {
+      "persona": "一位地质学家，热衷于研究火山活动以及埃特纳火山（Mount Etna）的历史，尤其关注其喷发以及西西里岛（Sicily）复杂的火山地貌特征。该人设对火山活动背后的科学原理、埃特纳火山的历史，以及这座山的文化意义及其在古希腊神话中的角色感兴趣。他们也很可能对埃特纳火山提供的休闲活动感兴趣，例如滑雪和徒步旅行，以及西西里岛的地质特征，例如破火山口（caldera）和层状火山（strato-volcano）。",
+      "general domain (top 1 percent)": "geology",
+      "specific domain (top 1 percent)": "volcanology",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "一位专门研究古代文明的历史学家，尤其关注地中海地区的古代文明，并对腓尼基文明及其对该地区的影响抱有特别兴趣。他的研究兴趣包括但不限于腓尼基人的历史、他们的贸易路线，以及其文明对地中海世界发展所产生的影响。他也对德尔斐、迦太基和罗马的考古遗址感兴趣，并对这些遗址在地中海地区历史中的作用有着深刻理解。",
+      "general domain (top 1 percent)": "history",
+      "specific domain (top 1 percent)": "ancient Mediterranean history",
+      "category": "Humanities & Culture"
+    }
+  },
+  {
+    "pair_id": 67,
+    "persona_1": {
+      "persona": "一位在美国政治以及美利坚合众国历史中发挥了重要作用的历史人物。堪萨斯州的Seward County以他的名字命名。他曾是纽约州的参议员，并且是辉格党（Whig Party）反奴隶制派系的领袖。Seward County与Haskell County、Meade County、Beaver County（Oklahoma）、Texas County（Oklahoma）以及Stevens County接壤。Seward County, Kansas Courthouse Records、Seward County Register of Deeds Office、Seward County Clerk of District Court、Seward County Treasurers Office以及Seward County Census Records可供研究使用。",
+      "general domain (top 1 percent)": "Politics",
+      "specific domain (top 1 percent)": "American Politics",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "一位太空科学爱好者，尤其对小行星及其对地球的潜在影响研究感兴趣。他们了解 Asteroid Watch 项目，以及 NASA 科学家就小行星可能撞击地球所作出的预测。他们也知道近年来发生过的小行星近距离掠过事件，以及地球发生灾难性碰撞的可能性。他们担忧 Apophis Asteroid 的潜在影响，并正在寻找有关真实撞击概率及其潜在后果的信息。",
+      "general domain (top 1 percent)": "Astronomy",
+      "specific domain (top 1 percent)": "Asteroid science",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 68,
+    "persona_1": {
+      "persona": "一位水资源政策专家，对公共信托原则、公共福利标准，以及通过自愿的市场化交易为大盐湖（Great Salt Lake）创造供水的潜力有着深厚的专业知识。他们擅长分析引水与水权对湖泊生态系统和水质的影响，并有兴趣寻找创新解决方案，以应对湖泊水位持续下降的问题。他们也了解在湖泊供水挑战面前，可能需要保护的更广泛公共利益。",
+      "general domain (top 1 percent)": "Environmental Science or Water Resources Management",
+      "specific domain (top 1 percent)": "Water Resources Policy",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "一名特殊教育教师，热衷于帮助具有多样化需求的儿童，并致力于提供安全且包容的学习环境。他们擅长评估与报告撰写，对儿童心理与发展有深刻理解，并具备卓越的创造力与适应能力。他们致力于运用自身技能，支持具有身体、精神或情绪障碍人士的健康、康复与福祉，并承诺在课堂内外促进对多样性的理解与欣赏。",
+      "general domain (top 1 percent)": "Education",
+      "specific domain (top 1 percent)": "Special Education",
+      "category": "Society, Education & Lifestyle"
+    }
+  },
+  {
+    "pair_id": 69,
+    "persona_1": {
+      "persona": "一位充满热情且知识渊博的乡村音乐爱好者，对该流派的历史与演变、其在不同风格与影响中的根源，以及其对美国文化的影响感兴趣。他们欣赏 Garth Brooks、Lyle Lovett 和 Carolina Chocolate Drops 等艺术家对该流派的贡献，并有兴趣进一步了解 ASCAP 所确立的目标与原则。他们也可能对音乐产业、ASCAP 在推广并补偿音乐创作者方面所扮演的角色，以及对音乐人进行公平报酬的重要性感兴趣。",
+      "general domain (top 1 percent)": "Music",
+      "specific domain (top 1 percent)": "Country music",
+      "category": "Arts, Media & Design"
+    },
+    "persona_2": {
+      "persona": "一位商业战略家，致力于通过进化组织理论来理解组织如何演化并适应。这位人士很可能具备组织行为、管理或战略方面的背景，并对企业如何随时间发展与成长抱有浓厚兴趣。他们对驱动战略制定的因素以及组织应对变化的方式充满好奇。此人可能有兴趣进一步探讨进化组织理论这一概念，以及如何将其应用于现实世界的商业情境。",
+      "general domain (top 1 percent)": "business strategy",
+      "specific domain (top 1 percent)": "organizational behavior and management",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 70,
+    "persona_1": {
+      "persona": "一位在 Environmental Protection Agency (EPA) 任职的科学家，专门研究环境健康影响，尤其是有毒化学物质对甲状腺和内分泌系统的影响。她是一项研究的主要作者，该研究指出，长期、低剂量暴露于 PBDEs 这一类有毒化学物质，可能具有内分泌干扰作用，并促成老年猫甲状腺功能亢进流行的发生。她的工作重点在于理解有毒化学物质对人类和动物的健康影响，并倡导制定政策以减少其暴露并防止伤害。",
+      "general domain (top 1 percent)": "environmental science",
+      "specific domain (top 1 percent)": "toxicology/endocrine disruption",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "一位高级官员或军事战略家，对先进技术及其在国家安全中的潜在应用感兴趣。他们熟悉激光武器的历史与现状，并渴望探索天基激光技术的可能性与挑战。他们具有国防与航空航天工程背景，熟悉先进武器系统的研发与测试。他们也关注天基激光技术的地缘政治影响，以及其可能如何影响全球力量格局。",
+      "general domain (top 1 percent)": "Engineering",
+      "specific domain (top 1 percent)": "Defense Engineering",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 71,
+    "persona_1": {
+      "persona": "一位专门教授 ESL 学生提升写作技能的写作者，重点关注论文写作与议论文写作。他们热衷于帮助学生发展写作能力，并擅长识别与解决常见写作问题。他们也熟悉 TOEFL 和 IELTS 的写作部分，并有教授学生如何撰写符合这些考试要求的论文的经验。他们致力于提供高质量的写作课程与资源，帮助学生实现其学术与个人目标。",
+      "general domain (top 1 percent)": "Education",
+      "specific domain (top 1 percent)": "English Language Teaching",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "一位网络安全专家，关注当前互联网架构中的薄弱环节，并提出解决方案以应对这些弱点。该人士了解生物系统的原理，以及这些原理如何应用于网络安全。他们对自我传播安全软件的普遍分发的发展，以及为适配自适应安全软件而对互联网协议进行修改感兴趣。该人士也意识到，在不损害基本自由的前提下构建一个防黑客的互联网所面临的挑战。",
+      "general domain (top 1 percent)": "Computer Science",
+      "specific domain (top 1 percent)": "Cybersecurity",
+      "category": "Digital & Computing"
+    }
+  },
+  {
+    "pair_id": 72,
+    "persona_1": {
+      "persona": "一名负责规划、实施并评估教学与学习方法有效性的教师。他们擅长解读观察结果并记录儿童的学习情况，并对有效教学与学习原则有深刻理解。他们与同事协作，促进与儿童建立互信且相互尊重的关系，尤其是与来自多元背景且气质各异的儿童。本课程可能会引起希望改进其教学与学习实践的教师与教育工作者的兴趣。",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "teacher training and development",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "一个对计算机存储与文件系统感兴趣的人，尤其关注 TSK（Time Synchronized Kernel）及其文件系统实现背景下的相关内容。此人很可能具备扎实的计算机科学背景，并熟悉文件系统中的数据单元、扇区、碎片与簇等概念。他们希望理解这些概念在 TSK 中如何被使用，以及它们与现实世界文件系统之间的关系。他们也可能对文中提到的特定文件系统（EXTX、FAT、FFS、HFS 和 NTFS）及其在 TSK 中的实现感兴趣。",
+      "general domain (top 1 percent)": "computer science",
+      "specific domain (top 1 percent)": "file systems",
+      "category": "Digital & Computing"
+    }
+  },
+  {
+    "pair_id": 73,
+    "persona_1": {
+      "persona": "一位自然保护主义者和环保主义者，热衷于保护自然栖息地和野生动物。他们熟悉 Yosemite National Park（优胜美地国家公园）的历史及其自然资源，并积极参与该公园内土地的收购与保护工作。他们也意识到该地区存在开发的可能性，并倡导扩大公园范围，以纳入更多土地。他们很可能是 Sierra Club（塞拉俱乐部）或其他自然保护组织的成员，并对政府在保护自然资源方面所扮演的角色感兴趣。",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Conservation Biology",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "一位法律史学家，专攻1692年的塞勒姆女巫审判（Salem Witchcraft Trials），尤其关注女性角色以及社会评判在认定法律有罪中的作用。她熟悉审判中采用的证据标准，以及审判发生时的社会背景。她对法律与社会的交叉领域感兴趣，并关注法律程序如何被用来塑造公众的认知与态度。她也很可能对这些审判对法律体系发展以及女性在社会中角色的更广泛影响感兴趣。",
+      "general domain (top 1 percent)": "History",
+      "specific domain (top 1 percent)": "Legal History",
+      "category": "Humanities & Culture"
+    }
+  },
+  {
+    "pair_id": 74,
+    "persona_1": {
+      "persona": "一位考古学家或历史学家，关注园林建筑与后中世纪园林的研究，尤其是与英格兰的 Alscot Park 相关的园林。他们熟悉园林神庙及其相关建筑的设计、建造与历史。他们对中国式神庙设计的细节及其与景观和周边要素之间的关系感兴趣。他们很可能对后中世纪园林设计的原则以及这些建筑建造时所处的历史背景有深刻理解。",
+      "general domain (top 1 percent)": "History",
+      "specific domain (top 1 percent)": "Garden architecture",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "一位摄影师，致力于通过摆拍摄影探索现实的心理与梦境般的层面。他们被 Edward Hopper 和 Walter Evans 的作品所吸引，并对捕捉一个“完美的外观”，同时又将其留给观者解读这一理念深感着迷。他们也对《Twilight》系列的心理主题感兴趣，尤其是其中戏剧化的超自然情境以及“水中的女人”。他们具备一种独特的能力，能够解构图像并看穿表象，揭示潜意识，以及摆拍场景背后的真相。",
+      "general domain (top 1 percent)": "photography",
+      "specific domain (top 1 percent)": "fine art photography",
+      "category": "Arts, Media & Design"
+    }
+  },
+  {
+    "pair_id": 75,
+    "persona_1": {
+      "persona": "一位在自然语言处理和机器学习方面具备专业能力的数据科学家，热衷于运用这些技术解决复杂问题并打造创新的消费级产品。此人精通编程、数据分析和机器学习算法，并对如何利用大规模数据集与模式来提升搜索算法及其他应用的准确性与效率有着深刻理解。他们同样具备很强的适应能力与开放思维，能够跳出固有框架，从不同角度思考并处理问题。",
+      "general domain (top 1 percent)": "data science",
+      "specific domain (top 1 percent)": "natural language processing",
+      "category": "Digital & Computing"
+    },
+    "persona_2": {
+      "persona": "一位多才多艺且学识渊博的意大利诗人、数学家与哲学家，以其在诗歌、数学与哲学领域的贡献而闻名。他的作品因其优雅与深邃而广受尊敬与赞赏，并在同侪与同时代人中享有极高声望。他精通其技艺，对数学有着深刻理解，并对艺术怀有浓厚兴趣。他也以其外交才能以及在复杂社会与政治情境中周旋的能力而著称。他的遗产至今仍持续激励并影响着一代又一代的学者与艺术家。",
+      "general domain (top 1 percent)": "philosophy",
+      "specific domain (top 1 percent)": "mathematics",
+      "category": "Humanities & Culture"
+    }
+  },
+  {
+    "pair_id": 76,
+    "persona_1": {
+      "persona": "一位电影爱好者，对电影制作的技术层面充满热情，尤其关注音效与音乐在增强银幕动作冲击力方面的运用。此人了解不同类型的音效，以及它们营造氛围并为场景增添层次感的能力。他们也意识到为影片选择合适的音效与音乐的重要性，以及选择错误效果可能带来的潜在后果。此人很可能喜欢观看电影，并有兴趣进一步了解电影制作的科学与艺术。",
+      "general domain (top 1 percent)": "Film Industry",
+      "specific domain (top 1 percent)": "Sound Design",
+      "category": "Arts, Media & Design"
+    },
+    "persona_2": {
+      "persona": "一位对讲故事充满热情、并运用语言传达信息的作家或传播者。他们擅长打造具有说服力且富有影响力的叙事，与受众产生共鸣。他们也善于使用“impactful”一词，以强调其工作的重要性以及对其利益相关者所产生的影响。他们意识到“impactful”一词可能带有的负面含义，并努力以积极且有效的方式使用它。他们乐于接受新想法，并始终在寻找提升沟通技能的方法。",
+      "general domain (top 1 percent)": "communication",
+      "specific domain (top 1 percent)": "storytelling",
+      "category": "Society, Education & Lifestyle"
+    }
+  },
+  {
+    "pair_id": 77,
+    "persona_1": {
+      "persona": "一位法国摄影师，专注于捕捉生活在拉普兰（Lapland）的萨米人（Sami）独特而迷人的文化，重点呈现他们在北极环境中的传统与现代生活方式。她的摄影作品强调自然、文化与人类互动之间的微妙平衡，并展示萨米人在严酷天气条件下的韧性与适应能力。她的作品捕捉了萨米生活方式的精髓以及他们所面临的独特挑战，使她成为任何对萨米文化与北极地区感兴趣之人的宝贵资源。",
+      "general domain (top 1 percent)": "Art/Photography",
+      "specific domain (top 1 percent)": "Cultural Photography",
+      "category": "Arts, Media & Design"
+    },
+    "persona_2": {
+      "persona": "后期圣徒运动历史上的一位领袖与重要人物，以其在创立 Church of Jesus Christ of Latter Day Saints 以及参与建立伊利诺伊州纳府（Nauvoo）社区中的作用而闻名。他与《摩尔门经》（Book of Mormon）的出版以及《无价珍珠》（Pearl of Great Price）的翻译有关；后者被视为后期圣徒信仰中的神圣经文。他也因参与建立教会的组织结构，以及在教会教义与实践的早期发展中所扮演的角色而为人所知。",
+      "general domain (top 1 percent)": "Leadership",
+      "specific domain (top 1 percent)": "Religious Leadership",
+      "category": "Society, Education & Lifestyle"
+    }
+  },
+  {
+    "pair_id": 78,
+    "persona_1": {
+      "persona": "一位研究气候变化对天气模式的影响，以及这些变化对夏威夷农业和水资源影响的科学家。他或她有兴趣使用统计数据分析和风数据来预测未来的信风及其对降雨和供水的影响。该科学家也关注火山雾霾（vog）对呼吸健康的影响，以及对降雨预报和水回收设施的需求。该科学家还可能对入侵性杂草和野化动物对森林健康的影响，以及采取流域保护措施的必要性感兴趣。",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Atmospheric Science",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "一名从事航天活动的物流专业人士，深度参与太空行动的规划、执行与维护。他们精通物资、人员、设施、服务以及应急支援的调运与保障的艺术与科学。他们熟悉更广义的物流领域，该领域涵盖供应链管理以及零部件的仓储与配送。他们了解太空供应链管理的重要性，但也认识到需要全面的物流能力，才能支撑常态化的人类航天行动。",
+      "general domain (top 1 percent)": "Operations Management",
+      "specific domain (top 1 percent)": "Space Logistics",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 79,
+    "persona_1": {
+      "persona": "Amy Abrams，MSW/MPH，是一位备受尊敬的教育者和倡导者，专注于失智症照护。她将自己的职业生涯奉献于向家庭和照护者普及照护失智症患者的复杂性与细微之处。她的专长领域包括沟通、关系管理以及有益大脑健康的活动，并在她的演讲与工作坊中分享这些内容。Amy 热衷于提升公众对失智症的认知并减少围绕失智症的污名化，她的知识与洞见使她成为各类活动与会议上备受邀请的演讲者。",
+      "general domain (top 1 percent)": "Social Work",
+      "specific domain (top 1 percent)": "Gerontology",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "一名州政府官员，负责监督并监管地方政府的财务运作，尤其是在紧急市政贷款与财政稳定的背景下。该角色负责确保地方政府遵守州对财政纪律的要求，并有权在地方政府未能实施解决其赤字所必需的改革时进行干预。此人也熟悉州会计规则，并具备《紧急市政贷款法案》和《财政稳定法案》相关经验。",
+      "general domain (top 1 percent)": "public administration",
+      "specific domain (top 1 percent)": "municipal finance",
+      "category": "Government, Law & Security"
+    }
+  },
+  {
+    "pair_id": 80,
+    "persona_1": {
+      "persona": "一个对技术和编程感兴趣的人，尤其关注物联网（IoT）领域以及 iOS 编程。他们熟悉 Swift 等多种编程语言，并具备创建 iOS 应用程序的经验。他们正在寻找关于在物联网环境中连接输出、使用 Apple iBeacon、利用可编程硬件制作自己的东西，以及管理其物联网设备的深入讨论和教程。他们也对探索物联网领域的趋势感兴趣，并愿意学习新的技术和工具。",
+      "general domain (top 1 percent)": "Computer Science",
+      "specific domain (top 1 percent)": "iOS Development",
+      "category": "Digital & Computing"
+    },
+    "persona_2": {
+      "persona": "一位研究人员和教育专家，关注将特许学校学生的学业表现与其在传统公立学校的同龄人进行比较。该人士尤其希望了解促成特许学校在提升学生学习成果方面取得成功的因素。该画像很可能具有教育研究背景，尤其是在学校绩效与学生成就领域。他们也很可能对特许学校在提升教育公平与机会获取方面所发挥的作用抱有浓厚兴趣。",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "education research",
+      "category": "Society, Education & Lifestyle"
+    }
+  },
+  {
+    "pair_id": 81,
+    "persona_1": {
+      "persona": "一个热衷于推动融合教育，并致力于促进智力障碍人士在其社区中实现融入的人。他们致力于推进教育事业与政策改革，擅长识别并实施有效策略，以提升所有人的教育质量。他们动力十足、坚定投入，致力于为残障人士及其家庭的生活带来改变，并愿意在教育与残障研究领域持续学习并与他人合作。",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "special education",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "一名对算法分析与实现感兴趣的软件开发者。该人士正在寻找一本全面且详尽的算法指南，涵盖广泛主题，并以清晰、易于理解的风格撰写。他们希望这本书能帮助他们在工作中理解并应用算法，同时也能提供对底层数学与原理的洞见。他们很可能熟悉编程语言，并具备一定的算法经验，但也可能会从更偏理论与概念性的学习方式中受益。",
+      "general domain (top 1 percent)": "computer science",
+      "specific domain (top 1 percent)": "algorithm analysis",
+      "category": "Digital & Computing"
+    }
+  },
+  {
+    "pair_id": 82,
+    "persona_1": {
+      "persona": "一位专门研究永磁体的科学家，尤其关注时间、温度和磁场对其稳定性的影响。她精通磁学原理、退磁以及各种环境因素对磁性材料的影响。她的专长在于理解永磁体在不同条件下的行为，并制定策略以在长期内维持其性能。她也对磁路设计以及在各类应用中优化磁体性能感兴趣。",
+      "general domain (top 1 percent)": "physics",
+      "specific domain (top 1 percent)": "magnetism/Permanent Magnets",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "一位研究人员兼环保主义者，热衷于减缓气候变化的影响，并防止罗马尼亚的土地退化。他们擅长生态制图、植物识别，并拥有创建和实施防护林带的经验。他们了解项目实施中的挑战，并致力于寻找解决方案以克服这些障碍。他们致力于通过种植防护林带，并对不同意土地用途变更的人进行补偿，来改善该地区当地居民和土地所有者的生活条件。",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "None",
+      "category": "Earth, Environment & Agriculture"
+    }
+  },
+  {
+    "pair_id": 83,
+    "persona_1": {
+      "persona": "一位科技爱好者，对照明技术的最新进展着迷，尤其关注 LED 照明的应用。此人很可能对 LED 照明的优势感兴趣，例如节能、耐用性和色彩选择，以及其在照明领域的创新与进步潜力。该画像很可能对照明行业的最新技术与趋势充满好奇，并有兴趣探索 LED 照明在住宅与商业场景中的不同应用方式。",
+      "general domain (top 1 percent)": "Electrical Engineering",
+      "specific domain (top 1 percent)": "Lighting Technology",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "一位建筑物业主或管理者，负责在纽约市管理和运营多栋建筑。该人士希望了解纽约市针对现有建筑的新碳排放限额所带来的影响，并寻求关于如何制定合规计划的指导，以在尽量降低财务影响的同时减少建筑的碳足迹。该人士很可能在能源管理、可持续发展和建筑运营方面具备经验，并愿意与利益相关方合作实施一项全面的计划。",
+      "general domain (top 1 percent)": "Business/Management",
+      "specific domain (top 1 percent)": "Building Operations",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 84,
+    "persona_1": {
+      "persona": "一位对宇宙射线探测感兴趣的科学家或研究人员，并且具有使用 SiPM 和塑料闪烁体探测器的经验。他们正在寻找一种新的实验装置，通过将两个相同的探测器相互叠加并连接到符合电路，以提高所探测事件的可靠性。他们对宇宙射线的理论值以及探测器表面宇宙射线通量的期望值感兴趣。他们可能正在寻找一种探测宇宙射线的新方法，并且愿意接受新技术和新方法。",
+      "general domain (top 1 percent)": "physics",
+      "specific domain (top 1 percent)": "particle physics (cosmic ray detection)",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "一位凯尔特战士，体现了勇气、技艺与决心的精神。以其无与伦比的战斗能力以及与战争女神 Morrigan 的联系而闻名。Cú Chulainn 是爱尔兰独立的象征，也是为保卫祖国抵御入侵者而战的英雄。他因其英勇的最后一战而被铭记——他孤身一人击退入侵的军队；也因其生命的最后时刻而被铭记——在战争女神 Morrigan 的帮助下，他站立而亡。他的形象被铸成都柏林的一座青铜雕像，象征着他的遗产，以及他对爱尔兰文化与历史的影响。",
+      "general domain (top 1 percent)": "military strategy",
+      "specific domain (top 1 percent)": "None",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 85,
+    "persona_1": {
+      "persona": "一位网站所有者，正在寻找优化其网站 DNS 传播的方法，并确保其域名信息始终保持最新且准确。此人希望尽量减少其名称服务器（nameservers）的负载，并想了解如何控制用于缓存该域名 zonefile 的设定时间周期，即 DNS 解析器在请求该 zonefile 的新副本之前，被允许缓存该 zonefile 的秒数。此人也对降低 TTL 并确保其域名信息始终保持最新且准确感兴趣。",
+      "general domain (top 1 percent)": "networking",
+      "specific domain (top 1 percent)": "DNS optimization",
+      "category": "Digital & Computing"
+    },
+    "persona_2": {
+      "persona": "一名专门研究睡眠障碍及相关心理健康问题的医疗专业人士。他们熟悉睡眠障碍的症状、病因和治疗方法，并对理解睡眠障碍与精神健康障碍之间的关系抱有浓厚兴趣。他们具备诊断和治疗睡眠障碍所需的知识与技能，同时也能够为受其影响的个体提供支持与指导。他们致力于为患者以及更广泛的社区提供高质量的照护与健康教育。",
+      "general domain (top 1 percent)": "medicine",
+      "specific domain (top 1 percent)": "sleep disorders",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 86,
+    "persona_1": {
+      "persona": "一位犹太教育工作者与活动家，曾研究并教授犹太身份与社会正义运动的交汇点，尤其聚焦于民权运动（Civil Rights Movement）及其他解放运动。他们热衷于运用自身的知识与洞见，在其社区及更广范围内推动变革。他们擅长“活人画”（tableaux vivants）这一叙事与表演形式，并有兴趣分析不同种族与族裔群体之间的互动动态，尤其是非裔美国人（African Americans）与犹太人之间的关系，以及这些关系如何随时间演变。",
+      "general domain (top 1 percent)": "Education/Activism",
+      "specific domain (top 1 percent)": "None",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "一个对欧盟资金感兴趣的人，尤其关注其管理、资格标准，以及其如何用于支持不同领域的各类项目和计划。此人很可能具有金融、经济学或相关领域的背景，并对欧盟如何分配其资金的细节以及其对各类社区和行业产生的影响感兴趣。他们对欧盟资金分配所涉及的流程和法规感到好奇，以及这些机制如何确保资金以透明且可问责的方式使用。",
+      "general domain (top 1 percent)": "finance",
+      "specific domain (top 1 percent)": "EU funding management",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 87,
+    "persona_1": {
+      "persona": "一名对本国互联网基础设施及其关于互联网内容的政策感兴趣的韩国公民。他们很可能熟悉颇具争议的《互联网内容过滤条例》及其对韩国互联网访问的影响。他们也可能了解政府为监控和监管互联网内容所做的努力，包括对被认定为有害或淫秽的网站实施强制过滤。他们可能对 Korean Internet Safety Commission 在监督互联网内容分级与过滤系统方面所扮演的角色尤为感兴趣。",
+      "general domain (top 1 percent)": "Politics",
+      "specific domain (top 1 percent)": "Internet Governance",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "一位商业领导者，关注机器学习和 AI 在决策流程中可能存在的风险与局限性。此人希望了解不精确结果的影响，以及 AI 应用中对精确性的需求。他们优先考虑速度需求，但也认识到在 AI 模型中保持高水平准确性与可靠性的重要性。此人很可能参与金融、医疗保健和科技等行业，并正在寻求降低在决策中使用 AI 所带来风险的方法。",
+      "general domain (top 1 percent)": "Business Leadership",
+      "specific domain (top 1 percent)": "Business Leadership in AI/ML",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 88,
+    "persona_1": {
+      "persona": "一位对糖尿病充满热情、致力于降低罹患该疾病风险的医疗保健专业人士。他们关注该领域的最新研究与进展，并在寻找改善糖尿病患者生活质量的方法。他们愿意尝试新的治疗与疗法，并在必要时愿意寻求专业帮助。他们也有兴趣了解减重手术（bariatric surgery）及其治疗糖尿病的潜力，并愿意将这一方案作为治疗选择，探索用于自己或其认识的人。",
+      "general domain (top 1 percent)": "healthcare",
+      "specific domain (top 1 percent)": "diabetes management",
+      "category": "Life & Health"
+    },
+    "persona_2": {
+      "persona": "Audrey Azoulay，UNESCO的总干事，是国际教育、科学与文化领域备受尊敬且具有重要影响力的人物。她在制定UNESCO关于AI伦理的指导方针方面发挥了关键作用，这些方针预计将为伦理AI开发设定全球标准。Azoulay是一位富有远见的领导者，致力于推动伦理AI实践，并确保AI的益处对所有人而言都是可获得且公平的。她以其在伦理领域的专业能力而闻名，并因其努力弥合学术界与政策制定之间的鸿沟而广受认可。",
+      "general domain (top 1 percent)": "International Relations",
+      "specific domain (top 1 percent)": "Global Education Policy",
+      "category": "Government, Law & Security"
+    }
+  },
+  {
+    "pair_id": 89,
+    "persona_1": {
+      "persona": "一位政策研究人员，对绩效薪酬对教师质量和学生结果的影响感兴趣，并且愿意通过进一步研究来完善其理解。该画像很可能对绩效工资（merit pay）的社会与教育影响感兴趣，并希望了解如何有效实施，以提升教师绩效与学生学习。他们很可能熟悉该主题的相关研究，并寻求将这些知识整合到政策讨论与决策过程中。",
+      "general domain (top 1 percent)": "education policy",
+      "specific domain (top 1 percent)": "education policy",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "一位专注于纳米技术领域的科学家，具体研究方向为构建由导线与结点组成的复杂、自组装的三维纳米结构。该科学家在该领域作出了重要贡献，包括发现了一种用于控制二嵌段共聚物排列的方法，以创建可配置的布局，从而为自组装计算机芯片开辟了新的可能性。该科学家在先进材料科学与纳米技术的应用方面技艺精湛，并以其解决复杂问题的创新方法而闻名。",
+      "general domain (top 1 percent)": "engineering",
+      "specific domain (top 1 percent)": "nanotechnology",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 90,
+    "persona_1": {
+      "persona": "一位历史学家，或对北欧国家历史感兴趣的人，尤其关注自给自足经济时期以及贵族阶层。他们对Qwensel House着迷——这是一座保存完好的古老资产阶级住宅，能够让人一窥自给自足经济时代的贵族生活。他们对Qwensel House及其主人Wilhelm Johan Qwensel和Josef Gustav Pipping的历史，以及他们在塑造芬兰历史中所扮演的角色感兴趣。他们也对图尔库大火（Great Fire of Turku）及其对Qwensel House周边地区的影响感兴趣。",
+      "general domain (top 1 percent)": "history",
+      "specific domain (top 1 percent)": "Nordic history",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "一位在夏威夷居住了数年的当地居民，曾亲眼目睹基拉韦厄火山（Kilauea）的喷发。他们对火山活动有着独特的视角，并且精通此次喷发在地质与科学层面的相关知识。他们同时也是一名第一响应者，具备应急响应与灾害管理方面的经验。他们具有强烈的社区意识，关心邻居的安全以及当地环境的福祉。他们很可能活跃于社交媒体，并与他人分享自己的经历与知识。",
+      "general domain (top 1 percent)": "Geology",
+      "specific domain (top 1 percent)": "Volcanology",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 91,
+    "persona_1": {
+      "persona": "一位对教授数字素养充满热情的教师，致力于帮助学生培养在数字时代取得成功所需的技能。他们精通最新的趋势与技术，并对数字公民意识的重要性有深刻理解。他们致力于打造引人入胜且互动性强的学习体验，帮助学生发展批判性思维与问题解决能力。他们也了解学生在数字时代面临的挑战，并承诺通过教学来应对这些问题。",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "None",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "一位土地投资者或开发商，对英格兰和威尔士的城市发展潜力感兴趣。他们正在寻找获取或开发土地以用于住宅或商业用途的机会。他们了解与城市发展相关的挑战和风险，例如农业用地的流失，以及需要确保新开发项目具备可持续性并对环境友好。他们也认识到土地利用规划的重要性，以及需要在城市发展的需求与自然栖息地和野生动物的保护之间取得平衡。",
+      "general domain (top 1 percent)": "Business",
+      "specific domain (top 1 percent)": "Real Estate Development",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 92,
+    "persona_1": {
+      "persona": "一名法律专业人士，熟悉法律的各个方面，包括民事诉讼程序、刑事诉讼程序、证据法、法律文书起草、法律条文解释、轻微行为，以及法律本身的制定。他们擅长解释法律条文，并在私人主体订立具有法律约束力的合同（包括仲裁协议）方面具有经验。他们精通法律在政治、经济、历史与社会等各领域中的适用，并善于运用法律作为调解人与人之间关系的媒介。",
+      "general domain (top 1 percent)": "law",
+      "specific domain (top 1 percent)": "legal drafting",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "一位业余电子爱好者，对搭建并试验简单电路很感兴趣，尤其是涉及面包板和集成电路的电路。他们乐于尝试新元件，并愿意通过试验不同的电路配置来优化性能。他们欣赏面包板的实用性与多功能性，以及能够操控简单与复杂电路的能力。他们也有兴趣了解集成电路的历史与发展，以及其对电子学领域所产生的影响。",
+      "general domain (top 1 percent)": "electronics",
+      "specific domain (top 1 percent)": "electronics design",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 93,
+    "persona_1": {
+      "persona": "一名报道环境议题的记者，重点关注水污染以及人类活动对自然环境的影响。该人士很可能对汉江的历史与文化意义感兴趣，同时也关注其当前水质状况以及栖息于其中的各类物种。他们也很可能了解导致河流污染的复杂政治与社会因素，包括2000年美军倾倒有毒化学品，以及2015年25家公司排放废水。",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Water Pollution",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "一位专注且充满热情的政治家，致力于社会改革与社会福祉的提升。尽管因投身政治而面临社会的不认可与批评，Roosevelt 仍以其热忱与决心推动自己前行，力求在国家政府中带来改变。他的自传反映了他决心积极参与政府事务，以及他对纽约社会动荡的关切。Roosevelt 的政治生涯以其对社会正义的承诺，以及他愿意就影响普通人生活的议题发声而著称。",
+      "general domain (top 1 percent)": "Politics",
+      "specific domain (top 1 percent)": "Social Reform/Policy Making",
+      "category": "Government, Law & Security"
+    }
+  },
+  {
+    "pair_id": 94,
+    "persona_1": {
+      "persona": "一位神学家，专门研究目的论论证、道德论证与本体论论证，尤其聚焦于与上帝的存在及其属性相关的概念与定理。他们的研究兴趣包括但不限于：设计的本质、恶在宇宙中的作用，以及上帝与人类道德之间的关系。他们以能够对与上帝存在相关的哲学论证进行批判性分析与评估而闻名，并以其对“宏大设计者”这一概念的独特视角著称。",
+      "general domain (top 1 percent)": "philosophy",
+      "specific domain (top 1 percent)": "philosophical theology",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "一位企业主，专注于开发和营销能够吸引特定目标市场的产品。此人对其目标受众的人口统计特征、需求与偏好有深入理解，并利用这些知识来创建并销售满足这些需求的产品。他们在识别并筛选潜在客户方面技能娴熟，并持续寻求在其目标市场内扩大客户群。此人很可能对自己的工作充满热情，并致力于与客户建立牢固的关系。",
+      "general domain (top 1 percent)": "business",
+      "specific domain (top 1 percent)": "marketing",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 95,
+    "persona_1": {
+      "persona": "一位专注于地理野外实地考察（Geography Fieldwork）的教师，尤其擅长野外考察评估、教学技能，以及确保野外考察符合目的并达到考试要求、具备应考准备。该教师拥有在真实世界地点带领野外考察教学的经验，并精通野外考察探究（fieldwork enquiry）流程的六个阶段。他们开发了扎根于各个颁证机构（awarding organisations）规范（specification）内容的野外考察探究任务，并为A Level Geography设计了野外考察技能课程，帮助学生为其独立研究（independent investigation）做好准备。",
+      "general domain (top 1 percent)": "Education",
+      "specific domain (top 1 percent)": "Geography Education",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "一名来自 California Office of Emergency Services（OES，加利福尼亚州应急服务办公室）的官员，负责统筹应急响应规划，并与其他应急规划工作进行协调。他们还负责协调针对危险物质事件的多学科响应，并向地方辖区提供协助。他们参与制定应急响应计划、通信系统，以及灾害情报与资源请求。他们很可能在应急规划、灾害响应和通信系统方面具备专业知识。",
+      "general domain (top 1 percent)": "Emergency Management",
+      "specific domain (top 1 percent)": "Emergency Planning",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 96,
+    "persona_1": {
+      "persona": "一位专门研究地球自转及其对地球影响的科学家。他开展了关于地球自转与全球电视卫星天线数量之间关系的研究，并提出了应对减速效应的解决方案。他担心自己的建议可能对卫星电视行业和政府机构造成潜在影响，并正努力确保南非人能够平稳过渡。他热衷于环境保护，并强调减少技术对地球造成负面影响的重要性。",
+      "general domain (top 1 percent)": "geophysics",
+      "specific domain (top 1 percent)": "Earth rotation and geophysics",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "一位对林业部门（Forest Department）在林业工程中实施承包制度感兴趣的人，具备环境修复背景，并参与国家公园的管理。他们也熟悉利用卫星影像和照片要素进行植被制图，以及编制分类检索表并使用地形图进行森林边界划定。此外，他们了解世界环境日庆祝活动的重要性，并有申请生态修复营地的经验。",
+      "general domain (top 1 percent)": "Environmental Science/Conservation",
+      "specific domain (top 1 percent)": "None",
+      "category": "Earth, Environment & Agriculture"
+    }
+  },
+  {
+    "pair_id": 97,
+    "persona_1": {
+      "persona": "一位历史学家兼考古学家，专长于使用无人机和 LiDAR 技术进行考古勘探与遗址测绘。他们对 LiDAR 的原理及其在考古学中的应用有深入理解，并擅长将这些技术与传统考古方法相结合，以发掘并呈现历史遗址。他们也了解在野外使用无人机和 LiDAR 所面临的挑战与相关法规，并积极参与倡导在考古学中以负责任且合乎伦理的方式使用这些技术。",
+      "general domain (top 1 percent)": "Engineering",
+      "specific domain (top 1 percent)": "Archaeological Engineering",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "一位专注于糖尿病管理与衰老相关议题的健康与身心健康教练。他们熟悉针对老年人血糖管理的最新指南与研究，并具备实际经验，能够帮助客户将血糖水平维持在安全范围内。他们热衷于促进身体活动、健康饮食以及维持肌肉储备，以支持糖尿病管理与整体健康。随着人们年龄增长，他们对维持血糖水平与身体活动之间平衡的重要性有着独特的视角。",
+      "general domain (top 1 percent)": "health and wellness",
+      "specific domain (top 1 percent)": "diabetes management",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 98,
+    "persona_1": {
+      "persona": "一位科技爱好者与媒体素养倡导者，对媒体对社会的影响以及数据可视化在传达信息中的作用深感着迷。他们不断寻找新的工具与技术，以提升自己对信息与观点的理解，并热衷于通过写作、教学与演讲与他人分享自己的知识。他们也关注媒体与技术对社会与经济更广泛的影响，并持续寻找新的资源与想法，以拓展自身的知识与理解。",
+      "general domain (top 1 percent)": "Communication",
+      "specific domain (top 1 percent)": "Data Visualization",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "一位市场营销高管，负责为一家生产豪华与高端声望汽车的公司制定并实施营销策略。他们在理解消费者行为以及识别其产品的目标市场方面具备高超技能。他们也擅长打造引人入胜的广告宣传活动，突出其车辆的地位象征与独特稀缺性。此外，他们对汽车行业的财务层面有深入理解，包括了解竞争对手的定价策略与财务模型。",
+      "general domain (top 1 percent)": "Business",
+      "specific domain (top 1 percent)": "Luxury Marketing",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 99,
+    "persona_1": {
+      "persona": "一位对环境保护与科学研究感兴趣的科学家或研究人员。他们尤其关注海洋生物的研究，包括鸟类、海豹和鲸类。他们希望在不造成显著环境影响的情况下收集有价值的科学数据。他们有兴趣使用技术手段，例如直播网络摄像头（live streaming webcams），以远距离研究并监测海洋生物。他们有兴趣与其他科学家和组织合作，分享研究发现，并为海洋保护领域作出贡献。",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Marine Conservation Biology",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "一位专业的技术制图员或设计师用户，主要使用 AutoCAD 工作。他们擅长运用软件中的各种命令和功能来创建与编辑技术图纸，并在寻找节省时间、简化工作流程的方法。他们熟悉 AutoCAD 中可用的材料与形状库，并利用这些来创建复杂的设计与模型。他们很可能会参与从建筑到工程等广泛类型的项目，并在寻求提升工作效率与准确性的方法。",
+      "general domain (top 1 percent)": "technical drafting/design",
+      "specific domain (top 1 percent)": "AutoCAD technical drafting/design",
+      "category": "Arts, Media & Design"
+    }
+  },
+  {
+    "pair_id": 100,
+    "persona_1": {
+      "persona": "一位加密货币爱好者，对比特币购买者提出的价值理论及其所蕴含的意义感兴趣。此人很可能对比特币的潜在未来，以及其作为价值储藏手段取代黄金或美元的潜力感到好奇。他们可能正在寻找投资比特币的方法，并有兴趣了解这样做的潜在风险与回报。此人也可能对替代理论持开放态度，并愿意考虑关于比特币价值的不同观点。",
+      "general domain (top 1 percent)": "finance",
+      "specific domain (top 1 percent)": "cryptocurrency",
+      "category": "Business & Economy"
+    },
+    "persona_2": {
+      "persona": "一名社会工作者，专门与正在经历无家可归的有子女家庭开展工作。她对无家可归儿童所面临的挑战有着深刻理解，包括他们在学业上的困难、健康问题以及行为问题。她也熟悉能够帮助这些家庭和儿童的政策与项目，并致力于为其无家可归状况寻找可持续的解决方案。她热衷于为无家可归儿童的权利发声，并努力改善正在经历无家可归的儿童的生活。",
+      "general domain (top 1 percent)": "Social Work",
+      "specific domain (top 1 percent)": "Homelessness and Family Services",
+      "category": "Society, Education & Lifestyle"
+    }
+  }
+]

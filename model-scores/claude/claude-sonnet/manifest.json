@@ -1,0 +1,870 @@
+{
+  "timestamp": "2026-02-19T07:07:07.043161",
+  "total_files": 216,
+  "files": [
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_en-tool_en/eval_results.json",
+      "hash": "2635ce4b39fff8ea8f60eda92f312021"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_en-tool_de/eval_results.json",
+      "hash": "42b0421ea37bdfde76d30c264cc464fa"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_en-tool_hi/eval_results.json",
+      "hash": "da973fd54f85071bae05786540b6529b"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_en-tool_zh/eval_results.json",
+      "hash": "6136587d7cce0a55f4a5d7f8ff19867b"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_en-tool_es/eval_results.json",
+      "hash": "42b234f88712a2ca3ed179ca95469cd5"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_en-tool_fr/eval_results.json",
+      "hash": "9642f3134aebd6e594db41517ad4e469"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_de-tool_en/eval_results.json",
+      "hash": "72b84cdc9f1d6a6c89508f897c946955"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_de-tool_de/eval_results.json",
+      "hash": "15b7ddc28fd76ea1c2870ff7614e5c21"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_de-tool_hi/eval_results.json",
+      "hash": "1f5911141fe6c90b6164c22c2b355a95"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_de-tool_zh/eval_results.json",
+      "hash": "034ad6b472e3afd4e3d712b84eb14dfd"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_de-tool_es/eval_results.json",
+      "hash": "dd7078586a9191d26e590f9014e48e9a"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_de-tool_fr/eval_results.json",
+      "hash": "9976982f0aec929004f9ca2b16a9580b"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_hi-tool_en/eval_results.json",
+      "hash": "79ca36357f88dfa4418c74b54dc58efd"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_hi-tool_de/eval_results.json",
+      "hash": "9ca2d1a012ffd6c9235ef0815c49c294"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_hi-tool_hi/eval_results.json",
+      "hash": "6987e61d7d708664078acc8fe4899a4e"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_hi-tool_zh/eval_results.json",
+      "hash": "47b88018e0241269b314c0e5f0de92c0"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_hi-tool_es/eval_results.json",
+      "hash": "be0f4e8d56fbe17602f67ef34875f608"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_hi-tool_fr/eval_results.json",
+      "hash": "b14708fe1f47d6514ca270de40c4a9b6"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_zh-tool_en/eval_results.json",
+      "hash": "6c0b72e0e2fb7c84a690c2e829fab8c1"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_zh-tool_de/eval_results.json",
+      "hash": "f44ed419135d6464a0b55f5ebbee2464"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_zh-tool_hi/eval_results.json",
+      "hash": "89586899119effbca2c5ecc08ea498da"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_zh-tool_zh/eval_results.json",
+      "hash": "09aff64a27ea1dd4a4a65c6e97480972"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_zh-tool_es/eval_results.json",
+      "hash": "a4807f084d81c9f05419f8878aa1402a"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_zh-tool_fr/eval_results.json",
+      "hash": "4b337ca0bda3ddbe8acee2a0978136b1"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_es-tool_en/eval_results.json",
+      "hash": "f302d16e56951626d17d4a77bbafb1e3"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_es-tool_de/eval_results.json",
+      "hash": "960e838795cd8cceb83bc9ccc7276a86"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_es-tool_hi/eval_results.json",
+      "hash": "0f5e412181b12c00cc688438d5c8ebe6"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_es-tool_zh/eval_results.json",
+      "hash": "128de38e2b633042adfcd6ac430c24c3"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_es-tool_es/eval_results.json",
+      "hash": "57fadffad84048bbaff91c6161949d5a"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_es-tool_fr/eval_results.json",
+      "hash": "17e78f5c49f7973070b8129c2345356f"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_fr-tool_en/eval_results.json",
+      "hash": "540ab7b907ad3237d6dc8ce3abcbea76"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_fr-tool_de/eval_results.json",
+      "hash": "3a89c5b921e838e83f26752cf8487ec5"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_fr-tool_hi/eval_results.json",
+      "hash": "0102a4002b7fc129b119b1cc8728354f"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_fr-tool_zh/eval_results.json",
+      "hash": "18e04b43cc383a8d79859d14a54d46f4"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_fr-tool_es/eval_results.json",
+      "hash": "b325b086d8eaa6ac13a02fe8afa9dddf"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-sonnet/input-sys_fr-tool_fr/eval_results.json",
+      "hash": "be74224aa16e9cb53717f41d6553ee8d"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_en-tool_en/eval_results.json",
+      "hash": "649270e5e6cbc8a5880b67764297b1fe"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_en-tool_de/eval_results.json",
+      "hash": "ad98306b5846a1c7e407dbbc8b528e94"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_en-tool_hi/eval_results.json",
+      "hash": "129cfd099df3fca811843f711ee522d8"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_en-tool_zh/eval_results.json",
+      "hash": "c9b2eb6acaccde5a46d2dc9c5bbe9507"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_en-tool_es/eval_results.json",
+      "hash": "d11a0ed5080a44a8ddd9de4cc1e0b291"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_en-tool_fr/eval_results.json",
+      "hash": "e7dad8b4cce3e9809071cedd9f04e241"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_de-tool_en/eval_results.json",
+      "hash": "53b74f050e30a637e2dd4a27439d94c8"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_de-tool_de/eval_results.json",
+      "hash": "6452b014be46c781a18f444935840771"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_de-tool_hi/eval_results.json",
+      "hash": "c073f8ec5339819f1756cec06794fd9c"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_de-tool_zh/eval_results.json",
+      "hash": "6b4df24645a5596c5254b753c2da1eb2"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_de-tool_es/eval_results.json",
+      "hash": "bc6513d02ddff662db4921b36a5e9a8d"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_de-tool_fr/eval_results.json",
+      "hash": "9b7727e0d3c8e6a291ffbda28121e229"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_hi-tool_en/eval_results.json",
+      "hash": "6bee79d1d338f559bc5603a7397771cb"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_hi-tool_de/eval_results.json",
+      "hash": "9ed5235cb75ff0ba05075eb7c37429a7"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_hi-tool_hi/eval_results.json",
+      "hash": "f1a47bb05d8df64c75380007f194e3df"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_hi-tool_zh/eval_results.json",
+      "hash": "8a6785e8601c47a0737af072db85fec9"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_hi-tool_es/eval_results.json",
+      "hash": "467c43760bdaf1a41a1010875fcb0018"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_hi-tool_fr/eval_results.json",
+      "hash": "fb38d3aa5240670db8fb68efcabfabaa"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_zh-tool_en/eval_results.json",
+      "hash": "8771410e1a515ff1bae667261820420d"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_zh-tool_de/eval_results.json",
+      "hash": "1e841715dd91df273cf9c447a80f8bf8"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_zh-tool_hi/eval_results.json",
+      "hash": "24f6a09de0e2919a3ab9e59fd047b887"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_zh-tool_zh/eval_results.json",
+      "hash": "53ff7e3101a240114f9d14c30e08f0b6"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_zh-tool_es/eval_results.json",
+      "hash": "333ec1678af4e27cbd4301cf5a7b9745"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_zh-tool_fr/eval_results.json",
+      "hash": "19eaefdf445cf4828faafc30740d725b"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_es-tool_en/eval_results.json",
+      "hash": "f546fc73d3834d91b64eec675aff8fe7"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_es-tool_de/eval_results.json",
+      "hash": "fc71b75c9f59df3085cd3c008c51b9a9"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_es-tool_hi/eval_results.json",
+      "hash": "9368ca75cacecb4f84896e4fac2ce721"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_es-tool_zh/eval_results.json",
+      "hash": "933e48d3c5799986d458cdb9d2867384"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_es-tool_es/eval_results.json",
+      "hash": "d97d579b34bbe648512bb8089b30ccc6"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_es-tool_fr/eval_results.json",
+      "hash": "05b9a94103d2415475f64ba91484fcab"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_fr-tool_en/eval_results.json",
+      "hash": "c3406ac68e4c4d46c91c86f886e74aa6"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_fr-tool_de/eval_results.json",
+      "hash": "19312db938aa4e076b045e335a5c6607"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_fr-tool_hi/eval_results.json",
+      "hash": "3f99756d19db6aba95fb0763281c2541"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_fr-tool_zh/eval_results.json",
+      "hash": "f40f649f37cafc646733927492c33c78"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_fr-tool_es/eval_results.json",
+      "hash": "a6af4469c4abdc0d7c2b61d77322d1c9"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-sonnet/input-sys_fr-tool_fr/eval_results.json",
+      "hash": "b0e7f29e6cc7d0303fee8f3bb4d34496"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_en-user_en/eval_results.json",
+      "hash": "4090a41d47f9dc916953e497f4dffd3b"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_en-user_de/eval_results.json",
+      "hash": "36503c3732f711ebe21aefacae9cd5a7"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_en-user_hi/eval_results.json",
+      "hash": "5568283d71c0b4ae7973ac296af6992d"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_en-user_zh/eval_results.json",
+      "hash": "6047bcf71c315cdd76ee124fa8fd8547"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_en-user_es/eval_results.json",
+      "hash": "f158b6dfaf7d13532ceed728ad87f76d"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_en-user_fr/eval_results.json",
+      "hash": "80256504fbfd64ad44694ce429e9cdff"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_de-user_en/eval_results.json",
+      "hash": "7822c07fc09a15f16f95484b61bf086e"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_de-user_de/eval_results.json",
+      "hash": "db0e51be726e24f163accfd30b844761"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_de-user_hi/eval_results.json",
+      "hash": "df6eb4cfdba624860c322d210c0e3c93"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_de-user_zh/eval_results.json",
+      "hash": "b8ba36c5876199b840258a3dd8ab5b44"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_de-user_es/eval_results.json",
+      "hash": "f68ab5e4de0190879825f22dfaf30b37"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_de-user_fr/eval_results.json",
+      "hash": "70d84e8e41b80ea46b1f7d0796a33543"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_hi-user_en/eval_results.json",
+      "hash": "2a7a8248cf50a604c4ab5808e7dd185b"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_hi-user_de/eval_results.json",
+      "hash": "d5b1d17243f75dcb20468ee4ff2aa115"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_hi-user_hi/eval_results.json",
+      "hash": "fe374c11edf4a62ffae75143a97af020"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_hi-user_zh/eval_results.json",
+      "hash": "5e407aef918f4046f89f1f4889aecfb2"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_hi-user_es/eval_results.json",
+      "hash": "f1ff0838fc6b29827732f05f54b25f66"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_hi-user_fr/eval_results.json",
+      "hash": "24346a12824a3eb4e1cf90d45821ab38"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_zh-user_en/eval_results.json",
+      "hash": "37abbe6cacffcc4a448deb45701bf156"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_zh-user_de/eval_results.json",
+      "hash": "c8dd9a9340f41089f57a36e825b56962"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_zh-user_hi/eval_results.json",
+      "hash": "9169ed10c446415b74629589b7a0b207"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_zh-user_zh/eval_results.json",
+      "hash": "8c97d209ff3f0790579671b2b8c0941d"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_zh-user_es/eval_results.json",
+      "hash": "93b5df8cd955f886efd247bc7d1a3907"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_zh-user_fr/eval_results.json",
+      "hash": "b3b40d363e2f5f7a23e9f362191d1719"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_es-user_en/eval_results.json",
+      "hash": "bef9df9a2e8ff9d20b7acead65282a21"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_es-user_de/eval_results.json",
+      "hash": "430b9d0bb6e1cc61e1beca7c41defc85"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_es-user_hi/eval_results.json",
+      "hash": "14bb854b2d474597ce21072edf558b35"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_es-user_zh/eval_results.json",
+      "hash": "cacb44af719dc2dc84942b3cfbc5fbaf"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_es-user_es/eval_results.json",
+      "hash": "1b82ce7ea3d3b7bad4c9baa080713361"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_es-user_fr/eval_results.json",
+      "hash": "48f2023ddc43eceb14d1b112f37cb2ba"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_fr-user_en/eval_results.json",
+      "hash": "21c732275741dd67780837f4208e50e4"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_fr-user_de/eval_results.json",
+      "hash": "7a96e2b2fabf4f3431564163e7dca300"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_fr-user_hi/eval_results.json",
+      "hash": "cb3e90aefd2e347351249a24af12118d"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_fr-user_zh/eval_results.json",
+      "hash": "d3aa5130f86a5006217f95b997388bbd"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_fr-user_es/eval_results.json",
+      "hash": "c69515963bfc34e35fb7a346f51b971d"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-sonnet/input-sys_fr-user_fr/eval_results.json",
+      "hash": "9bef9d18cae9495d4818bc2a5e5c63a0"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_en-user_en/eval_results.json",
+      "hash": "11f22cfce7a75121d2a4f85ac0c0fe79"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_en-user_de/eval_results.json",
+      "hash": "993e9e582a03d00805aafeb514789d63"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_en-user_hi/eval_results.json",
+      "hash": "4fc4e65f68964f5540d18c7dcb13b99e"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_en-user_zh/eval_results.json",
+      "hash": "2d29753f498a006767b861540cdf451f"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_en-user_es/eval_results.json",
+      "hash": "e5352826148d6db80222b142f6e56b8c"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_en-user_fr/eval_results.json",
+      "hash": "7eec6aedcd5833f5c508d85615fc6e4e"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_de-user_en/eval_results.json",
+      "hash": "67821498f4eff55d5dcf56ee212a802e"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_de-user_de/eval_results.json",
+      "hash": "b2c20c058f5e0c6dde9ff097798d8a38"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_de-user_hi/eval_results.json",
+      "hash": "ad26df7c68842e516de592d152e321ec"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_de-user_zh/eval_results.json",
+      "hash": "fb8aa702e0991f36c52618cb3f800dd0"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_de-user_es/eval_results.json",
+      "hash": "739d61d06fbf76a0429fae709bedaa11"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_de-user_fr/eval_results.json",
+      "hash": "ef1f44babeb42c0e21742e633e09a5cb"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_hi-user_en/eval_results.json",
+      "hash": "0f295026ade6a81a1b00203c79873724"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_hi-user_de/eval_results.json",
+      "hash": "4623a58d3ca6470f79a5f0ea589de2fd"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_hi-user_hi/eval_results.json",
+      "hash": "a8ec1828953c53609bb2a9efbe0c923e"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_hi-user_zh/eval_results.json",
+      "hash": "5faaaf7c42a1f8ed5cc4681d6f717a01"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_hi-user_es/eval_results.json",
+      "hash": "bff00f50b573b5e18af144c5082cf6d9"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_hi-user_fr/eval_results.json",
+      "hash": "27d280a2a42abe11e1eaea39c5392317"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_zh-user_en/eval_results.json",
+      "hash": "41db06ca415d0df5fabbe7d88a0772c2"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_zh-user_de/eval_results.json",
+      "hash": "1d999cf589c421cf08782c1467652e87"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_zh-user_hi/eval_results.json",
+      "hash": "4ad5c2ac25c97dc838a1798a4e2486b4"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_zh-user_zh/eval_results.json",
+      "hash": "64bb6e4031558e001fb4077833d2acb1"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_zh-user_es/eval_results.json",
+      "hash": "34e2319a31c686383885b7896f673189"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_zh-user_fr/eval_results.json",
+      "hash": "740e0a5af5ae9eef7bc409a37637c33d"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_es-user_en/eval_results.json",
+      "hash": "f91a64810cd71f3c140289c8e998740a"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_es-user_de/eval_results.json",
+      "hash": "1956f95773a924bbbb9cc282b624e93f"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_es-user_hi/eval_results.json",
+      "hash": "1e813be7d692ac65da4c33262cf1b8ae"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_es-user_zh/eval_results.json",
+      "hash": "cd86042a1a7f640128cc15d4102fe970"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_es-user_es/eval_results.json",
+      "hash": "8e403a9666567389cfa64441f10b0a42"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_es-user_fr/eval_results.json",
+      "hash": "85c9a23797c43ea932dd883e5443d075"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_fr-user_en/eval_results.json",
+      "hash": "9df49f31543d63f163864486b61788be"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_fr-user_de/eval_results.json",
+      "hash": "b4ae93ccebe504f8f5451fdb8aa2b595"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_fr-user_hi/eval_results.json",
+      "hash": "55d67bd98da2a6efe924f95d0b2cf807"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_fr-user_zh/eval_results.json",
+      "hash": "c20d5b0a6c77c3b910fb4cd18a20e4af"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_fr-user_es/eval_results.json",
+      "hash": "c40bc4c0a75ec83a6b1554e09e4b55bb"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-sonnet/input-sys_fr-user_fr/eval_results.json",
+      "hash": "f68cf8df7d9252193d51b44aa928e488"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_en-tool_en/eval_results.json",
+      "hash": "ed9ae9e57755d238279895a7f8a090db"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_en-tool_de/eval_results.json",
+      "hash": "aa312f52ea835c8dfa0d5fccc42d790b"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_en-tool_hi/eval_results.json",
+      "hash": "b5dca15dc194beefd3cda36074d76040"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_en-tool_zh/eval_results.json",
+      "hash": "e153a61436385019ae73b538079c3413"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_en-tool_es/eval_results.json",
+      "hash": "592707954e2785786d07f4b55dd181dc"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_en-tool_fr/eval_results.json",
+      "hash": "a195bfab3183c26b9012d457a0e92c7c"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_de-tool_en/eval_results.json",
+      "hash": "585561223a1aedea97bad9a5b86502b5"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_de-tool_de/eval_results.json",
+      "hash": "65aa5438957a810da4e14aeac4a3b485"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_de-tool_hi/eval_results.json",
+      "hash": "2a585c0874cade378aebb39137d84ea1"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_de-tool_zh/eval_results.json",
+      "hash": "70c82d077f05dad06ffedad9d1f8b1b9"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_de-tool_es/eval_results.json",
+      "hash": "82edb33af17331642aa26a36d530de33"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_de-tool_fr/eval_results.json",
+      "hash": "4779d4b7a9b7a897b32749c33ceef0c5"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_hi-tool_en/eval_results.json",
+      "hash": "9577aa2f5580aad4b76633114e8e3938"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_hi-tool_de/eval_results.json",
+      "hash": "9b27ddadfd65431cacd18814766ab8be"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_hi-tool_hi/eval_results.json",
+      "hash": "e8233417ece0f5b20a6cd37460acc8ec"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_hi-tool_zh/eval_results.json",
+      "hash": "285d4159ee81e12d45629292e1d7c607"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_hi-tool_es/eval_results.json",
+      "hash": "d55ffe3ac8d86bf53db0ececf97fa37c"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_hi-tool_fr/eval_results.json",
+      "hash": "7cd4d0821ab6b6a91c139b161cfb30b5"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_zh-tool_en/eval_results.json",
+      "hash": "2c3694bfb508fdbb59665dbc5ebaa10d"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_zh-tool_de/eval_results.json",
+      "hash": "897853b56380f3bfd2e836abd15861c6"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_zh-tool_hi/eval_results.json",
+      "hash": "19674b2fd92189c52fbffb0e2f3e155c"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_zh-tool_zh/eval_results.json",
+      "hash": "5fae8701cb8ce26493103032a44f15d7"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_zh-tool_es/eval_results.json",
+      "hash": "58bcbf1e4645fc7bc25b66d87c7fe65d"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_zh-tool_fr/eval_results.json",
+      "hash": "6385ee551625211d20777cd9c940395f"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_es-tool_en/eval_results.json",
+      "hash": "889d38e5d6ca228aec7f49c1da39be96"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_es-tool_de/eval_results.json",
+      "hash": "3c86e4c23f1c901ed768a88bf63614ce"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_es-tool_hi/eval_results.json",
+      "hash": "3da777d3c067f9799df39355001f93e4"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_es-tool_zh/eval_results.json",
+      "hash": "bbc4801037cde873ecc62c3cf8ccec68"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_es-tool_es/eval_results.json",
+      "hash": "9745906f65c51e50b01d156dbb73b0db"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_es-tool_fr/eval_results.json",
+      "hash": "9b7ab147ea7a827158b0570ffdd9cab1"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_fr-tool_en/eval_results.json",
+      "hash": "d8130b4c32b2bab095f793b9638a7014"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_fr-tool_de/eval_results.json",
+      "hash": "0411be08cab8625834edcfa6196b9bdc"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_fr-tool_hi/eval_results.json",
+      "hash": "fc11049a3252041b62ef1aa22d2416be"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_fr-tool_zh/eval_results.json",
+      "hash": "dacb590992a23f7595df09c90acb2828"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_fr-tool_es/eval_results.json",
+      "hash": "623b26e8051a1d123f71d6687dfd07c4"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-sonnet/input-user_fr-tool_fr/eval_results.json",
+      "hash": "acf9f0f976033a9682a94d5c6129fe84"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_en-tool_en/eval_results.json",
+      "hash": "fc6a88bb32af7ad3d4f8f27ae0d886de"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_en-tool_de/eval_results.json",
+      "hash": "6b46e2e23fc7b9cd6d7c1f52c7ea2d19"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_en-tool_hi/eval_results.json",
+      "hash": "a0a5fc7cb7eec1e6e789666f6a83a0b4"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_en-tool_zh/eval_results.json",
+      "hash": "2dd1189eb90a10e7c8747f1d343ba9c6"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_en-tool_es/eval_results.json",
+      "hash": "67b22c559eb1d41dd21f2b4b41449953"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_en-tool_fr/eval_results.json",
+      "hash": "fc9f26a5ab63d0af42524c58f746eebf"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_de-tool_en/eval_results.json",
+      "hash": "61f80c0c2229a61228a429740304a756"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_de-tool_de/eval_results.json",
+      "hash": "1946e7c58a65a5f7f023c642188b3ded"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_de-tool_hi/eval_results.json",
+      "hash": "8e901015cee9056ab8895567cc367dc5"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_de-tool_zh/eval_results.json",
+      "hash": "c6db97fb50b87518fa9cf08aec807a91"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_de-tool_es/eval_results.json",
+      "hash": "62dd77407440f18893d8befa585f8700"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_de-tool_fr/eval_results.json",
+      "hash": "c0c57128d321137fbabdf32853ad2ddd"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_hi-tool_en/eval_results.json",
+      "hash": "08f3240753361fe6849d1840ef5025b7"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_hi-tool_de/eval_results.json",
+      "hash": "670ba12454af0bb35f923e9c672cec56"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_hi-tool_hi/eval_results.json",
+      "hash": "5575a5e58f71df013a4e2ee6041668ba"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_hi-tool_zh/eval_results.json",
+      "hash": "16d0be6db82c51d9e73063d0cef86f32"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_hi-tool_es/eval_results.json",
+      "hash": "d43211b11436863b319e62582c1691ea"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_hi-tool_fr/eval_results.json",
+      "hash": "b8c2ffb86e784acd06a8e4f6ca675950"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_zh-tool_en/eval_results.json",
+      "hash": "1494807cee93a8d1c334f2486b7992ec"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_zh-tool_de/eval_results.json",
+      "hash": "b703eda0534e582262f0ddcb959d9758"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_zh-tool_hi/eval_results.json",
+      "hash": "17c73e9e08a2aed6555759c2915a0397"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_zh-tool_zh/eval_results.json",
+      "hash": "99e6c3a071e5e77430e80ab0eb99a04b"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_zh-tool_es/eval_results.json",
+      "hash": "b78d9889ad97bcab32150f2f697b225a"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_zh-tool_fr/eval_results.json",
+      "hash": "40435d0a667bc500ce8dd81a01e906ba"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_es-tool_en/eval_results.json",
+      "hash": "4693ab987bbfe29f0ecf58576499ff75"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_es-tool_de/eval_results.json",
+      "hash": "ea1744d887832dc69463f7c7c7b3e9e9"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_es-tool_hi/eval_results.json",
+      "hash": "a6455b3a67daf02a781481bc5ba0d24b"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_es-tool_zh/eval_results.json",
+      "hash": "aa9435a2162f4428095311fcf5dde6f5"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_es-tool_es/eval_results.json",
+      "hash": "ab7489a91bd1f8d6feb60523f445e528"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_es-tool_fr/eval_results.json",
+      "hash": "7b07626fa07fb1bedb03fe178b78bfaa"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_fr-tool_en/eval_results.json",
+      "hash": "7f461a6d4cf3ef4fe20edde85e68b6ed"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_fr-tool_de/eval_results.json",
+      "hash": "66cfd2c18abef085fa769a0385d46162"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_fr-tool_hi/eval_results.json",
+      "hash": "4853745f93fcf99773563d0c4730377d"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_fr-tool_zh/eval_results.json",
+      "hash": "4d5795a03553b480920a783a6ffd70fa"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_fr-tool_es/eval_results.json",
+      "hash": "9a12b93eb9037ed4e6325f3501c4b102"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-sonnet/input-user_fr-tool_fr/eval_results.json",
+      "hash": "4624b43fedd6591de6d24ef8ff21fe36"
+    }
+  ]
+}

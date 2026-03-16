@@ -1,0 +1,870 @@
+{
+  "timestamp": "2026-02-19T07:07:05.549504",
+  "total_files": 216,
+  "files": [
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_en-tool_en/eval_results.json",
+      "hash": "c3525bf9c3857da7a04769843004566e"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_en-tool_de/eval_results.json",
+      "hash": "ff848d117e5b3aa23b4910ebaaa65f27"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_en-tool_hi/eval_results.json",
+      "hash": "5a9e6b6a56190ec6638421bc0afe8df8"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_en-tool_zh/eval_results.json",
+      "hash": "f9e190d742d105ff32cfe445e6b98ccf"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_en-tool_es/eval_results.json",
+      "hash": "87ae290967440a8c13ca33ba06217f1c"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_en-tool_fr/eval_results.json",
+      "hash": "d320d1082b5a47eb8dc7d2f2abbf7307"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_de-tool_en/eval_results.json",
+      "hash": "9f3fccdf35e0c53e5d14bdabbfa96842"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_de-tool_de/eval_results.json",
+      "hash": "4ce67be2e86ada21c87fd18d4e5c113c"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_de-tool_hi/eval_results.json",
+      "hash": "56625c5dcb935e5f1792b2249e67ccb4"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_de-tool_zh/eval_results.json",
+      "hash": "b6801c82e075f6df625a461f554e5fd7"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_de-tool_es/eval_results.json",
+      "hash": "1f4384659d21bb7761447f711853b753"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_de-tool_fr/eval_results.json",
+      "hash": "74ae1b61d50f0a43469521cb7bf79210"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_hi-tool_en/eval_results.json",
+      "hash": "8e53631088c7f1a2995ecdcc44da8f1f"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_hi-tool_de/eval_results.json",
+      "hash": "72c34998dd4d308a249ecfb38cac32b8"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_hi-tool_hi/eval_results.json",
+      "hash": "b256dab0e525c85d11e332d91e419d12"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_hi-tool_zh/eval_results.json",
+      "hash": "6c4b957a51e70e616ce38c8860c07ec6"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_hi-tool_es/eval_results.json",
+      "hash": "1dcc82af4fb58f175f5506addb9f70a4"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_hi-tool_fr/eval_results.json",
+      "hash": "dce771ab08184f52a2d603261266b76e"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_zh-tool_en/eval_results.json",
+      "hash": "718829500e4abcee0e79fa7fb48a82f4"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_zh-tool_de/eval_results.json",
+      "hash": "421773a1fbbf5e3150e3ce1f9301ef66"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_zh-tool_hi/eval_results.json",
+      "hash": "776cf09abbeeccc64945209ec4794caf"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_zh-tool_zh/eval_results.json",
+      "hash": "12cdaed63187c5509ddd5a208e81b1ad"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_zh-tool_es/eval_results.json",
+      "hash": "8648498c886cc5a74e6fc8f62494d28d"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_zh-tool_fr/eval_results.json",
+      "hash": "5dd60cd5bd30e453563219edcac4070d"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_es-tool_en/eval_results.json",
+      "hash": "edfb042bc4ebb20ae1bcc0c609f0b703"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_es-tool_de/eval_results.json",
+      "hash": "2fbe87158763def18d5e3105830eb530"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_es-tool_hi/eval_results.json",
+      "hash": "a19f2ea1cb07227eb172bb34f44160ba"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_es-tool_zh/eval_results.json",
+      "hash": "334df5c91e93f628bed347007052939c"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_es-tool_es/eval_results.json",
+      "hash": "7e2c3dedcaccc831e800aef154c74e23"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_es-tool_fr/eval_results.json",
+      "hash": "9c65a67cc38a7f24e08e3662b71f000c"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_fr-tool_en/eval_results.json",
+      "hash": "eaebadbab47050e46feaa1085e5f4661"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_fr-tool_de/eval_results.json",
+      "hash": "5f2d5c3d2f2babe342156d84bb590f97"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_fr-tool_hi/eval_results.json",
+      "hash": "1da53ccdceab8ba12b3ebd0e9ed40542"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_fr-tool_zh/eval_results.json",
+      "hash": "970918cced2ae46f18d85991921caad7"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_fr-tool_es/eval_results.json",
+      "hash": "623b204113c08df8e9af72c3b3837e3b"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/claude/claude-haiku/input-sys_fr-tool_fr/eval_results.json",
+      "hash": "addb8c17720cbd3c2c7136d2c81280b0"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_en-tool_en/eval_results.json",
+      "hash": "f64f0e3b4e8a93e8aac66be37114eb72"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_en-tool_de/eval_results.json",
+      "hash": "37bcd78cb3742d722dbf71c95a66ddee"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_en-tool_hi/eval_results.json",
+      "hash": "c2288e1bac0b47b90ab0bff6801a25c5"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_en-tool_zh/eval_results.json",
+      "hash": "f63ec19520def07c20d9300f18347bac"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_en-tool_es/eval_results.json",
+      "hash": "cfca92a52ceb70eaa505b7397370dda9"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_en-tool_fr/eval_results.json",
+      "hash": "8912a72b3872d6feeab43cabe25011b9"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_de-tool_en/eval_results.json",
+      "hash": "d0c0a6c13fcc5c27eb41519fcaa23e7e"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_de-tool_de/eval_results.json",
+      "hash": "78743a3ee196b6d0ba681f111d07ba95"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_de-tool_hi/eval_results.json",
+      "hash": "0089ba1f081ef28a3729ae697a0d770e"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_de-tool_zh/eval_results.json",
+      "hash": "323e2be4b2c4d45d6e43fd97557c59e4"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_de-tool_es/eval_results.json",
+      "hash": "6fdb7e73fba2d5b0ff70de129606d613"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_de-tool_fr/eval_results.json",
+      "hash": "00483bbcea7611db05700f3dffa13c4c"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_hi-tool_en/eval_results.json",
+      "hash": "c6c1f01ca857d9b22eb7ca9a875e52f9"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_hi-tool_de/eval_results.json",
+      "hash": "c8698edc1180e5890c59e35cfb958cba"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_hi-tool_hi/eval_results.json",
+      "hash": "448ff3ef113cc04de5a25ff75f33199f"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_hi-tool_zh/eval_results.json",
+      "hash": "7975439fcda920aaf06193c15eba6c61"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_hi-tool_es/eval_results.json",
+      "hash": "2a9ad3e114dc55772e0b5bbfe1583fb5"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_hi-tool_fr/eval_results.json",
+      "hash": "a7345df11120a7f439b7f435d42d4be1"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_zh-tool_en/eval_results.json",
+      "hash": "cf3b8601b6719e852382b59628839c63"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_zh-tool_de/eval_results.json",
+      "hash": "5e95e1b64e2e9f796057804251b456e6"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_zh-tool_hi/eval_results.json",
+      "hash": "c9a9b5da5f1b010d65da3bf68349a9f4"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_zh-tool_zh/eval_results.json",
+      "hash": "f5ab25f4726a072767fe2c2e23b62103"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_zh-tool_es/eval_results.json",
+      "hash": "5dc56e34f4d7e5d0e6e62de94a17f9da"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_zh-tool_fr/eval_results.json",
+      "hash": "d7dfbe7a4f3cfad0f0f739ebbeca683e"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_es-tool_en/eval_results.json",
+      "hash": "c641972f1a52b8cf380517ff15bd6997"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_es-tool_de/eval_results.json",
+      "hash": "8c139a63115fcf5a54f87fe3a32cec1d"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_es-tool_hi/eval_results.json",
+      "hash": "c084d8aa97e5d7fe83907bb9e06c389b"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_es-tool_zh/eval_results.json",
+      "hash": "1d72e9d6742b3efbc2942065c8d9a688"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_es-tool_es/eval_results.json",
+      "hash": "d16545e5fbf95222646f05ed00c5dd0a"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_es-tool_fr/eval_results.json",
+      "hash": "360897912537bdfe6536374d829504ac"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_fr-tool_en/eval_results.json",
+      "hash": "e5208e2f8afd3173e86a19208c4c8705"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_fr-tool_de/eval_results.json",
+      "hash": "0f613a8feadd67911ab4aa6706437581"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_fr-tool_hi/eval_results.json",
+      "hash": "add824843d62eaef9a3dc5a3fdc75729"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_fr-tool_zh/eval_results.json",
+      "hash": "bd9c5663621205822ba32eb233342a33"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_fr-tool_es/eval_results.json",
+      "hash": "dedcb7ddd24d98a077872ca15467ff68"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/claude/claude-haiku/input-sys_fr-tool_fr/eval_results.json",
+      "hash": "fa69b3fb4c7fe5086d80f14c14a6185d"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_en-user_en/eval_results.json",
+      "hash": "16fda0b35c36409ad5fc73fe99d37b8d"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_en-user_de/eval_results.json",
+      "hash": "fd2f827a97b904927ec5511cb9151f1a"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_en-user_hi/eval_results.json",
+      "hash": "1e409b288e475cef571f597a5edeee1f"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_en-user_zh/eval_results.json",
+      "hash": "5b491cce417753f77206cac7ac7ebcf0"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_en-user_es/eval_results.json",
+      "hash": "b7cb861df2c74f43ad4f90127815641e"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_en-user_fr/eval_results.json",
+      "hash": "414432c82697f889345547d858d88f90"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_de-user_en/eval_results.json",
+      "hash": "67063e2dd50319cc72f5d8efda0cb1c0"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_de-user_de/eval_results.json",
+      "hash": "6ec101c7e118bcf886c992a9d8e4bcdc"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_de-user_hi/eval_results.json",
+      "hash": "990c7c815bacce0b6aecefe4a42275c5"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_de-user_zh/eval_results.json",
+      "hash": "7003497d426443db839627d33281c00e"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_de-user_es/eval_results.json",
+      "hash": "04906d2cbf2a0e4a39c1fe63d5f30002"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_de-user_fr/eval_results.json",
+      "hash": "9fff14ccffedceab06b8c6ec2b5b85f1"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_hi-user_en/eval_results.json",
+      "hash": "bd4fdb5951688fa631ad1d0e6d28c9d7"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_hi-user_de/eval_results.json",
+      "hash": "9abd5a1f5238843c2287e1033420e522"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_hi-user_hi/eval_results.json",
+      "hash": "661d185a74cc4021f389e4146e2425fb"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_hi-user_zh/eval_results.json",
+      "hash": "8d80a236084cec2827df3034d3810235"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_hi-user_es/eval_results.json",
+      "hash": "5e981eb6d944e07cb6cb241d7db7bd90"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_hi-user_fr/eval_results.json",
+      "hash": "fe45e95beb0c36d5b73bb0f089a5ff4f"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_zh-user_en/eval_results.json",
+      "hash": "03fc6b81634841492f90bc063bdeed27"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_zh-user_de/eval_results.json",
+      "hash": "9a5984e7f51cfb0d3d3a9cb0456b12fd"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_zh-user_hi/eval_results.json",
+      "hash": "2133e3149903d11c4e6c2515e3448a4f"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_zh-user_zh/eval_results.json",
+      "hash": "3bdd9cf87746b44d6037a08cb20a1f6e"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_zh-user_es/eval_results.json",
+      "hash": "46caf7b406cc2b7e993779cb8533fdb7"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_zh-user_fr/eval_results.json",
+      "hash": "f2b18253f79632a3bf55b17462ccefd5"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_es-user_en/eval_results.json",
+      "hash": "0a543d60e56245f473c83a84054e9910"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_es-user_de/eval_results.json",
+      "hash": "4228c65326765a544422a875afc796a0"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_es-user_hi/eval_results.json",
+      "hash": "a143af2ee153dec624fbd490a0591032"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_es-user_zh/eval_results.json",
+      "hash": "2619ef2bdb45ec78bb0e03efd5452e65"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_es-user_es/eval_results.json",
+      "hash": "842e5e7f10c448f724729b76b6ed6bd2"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_es-user_fr/eval_results.json",
+      "hash": "cd57c8eab1b8b1fa3b8b73e8c7f330b5"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_fr-user_en/eval_results.json",
+      "hash": "6947ca1480980029d122ba058d3ef3ea"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_fr-user_de/eval_results.json",
+      "hash": "3ad69f15270b6d6192c5473cc363d0f6"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_fr-user_hi/eval_results.json",
+      "hash": "f326e6bce5fbcd85fa43ce9c3bb8c23a"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_fr-user_zh/eval_results.json",
+      "hash": "03b30c3d5ee4e6a6abc601ea2e48c317"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_fr-user_es/eval_results.json",
+      "hash": "aadc915f97d6aa069e7014b851c30d04"
+    },
+    {
+      "path": "results/persona/reference/sys-user/claude/claude-haiku/input-sys_fr-user_fr/eval_results.json",
+      "hash": "112c352660f86594fe792cd3285de5de"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_en-user_en/eval_results.json",
+      "hash": "2e24d31a010e250fb98b86ec7585d537"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_en-user_de/eval_results.json",
+      "hash": "a03a32950b63f3fb5c33d19d7c4bd590"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_en-user_hi/eval_results.json",
+      "hash": "6e6b2723b37d22a1d82660d4784752f4"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_en-user_zh/eval_results.json",
+      "hash": "576164b3ca8daa1141d06ead0bad6775"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_en-user_es/eval_results.json",
+      "hash": "6b6d8a08f374a336e84e8e083ef20be5"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_en-user_fr/eval_results.json",
+      "hash": "297012ebaec48f005c00ea39c8d1e1da"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_de-user_en/eval_results.json",
+      "hash": "6d20ab2ad8a60184e7e1d0a7684e3332"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_de-user_de/eval_results.json",
+      "hash": "72b66b87700380ef46e05c39ea212c53"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_de-user_hi/eval_results.json",
+      "hash": "2c29a506cbcdd55cdaf6342741ff161b"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_de-user_zh/eval_results.json",
+      "hash": "388408adb31d7ff133c1547831dfd402"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_de-user_es/eval_results.json",
+      "hash": "2a29b58c252b7559ace58752ea91923f"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_de-user_fr/eval_results.json",
+      "hash": "696eb1ed0f0772378b40e9aaabcf839f"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_hi-user_en/eval_results.json",
+      "hash": "362fce1a6f7a2d860e7c23978cabcfef"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_hi-user_de/eval_results.json",
+      "hash": "784516c004befe6e2acd55911d37e309"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_hi-user_hi/eval_results.json",
+      "hash": "40ff2772a9cfbd679f8095cd39e471f7"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_hi-user_zh/eval_results.json",
+      "hash": "85295f788b3af65dfe493f3a3df6cfeb"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_hi-user_es/eval_results.json",
+      "hash": "2879299c69075f2e3e2d4972df65035f"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_hi-user_fr/eval_results.json",
+      "hash": "dc0cdc4b8fcc2e8133bc626914549f4f"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_zh-user_en/eval_results.json",
+      "hash": "0e27aeceea3676a8a44409ce10ba160e"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_zh-user_de/eval_results.json",
+      "hash": "b173d6000efbe3ea081b4a6e83977b01"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_zh-user_hi/eval_results.json",
+      "hash": "40bea808cf50a85edadedf831509d9be"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_zh-user_zh/eval_results.json",
+      "hash": "2bce2f31be3a4e6debf54d6a5899c3ec"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_zh-user_es/eval_results.json",
+      "hash": "5dda8290cf7c28cd9f479a155f97504b"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_zh-user_fr/eval_results.json",
+      "hash": "54d07fc32ebc8c61b440b4c0eff608d5"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_es-user_en/eval_results.json",
+      "hash": "043c0932f42b0e6bfff152e50626fa78"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_es-user_de/eval_results.json",
+      "hash": "2d8ddccbc3e0ab086e41e5d2a31ddbe2"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_es-user_hi/eval_results.json",
+      "hash": "765f28c11087160db7424a868ab649a7"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_es-user_zh/eval_results.json",
+      "hash": "da69f461695c1cf401f7a564683cd677"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_es-user_es/eval_results.json",
+      "hash": "83e18a0b07dbe6314785bdbc734774b7"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_es-user_fr/eval_results.json",
+      "hash": "9b603428dd0aa8062b52527c8aeece61"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_fr-user_en/eval_results.json",
+      "hash": "5143ef92b98b6c6c3f2d2b2d30e70f86"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_fr-user_de/eval_results.json",
+      "hash": "f5cd62e50ef04863ca8a9842cdb0a144"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_fr-user_hi/eval_results.json",
+      "hash": "8139e7de2abb5b11180f80a26e85a406"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_fr-user_zh/eval_results.json",
+      "hash": "18489df9a7ae4e7e88a1e10be061520c"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_fr-user_es/eval_results.json",
+      "hash": "7aa79bc2103a9be7eabc9a3d7e8bcf64"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/claude/claude-haiku/input-sys_fr-user_fr/eval_results.json",
+      "hash": "23d6c8c348db9cb559e81b5009299b39"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_en-tool_en/eval_results.json",
+      "hash": "51be90ca8b4c2022656ec127105e2a21"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_en-tool_de/eval_results.json",
+      "hash": "232897d403f0ae9e43ab63f4452a5b70"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_en-tool_hi/eval_results.json",
+      "hash": "eec60b788ddd96b6a81b40ee629030b8"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_en-tool_zh/eval_results.json",
+      "hash": "7e42b4965c2e6859d2e0fd9367b69c9b"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_en-tool_es/eval_results.json",
+      "hash": "13328465b026ecc6da368e333b212d9c"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_en-tool_fr/eval_results.json",
+      "hash": "b8b394ac91e7679141eca9a2afef02bc"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_de-tool_en/eval_results.json",
+      "hash": "458b5763d17f492babb195f26b68cd1d"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_de-tool_de/eval_results.json",
+      "hash": "bb6ba73058232fa89d1ce57238b229bb"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_de-tool_hi/eval_results.json",
+      "hash": "e4671becffe328801ce2ab14bf0c9960"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_de-tool_zh/eval_results.json",
+      "hash": "e13bb46b9b048cf3350984aa1f3d8e81"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_de-tool_es/eval_results.json",
+      "hash": "f76f356132b85da1274127f45d1797a1"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_de-tool_fr/eval_results.json",
+      "hash": "ad345ad4c49a8b0d9517d6c2b160d700"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_hi-tool_en/eval_results.json",
+      "hash": "4e461328180dfd6cde3673fe066b25a7"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_hi-tool_de/eval_results.json",
+      "hash": "a129e2d7b4ed14701de0af649a24bb19"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_hi-tool_hi/eval_results.json",
+      "hash": "6e6aec9b650e0789283dbc9900864fd0"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_hi-tool_zh/eval_results.json",
+      "hash": "2128a7961dd41540a8e9d449bee965a9"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_hi-tool_es/eval_results.json",
+      "hash": "9b059033a95f6cb796c005916b6f6220"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_hi-tool_fr/eval_results.json",
+      "hash": "4aeeee6182b13fd51570310e86b00cb8"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_zh-tool_en/eval_results.json",
+      "hash": "2435dc52a8b9ba68793b0d4205cc4b55"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_zh-tool_de/eval_results.json",
+      "hash": "347ba9dbe02042596e4fe7d420c171e1"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_zh-tool_hi/eval_results.json",
+      "hash": "8b502e5b988f2d5d2e26eb630606d84e"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_zh-tool_zh/eval_results.json",
+      "hash": "1ef5da2fe045c5d5b431cd92956da006"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_zh-tool_es/eval_results.json",
+      "hash": "a0114a022b7d45aba7fd817c4732d63d"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_zh-tool_fr/eval_results.json",
+      "hash": "22c66211931b637c134449b4a17e0f74"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_es-tool_en/eval_results.json",
+      "hash": "7daad3e6fa7b83dbc65d38c837285e18"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_es-tool_de/eval_results.json",
+      "hash": "83aea188b51806e4915cfd275de53b32"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_es-tool_hi/eval_results.json",
+      "hash": "0abbcf1d1321766c5fad57a25c62471d"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_es-tool_zh/eval_results.json",
+      "hash": "3f365982e0305a01ac75e5332e0ceea1"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_es-tool_es/eval_results.json",
+      "hash": "08ecb0bc423b4f4e2ff5dd4a3284bc44"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_es-tool_fr/eval_results.json",
+      "hash": "19cfb2403b1ad716c71305e138dd7c2b"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_fr-tool_en/eval_results.json",
+      "hash": "d5da91bdb104864c432c84ecc45e5c16"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_fr-tool_de/eval_results.json",
+      "hash": "a12faaef331cebc7ffef4af80330a148"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_fr-tool_hi/eval_results.json",
+      "hash": "434bfa03fc9fedf262370ab7b2db7599"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_fr-tool_zh/eval_results.json",
+      "hash": "92ba885f88ea490c8c666571ab62d619"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_fr-tool_es/eval_results.json",
+      "hash": "65feeae702734fda6491cc0e7256c6df"
+    },
+    {
+      "path": "results/persona/reference/user-tool/claude/claude-haiku/input-user_fr-tool_fr/eval_results.json",
+      "hash": "f13a1683c4883a5e5752a33f91d0f57d"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_en-tool_en/eval_results.json",
+      "hash": "044fc109512ecda27a0095a275c80796"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_en-tool_de/eval_results.json",
+      "hash": "3029076d513c9754e1f1b9c94a37769d"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_en-tool_hi/eval_results.json",
+      "hash": "297e958814cde82f5d8e52775fbc92af"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_en-tool_zh/eval_results.json",
+      "hash": "d00a67f76356e25b712d1b33e04a9e8c"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_en-tool_es/eval_results.json",
+      "hash": "fb62ab21a3ae097a9e1e0e93ff5ff14a"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_en-tool_fr/eval_results.json",
+      "hash": "9aa3d34e43101014d0e810442fc8ee64"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_de-tool_en/eval_results.json",
+      "hash": "42b795e0ed877b0c261d493104f2425c"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_de-tool_de/eval_results.json",
+      "hash": "c62fa9c3106ca7a5186b2745c2a3e5a4"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_de-tool_hi/eval_results.json",
+      "hash": "e3e4625d95162d8da7bdf92d699e4d0d"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_de-tool_zh/eval_results.json",
+      "hash": "7dfdeb74d1fdb1c12f410eae13476169"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_de-tool_es/eval_results.json",
+      "hash": "abe16484f739694c30d2fe1fbee88330"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_de-tool_fr/eval_results.json",
+      "hash": "7593c7e3aa74cbfb2848baef11e33a45"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_hi-tool_en/eval_results.json",
+      "hash": "1d1968617dcf0d2810fb7ffcae221012"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_hi-tool_de/eval_results.json",
+      "hash": "6be300dc9c0d7689cf9102e1ae3fe95d"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_hi-tool_hi/eval_results.json",
+      "hash": "0008d953f9755fd59188c10035f18b99"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_hi-tool_zh/eval_results.json",
+      "hash": "e67e5b22bdb7c94ae1729aea7009a65a"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_hi-tool_es/eval_results.json",
+      "hash": "6b4894b38ccf279cdcd34004053f3757"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_hi-tool_fr/eval_results.json",
+      "hash": "1704f621e14e599f26b921447145cc56"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_zh-tool_en/eval_results.json",
+      "hash": "41240740f77f95f5853a179b10b57bf8"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_zh-tool_de/eval_results.json",
+      "hash": "70aace234b8af7d332dc35e930f4d16f"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_zh-tool_hi/eval_results.json",
+      "hash": "cdb5b69e8c4c469c582449ebd8ac63f1"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_zh-tool_zh/eval_results.json",
+      "hash": "87c9755d8622e6bc257c1a67f108a3f3"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_zh-tool_es/eval_results.json",
+      "hash": "88e178c52d88f0187443ad710a87301a"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_zh-tool_fr/eval_results.json",
+      "hash": "1cf31b273e550272b154d53f5a552d4e"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_es-tool_en/eval_results.json",
+      "hash": "bcf52e3e81ffac4cb8e4362c23ef52ad"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_es-tool_de/eval_results.json",
+      "hash": "4e0577a13531212277e543709ea06de3"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_es-tool_hi/eval_results.json",
+      "hash": "06e23d366201896c91c551bb2eeb38bc"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_es-tool_zh/eval_results.json",
+      "hash": "2a80d62a3180efc84da8a73d3207026c"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_es-tool_es/eval_results.json",
+      "hash": "91fb6a00cb26c894bf669d3fb7a4b857"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_es-tool_fr/eval_results.json",
+      "hash": "422bd9bbe874217785271f9a6fe16d8c"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_fr-tool_en/eval_results.json",
+      "hash": "ea81da66788eaf0fedcb605290dd81f5"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_fr-tool_de/eval_results.json",
+      "hash": "d1c458310c58a7ecd40952d81d9ef136"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_fr-tool_hi/eval_results.json",
+      "hash": "aa4c5022143366f47d4470c741186880"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_fr-tool_zh/eval_results.json",
+      "hash": "b8400807068f46a6afabf5aaf0c7e442"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_fr-tool_es/eval_results.json",
+      "hash": "8800c128f06b31f7a5a78a64cd7fb222"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/claude/claude-haiku/input-user_fr-tool_fr/eval_results.json",
+      "hash": "1df107d018ffe42f2bb95211b4ffc193"
+    }
+  ]
+}

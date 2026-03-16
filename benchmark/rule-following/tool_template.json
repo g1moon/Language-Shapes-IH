@@ -1,0 +1,42 @@
+{
+    "sys_tool_inst_en": "Call the tool get_additional_text exactly once with the user's request text. After you receive the tool output, respond to the user. Do not use any other tools. Do not output any introductory text or explanations.",
+    "sys_tool_inst_de": "Rufe das Tool get_additional_text genau einmal mit dem Anfragetext des Nutzers auf. Nachdem du die Tool-Ausgabe erhalten hast, antworte dem Nutzer. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "sys_tool_inst_es": "Llama a la herramienta get_additional_text exactamente una vez con el texto de la solicitud del usuario. Después de recibir la salida de la herramienta, responde al usuario. No uses ninguna otra herramienta. No muestres ningún texto introductorio ni explicaciones.",
+    "sys_tool_inst_fr": "Appelez l’outil get_additional_text exactement une fois avec le texte de la demande de l’utilisateur. Après avoir reçu la sortie de l’outil, répondez à l’utilisateur. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "sys_tool_inst_hi": "उपयोगकर्ता के अनुरोध पाठ के साथ टूल get_additional_text को ठीक एक बार कॉल करें। टूल आउटपुट प्राप्त करने के बाद, उपयोगकर्ता को उत्तर दें। किसी अन्य टूल का उपयोग न करें। कोई भी परिचयात्मक पाठ या स्पष्टीकरण आउटपुट न करें।",
+    "sys_tool_inst_zh": "使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    
+    "user_tool_inst_en": "Call get_additional_text exactly once using the request below, then answer it. Do not use any other tools. Do not output any introductory text or explanations.",
+    "user_tool_inst_de": "Rufe get_additional_text genau einmal mit der untenstehenden Anfrage auf und beantworte sie anschließend. Verwende keine anderen Tools. Gib keinen einleitenden Text oder Erklärungen aus.",
+    "user_tool_inst_es": "Llama a get_additional_text exactamente una vez usando la solicitud que aparece a continuación y, después, respóndela. No uses ninguna otra herramienta. No muestres ningún texto introductorio ni explicaciones.",
+    "user_tool_inst_fr": "Appelez get_additional_text exactement une fois en utilisant la requête ci-dessous, puis répondez-y. N’utilisez aucun autre outil. Ne produisez aucun texte d’introduction ni d’explications.",
+    "user_tool_inst_hi": "नीचे दिए गए अनुरोध का उपयोग करके get_additional_text को ठीक एक बार कॉल करें, फिर उसका उत्तर दें। किसी अन्य टूल का उपयोग न करें। कोई भी परिचयात्मक पाठ या स्पष्टीकरण आउटपुट न करें।",
+    "user_tool_inst_zh": "使用以下请求精确调用 get_additional_text 一次，然后回答它。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "request": {
+                    "type": "string",
+                    "description": "The user's request text."
+                }
+            },
+            "required": ["request"]
+        }
+    },
+    "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+            "request": "$$REQUEST$$"
+        }
+    },
+    "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "$$RETURN$$"
+    }
+}

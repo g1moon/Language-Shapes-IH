@@ -1,0 +1,602 @@
+[
+  {
+    "id": 0,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "L'avion se dirigeait vers Irkoutsk et était manœuvré par des troupes domestiques. Une enquête a été ouverte. Le Il-76 est une composante majeure de l'armée russe et soviétique depuis les années 1970, et avait déjà enregistré un grave accident en Russie le mois dernier. Le 7 octobre, un moteur s'est détaché au décollage, mais personne n'a été blessé. La Russie a rapidement cloué au sol les Il-76 après cet accident.",
+    "answer": "내륙 부대가 운영하는 항공기는 이루크츠크로 향하고 있었다. 조사가 이루어졌습니다. Il-76은 1970년대부터 러시아와 소련군의 주요 부품으로 이미 지난달 러시아에서 심각한 사고가 발생한 바 있습니다. 10월 7일 이륙할 때 엔진이 손상 없이 분리되었습니다. 러시아는 그 사고 후 Il-76s를 잠시 착륙시켰습니다."
+  },
+  {
+    "id": 1,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Selon les rapports, un appartement de la rue Macbeth a explosé à cause d'une fuite de gaz. Un agent de la compagnie de gaz s'est rendu sur les lieux après qu'un voisin ait appelé au sujet d'une fuite de gaz. Une fois l'agent arrivé sur place, l'appartement a explosé. Aucun blessé grave n’a été signalé, mais au moins cinq personnes présentes sur les lieux au moment de l’explosion ont été traitées pour des symptômes d’état de choc. Personne n'était à l'intérieur de l'appartement. A l'époque, près de 100 habitants ont été évacués de la zone.",
+    "answer": "보도에 따르면 맥베스 스트리트의 한 아파트가 가스 누출로 폭발했다고 합니다. 가스 회사 관계자는 이웃이 가스 누출로 연락하자 현장에 방문 중이었습니다. 그 공무원이 도착했을 때 아파트가 폭발했습니다. 심각한 부상자는 보고되지 않았지만 적어도 5명이 폭발 현장에서 충격으로 인한 증상을 치료받고 있습니다. 아파트 안에 아무도 없었다. 당시 거의 100명의 주민이 해당 지역에서 대피했습니다."
+  },
+  {
+    "id": 2,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Giancarlo Fisichella a perdu le contrôle de sa voiture et a terminé la course peu après le démarrage. Son coéquipier Fernando Alonso a dominé pendant toute la course, mais son arrêt au stand a mis fin à cette domination, sans doute en raison d'une roue avant droite mal fixée. Michael Schumacher a terminé sa course peu de temps après Alonso, en raison des dommages subis au niveau des suspensions tout au long de la course.",
+    "answer": "지안카를로 피지켈라는 레이스가 시작직후 차량의 통제력을 잃어 레이스를 마쳐야 했다 그의 팀원인 페르난도 알론소는 레이스 대부분 선두를 지키고 있었지만 오른쪽 앞바퀴가 잘못 끼어져있어서 피트 스탑 직후에 경기를 끝내야만 했다. 미하엘 슈마허는 근소한 차이로 알론소에게 뒤져 결승선에 들어오게 되었다. 그 이유는 경주 중 수많은 충돌로 인한 현수 손상(suspension damage) 때문이다."
+  },
+  {
+    "id": 3,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Les choses prirent une mauvaise tournure pour les Italiens en Afrique du Nord quasiment dès le début. Une semaine après la déclaration de guerre de l’Italie le 10 juin 1940, les 11e hussards britanniques s’emparèrent du Fort Capuzzo en Libye. Dans une embuscade à l'est de Bardia, les Britanniques ont capturé l'ingénieur en chef de la dixième armée italienne, le général Lastucci. Le 28 juin, le maréchal Italo Balbo, gouverneur général de Libye et successeur potentiel de Mussolini, fut tué par un tir ami alors qu'il atterrissait à Tobrouk.",
+    "answer": "북아프리카의 이탈리아인들은 초기부터 거의 상황이 좋지는 않았습니다. 1940년 6월 10일, 이탈리아의 전쟁 선포 후 1주일 이내에 영국의 제 11 후사르 연대가 리비아 내 카푸 요새를 점령했습니다. 바르디아 동쪽에서 이루어진 매복을 통해 영국군은 이탈리아 제10군의 수석 엔지니어 라스투치 장군을 사로잡았습니다. 6월 28일, 리비아 총독이자 무솔리니의 유력한 후계자인 이탈로 발보 원수는 토브루크에 착륙하던 중 아군의 총격으로 인해 사망했습니다."
+  },
+  {
+    "id": 4,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Lundi, lors d'une émission de radio sur Sveriges Radio, en Suède, Sara Danius, secrétaire permanente du Comité Nobel de Littérature de l'Académie Suédoise, a annoncé publiquement que le comité, incapable de joindre directement Bob Dylan au sujet du prix Nobel de littérature 2016, avait renoncé à le contacter. Danius a déclaré : « En ce moment, nous ne faisons rien. J'ai appelé et envoyé des courriels à son plus proche collaborateur et j'ai reçu des réponses très amicales. Pour l'instant, c'est certainement suffisant. »",
+    "answer": "\"월요일 스웨덴 한림원 노벨상 문학위원회 사무총장 사라 다니우스는 스웨덴 스베리예스 라디오의 라디오 프로그램에서 위원회는 2016년 노벨 문학상 수상 소식을 밥 딜런에게 직접 전달하는 것이 불가능하여 그에게 연락을 취하려는 노력을 포기했다고 공개적으로 발표했습니다. \"\"대니어스(Danius)는 \"\"\"\"지금 우리는 아무것도 하지는 않고 있다. 그의 가장 가까운 협력자에게 전화를 걸어 이메일을 보냈고 매우 친절한 답장을 받았다. 현재로서는 확실히 그것으로 충분하다.\"\"\"\"\"\"\""
+  },
+  {
+    "id": 5,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Suite à l’accident, Gibson a été transporté à l’hôpital, mais a succombé immédiatement après. Le chauffeur du camion, âgé de 64 ans, n’a pas été blessé dans l’accident. Le véhicule lui-même a été enlevé du lieu de l'accident vers 12 h 00 GMT le même jour. Un employé d'un garage proche du lieu de l’accident a déclaré : « il y avait des enfants qui cherchaient à traverser la route, et qui criaient et pleuraient. » Ils sont tous revenus en courant de l’endroit où l’accident s’était produit.",
+    "answer": "\"사건 발생 이후, 깁슨(Gibson)은 병원으로 이송되었으나 얼마 후 숨을 거뒀다. 64세인 트럭 운전수는 충돌 사고에서 부상을 입지 않았습니다. 해당 차량은 같은 날 그리니치 표준시로 대략 12시에 사고 현장에서 옮겨졌습니다. \"\"사고 지점 인근 한 정비소에서 근무하는 한 사람은 \"\"\"\"길을 건너려고 기다리던 아이들이 모두 비명을 지르며 울고 불고 난리였어요\"\"\"\"라고 말했다.\"\" 그들은 모두 사고 현장으로 달려갔다.\""
+  },
+  {
+    "id": 6,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Le Groenland a été peu peuplé. Dans les sagas scandinaves, on raconte qu’Erik le Rouge a été exilé d’Islande pour meurtre qu’il a trouvé le Groenland — et l’a nommé ainsi — en voyageant plus à l’ouest. Mais indépendamment de sa découverte, des tribus esquimaudes y vivaient déjà à l’époque. Bien que chaque pays soit « scandinave », il existe de nombreuses différences entre les peuples, les rois, les coutumes et l'histoire du Danemark, de la Suède, de la Norvège, et de l'Islande.",
+    "answer": "그린란드는 드문드문 정착했다. 노르웨이 모험담에서 그들은 Erik the Red가 살인죄로 아이슬란드에서 추방당했다고 말한다. 그리고 서쪽으로 더 멀리 항해할 때, 그린란드를 발견하여 그린란드라고 이름 지었다. 그의 발견에 상관없이 에스키모 부족은 그 당시, 이미 그곳에 거주하고 있었다. 각 나라가 '스칸디나비아'에 속했지만, 덴마크와 스웨덴, 노르웨이, 그리고 아이슬란드의 국민과 왕, 관습과 역사에는 많은 차이가 있었다."
+  },
+  {
+    "id": 7,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Né à Hong Kong, Ma a étudié à l'université de New York et à la faculté de droit de Harvard et a déjà été titulaire d'une « carte verte », la carte de résident permanent des États-Unis. Hsieh a laissé entendre pendant les élections que Ma pourrait fuir le pays à l'occasion d'une crise. Hsieh a également affirmé que le très photogénique Ma offrait plus de style que de véritables idées. Malgré ces accusations, Ma a gagné haut la main sur une plateforme prônant des liens plus étroits avec la Chine continentale.",
+    "answer": "마(Ma) 씨는 홍콩에서 태어나 뉴욕대와 하버드대 로스쿨에서 공부했으며 미국 영주권자 '그린카드'를 소지한 적이 있다. 셰이(Hsieh)는 선거 기간 동안 마(Ma)가 위기의 시기에 망명할 수 있음을 암시했습니다. 또한 셰이는 사진 잘 받는 마가 스타일은 멋있지만 실속은 없다고 말했습니다. 이러한 고발에도 불구하고, 마는 중국 본토와의 긴밀한 유대를 옹호하는 플랫폼을 쉽게 얻었습니다."
+  },
+  {
+    "id": 8,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "C'est ce qu'on appelle le pH d'un produit chimique. Vous pouvez fabriquer un indicateur en utilisant du jus de chou rouge. Le jus de chou change de couleur en fonction de l’acidité ou de la basicité (alcalinité) du produit chimique. Le niveau de pH est indiqué par la quantité d'ions d'hydrogène (le H dans le pH) présents dans le produit chimique testé. Les ions d'hydrogène sont des protons qui ont été dépouillés de leur électron (puisque les atomes d'hydrogène sont constitués d'un proton et d'un électron).",
+    "answer": "이것은 화학 물질의 pH라고 불리는데, 붉은 양배추즙을 사용해 지표를 만들 수 있다. 양배추 주스는 화학 물질이 얼마나 산성 혹은 염기성 (알카리성)인지에 따라 색이 변합니다. pH 레벨은 시험을 거친 화학 물질에서 수소(pH에서 H) 이온의 양으로 표시합니다. 수소 이온은 전자가 벗겨져 나간 양성자이다. (수소 원자는 양성자 하나와 전자 하나로 구성되므로)"
+  },
+  {
+    "id": 9,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Plus de 4 000 000 personnes sont se sont rendues à Rome pour l'enterrement. En raison du nombre important de personnes présentes, il n'a pas été possible pour tout le monde d'assister aux funérailles sur la place Saint-Pierre. Plusieurs grands écrans de télévision ont été installés à différents endroits à Rome pour permettre aux gens de regarder la cérémonie. Dans de nombreuses autres villes d'Italie et dans le reste du monde, en particulier en Pologne, des installations similaires ont été réalisées et ont été vues par un grand nombre de personnes.",
+    "answer": "400만 명이 넘는 사람들이 장례식 참석을 위해 로마로 모여들었습니다. 참석한 인원수가 너무 많은 나머지 대부분이 성 베드로 광장에서 치러진 장례식에 입장할 수 없었습니다. 대형 텔레비전 스크린 여러 대가 로마 곳곳에 설치되어 사람들이 장례식을 관람할 수 있도록 했습니다. 이탈리아 내 많은 도시들과 전 세계의 다른 도시 들내에서도, 특히나 폴란드, 비슷한 스크린들이 설치되어서 많은 사람들이 볼 수 있도록 하였습니다."
+  },
+  {
+    "id": 10,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Eléments et composants sont capables de passer d'un état à l'autre sans se modifier pour autant. L'azote sous forme gazeuse conserve les mêmes propriétés que l'azote liquide. L'état liquide est plus dense, mais les molécules restent identiques. L'eau est un autre exemple. L'eau est composée de deux atomes d'hydrogène et d'un atome d'oxygène. Il a la même structure moléculaire, qu’il s’agisse d’un gaz, d’un liquide ou d’un solide. Bien que son état physique puisse varier, sa structure chimique reste constante.",
+    "answer": "원소와 화합물은 변화하지 않은 채 한 가지 상태에서 다른 상태로 이동할 수 있습니다. 질소는 기체에서도 액체와 같은 특성을 가진다. 액체 상태는 밀도가 더 높지만 분자는 여전히 같다. 물이 또 다른 예입니다. 물 화합물은 2개의 수소 원자와 1개의 산소 원자로 이루어져 있습니다. 기체든, 액체든, 고체든 같은 분자 구조를 가지고 있습니다. 그것의 물리적 상태가 변하더라도, 화학적 상태에는 변함이 없다."
+  },
+  {
+    "id": 11,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Les festivités ont débuté par un spectacle spécial du groupe de renommée mondiale Cirque du Soleil. Ont suivi l'Istanbul State Symphony Orchestra, un groupe janissaire, puis les chanteurs Fatih Erkoç et Müslüm Gürses. Puis les derviches tourneurs sont montés sur scène. La diva turque Sezen Aksu s'est produite avec le ténor italien Alessandro Safina et la chanteuse grecque Haris Alexiou. Pour terminer, le groupe de danse turc Fire of Anatolia a présenté le spectacle « Troy ».",
+    "answer": "\"이 기념행사는 세계적으로 유명한 그룹인 태양의 서커스(Cirque du Soleil)의 특별 쇼로 시작되었다. 이스탄불 국립 교향악단, 터키 군악대, 가수 Fatih Erkoç과 Müslüm Gürses의 공연이 뒤를 이었다. \"\"회전 무용 \"\"\"\"월링 데르비시(Whirlig Dervishes)\"\"\"\"가 무대에 올랐다. \"\" 터키의 디바인 Sezen Aksu는 이탈리아 테너 Alessandro Safina와 그리스 가수 Haris Alexiou와 함께 공연했다. \"\"마지막으로 터키의 댄스 그룹 파이어 오브 아나톨리아(Fire of Anatolia)가 \"\"\"\"트로이(Troy)\"\"\"\"를 공연했다. \"\"\""
+  },
+  {
+    "id": 12,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Martelly a intronisé hier un nouveau Conseil électoral provisoire (CEP) composé de neuf membres. C’est le cinquième PEC de Martelly en quatre ans. Le mois dernier, une commission présidentielle a recommandé la dissolution du précédent CEP dans le cadre d’un ensemble de mesures visant à engager le pays sur la voie de nouvelles élections. Cette commission a été la réponse de Martelly aux vastes protestations contre le régime qui ont commencé en octobre. Ces protestations parfois violentes ont été déclenchées par l’absence d’élections, dont certaines devaient avoir lieu en 2011.",
+    "answer": "마르텔리는 어제 9명으로 이뤄진 임시 선거위원회(CEP) 취임을 위한 선서를 했습니다. 마텔리가 4년 만에 다섯 번째 하는 CEP다. 지난달 대통령 위원회는 새로운 선거 준비를 위한 조치의 일환으로 이전 CEP의 사임을 권고했다. 10월에 시작된 광범위한 반정권 프로테스트에 대한 Martelly의 대응 차원에서 위원회가 마련되었습니다. 일부 폭력적 저항운동이 촉발된 것은 몇몇 선거가 2011년부터 실시되지 않았기 때문이었다."
+  },
+  {
+    "id": 13,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Les « Panama Papers » est une expression générique désignant environ dix millions de documents provenant du cabinet d'avocats panaméen Mossack Fonseca, et qui ont filtré dans la presse au printemps 2016. Les documents montrent que 14 banques ont aidé des clients fortunés à cacher des milliards de dollars américains de richesse pour éviter les impôts et autres réglementations. Le journal britannique The Guardian a suggéré que la Deutsche Bank contrôlait environ un tiers des 1200 sociétés écrans utilisées à cette fin. Des manifestations ont eu lieu un peu partout dans le monde, il y a eu plusieurs poursuites pénales, et les dirigeants des gouvernements islandais et pakistanais ont tous deux démissionné.",
+    "answer": "\"\"\"\"\"\"\"파나마 페이퍼스(Panama Papers)\"\"\"\"는 2016년 봄, 언론에 유출된 파나마 법률 회사인 모색 폰세카(Mossack Fonseca)의 약 천만 건에 이르는 문서를 의미하는 포괄적인 용어입니다.\"\" 문서에 따르면 14개의 은행이 부유한 고객을 도와 세금 및 기타 규제를 피할 수 있도록 미화 수십억 달러를 숨기게 해줬습니다. 영국 신문 가디언지는 도이치 뱅크는 이것을 이루기 위해 사용된 대략 1200개의 비활동 회사 중 삼 분의 일을 조종했다고 시사했다. 전 세계적으로 시위가 있었고, 여러 건의 형사 고발이 있었으며, 파키스탄 정부와 아이슬란드 정부의 지도자들은 모두 사임했다.\""
+  },
+  {
+    "id": 14,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Ils ont constaté que le Soleil fonctionnait selon les mêmes principes de base que les autres étoiles. L'activité de toutes les étoiles du système est déterminée par leur luminosité, leur rotation et rien d'autre. La luminosité et la rotation sont utilisées conjointement afin de déterminer le nombre de Rossby d'une étoile, qui est lié au flux de plasma. En ce qui concerne les inversions magnétiques, plus le nombre de Rossby est petit, moins l’étoile est active .",
+    "answer": "그들은 해가 다른 별들과 같이 발광성과 회전의 원리만으로 작동한다는 것을 발견했습니다. 발광도와 회전을 함께 사용해 별의 로스비 번호를 결정하는데, 이는 혈장 흐름(plasma flow)과 관련이 있다. 로스비 수(Rossby number)가 작을수록 자기 역전 면에서 항성의 활동성 역시 작다."
+  },
+  {
+    "id": 15,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Le film, avec Ryan Gosling et Emma Stone, a reçu des nominations dans toutes les grandes catégories. Golsling et Stone ont respectivement été nominés pour le Meilleur Acteur et la Meilleure Actrice. Parmi les autres nominations figurent celles du meilleur film, du meilleur réalisateur, de la meilleure cinématographie, des meilleurs costumes, du meilleur montage, de la meilleure musique originale, des meilleurs décors, du meilleur montage sonore, du meilleur mixage et du meilleur scénario original. Deux chansons du film, Audition (The Fools Who Dream) et City of Stars, ont été nominées pour la meilleure chanson originale. Le studio Lionsgate a reçu 26 nominations — plus que tout autre studio.",
+    "answer": "라이언 고슬링과 엠마 스톤이 출연한 이 영화는 모든 주요 부문에서 후보에 올랐다. 라이언 고슬링과 엠마 스톤은 각각 남우주연상과 여우주연상 후보에 올랐습니다. 다른 부문으로는 최우수 작품상, 감독상, 촬영상, 의상 디자인, 영화 편집상, 작곡상, 제작상, 사운드 편집상, 사운드 믹싱, 오리지널 각본상에 후보로 올라있다. 그 영화에서 나오는 오디션(꿈꾸는 바보들)과 시티 오브 스타 두 곡이 베스트 주제곡 후보에 올랐습니다. 라이온스게이트 스튜디오는 다른 스튜디오보다 월등히 많은 26개의 후보 지명을 받았습니다."
+  },
+  {
+    "id": 16,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Oui ! Le roi Toutankhamon, parfois appelé « Roi Tout » ou « L’Enfant roi », est l’un des anciens monarques égyptiens les plus connus des temps modernes. Il est intéressant de noter qu’il n’était pas considéré comme très important dans l’Antiquité et n’était pas inscrit sur la plupart des anciennes listes de rois. Cependant, la découverte de sa tombe en 1922 a fait de lui une célébrité. Alors que de nombreuses tombes du passé ont été pillées, cette tombe est restée pratiquement intacte. La plupart des objets enterrés avec Toutankhamon ont été bien conservés, y compris des milliers d'artefacts faits de métaux précieux et de pierres rares.",
+    "answer": "예! '투트왕(King Tut)' 또는 '소년왕(The Boy King)'으로 불리는 투탕카멘왕(King Tutankhamun)은 현대에 가장 잘 알려진 고대 이집트 왕 중 한 명입니다. 흥미롭게도, 그는 고대에는 그닥 중요한 인물로 여겨지지 않았으며 대부분의 고대 왕들의 명단에 기록되지도 않았습니다. 그러나, 1922년 그의 무덤이 발견되면서 그는 유명 인사가 되었다. 과거 많은 무덤이 도굴당한 반면, 이 동굴은 사실상 그대로 남겨져 있었기 때문이다. 투탕카멘과 함께 묻힌, 귀금속과 희귀석으로 만들어진 수천 점의 공예품을 포함한 대부분의 물품은 잘 보존되어 왔습니다."
+  },
+  {
+    "id": 17,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "L'Angleterre avait connu une longue période de paix après la reconquête du Danelaw. Cependant, en 991, Ethelred a dû faire face à une flotte viking plus importante que toutes les autres depuis celle de Guthrum un siècle plus tôt. Cette flotte était commandée par Olaf Trygvasson, un Norvégien qui avait l'ambition de soustraire son pays à la domination danoise. Après les premiers échecs militaires, Ethereld est parventu à un accord avec Olaf, pour sa part retourné en Norvège afin d'essayer de reconquérir son royaume, pour des résultats mitigés.",
+    "answer": "영국은 데인로를 다시 정복한 후 오랜 기간 동안 평화를 누렸습니다. 그러나 991년, 에셀레드는 1세기 전의 구스럼 이래로 그 어떤 함대보다 큰 바이킹 함대와 마주하였습니다. 덴마크의 지배로부터 조국을 되찾기 위한 야망을 품은 노르웨이인, 올라프 트리그바손이 함대를 이끌었습니다. 초기의 군사적 실패 이후, 에텔레드는 성공과 실패를 거듭하며 자신의 왕국을 얻기 위해 노르웨이로 돌아온 올라프와의 계약에 동의할 수 있었습니다."
+  },
+  {
+    "id": 18,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "L'atome peut être considéré comme étant l'une des unités qui constitue toute matière. Il s’agit d’une entité très complexe qui consiste, selon un modèle de Bohr simplifié, en un noyau central orbité par des électrons, un peu comme les planètes en orbite autour du soleil — cf. illustration 1.1. Le noyau est constitué de deux particules — des neutrons et des protons. Les protons ont une charge électrique positive tandis que les neutrons n'ont pas de charge. Les électrons ont une charge électrique négative.",
+    "answer": "원자는 모든 물질의 핵심 구성 요소 중 하나로 생각할 수 있습니다. 이는 굉장히 복잡한 객체로, 단순화된 보어 모형에 의하면 핵을 중심으로 전자들이 회전하는 형태로, 마치 행성들이 태양을 따라 도는 것처럼 구성되어 있다고 합니다. 그림 1.1을 보세요. 핵은 중성자와 양성자라는 2개의 입자로 구성되어 있습니다. 양성자는 양전하를 지니는 한편, 중성자는 전하가 없습니다. 전자는 음전하를 지닙니다."
+  },
+  {
+    "id": 19,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Le plan américain reposait sur le lancement d'attaques coordonnées depuis trois directions différentes. Le général John Cadwalder lance une attaque de diversion contre la garnison britannique de Bordentown, afin de bloquer tout renfort. Le général James Ewing fera traverser la rivière à 700 miliciens à Trenton Ferry, s'emparera du pont sur l'Assunpink Creek et empêchera les troupes ennemies de s'échapper. La principale force d'assaut, composée de 2 400 hommes, franchit la rivière à neuf miles au nord de Trenton, puis se divisa en deux groupes, l'un sous Greene et l'autre sous Sullivan, afin de lancer une attaque avant l'aube.",
+    "answer": "미국의 작전은 세 방향에서 합동 공격을 하는 것이었다 존 캐드왈더 장군은 보던타운에 있는 영국 수비대를 견제 공격하여 지원군을 차단할 것입니다. 제임스 유잉 장군은 700명의 민병대를 이끌고 트렌튼 페리에서 강을 건너 아순핑크 샛강에 있는 다리를 점령하고 적군의 탈출을 막았다. 2,400명으로 이루어진 주 공격 부대는 트렌턴에서 북쪽으로 9마일 떨어진 강을 건너 두 그룹으로 나뉩니다. 동트기 전 공격을 개시하기 위해 두 그룹은 각각 그린과 설리번의 지휘 아래 놓입니다."
+  },
+  {
+    "id": 20,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Avant les Simpsons, Simon avait travaillé sur plusieurs séries, occupant divers postes. Pendant les années 1980, il a travaillé sur des spectacles tels que Taxi, Cheers et The Tracy Ullman Show. En 1989, il a participé à la création des Simpsons avec Brooks et Groening et a été responsable de l'embauche de la première équipe de scénaristes de la série. Malgré son départ de l'émission en 1993, il a conservé le titre de producteur exécutif et a continué à recevoir des dizaines de millions de dollars chaque saison en redevances.",
+    "answer": "심슨 가족 이전에 사이먼은 몇몇 프로에서 다양한 직종으로 일한 적이 있습니다. 1980년대에 그는 택시, 치어스, 더 트레이시 울먼 쇼와 같은 프로그램에서 일했습니다. 1989년에 그는 브룩스와 그로닝과 함께 심슨 가족(The Simpsons) 제작을 도왔고, 심슨 가족 쇼의 첫 시나리오 팀을 고용하는 일을 맡았습니다. 1993년에 프로를 떠났지만, 그는 제작 책임자란 직함을 지켜왔으며, 매 시즌 계속해서 저작권 사용료로 수천만 달러를 받았습니다."
+  },
+  {
+    "id": 21,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Une cellule est la plus petite unité structurelle et fonctionnelle d'un organisme vivant. Cellule vient du mot latin cella signifiant petite pièce. Si vous regardez les êtres vivants sous un microscope, vous verrez qu'ils sont faits de petits carrés ou de boules. Robert Hooke, un biologiste anglais, a vu de petits carrés dans du liège avec un microscope. Elles ressemblaient à des pièces. Il fut le premier à observer des cellules mortes.",
+    "answer": "세포는 생물체(생체)의 가장 작은 구조 및 기능 단위이다. 셀(cell)은 작은 방을 뜻하는 라틴어 셀라(cella)에서 유래했다. 생물을 현미경으로 관찰하면, 이들이 작은 사각형이나 구형으로 구성되어 있다는 것을 볼 수 있습니다. 영국의 생물학자 로버트 후크(Robert Hooke)는 코르크의 작은 사각형을 현미경으로 보았다. 그것들은 방처럼 보였다. 그는 죽은 세포를 관찰한 첫 번째 사람이었다."
+  },
+  {
+    "id": 22,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Les Vikings ont utilisé les voies navigables russes pour atteindre la mer Noire et la mer Caspienne. Certaines parties de ces itinéraires peuvent toujours être utilisées. Vérifiez la nécessité éventuelle de permis spéciaux, qui peuvent être difficiles à obtenir. Le canal de la mer Blanche relie l'océan Arctique à la mer Baltique, via le lac Onega, le lac Ladoga et Saint-Pétersbourg, passant principalement par les rivières et les lacs. Le lac Onega est également relié à la Volga, de sorte qu'il est encore possible de venir de la mer Caspienne en passant par la Russie.",
+    "answer": "바이킹은 러시아 수로를 사용하여 흑해와 카스피해에 도착했습니다. 이 경로의 일부는 여전히 사용할 수 있습니다. 취득하기 어려운 특별 허가가 필요한지 확인하십시오. 백해-발트해 운하는 오네가 호, 라도가 호, 상트페테르부르크처럼 대부분의 경우 강과 호수를 경유해 북극해와 발트해를 이어준다. 오네가 호수도 볼가와 연결되어 있기에, 카스프해에서 러시아를 통해 오는 것은 여전히 가능한 일입니다."
+  },
+  {
+    "id": 23,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Leslie Aun, porte-parole de la Fondation Komen, a déclaré que l'organisation a adopté une nouvelle règle qui ne permet pas d'accorder de subventions ou de financements aux organisations qui font l'objet d'une enquête judiciaire. La politique de Komen a disqualifié le Planning familial en raison d'une enquête en cours sur la manière dont le Planning familial dépense et déclare son argent, enquête menée par le député Cliff Stearns. En sa qualité de président de la sous-commission de surveillance et d'enquête, qui relève de la commission de l'énergie et du commerce de la Chambre des représentants, M. Stearns cherche à savoir si les impôts servent à financer les avortements par le biais de la planification familiale.",
+    "answer": "코멘 재단 대변인 Leslie Aun은 해당 단체는 법적 조사를 받고 있는 단체에 보조금이나 자금을 지급할 수 없도록 하는 새로운 규정을 채택했다고 말했습니다. 리프 스턴스(Cliff Stearns) 하원 의원이 수행 중인 가족계획 연맹(Planned Parenthood)의 예산 소비 및 보고에 대한 조사가 보류 상태이기에 코멘 정책(Komen's Policy)에 따라 가족계획 연맹이 자격 미달 처리되었다. 스턴스는 주택 에너지 상거래위원회의 산하에 있는 감독 및 조사 소위원회 의장으로서 가족 계획 연맹(Planned Parenthood)을 통해 낙태에 자금을 제공하는 데 세금이 사용되는지 여부를 조사하고 있습니다."
+  },
+  {
+    "id": 24,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "\"Peter Costello, ministre des Finances australien et probable successeur du Premier ministre John Howard à la tête du parti libéral, s'est déclaré favorable à l'idée d'une industrie nucléaire australienne. M. Costello a déclaré qu'alors que la production d’énergie nucléaire devient économiquement viable, l'Australie a tout intérêt à poursuivre son utilisation. \"\"\"\"\"\"Si cela devient un marché rentable, nous nous devons d'y être présent. Il n'y a en principe aucune opposition à l’énergie nucléaire\"\"\"\" a déclaré M. Costello.\"\"\"",
+    "answer": "\"자유당 대표 존 하워드 총리 뒤를 이을 가능성이 가장 높은 피터 코스텔로 호주 재무 장관은 호주 원자력 산업에 지지를 보냈습니다. 코스텔로 씨는 핵발전소가 경제적으로 실현 가능해진다면, 오스트레일리아는 그 사용을 추진해야 한다고 했습니다. \"\"코스텔로 씨는 \"\"\"\"산업화가 된다면 원자력을 보유해야 합니다. 원자력에 대한 원칙적인 반대는 없다\"\"\"\"고 말했습니다.\"\"\""
+  },
+  {
+    "id": 25,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Le Twin Otter avait essayé d'atterrir à Kokoda hier sous le nom de vol Airlines PNG CG4684, mais avait déjà échoué une fois. Environ dix minutes avant de devoir atterrir, il a disparu lors de sa deuxième tentative d’approche. Le lieu du crash, identifié ce jour, est si difficile d'accès qu'il a fallu déposer deux policiers dans la jungle afin qu'ils atteignent le site à la recherche d'éventuels survivants. Les recherches avaient été entravées par le même mauvais temps qui avait entraîné l'atterrissage avorté.",
+    "answer": "트윈오터(Twin Otter)는 어제 항공사 PNG 항공 CG4684편으로 코코다에 착륙을 시도했으나 이미 한차례 실패했었다. 두 번째 접근으로부터 착륙하기 10분 전쯤에 사라졌습니다. 추락 현장은 오늘에서야 확인되었지만 접근하기가 어려워, 현장에서 생존자를 수색하기 위해 두 경찰관이 밀림 지대를 통해 보내져야 했다. 착륙 중단 사고를 초래한 때와 동일한 좋지 않은 날씨로 인해 수색이 방해를 받았다."
+  },
+  {
+    "id": 26,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Le Brésil est le plus grand pays catholique du monde, et l'Église catholique s'est toujours opposée à la légalisation du mariage homosexuel dans le pays. Le Congrès national du Brésil débat de la légalisation depuis 10 ans, et ces mariages civils ne sont actuellement légaux que dans le Rio Grande do Sul. Le projet de loi original a été rédigé par l'ancienne maire de São Paulo, Marta Suplicy. La législation proposée, après avoir été modifiée, est maintenant entre les mains de Roberto Jefferson. Les manifestants espèrent recueillir 1,2 million de signatures pour leur pétition à présenter au Congrès national en novembre.",
+    "answer": "브라질은 지구상에서 가장 큰 로마 가톨릭 국가이며, 로마 가톨릭교회는 브라질에서 동성 결혼 합법화에 지속적으로 반대해 왔다. 브라질 국회는 합법화를 10년간 논의해왔으며, 현재는 이러한 민법상 결혼이 리오그란데 도 술에서만 합법입니다. 원 법안은 상파울루의 전임 시장인 마르타 수플리시가 그 초안을 작성하였습니다. 현재 개정이 완료된 해당 상정안은 현재 로베르토 제퍼슨의 손에 있습니다. 시위대는 11월 국회에 제출하기 위해 120만 명의 탄원서 서명을 받길 희망한다."
+  },
+  {
+    "id": 27,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Le golf est un jeu dans lequel les joueurs utilisent des clubs pour frapper des balles et les envoyer dans des trous. Une partie se joue ordinairement en dix-huit trous : les joueurs commencent en règle générale par le premier trou du parcours et terminent par le dix-huitième. Le joueur qui encaisse le moins de coups, ou de swings avec le club, pour terminer le parcours gagne. Le jeu se joue sur l'herbe, et le gazon qui entoure le trou est coupé plus court et appelé le « green ».",
+    "answer": "골프는 선수들이 채로 공을 구멍에 넣는 오락입니다. 정규 라운드는 18홀로 진행되는데, 일반적으로 코스의 첫 번째 홀에서 시작해 열여덟 번째 홀에서 끝납니다. 가장 적은 타수 혹은 골프 클럽의 스윙을 통해 코스를 완주하는 선수가 승리한다. 골프는 잔디밭에서 하며, 홀 근처에 풀을 짧게 깎아둔 구역을 그린이라고 한다."
+  },
+  {
+    "id": 28,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Le débarquement du jour J et les batailles suivantes ont libéré le nord de la France, mais le sud n'était toujours pas libre. Elle était gouvernée par les Français de Vichy, des Français qui ont fait la paix avec les Allemands en 1940 et ont collaboré avec l'occupant au lieu de l'affronter. Le 15 août 1940, les Alliés débarquèrent dans le sud de la France, une invasion appelée Opération « Dragoon ». En à peine deux semaines, les Américains et les Forces de la France Libre avaient libéré le sud de la France et se dirigeaient vers l'Allemagne.",
+    "answer": "\"D-데이 상륙과 그 후속 전투는 프랑스 북부를 해방시켰지만, 남부는 여전히 자유롭지 못했다. \"\"거기는 \"\"\"\"비시\"\"\"\" 프랑스의 지배를 받았다. 이들은 1940년 독일과 강화를 택한 프랑스인들로 침략자들에 맞서 싸우기보다 동조한 사람들이다.\"\" \"\"1940년 8월 15일, 연합군은 프랑스 남부를 침략했고, 이 침략은 \"\"\"\"드래군 작전\"\"\"\"이라 불렸다. \"\" 겨우 2주 만에 미군과 자유 프랑스군은 프랑스 남부를 해방시키고 독일로 진격 방향을 틀고 있었다.\""
+  },
+  {
+    "id": 29,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Jeudi, lors de la présentation principale du Tokyo Game Show, le président de Nintendo, Satoru Iwata, a dévoilé le design de la manette de la nouvelle console Nintendo Revolution de la société. Identique à une télécommande de télévision, la commande utilise deux capteurs placés près du téléviseur de l'utilisateur pour trianguler sa position dans l'espace tridimensionnel. Cela permettra aux joueurs de contrôler les actions et les mouvements dans les jeux vidéo en déplaçant l’appareil dans l’air.",
+    "answer": "목요일에 열린 도쿄 게임쇼의 기조 발표에서 닌텐도의 이와타 사토루 사장은 자사의 새 닌텐도 레볼루션 게임기의 컨트롤러 디자인을 공개했다. 텔레비전 리모컨과 유사하게 생긴 컨트롤러는 사용자 텔레비전 근처에 위치한 센서 2개를 사용하여 3차원 공간에서 그 위치를 삼각 측정합니다. 이렇게 되면 플레이어들이 장치를 허공에서 움직여 동작과 움직임을 제어할 수 있게 된다."
+  },
+  {
+    "id": 30,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Cinque Terre, qui signifie Cinq Terres, comprend les cinq petits villages côtiers de Riomaggiore, Manarola, Corniglia, Vernazza et Monterosso dans la région italienne de la Ligurie. Ils sont inscrits sur la liste du patrimoine mondial de l’UNESCO. Au fil des siècles, les gens ont soigneusement construit des terrasses sur le paysage accidenté et escarpé jusqu'aux falaises qui surplombent la mer. Une partie de son charme réside dans l'absence de développement visible des entreprises. Des chemins, des trains et des bateaux relient les villages, et les voitures en provenance de l'extérieur ne peuvent y accéder.",
+    "answer": "다섯 개의 땅이라는 뜻의 친퀘 테레는 이탈리아 리구리아 지역에 위치한 리오마조레, 마나롤라, 코르닐리아, 베르나차, 몬테로소라는 다섯 개의 작은 연안 마을로 구성됩니다. 이들은 유네스코 세계 문화유산 목록에 등재되어 있다. 사람들은 몇 세기에 걸쳐 험하고 가파른 경관에서 바다가 내려다 보이는 절벽에까지 공들여 테라스를 건설했다. 매력적인 점 중의 하나는 바로 기업가치 개발의 손이 닿지 않는 것으로, 도보, 기차 및 배가 마을을 연결하지만 차로선 외부에서 해당 마을을 방문할 수가 없습니다"
+  },
+  {
+    "id": 31,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Le président américain George W. Bush est arrivé à Singapour le matin du 16 novembre, débutant une tournée d’une semaine en Asie. Il a été accueilli par Wong Kan Seng, le vice-premier ministre de Singapour, et a discuté de commerce et de terrorisme avec Lee Hsien Loong, le Premier ministre de Singapour. Après sept jours de défaites électorales aux élections de mi-mandat, Bush a fait part de son projet d'élargir le commerce en Asie.",
+    "answer": "조지 W. 부시 미합중국 대통령은 11월 16일 아침 싱가포르에 도착하는 것으로 일주일에 걸치는 아시아 순방을 시작하였다. 그는 싱가포르 부총리 웡칸셍의 환영을 받았고 싱가포르 총리 리셴룽과 무역 및 테러 문제를 논의하였습니다. 부시는 중간 선거에서 일주일 내내 이어진 패배 이후, 아시아에서의 무역 확장 정책을 발표했습니다."
+  },
+  {
+    "id": 32,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Le problème a commencé le 1er janvier lorsque des dizaines de résidents locaux ont commencé à se plaindre au bureau de poste d'Obanazawa qu'ils n'avaient pas reçu leurs cartes de nouvel an traditionnelles et régulières. Hier, le bureau de poste a présenté ses excuses aux citoyens et aux médias après avoir découvert que le jeune garçon avait caché plus de 600 courriers, parmi lesquels 429 cartes de nouvel an qui ne sont jamais arrivées entre les mains de leur destinataire.",
+    "answer": "그 문제는 1월 1일에 많은 지역 거주민들이 전통적인 일반 새해 카드를 받지 못했다는 불만을 오바나자와 우체국에 제기하면서 시작됐습니다. 어제 우체국은 이 소년이 429개의 새해 엽서를 포함하여 수취인에게 전달되지 않은 600개 이상의 우편물을 숨긴 것을 발견한 후 시민들과 언론에 사과문을 발표했다."
+  },
+  {
+    "id": 33,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Pour comprendre les Templiers, il faut comprendre le contexte qui a poussé à la création de l'ordre. Ces événements ont eu lieu dans la période généralement considérée comme le Haut Moyen Âge – période de l'histoire en Europe courant du XIe au XIIIe siècle (1000-1300). Le Moyen Âge Central a été précédé par le Haut Moyen Âge et suivi par le Bas Moyen Âge, qui par convention se termine vers 1500.",
+    "answer": "템플 기사단을 이해하기 위해서는 창조 질서를 만들게 된 계기를 알아야 한다. 사건이 일어난 시대는 보통 중세 성기로 불리는 시기로, 유럽사에서 11세기, 12세기 그리고 13세기(서기 1000-1300년)에 해당하는 시기입니다. 중세 후기에 선행하고 중세 초기를 잇는 중세 절정기는 관례상 1500년 경에 끝나는 것으로 봅니다."
+  },
+  {
+    "id": 34,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Le 17 septembre 1939, la défense polonaise était déjà brisée, et le seul espoir était de battre en retraite et de se réorganiser le long de la tête de pont roumaine. Mais ces plans sont devenus obsolètes presque du jour au lendemain, quand plus de 800 000 soldats de l’Armée rouge de l’Union soviétique sont arrivés et ont créé le front biélorusse et ukrainien après avoir envahi les régions est de la Pologne, violant ainsi le Traité de Paix de Riga, le pacte de non-agression soviéto-polonais, ainsi que d’autres traités internationaux, qu’ils soient bilatéraux ou multilatéraux.",
+    "answer": "1939년 9월 17일에는 폴란드 측 방어가 이미 붕괴된 상태였고, 유일한 희망은 루마니아 교두보를 따라 퇴각하여 재정비하는 것뿐이었습니다. 그러나, 이러한 계획들은 80만 명이 넘는 소련 적군 병사들이 리가 평화 조약, 소련-폴란드 불가침 조약과 다른 국제 조약(양자간 및 다자 간)들을 위반하여 폴란드 동부 지역을 침공한 후 벨라루시안과 우크라이나 전선에 진입하여 창설되었을 때 거의 하룻밤 사이에 쓸모없게 되었다."
+  },
+  {
+    "id": 35,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "La marine américaine a également déclaré qu'elle enquêtait sur l'incident. Ils ont également affirmé dans une déclaration : « L'équipage travaille actuellement à déterminer le meilleur moyen d'extraire le navire en toute sécurité ». Un navire de contre-mesures anti-mines de classe Avenger, le navire était en route pour Puerto Princesa à Palawan. Il est affecté à la septième flotte de la marine américaine et basé à Sasebo, Nagasaki, au Japon.",
+    "answer": "\"미 해군도 해당 사건을 조사하고 있다고 밝혓습니다. \"\"이들은 또한 성명을 통해 \"\"\"\"선원들이 현재 선박을 안전하게 인양하는 최선의 방법을 결정하기 위해 노력하고 있다\"\"\"\"고 밝혔다.\"\" 한 어벤저급 소해함, 그 함선은 팔라완의 푸에르토 프린세사로 이동 중이었다. 배는 미국 해군의 일곱 번째 함대에 배정되었으며 일본의 나가사키, 사세보에 위치해 있습니다.\""
+  },
+  {
+    "id": 36,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Après la construction du barrage en 1963, les inondations saisonnières qui devaient répandre des sédiments dans le fleuve ont été stoppées. Ce sédiment était nécessaire à la création de bancs de sable et de plages, qui servaient d’habitats à la faune. En conséquence, deux espèces de poissons ont disparu et deux autres sont en voie de disparition, dont le chevesne à bosse. Bien que le niveau de l’eau ne grimpera que de quelques mètres après l’inondation, les autorités espèrent que cela suffira à restaurer les bancs de sable érodés en aval.",
+    "answer": "1963년에 댐이 건설된 후, 강 전반에 퇴적물을 퍼트리는 계절 홍수가 그쳤습니다. 이 퇴적물은 야생 동물 서식지로 사용되는 샌드바와 해변을 생성하는데 필수적이어습니다. 그 결과로, 물고기 두 종은 멸종되었고, 험프백 첩을 포함한 다른 두 종은 멸종 위기에 처하였다. 홍수때문에 수위가 몇 피트 상승하겠지만 관계자들은 이로 인해 하류에 침식된 모래톱이 복구되기를 기대하고 있다."
+  },
+  {
+    "id": 37,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "L'un des problèmes les plus courants lors de la conversion d'un film en format DVD est le surbalayage. La plupart des télévisions sont fabriquées de manière à plaire au grand public. Pour cette raison, tout ce que vous visionnez sur télévision a les bords coupés en haut, en bas et sur les côtés. Il faut donc veiller à ce que l'image couvre tout l'écran. C'est ce qu'on appelle l'overscan. Malheureusement, lorsque vous réalisez un DVD, ses bords seront probablement coupés aussi, et si la vidéo comportait des sous-titres trop proches du bas de l'écran, ils n'apparaîtront pas.",
+    "answer": "오버스캔은 영화를 DVD 형태로 전환하려 할 때 가장 흔하게 발생하는 문제 중 하나입니다. 대부분의 TV는 일반 대중을 즐겁게 하기 위한 방식으로 만들어집니다. 이러한 이유로 인해 TV에서 보는 영상은 위, 아래, 측면의 테두리가 잘리게 됩니다. 이것은 영상이 화면 전체를 채우게 하기 위해 만들어졌다. 그것은 오버스캔이라고 불린다. 아쉽게도 DVD를 만들면 테두리까지 잘려서, 화면 아래에 가까이 붙어 있는 자막은 아마 잘려서 나올 것입니다."
+  },
+  {
+    "id": 38,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Selon les données de la carte internationale des tremblements de terre de l’Institut d'études géologiques des États-Unis, aucun tremblement de terre n’a eu lieu en Islande au cours de la semaine précédente. Par ailleurs, selon le bureau météorologique islandais, la région de Hekla n’a pas connu de tremblement de terre au cours des dernières 48 heures. L'important tremblement de terre ayant entraîné le changement de phase a eu lieu le 10 mars sur la face nord-est de la caldeira du sommet du volcan. Des nuages sombres sans rapport avec une quelconque activité volcanique ont été signalés à la base de la montagne. Les nuages présentaient un risque de confusion quant à savoir si une véritable éruption avait eu lieu.",
+    "answer": "미국 지질조사국 국제 지진 지도는 그전 주에 아이슬란드에서 지진이 발생하지 않았음을 보여주었다. 아이슬란드 기상청도 지난 48시간 동안 헤클라 지역에서 지진 활동이 없었다고 보고했다. 위상 변화를 야기시키는 의미 있는 지진 활동은 3월 10일 화산의 칼데라 정상 북동쪽에서 일어났다. 화산 활동과 관련이 없는 흑구름이 산기슭에서 목격되었다. 구름이 나타난 것으로 보아 실제 분화가 발생했는지 여부에 대한 혼란을 야기할 가능성이 제시되었습니다."
+  },
+  {
+    "id": 39,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "L'autoroute du pôle Sud est une route de 1 600 km entre la station de McMurdo, au bord de la mer de Ross, et le pôle. Il s'agit de neige compactée, avec des crevasses comblées et marquées par des fanions. Il ne peut être parcouru que par des tracteurs spécialisés, tirant des traîneaux transportant carburant et fournitures. Ces derniers ne sont pas très agiles, de sorte que la piste doit faire une longue embardée autour des montagnes transantarctiques pour arriver sur le plateau.",
+    "answer": "남극 횡단(또는 하이웨이)은 로쏘해의 맥멀도 역에서 남극까지 1600킬로미터에 달합니다. 이 트레일은 압축된 눈으로 크레바스(crevasse)는 채워져서 깃발로 표시된다. 이 길은 연료와 보급품을 싣고 썰매를 끄는 특수 트랙터로만 이동할 수 있다. 이것들은 매우 민첩하지 않아서 고원에 도착하기까지 남극횡단 산지 주변에서 오랜 시간을 보내야 합니다."
+  },
+  {
+    "id": 40,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Lors de son discours sur Wikinews le mois dernier, Adam Cuerden, directeur de Commons, a exprimé sa frustration quant aux suppressions qui avaient été faites. « Il [Wales] nous a carrément menti dès le départ. Tout d'abord en prétextant des raison légales, puis en faisant semblant de nous écouter jusqu'à ce qu'il ait supprimé son œuvre. » Le mécontentement de la communauté a entraîné les efforts actuels visant à concevoir une politique relative au contenu à caractère sexuel du site qui héberge des millions de médias libres d’accès.",
+    "answer": "\"Commons 관리자 Adam Cuerden은 지난달 위키 뉴스와의 통화에서 삭제에 대한 불만을 드러냈다. \"\"\"\"\"\"그 (웨일즈)는 처음부터 우리에게 거짓말했어요. 먼저 이 모든 것이 법적인 이유 때문이라고 했고, 또 삭제하기 직전까지 우리의 말을 듣는 것처럼 행동했죠.\"\"\"\" \"\" 최근 공동체적 반감으로 인해 수백만 개의 공개 라이선스 미디어가 실린 사이트의 성적 콘텐츠에 관한 정책 시안을 작성하기 위한 노력이 생겨났습니다.\""
+  },
+  {
+    "id": 41,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Cinq minutes après le début de l'exposition, un vent se met à souffler pour atteindre, environ une minute plus tard, la vitesse de 70km/h... puis la pluie arrive, mais si forte et si grosse qu'elle frappe votre peau comme une aiguille, puis la grêle tombe du ciel, les gens paniquent, crient et se roulent dessus. J'ai perdu ma sœur et son amie, et sur mon chemin, il y avait deux personnes handicapées en fauteuil roulant, des gens qui ne faisaient que sauter et les pousser », a déclaré Armand Versace.",
+    "answer": "\"불꽃놀이가 시작된 지 한 5분쯤 지났을 때 갑자기 바람이 불기 시작했어요. 그리고 1분쯤 뒤에는 풍속이 70km/h에 달했죠. 그다음엔 비가 왔고, 근데 너무 큰 빗방울이 세차게 떨어져서 마치 바늘처럼 피부를 때렸고 이후에는 우박까지 떨어졌어요. 사람들은 막 패닉에 빠져서 소리를 지르고 여기저기 뛰어다니고 난리였죠. \"\"내 동생과 동생의 친구를 잃어버렸고, 가는 도중엔 휠체어를 탄 두 명의 장애인을 보았고 사람들이 그 둘을 밀치고 있는 것을 보았다.\"\"\"\"라고 Armand Versace는 전했다.\"\"\""
+  },
+  {
+    "id": 42,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "MetroRail propose deux classes dans les trains de banlieue du Cap et de ses environs : MetroPlus (également appelée première classe) et Metro (appelée troisième classe). MetroPlus est plus confortable et moins bondé, mais plus cher, tout en restant moins cher que le tarif normal des billets de métro en Europe. Chaque train dispose de wagons Metro et MetroPlus ; les wagons MetroPlus sont toujours en bout du train le plus proche du Cap.",
+    "answer": "메트로레일에는 케이프타운 내와 그 주변을 선회하는 두 가지 등급의 통근 열차가 있습니다. 1등급이라고도 불리는 메트로플러스와 3등급이라고도 불리는 메트로입니다. 메트로플러스는 더 편안하고 덜 붐비지만, 값이 조금 더 비쌉니다. 하지만 유럽의 일반적인 지하철 푯값에 비하면 여전히 저렴한 수준입니다. 모든 열차에는 MetroPlus와 Metro 객차가 모두 있습니다. MetroPlus 객차는 항상 케이프타운과 가까운 쪽의 열차 끝부분에 있습니다."
+  },
+  {
+    "id": 43,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "De l'acide cyanurique et de la mélamine ont été découverts dans les échantillons d'urine prélevés sur les animaux domestiques qui sont morts après avoir ingéré de la nourriture pour animaux contaminée. Les deux composés réagissent l'un avec l'autre pour former des cristaux qui peuvent bloquer la fonction rénale, ont déclaré des chercheurs de l'université. Les enquêteurs ont découvert que des cristaux s'étaient formés dans l'urine des chats en raison de la présence de ces substances supplémentaires, la mélamine et l'acide cyanurique. La composition de ces cristaux correspond à ce qui est trouvé dans l’urine des animaux domestiques affectés lorsqu’on compare par spectroscopie infrarouge (IRTF).",
+    "answer": "오염된 애완 먹이를 섭취한 후 사망한 애완동물들의 소변 샘플에서 시아누르산과 멜라민이 둘 다 관찰되었다. 대학 연구진은 두 화합물이 서로 반응하여 결정을 형성하고 이는 신장의 기능을 차단할 수 있다고 밝혔다. 연구원들은 멜라민과 시아누르산의 첨가로 고양이의 소변에 결정이 형성된 것을 관찰했다. 이러한 결정의 구성은 적외선 분광법(FTIR)과 비교했을 때 영향을 받은 애완동물의 소변에서 발견되는 결정과 일치합니다."
+  },
+  {
+    "id": 44,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Le site web de la station décrit l’émission comme un « théâtre radiophonique de la vieille école avec une nouvelle et scandaleuse tournure geek ! ». Initialement, l'émission était uniquement diffusée sur le vénérable site de radio Internet TogiNet Radio, un site consacré à la radio parlée. Fin 2015, TogiNet a créé AstroNet Radio en tant que station subsidiaire. À l'origine, l'émission mettait en scène des comédiens de doublage amateurs, originaires de l'est du Texas.",
+    "answer": "방송국의 웹사이트에는 이 프로에 대해 '신선하고 무모한 얼간이들이 펼치는 전통적인 라디오 극장'이라고 소개하고 있습니다. 초기에 해당 프로는 토크 라디오에 중점을 둔 사이트이자 장기 인터넷 라디오 사이트인 TogiNet Radio에서 단독으로 진행되었습니다. 2015년 말, TogiNet은 자회사 방송국으로 AstroNet Radio를 설립했습니다. 그 쇼에는 원래 텍사스 동부 현지인인 아마추어 성우들이 출연했었다."
+  },
+  {
+    "id": 45,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "D'après le dernier bulletin, les relevés du niveau de la mer indiquent qu'un tsunami s'est produit. Une activité tsunami précise a été enregistrée près de Pago Pago et de Niue. Aucun dommage ou blessure grave n’a été signalé à Tonga, mais l’électricité a été temporairement coupée, ce qui aurait empêché les autorités tonganes de recevoir l’alerte au tsunami émise par le centre d’alerte des tsunamis dans le Pacifique. Quatorze écoles d’Hawaii situées sur ou près des côtes ont été fermées toute la journée de mercredi malgré la levée des alertes.",
+    "answer": "최근 속보에 의하면, 쓰나미가 발생했을 때의 해수면 수치가 기록되었으며, 실제로 파고 파고와 니우에 근처에 쓰나미가 강타했다고 밝혀졌다. 통가에선 큰 피해나 부상자들이 보고되지는 않았지만, 전력 수급이 일시적으로 끊겨 통가 당국이 PTWC에서 발령한 쓰나미 경보를 받지 못한 것으로 알려졌습니다. 해안지대 또는 그 주변에 있는 14개의 하와이 소재 학교는 경보가 해제되었음에도 지난 수요일 휴교하였습니다."
+  },
+  {
+    "id": 46,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Les tireurs de l’essai supplémentaire de lutte contre les parasites devaient être étroitement surveillés par des rangers, car l’essai était contrôlé et son efficacité évaluée. Dans le cadre d’un partenariat entre NPWS et le Sporting Shooters Association of Australia (NSW) inc., des bénévoles qualifiés ont été recrutés, dans le cadre du programme de chasse de la Sporting Shooters Association. Selon Mick O'Flynn, responsable par intérim de la conservation du parc et du patrimoine au NPWS, les quatre tireurs désignés pour la première campagne d'abattage ont été dûment entraînés et formés aux consignes de sécurité.",
+    "answer": "추가 해충 방제 시험에 참여한 사냥꾼들은 시험을 감시하고 그 효과를 평가했기 때문에 삼림 관리원의 면밀히 감독을 받아야 했습니다. NPWS와 '오스트레일리아 스포츠 슈터 협회'의 파트너쉽으로 '스포츠 슈터 협회'의 사냥 프로그램에 따라 자격을 갖춘 자원봉사자를 모집했다. NPWS의 Park Conservation and Heritage(공원 보존 및 헤리티지) 소장 대행인 믹 오플린씨에 따르면, 첫 번째 사격 작전을 위해 선발된 4명의 사수들은 모두 종합적인 안전 및 훈련 지도를 받았다고 한다."
+  },
+  {
+    "id": 47,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Les casinos font généralement de nombreux efforts pour maximiser le temps et l’argent dépensés par les clients. On y trouve rarement des fenêtres et des horloges, et les sorties peuvent être difficiles à repérer. Ils proposent généralement des offres spéciales de plats, de boissons et de divertissements afin de maintenir la bonne humeur des invités et de les garder sur place. Sur certains sites, ce sont les locaux qui proposent gratuitement des boissons alcoolisées. Néanmoins, l'ivresse altère le jugement, et tous les bons joueurs sache que c'est crucial de rester sobre.",
+    "answer": "카지노는 일반적으로 손님들이 소비하는 시간과 돈을 최대화하기 위해 많은 노력을 합니다. 보통 창문과 시계가 없고, 출구를 찾기 어려울 수 있습니다. 그들은 방문객들이 계속 머물면서, 좋은 분위기를 이어갈 수 있도록 항상 특별한 음식, 음료, 오락거리를 구비하고 있다. 일부 장소에서는 주류를 무료로 제공하기도 한다. 하지만 술은 판단력을 흐리게 하기 때문에 훌륭한 도박꾼들은 모두 취하지 않는 것의 중요함을 알고 있다."
+  },
+  {
+    "id": 48,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Les victimes sont Nicholas Alden, 25 ans, et Zachary Cuddeback, 21 ans. Cuddeback était le conducteur. Edgar Veguilla a été blessé au bras et à la mâchoire tandis que Kristoffer Schneider a dû subir une chirurgie reconstructive pour son visage. L'arme d'Uka s'est enrayée alors qu'elle était pointée sur la tête d'un cinquième homme. Schneider souffre d'une douleur lancinante, ne voit plus d'un œil, a perdu une partie de son crâne, et son visage a été reconstruit à partir de titane. Schneider a témoigné par liaison vidéo depuis une base de l’USAF dans son pays.",
+    "answer": "사망자는 니콜라스 올던(25)과 재커리 커드백(21)이었습니다. 커드백은 운전사였습니다. 에드가 베길라(Edgar Veguilla)는 팔과 턱에 상처를 입었고, 크리스토퍼 슈나이더(Kristoffer Schneider)는 얼굴에 재건수술이 필요할 만큼의 부상을 입었다. Uka의 무기가 다섯 번째 남자의 머리를 겨냥하는데 실패했습니다. 슈나이더는 지속적인 통증에 시달리고 한쪽 눈을 실명하였으며 일부 두개골이 소실되었고 얼굴을 티타늄으로 재건하였습니다. 슈나이더는 그의 고향 USAF 기지에서 비디오링크를 통해 증언했습니다."
+  },
+  {
+    "id": 49,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Dans de nombreuses régions du monde, faire un signe de la main est un geste amical signifiant « bonjour ». En revanche, en Malaisie, du moins chez les Malais des zones rurales, cela signifie « viens par ici », comme le fait de plier l'index vers soi, geste utilisé dans certains pays occidentaux, et il ne devrait être utilisé qu'en ce sens. De même, un voyageur britannique en Espagne pourrait confondre un signe d'adieu fait par une personne qui tourne la paume de sa main vers elle-même (plutôt que vers la personne à qui elle adresse le signe) avec une invitation à revenir.",
+    "answer": "\"\"\"전 세계 대부분에선 손을 흔드는 것은 \"\"\"\"안녕하세요\"\"\"\"를 나타내는 친절한 제스처입니다.\"\" \"\"그러나, 적어도 시골 지역의 말레이인들 중에서, 이는 \"\"\"\"어서 오세요\"\"\"\"를 의미하는데, 이것은 특정 서구 국가에서 사용되는 제스처인 검지 손가락을 자신 쪽으로 굽히는 것과 비슷한데, 오직 그러한 목적으로만 사용되어야 한다.\"\" 마찬가지로 스페인을 여행하는 영국 여행객들에겐 작별의 인사로 손바닥을 인사를 하는 사람 쪽으로(즉 상대가 손등이 보이는 것) 하는 것은 다시 돌아오라고 하는 것으로 착각할 수 있다.\""
+  },
+  {
+    "id": 50,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "La banque Northern Rock avait été nationalisée en 2008 suite à la révélation que l'entreprise avait reçu un soutien d'urgence du gouvernement britannique. Northern Rock avait sollicité une aide en raison de son exposition aux effets de la crise des subprimes en 2007. Le groupe Virgin de Sir Richard Branson a vu son offre d’achat rejetée avant la nationalisation de la banque. En 2010, bien que nationalisée, l'actuelle banque Northern Rock plc a été séparée de la « bad bank, » Northern Rock (gestion d'actifs). Virgin n’a acheté que la « banque saine » de Northern Rock, pas la société de gestion d’actifs.",
+    "answer": "노던록 은행은 회사가 영국 정부로부터 긴급 지원을 받음으로써 2008년에 국유화되었습니다. 노던록은 2007년 서브프라임 모기지 사태 당시 이러한 사실이 밝혀져 지원을 필요로 하였다. 리처드 브랜슨 경의 버진그룹은 은행 국유화 이전에 은행 입찰에서 거부된 적이 있다. 국유화가 진행되던 2010년, '배드뱅크'인 노던 락(자산 관리)에서 현재의 대형 소매 은행 노던 락(Northern Rock plc)이 분리되었습니다. 버진은 노던 록의 '괜찮은 은행' 부분만 구매하였고, 자산관리회사는 인수하지 않았습니다."
+  },
+  {
+    "id": 51,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Les visites sont moins chères pour les grands groupes, donc si vous êtes seul ou avec un seul ami, essayez de rencontrer d’autres personnes et de former un groupe de quatre à six personnes pour obtenir un meilleur tarif par personne. Cependant, cela ne devrait pas trop vous inquiéter, car les touristes sont souvent mélangés pour remplir les voitures. Il semblerait qu'il s'agisse d'une façon de faire croire aux gens qu'ils doivent payer plus cher.",
+    "answer": "단체 여행인 경우 투어 비용이 저렴하기 때문에 혼자 여행하거나 친구 단 한 명과 여행하는 경우라면 다른 사람들을 만나 4명에서 6명으로 모임을 구성해서 1인당 비용을 더 저렴하게 만들어 보세요. 하지만 걱정 안 하셔도 되는 게 보통 투어 차량을 채우려고 여행객들을 여기저기 섞어서 태우기 때문입니다. 사실 이는 사람들이 더 많은 돈을 내야 할 거라고 생각하게 속이는 방법의 일종에 가까워 보입니다."
+  },
+  {
+    "id": 52,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Environ 60 cas de surchauffe d’iPods défectueux ont été signalés, provoquant au total six incendies et laissant quatre personnes avec des brûlures mineures. Le ministère japonais de l'économie, du commerce et de l'industrie (METI) a déclaré qu'il avait eu connaissance de 27 accidents liés à ces appareils. La semaine dernière, le METI a annoncé qu’Apple l’avait informé de 34 incidents de surchauffe supplémentaires, que la société a qualifiés de « non graves ». Le ministère a réagi en qualifiant de « vraiment regrettable » l'ajournement du rapport par Apple.",
+    "answer": "\"약 60건의 iPod 과열 사례가 보고되었으며, 총 6건의 화재가 발생했고 4명이 경증의 화상을 입었습니다. 일본 경제 통상 산업부(METI)는 이 장비와 관련된 27건의 사고를 인지하고 있었다고 밝혔다. \"\"지난주 일본경제산업성(METI)은 애플이 \"\"\"\"심각하지 않다\"\"\"\"고 한 과열 사고를 추가적으로 34건 보고했다고 발표했습니다.\"\" \"\"경제산업성에선 애플의 보고서 발표 연기에 대해 \"\"\"\"정말 유감스럽다\"\"\"\"며 맞받아쳤다.\"\"\""
+  },
+  {
+    "id": 53,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Tout au long des années 1960, Brzezinski a travaillé pour John F. Kennedy en tant que conseiller, puis pour l'administration de Lyndon B. Johnson. Lors des sélections de 1976, il a conseillé Carter en matière de politique étrangère, puis a été conseiller à la sécurité nationale (NSA) de 1977 à 1981, succédant à Henry Kissinger. Pendant son temps au sein de la NSA, il a aidé Carter à résoudre diplomatiquement des questions internationales telles que les accords de Camp David, en 1978, la normalisation des relations entre les États-Unis et la Chine à la fin des années 1970, la révolution iranienne et ses conséquences comme la prise d'otages en Iran, en 1979, et l'invasion des forces soviétiques en Afghanistan, en 1979.",
+    "answer": "1960년대에 걸쳐 브레진스키는 케네디의 고문으로 근무한 후 린든 존슨 행정부에서 근무했다. 그는 1976년 선발 과정에서 카터에게 외교정책에 대해 조언한 뒤 1977년부터 1981년까지 헨리 키신저의 뒤를 이어 국가 안보담당 대통령 보좌관(NSA)을 지냈습니다. 그는 NSA로서 1978년 캠프 데이비드 어코드, 1970년대 후반에 미국과 중국의 관계 정상화, 1979년 이란 인질 위기로 이어진 이란 혁명, 1979년 소련의 아프가니스탄 침공과 같은 세계 문제를 외교적으로 다루는 일에서 카터 대통령을 보좌하였습니다."
+  },
+  {
+    "id": 54,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Le directeur des poursuites publiques, Kier Starmer QC, a fait une déclaration ce matin annonçant la poursuite de Huhne et Pryce. Huhne a démissionné et il sera remplacé au sein du cabinet par le député Ed Davey. Le député Norman Lamb devrait prendre le poste de ministre des Affaires auquel Davey se désiste. Huhne et Pryce doivent comparaître devant la Magistrates Court de Westminster le 16 février.",
+    "answer": "검찰 총장, 키어 스타머 칙선 변호사는 오늘 아침 Huhne와 Pryce를 둘 다 기소한다는 성명을 발표했습니다. 훈는 사임했고 내각에서 에드 데이비 하원 의원에 의해 교체될 예정이다. 노먼 램 하원 의원은 데이비가 떠나는 사업부 장관직을 밭을 것으로 예산된다. 후네(Huhne)와 프라이스(Pryce)는 2월 16일 웨스트민스터 치안법원에 출두할 예정입니다."
+  },
+  {
+    "id": 55,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "La surface de la lune est constituée de pierres et de poussière. Sa couche extérieure est appelée la croûte. L'épaisseur de la croûte est d'environ 70 km sur la face visible et 100 km sur la face cachée. Elle est plus fine au niveau des mers et plus épaisse sous les continents. Il peut y avoir plus de maria sur le côté proche parce que la croûte est plus fine. Il était plus facile pour la lave de remonter à la surface.",
+    "answer": "\"\"\"달의 표면은 돌과 먼지로 이루어져 있는데, 달의 바깥층은 '크러스트(the crust)\"\"\"\"라고 불린다.\"\" 지각은 가까운 쪽이 약 70km, 먼 쪽이 약 100km 두께입니다. 크러스트는 마리아 아래에서 더 얇고 고원 아래에서 더 두껍습니다. 지각(crust)이 더 얇기 때문에 가까운 쪽에 마리아(maria)가 더 많을 수 있다. 용암이 수면 위로 솟아오르기가 더 쉬운 조건이다.\""
+  },
+  {
+    "id": 56,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Selon les météorologues, il est probable que la tempête, située à environ 645 miles (1 040 km) à l’ouest du Cap-Vert, se dissipe avant de menacer quelque rivage que ce soit. Fred a actuellement des vents de 165 km/h (105 miles par heure) et se dirige vers le nord-ouest. Fred est le cyclone tropical le plus violent jamais enregistré dans le sud et l'est de l'Atlantique depuis l'avènement de l'imagerie satellite, et seulement le troisième ouragan majeur enregistré à l'est de 35°W.",
+    "answer": "일기예보에 따르면 카보베르데 섬 서쪽으로 약 645마일(1040 킬로미터) 지점에 위치한 폭풍은 육상에 위협이 되기 전 소멸될 것으로 예상된다. 프레드는 현재 시속 165km의 바람을 타고 북서쪽으로 이동하고 있습니다. 프레드는 위성사진의 출현 이후 지금까지 대서양의 남쪽과 동쪽에 기록된 가장 강력한 열대성 사이클론이며, 35°W의 동쪽에서 기록된 세 번째 허리케인이다."
+  },
+  {
+    "id": 57,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "\"Accompagné de ces autorités, il a assuré aux citoyens du Texas que des mesures étaient prises pour protéger la sécurité du public. Perry a spécifiquement déclaré : « Il y a peu d'endroits dans le monde qui soient mieux équipés pour relever le défi qui est posé dans ce cas ». Le gouverneur a également déclaré : « Aujourd'hui, nous avons appris que certains enfants d'âge scolaire ont été identifiés comme ayant eu des contacts avec le patient. » \"\"Il continua en disant, \"\"\"\"Il s'agit là d'une affaire sérieuse. Soyez certains que notre système fonctionne aussi bien qu'il le devrait.\"\"\"\"\"\"\"",
+    "answer": "\"그는 당국자들과 함께 나와 텍사스 시민들에게 대중의 안전을 보호하기 위한 조치가 취해지고 있음을 보증했다. \"\"페리는 특히, \"\"\"\"이번 경우처럼 갑자기 던져진 도전에 맞설 준비가 되어있는 곳은 전 세계에서 손에 꼽힐 정도이다.\"\"\"\"라고 했다.\"\" \"\"주지사는 또한 \"\"\"\"오늘, 일부 취학 연령의 아동들이 그 환자와 접촉했던 것으로 밝혀진 사실을 알게 되었다\"\"\"\"라고 말했다. \"\" \"\"그는 \"\"\"\"이건 심각한 사건입니다. 다행히도 우리 시스템이 잘 작동하고 있으니 안심하셔도 됩니다.\"\"\"\"라고 말을 이었다.\"\"\""
+  },
+  {
+    "id": 58,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Les langues officielles de Barcelone sont le catalan et l'espagnol. Environ la moitié des habitants préfère parler catalan, une grande majorité le comprend, et pratiquement tout le monde est capable de parler espagnol. Toutefois, la plupart des panneaux sont uniquement en catalan, car la loi établit qu'il s'agit de la première langue officielle. Pourtant, l'espagnol est également largement utilisé dans les transports publics et autres installations. Les annonces régulières dans le métro ne sont faites qu'en catalan, mais les perturbations imprévues sont annoncées par un système automatisé dans de nombreuses langues, dont l'espagnol, l'anglais, le français, l'arabe et le japonais.",
+    "answer": "바르셀로나의 공용어는 카탈루냐어와 스페인어다. 절반 정도는 카탈로니아어를 사용하는 것을 선호하고, 대다수가 그 언어를 이해하고 있으며, 또한 거의 모든 사람들이 스페인어를 안다. 하지만 대부분의 표지판은 법으로 최초 공식 언어로 확립된 카탈로니아어로만 표기되어 있습니다. 그렇지만 스페인어는 대중교통과 다른 시설에서도 널리 사용된다. 지하철의 정규 안내 방송은 카탈로니아어로만 제공되나, 계획에 없던 운행 중단 시에는 자동 시스템을 통해 스페인어, 영어, 프랑스어, 아라비아어, 일본어를 포함한 다양한 언어로 방송됩니다."
+  },
+  {
+    "id": 59,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Les matchs ont commencé à 10 heures du matin avec un temps magnifique et, à part la bruine du milieu de la matinée qui s’est rapidement dissipée, c’était une journée parfaite pour le rugby à 7. L'Afrique du Sud, à la tête du classement, a commencé sur une bonne note en s'imposant 26 à 0 face à la Zambie, 5e du classement. L'Afrique du Sud, qui semblait décidément rouillée lors de son match contre ses consœurs du sud, s'est cependant graduellement améliorée au fil du tournoi. Leur défense bien disciplinée, leur adresse dans le contrôle du ballon et leur formidable travail d’équipe leur ont permis de se distinguer et il est évident que c’était l’équipe à battre.",
+    "answer": "경기는 좋은 날씨 가운데 10시에 시작해, 아침나절에 내리다 금방 그친 약간의 보슬비를 제외하곤 7개국 럭비 대회를 위해선 완벽한 날이었다. 토너먼트의 톱시드 국인 남아프리카 공화국은 제5시드국 잠비아를 26 대 00으로 편하게 이기고 순조로운 출발을 알렸다. 남쪽 국가들과의 경기에서는 완전히 실력이 녹슨 것으로 보였던 남아프리카였지만 토너먼트가 진행됨에 따라 실력이 꾸준히 향상되었습니다. 잘 훈련된 수비 기술, 공 핸들링 기술 및 훌륭한 팀워크가 그들을 돋보이게 했고 이것으로 팀이 승리를 거머쥘 것이라는 사실은 누가 봐도 명백했습니다."
+  },
+  {
+    "id": 60,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Certaines personnes pensent que faire de nombreux rêves lucides provoqués artificiellement et assez souvent peut être très épuisant. La raison principale de ce phénomène est le résultat des rêves lucides qui allongent la durée entre les états de sommeil paradoxal. Avec moins de sommeil paradoxal par nuit, cet état dans lequel vous profitez d'un vrai sommeil réparateur devient suffisamment rare pour devenir problématique. C’est tout aussi épuisant que de se réveiller toutes les vingt ou trente minutes et de regarder la télévision. L’effet dépend de la fréquence à laquelle votre cerveau tente de rêver lucidement par nuit.",
+    "answer": "어떤 이들은 인위적으로 유도된 자각몽을 많이, 자주 꾸는 것이 아주 피곤할 수 있다고 생각한다. 이러한 현상의 주된 이유는 자각몽(lucid dream)을 꾸는 동안 REM 상태 사이의 시간이 확장된 결과 때문이다. 하룻밤에 렘수면이 더 적으면 실제 수면을 경험하고 몸이 회복되는 이런 상태가 아주 드물어져서 문제가 될 수 있습니다. 마치 20 - 30분 마다 일어나서 TV를 보는 것과 같이 지치는 일이다. 그 효과는 뇌가 밤마다 얼마나 자주 자각몽을 꾸는가에 달려 있습니다."
+  },
+  {
+    "id": 61,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Randonnée à skis : cette activité est aussi appelée ski nordique, ski de fond ou ski de randonnée. Cela ressemble au ski de randonnée de type alpin, ainsi qu'à l'alpinisme, sans toutefois incorporer en général ces activités, qui se pratiquent sur des terrains accidentés et qui exigent l'utilisation de skis et de bottes beaucoup plus rigides. Pensez à l'itinéraire de ski comme à un itinéraire de randonnée similaire. Dans de bonnes conditions, vous pourrez parcourir des distances un peu plus grandes qu'à pied – mais vous n'atteindrez que très rarement les vitesses du ski de fond sans un sac à dos lourd sur des pistes damées.",
+    "answer": "스키로 하는 백패킹: 이 활동은 또한 백컨트리 스키, 스키 투어, 또는 스키 하이킹이라고도 불립니다. 이 활동은 알프스 방식의 스키 투어나 등산과 관련은 있지만 보통은 이를 포함하지 않고, 후자의 경우 가파른 지형에서 행해지며 훨씬 더 단단한 스키와 부츠가 필요하다. 스키 코스를 비슷한 하이킹 코스라고 생각해 보세요. 좋은 조건에서는 걷는 것보다 약간 더 먼 거리를 갈 수 있습니다. 그러나 잘 정비된 트랙과 무거운 배낭 없이는 크로스컨트리 스키에 해당하는 속도가 나지 않을 것입니다."
+  },
+  {
+    "id": 62,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Les règles concernant la photographie régulière s'appliquent également à l'enregistrement vidéo, voire même davantage. S'il est interdit de prendre une simple photo de quelque chose, il ne faut même pas penser à en enregistrer une vidéo. Si vous utilisez un drone, vérifiez bien à l'avance ce que vous êtes autorisé à filmer et quels permis ou licences supplémentaires sont nécessaires. Faire voler un drone près d’un aéroport ou au-dessus d’une foule est presque toujours une mauvaise idée, même si ce n’est pas illégal dans votre région.",
+    "answer": "일반 사진 촬영에 관한 규칙은 비디오 녹화에도 적용되며, 아마도 더욱 그러할 것입니다. 만일 사진 촬영이 허가가 되지 않았다면, 동영상으로 찍는 것도 고려되어선 안됩니다. 드론을 사용할 경우 촬영할 수 있는 사항과 허가 또는 추가 라이센스가 필요한 사항에 대해 미리 확인해야 합니다. 드론을 공항 근처나 군중들 위로 띄우는 것은, 비록 자신이 있는 지역에서는 불법이 아닐 수 있더라도, 거의 늘 좋지 않은 생각입니다"
+  },
+  {
+    "id": 63,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Les sports d'hiver de descente, notamment le ski et le snowboard, sont des sports populaires qui consistent à glisser pour dévaler une piste enneigée avec des skis ou un snowboard attachés aux pieds. Le ski est une activité de voyage majeure qui compte de nombreux aficionados, parfois appelés « ski bums », qui organisent leurs vacances entières en fonction du ski dans des endroits spécifiques. L'idée de skier est très ancienne : des peintures rupestres montrant des skieurs datent pour certaines de 5 000 ans av. J.-C. ! La pratique du ski alpin en tant que sport remonte au moins au XVIIe siècle ; le premier club de ski de loisirs a été fondé en 1861 en Australie par des Norvégiens.",
+    "answer": "\"스키와 스노보드를 포함하는 활강 스노 스포츠는 스키나 스노보드를 발에 부착한 채 눈 덮인 지형을 미끄러져 내려가는 것이 관련된 인기 있는 스포츠입니다. \"\"스키여행은 스키광(\"\"\"\"ski bums\"\"\"\")이라고 불리는 애호가들이 즐기는 여행 방식이다. 그 사람들은 휴가 일정을 어느 한 특정 장소에서 줄곧 스키를 타는 시간으로 계획한다.\"\" 스키에 대한 생각은 매우 오래된 것이다. 스키 타는 사람들을 묘사한 동굴 벽화는 기원전 5000년까지 거슬러 올라간다. 스포츠로서의 활강 스키는 적어도 17세기로 거슬러 올라가며 1861년에 최초의 레크리에이션 스키 클럽이 호주의 노르웨이인들에 의해 설립되었습니다.\""
+  },
+  {
+    "id": 64,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Au cours des trois dernières décennies, bien qu’elle soit officiellement restée un État communiste, la Chine a développé une économie de marché. Les premières réformes économiques ont été réalisées sous la direction de Deng Xiaoping. Depuis, la taille économique de la Chine a été multipliée par 90. Pour la première fois, l'année dernière, la Chine a exporté plus de voitures que l'Allemagne et a dépassé les États-Unis en tant que plus grand marché pour cette industrie. Le PIB de la Chine pourrait dépasser celui des États-Unis au cours des deux décennies à venir.",
+    "answer": "지난 30년 동안 공식적으로 공산주의 국가로 남아있음에도 불구하고, 중국은 시장 경제를 발전해왔습니다. 첫 번째 경제 개혁은 덩 사오핑의 지도하에 이루어졌습니다. 이후 중국의 경제규모는 90배까지 성장했다. 중국은 지난해 처음으로 독일보다 많은 자동차를 수출해 미국을 제치고 이 산업의 최대 시장으로 부상했다. 20년 안에 중국의 GDP는 미국의 GDP보다 커질 수 있습니다."
+  },
+  {
+    "id": 65,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "L’Antarctique, qui entoure le pôle Sud, est l’endroit le plus froid sur Terre. Les visites touristiques sont coûteuses, exigent une bonne condition physique, ne peuvent avoir lieu qu'en été (de novembre à février) et sont largement limitées à la péninsule, aux îles, et à la mer de Ross. Quelques milliers d'employés vivent ici en été dans une quarantaine de bases, principalement dans ces régions ; un petit nombre d'entre eux restent en hiver. L'Antarctique intérieur est un plateau désolé recouvert de 2 à 3 km de glace. Expéditions aériennes spécifiques et ponctuelles vers l’intérieur des terres, pour l’alpinisme ou pour atteindre le Pôle, disposant d’une vaste base.",
+    "answer": "남극 대륙은 지구상에서 가장 추운 곳으로 남극을 둘러싸고 있습니다. 관광객이 방문하려면 비용이 많이 들고 체력적으로 힘이 들기도 합니다. 여름인 11월부터 2월 중에만 가능하며 반도, 섬 및 로스 해(Ross Sea)로 대부분 관광을 제한합니다. 여름엔 수천 명의 달하는 직원들이 지역에 사십여 개가 넘는 기지에 흩어져 살고 있습니다. 겨울에는 오직 적은 수의 인원만 상주합니다. 남극 내륙은 2~3km의 얼음으로 뒤덮인 황량한 고원입니다. 특정한 때에만 있는 전문 항공 여행은 산행을 위한 내륙 투어 이거나, 북극점을 보기 위한 투어로 큰 베이스가 있는 내륙으로 간다."
+  },
+  {
+    "id": 66,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Les appels étant acheminés par l'internet, vous n'avez pas besoin d'utiliser une compagnie de téléphone située où vous vivez ou où vous voyagez. Il n’est pas non plus obligatoire d’obtenir un numéro local de la collectivité dans laquelle vous vivez; vous pouvez obtenir une connexion Internet par satellite dans les contrées sauvages de Chicken, en Alaska, et sélectionner un numéro qui indique que vous êtes dans l’Arizona ensoleillée. Souvent, il vous faut acheter un numéro international qui autorise les appels en RCTP. L'endroit où votre numéro de téléphone est localisé est déterminant pour les personnes qui vous appellent.",
+    "answer": "전화는 인터넷으로 전송되기 때문에 굳이 당신이 거주하거나 여행하는 지역에 위치한 통신 업체를 이용하지 않아도 된다. 현재 거주하는 커뮤니티에서 지역 번호를 획득할 필요가 없습니다. 알래스카 치킨의 미개척지에서 위성 인터넷 접속을 획득하고 햇빛이 쨍쨍한 애리조나에 있다고 주장하는 번호를 선택할 수도 있습니다. 공중전화망의 전화를 받기 위해서는 별도로 국제 번호를 구매해야 하는데, 어디에서 번호가 오는지에 따라 발신자의 전화를 받을 수 있는지 없는지의 차이가 나뉩니다."
+  },
+  {
+    "id": 67,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Les attaquants de Mumbai sont arrivés par bateau le 26 novembre 2008, apportant avec eux des grenades, des armes automatiques et ont touché de multiples cibles, dont la gare ferroviaire bondée Chhatrapati Shivaji Terminus et le célèbre hôtel Taj Mahal. Le repérage et la collecte d'informations par David Headley ont facilité l'opération menée par les dix hommes armés du groupe militant pakistanais Laskhar-e-Taiba. L’attentat a mis à rude épreuve les relations entre l’Inde et le Pakistan.",
+    "answer": "뭄바이를 공격한 이들은 2008년 11월 26일 수류탄과 자동 무기를 소지한 채 배를 타고 도착했으며, 붐비는 차트라파티 시바지(Chhatrapati Shivaji Terminus) 기차역과 유명한 타지마할 호텔을 포함한 다수의 표적을 공격했습니다. 데이빗 헤들리가 정찰하고 수집한 정보 덕분에 파키스탄 무장 단체인 라슈카르 이 타이바 (Laskhar-e-Taiba)의 무장 강도 작전이 가능했다. 그 공격은 인도와 파키스탄의 관계에 막대한 긴장을 불러일으켰다."
+  },
+  {
+    "id": 68,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Phnom Krom, à 12 km de Siem Reap. Ce temple situé au sommet d'une colline a été érigé à la fin du IXe siècle, sous le règne du roi Yasovarman. L'atmosphère lugubre du temple et la vue sur le lac Tonlé Sap rendent la montée vers la colline intéressante. La visite du site peut être agréablement associée à une promenade en bateau sur le lac. Le passe Angkor est obligatoire pour pénétrer dans le temple, alors n'oubliez pas de prendre votre passeport en vous rendant au Tonlé Sap.",
+    "answer": "프놈 끄롬, 씨엠립에서 남서쪽으로 12km 떨어진 곳. 이 언덕 꼭대기 사원은 야쇼바르만 왕의 통치 기간인 9세기 말에 지어졌습니다. 이 사원의 우울한 분위기와 톤레삽 호수가 내려다보이는 전망은 언덕에 오르는 것을 보람 있게 한다. 해당 현장 방문은 호수로의 보트 여행과 간편하게 합쳐질 수 있습니다. 앙코르 패스는 사원에 들어갈 때 필요하기 때문에 톤레삽으로 향할 때 여권과 꼭 함께 지참해야 한다."
+  },
+  {
+    "id": 69,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "La ville romantique et fascinante de Sintra, située au nord, est facilement accessible et a été rendue célèbre auprès des étrangers par le récit éclatant de sa splendeur qu'en a fait Lord Byron. Le bus 403 de Scotturb se rend régulièrement à Sintra, avec un arrêt à Cabo da Roca. En vous rendant au nord, ne manquez pas de visiter le superbe sanctuaire de Notre-Dame de Fatima (temple), un lieu mondialement connu pour les apparitions de Marie.",
+    "answer": "북쪽에는 쉽게 닿을 수 있는 낭만적이고 매혹적인 신트라 마을이 있으며 바이런경이 기록한 화려함에 대한 찬사로 인해 외국인들에게 유명해진 도시이다. Scotturb 버스 403번은 신트라까지 정기적으로 운행하며 카보 다 로카에서 정차합니다. 또한 북쪽으로는 세계적으로 유명한 성모 발현 장소인 파티마 대성당(성지)이 있으니 방문해 보세요."
+  },
+  {
+    "id": 70,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "La tempête tropicale Danielle, quatrième tempête nommée de la saison des ouragans atlantiques 2010, s'est formée dans l'est de l'océan Atlantique. La vitesse maximale des vents soutenus de cette tempête, qui se produit à environ 4 800 km de Miami, en Floride, atteint 64 km/h. Les scientifiques du Centre national des ouragans prévoient que Danielle se transformera en ouragan d’ici mercredi. Comme la tempête est loin d'atteindre les côtes, il reste difficile d'évaluer son impact potentiel sur les États-Unis ou les Caraïbes.",
+    "answer": "2010년 대서양 허리케인 철의 네 번째로 명명된 열대 폭풍인 다니엘(Danielle)은 동대서양에서 형성됐다. 마이애미, 플로리다에서 약 3,000마일 떨어진 곳에 위치한 폭풍은 최대 지속 풍속이 40 mph(64 kph)이다. 미국 국립 허리케인 센터 과학자들은 다니엘이 수요일까지 세력이 커져서 허리케인이 될 것이라고 예상했습니다. 폭풍이 육지에서 멀리 떨어져 있어 미국 또는 카리브해에 미치는 잠재적인 영향을 분석하기 어렵습니다."
+  },
+  {
+    "id": 71,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Le joueur du jour est Alex Ovechkin des Washington Capitals. Il a marqué 2 buts et fait 2 passes décisives durant le match contre les Atlanta Trashers, remporté 5-3 par Washington. La première passe décisive d’Ovechkin dans la soirée a été en faveur du but gagnant du bleu Nicklas Backstrom ; Son deuxième but de la soirée était son 60e de la saison, devenant ainsi le premier joueur à marquer 60 buts ou plus en une saison depuis 1995-96, date à laquelle Jaromir Jagr et Mario Lemieux ont chacun atteint ce chiffre.",
+    "answer": "오늘의 선수는 워싱턴 캐피털즈의 알렉스 오베츠킨입니다. Atlanta Thrashers를 상대로 5-3으로 이긴 Washington의 경기에서 그는 골 2개와 어시스트 2개를 기록했습니다. 그날 밤 오베치킨의 첫 어시스트는 신인 니클라스 백스트롬의 경기 결승골로 이어졌습니다. 그날 밤 그의 두 번째 골은 시즌의 시즌의 60번째였으며, 1995-1996년 시즌에 야르오미르 야그르와 마리오 르뮤 이후 처음으로 60번 이상 득점을 한 선수가 되었다."
+  },
+  {
+    "id": 72,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "À moins que vous ne soyez un diplomate, travailler à l’étranger signifie généralement que vous devrez remplir la déclaration d’impôts sur le revenu dans le pays où vous êtes basé. L'impôt sur le revenu est structuré différemment dans différents pays, et les taux d'imposition et les tranches d'imposition varient largement d'un pays à l'autre. Dans certains pays fédéraux tels que les États-Unis et le Canada, l'impôt sur le revenu est prélevé à la fois au niveau fédéral et au niveau local, de sorte que les taux et les tranches d'imposition peuvent varier d'une région à l'autre.",
+    "answer": "외교관이 아닌 이상, 해외에서 일하는 것은 일반적으로 거주하고 있는 국가에서 소득세를 신고해야 한다는 것을 의미합니다. 소득세는 국가별로 다르게 구성되며, 세율과 과세 등급은 국가마다 크게 다릅니다. 미국 및 캐나다와 같은 일부 연방 국가에서는 소득세가 연방 및 지방세로 둘 다 부과되므로 요율 및 과세구간은 지역별로 다를 수 있습니다."
+  },
+  {
+    "id": 73,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Le temple d'Artémis à Ephèse a été détruit le 21 juillet 356 avant J.-C. lors d'un incendie criminel commis par Herostratus. D'après l'histoire, sa motivation était la célébrité à tout prix. Les Ephésiens, indignés, annoncent que le nom d'Herostratus ne sera jamais enregistré. L'historien grec Strabo mentionna ce nom plus tard et c'est ainsi qu'il nous est parvenu. Le temple fut détruit la même nuit qui vit la naissance d'Alexandre le Grand. Alexandre, en tant que roi, offrit de payer pour reconstruire le temple, mais son offre fut déclinée. Plus tard, après la mort d’Alexandre, le temple fut reconstruit en 323 avant notre ère.",
+    "answer": "에베소의 아르테미스 신전은 기원전 356년 7월 21일에 헤로스트라투스가 저지른 방화로 파괴되었습니다. 이야기에 따르면, 그는 어떤 희생을 치르더라도 명예에서 동기를 부여받습니다. 분노한 에베소 사람들은 헤로스트라투스의 이름이 절대 기록되어서는 안된다고 단언했습니다. 그리스인 역사가 스트라본은 나중에 우리가 알고 있는 이름을 언급했습니다. 성전은 알렉산더 대왕이 태어난 같은 날 저녁 파괴되었습니다. 알렉산더는 왕으로서 사원을 재건하기 위한 비용을 대겠다고 제안하였으나, 그의 제안은 거절당했습니다. 그 후, 알렉산더가 사망한 이후인 기원전 323년에 그 사원이 재건되었습니다."
+  },
+  {
+    "id": 74,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Les dépenses de guerre de l'impérialisme américain dans la conquête des Philippines ont été payées par le peuple philippin lui-même. Ils ont été contraints de payer des impôts au régime colonial américain pour couvrir une grande partie des dépenses et des intérêts des obligations émises au nom du gouvernement philippin par les établissements bancaires de Wall Street. Naturellement, les superprofits issus de l'exploitation prolongée du peuple philippin pourraient constituer les avantages fondamentaux de l'impérialisme américain.",
+    "answer": "필리핀 정복에 사용된 미국 제국주의의 전쟁 비용은 필리핀인 자신들에 의해 지급되었다. 그들은 지출의 상당 부분을 갚기 위해 미국 식민지 정권에 세금을 지불하도록 강요당했고, 월스트리트의 은행을 통해 필리핀 정부의 이름으로 된 채권이 관심을 끌었습니다. 물론, 필리핀 국민에 대한 장기간의 착취에서 파생된 초 이익은 미국 제국주의의 기본 이익을 구성하게 될 것이다."
+  },
+  {
+    "id": 75,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Chaque année, vers le mois d’octobre, près de 1,5 million d’herbivores se dirigent vers les plaines du sud, en traversant la rivière Mara, depuis les collines du nord pour les pluies. Et puis retour au nord par l'ouest, en traversant une fois de plus la rivière Mara, après les pluies aux environs d'avril. La région du Serengeti comprend le parc national du Serengeti, la zone de conservation de Ngorongoro et la réserve de chasse des Maswa en Tanzanie, ainsi que la réserve nationale du Masai Mara au Kenya.",
+    "answer": "매년 10월경, 150만 마리 가까이 되는 초식동물들이 마라강을 건너 북쪽 평원에서 비가 내리는 남쪽 평원으로 이동합니다. 그런 다음 서쪽을 통해 북쪽으로 다시 돌아와서, 4월쯤에 비가 내린 후 다시 한번 마라 강을 건넙니다. 세렝게티 지역에는 세렝게티 국립 공원, 탄자니아의 응고롱고로 보호 구역 및 마스와 게임 보호 구역과 케냐의 마사이 마라 국립 보호 구역이 있습니다."
+  },
+  {
+    "id": 76,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Dix-huit pour cent des Vénézuéliens sont au chômage, et la plupart de ceux qui ont un emploi travaillent dans l'économie informelle. Deux tiers des Vénézuéliens qui travaillent le font dans le secteur des services, près d’un quart dans l’industrie et un cinquième dans l’agriculture. Une industrie importante pour les Vénézuéliens est le pétrole, dont le pays est un exportateur net, même si seulement un pour cent travaille dans l’industrie pétrolière.",
+    "answer": "베네수엘라인의 18%는 실업자이고 고용된 사람들 대부분이 비공식적 경제에서 일하고 있습니다. 베네수엘라 국민의 3분의 2가 서비스 분야에서 일하고 있고, 거의 4분의 1이 산업 분야에서 일하고 있으며, 5분의 1은 농업 분야에서 일을 하고 있습니다. 베네수엘라의 중요한 산업은 석유이며, 비록 전 세계 석유 산업에서 단지 1퍼센트의 비중에도 불구하고, 순 수출국으로 자리하고 있다."
+  },
+  {
+    "id": 77,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Le tourisme occupe une place importante dans l'économie de San Francisco en raison de sa renommée à l'international, mais dans le fond, ses activités économiques sont diversifiées. Les principaux secteurs d'emploi sont les services professionnels, le gouvernement, la finance, le commerce et le tourisme. Sa représentation fréquente dans la musique, les films, la littérature et la culture populaire a contribué à faire connaître la ville et ses monuments dans le monde entier. San Francisco a développé une grande infrastructure touristique avec de nombreux hôtels, restaurants et installations de congrès de premier ordre. San Francisco est aussi l'une des meilleures destinations du pays pour découvrir la cuisine asiatique : coréenne, thaï, indienne et japonaise.",
+    "answer": "샌프란시스코의 경제는 세계적인 관광 명소가 된 것과 연계되어 있지만, 샌프란시스코 자체 경제도 다양합니다. 고용이 가장 많은 분야는 전문 서비스, 공공기관, 금융, 무역 및 관광이다. 해당 도시와 랜드마크는 음악, 영화, 문학 및 인기 문화에서 빈번하게 등장했기 때문에 전 세계적으로 유명해질 수 있었습니다. 샌프란시스코는 많은 호텔, 레스토랑, 그리고 최고급 컨벤션 시설을 갖춘 거대한 관광 인프라를 개발해왔다. 샌프란시스코는 또한 한국, 태국, 인도, 일본 등 다른 아시아 요리를 하기에 가장 좋은 곳 중 하나이다."
+  },
+  {
+    "id": 78,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "La meilleure façon de voir les sites et la faune des Galápagos est de prendre le bateau, comme l’a fait Charles Darwin en 1835. Plus de 60 bateaux de croisière sillonnent les eaux des Galápagos, dont la taille varie de 8 à 100 passagers. La plupart des gens réservent leur place bien à l’avance (car les bateaux sont généralement pleins pendant la haute saison). Assurez-vous que l'agent par lequel vous réservez est un spécialiste des Galapagos ayant une solide connaissance d'une grande variété de navires. Cela permettra de trouver le navire le mieux adapté à vos intérêts et/ou contraintes spécifiques.",
+    "answer": "갈라파고스의 유적지와 야생동물을 보는 것은 찰스 다윈이 1835년에 그랬던 것처럼 배로 하는 것이 가장 좋다. 8명에서 100명에 이르는 승객을 수용할 수 있는 60척 이상의 유람선이 갈라파고스 해역을 왕복 운항합니다. 대부분의 사람들은 성수기에는 배 예약이 다 찰 수 있기 때문에 미리 장소를 예약합니다. 여러분이 예약한 여행사 직원이 다양한 종류의 배에 대해 잘 알고 있는 갈라파고스 전문가인지를 확인하십시오. 이를 통해 특정 관심사 및/또는 제한 사항에 가장 적합한 배와 확실히 매칭 되도록 합니다."
+  },
+  {
+    "id": 79,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Aux États-Unis, il y a environ 400 000 cas connus de sclérose en plaques (SEP), ce qui en fait la principale maladie neurologique chez les jeunes et les adultes d’âge moyen. La sclérose en plaques est une maladie qui affecte le système nerveux central, composé du cerveau, de la moelle épinière et du nerf optique. Des recherches ont montré que les femmes sont deux fois plus susceptibles d’avoir la sclérose en plaques que les hommes.",
+    "answer": "젊은층과 중년층 성인들의 가장 흔한 신경학적 질병임인 다발성 경화증(MS)은 미국 전역에 약 40만 건의 사례가 보고된다. 다발성 경화증(MS)는 뇌, 척수, 시신경을 구성하는 중추 신경계에 영향을 미치는 질병입니다. 남성에 비해 여성이 다발성 경화증에 걸릴 위험이 2배나 더 높다는 연구 결과가 나왔습니다."
+  },
+  {
+    "id": 80,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "L'utilisation d'applications de navigation par GPS sur votre smartphone peut être le moyen le plus simple et le plus pratique pour vos déplacements en dehors de votre pays de résidence. Il peut permettre d’économiser de l’argent en achetant de nouvelles cartes pour un GPS ou un appareil GPS autonome, ou bien en en louant un auprès d’une société de location de voitures. Si vous n’avez pas de connexion de données sur votre téléphone, ou s’il est hors de portée, ses performances peuvent être limitées ou indisponibles.",
+    "answer": "스마트폰에서 GPS 네비게이션 앱을 사용하는 것은 해외에서 가장 쉽고 편리하게 길을 찾을 수 있는 방법이 될 것이다. GPS에 쓰이는 새 맵을 구입하거나, 분리형 GPS 장치를 구입 또는 렌탈 업체에서 빌리는 것보다 돈을 절약할 수 있다. 당신의 폰에 데이터 연결이 되지 않거나 통화권 밖에 있는 경우에는, 성능이 제한적이거나 사용이 불가능할 수 있다."
+  },
+  {
+    "id": 81,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Jonny Reid, copilote de l’équipe néo-zélandaise A1GP, est entré dans l’histoire aujourd’hui en franchissant le pont du port d’Auckland (Nouvelle-Zélande), vieux de 48 ans, en toute légalité. M. Reid est parvenu au volant de la voiture néo-zélandaise de l'A1 GP dénommée Black Beauty, à dépasser à 7 reprises une vitesse de 160 km/h au dessus du pont. La police néo-zélandaise a eu du mal à utiliser ses radars de vitesse pour voir à quelle vitesse roulait M. Reid en raison du faible niveau de Black Beauty. La seule fois où la police a réussi à chronométrer M. Reid, c'est quand il a ralenti à 160 km/h.",
+    "answer": "A1GP 뉴질랜드 팀의 공동 드라이버인 Jonny Reid는 48년 된 뉴질랜드 오클랜드 하버 브리지를 합법적으로 가장 빠르게 운전함으로써 오늘 새로운 역사를 만들었습니다. 리드 씨는 뉴질랜드의 A1GP 차량인 블랙 뷰티를 시속 160km 이상으로 일곱 번이나 다리 위를 질주했습니다. 뉴질랜드 경찰은 레이드 씨가 차가 낮아서 속도 측정기를 이용해 얼마나 빨리 가고 있는지 확인하는 데 어려움을 겪었고, 겨우 경찰이 측정이 가능했을 때는 리드 씨가 시속 160km로 속도를 줄인 후였다."
+  },
+  {
+    "id": 82,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Les sous-cultures rassemblent des individus se sentant négligés par les normes sociétales et partageant les mêmes idées ce qui leur permet de développer un sentiment d'identité. Les sous-cultures peuvent se distinguer par l'âge, l'origine ethnique, la classe, la localisation et / ou le sexe des membres. Les critères qui déterminent une sous-culture comme distincte peuvent être linguistiques, esthétiques, religieux, politiques, sexuels, géographiques ou une combinaison de facteurs. Les membres d'une sous-culture signalent souvent leur appartenance par un usage distinctif et symbolique du style, qui englobe les modes, les maniérismes et l'argot.",
+    "answer": "하위문화는 사회적 기준에서 소외감을 느끼는 비슷한 사람들을 모아 자신들만의 정체성을 키울 수 있게 해줍니다. 하위문화는 구성원의 연령, 민족, 계급, 위치 및/또는 성별 때문에 구별될 수 있다. 하위문화를 명확하게 구분하는 특징은 언어적, 미적, 종교적, 정치적, 성적, 지리적 요소가 있으며, 이러한 요소들의 결합일 수도 있다. 하위문화의 구성원들은 종종 패션, 매너리즘, 그리고 특정 속어를 포함하는 독특하고 상징적인 스타일을 통해 소속감을 나타낸다."
+  },
+  {
+    "id": 83,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "L'étude a révélé que la dépression, la peur et le catastrophisme étaient à l'origine de la relation entre la douleur et le handicap chez les personnes souffrant de douleurs au bas du dos. Seuls les effets de la catastrophe, et non la dépression et la peur, étaient conditionnés par des séances hebdomadaires régulières et structurées d'AP. Ceux qui participent à une activité régulière ont besoin de plus de soutien en termes de perception négative de la douleur, en distinguant les différences entre la douleur chronique et la sensation d'inconfort et le mouvement physique normal.",
+    "answer": "이 연구에서는 하부 요통 환자들에서 우울증, 공포, 파국화가 통증과 장애 간의 상관관계에 영향을 준다는 것을 밝혔습니다. 우울증과 공포가 아닌 대재앙의 영향만 매주 정기적으로 구조화된 PA 세션의 조건으로 했습니다. 정기적인 활동에 참여한 사람들에게는 고질적인 통증과 신체 활동에 따른 불편한 느낌과 고통의 부정적인 인식에 대해서 더 많은 지원이 필요했다."
+  },
+  {
+    "id": 84,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Il est de tradition de passer la nuit de Pâques éveillé à un endroit à découvert pour voir le lever du soleil. Il existe bien évidemment des explications théologiques chrétiennes pour cette tradition, mais il se pourrait bien qu’il s’agisse d’un rituel préchrétien de printemps et de fertilité. Les églises plus traditionnelles organisent souvent une veillée pascale le samedi soir pendant le week-end de Pâques, les congrégations faisant souvent irruption dans la fête au coup de minuit pour célébrer la résurrection du Christ.",
+    "answer": "일출을 볼 수 있는 곳에서 깨어 있는 상태로 부활절 밤을 보내는 전통이 있습니다. 물론 이 전통에 대한 기독교 신학적 설명이 있지만 이것은 기독교 이전의 봄과 풍년 의식일 수 있다. 더 전통적인 교회는 부활절 주간의 토요일 밤에 부활 철야제를 열며, 여기에서 신도들이 종종 자정에 주의 부활을 축하합니다."
+  },
+  {
+    "id": 85,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "À l'issue de la course, Keselowski reste en tête du Championnat des pilotes avec 2 250 points. Sept points de retard, Johnson est deuxième avec 2243 points. En troisième position, Hamlin a vingt points de retard, mais cinq d'avance sur Bowyer. Kahne et Truex, Jr. sont respectivement cinquième et sixième avec 2 220 et 2 207 points. Stewart, Gordon, Kenseth et Harvick complètent les dix premières places du championnat des pilotes à quatre courses de la fin de la saison.",
+    "answer": "이 경주 이후, 케제로브스키는 2,250점을 보유한 채 드라이버스 챔피언십의 선두 자리를 지키고 있다. 존슨은 7점 낮은 2,243점으로 2위를 달성했다. 3위의 햄린은 20점 뒤졌지만, 보이어보다 5점 앞서 있습니다. 칸과 트렉스 주니어는 각각 2,220점과 2,207점으로 5위와 6위를 달리고 있습니다. 스튜어트, 고든, 켄세스, 하빅은 시즌 내 4번의 레이스가 남은 가운데 드라이버스 챔피언십에서 상위 10위 자리를 차지했습니다."
+  },
+  {
+    "id": 86,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Si vous voulez voir le monde à bas prix, par nécessité, mode de vie ou défi, il existe quelques moyens de le faire. En gros, on peut les classer en deux catégories : soit vous travaillez pendant votre voyage, soit vous essayez de limiter vos dépenses. Le présent article porte essentiellement sur cette dernière catégorie. Pour ceux qui sont prêts à sacrifier le confort, le temps et la prévisibilité pour réduire les dépenses à près de zéro, consultez le voyage à budget minimum. Ces conseils partent du principe que les voyageurs ne volent pas, ne s’introduisent pas dans un lieu public, ne participent pas au marché illégal, ne mendient pas ou n’exploitent pas d’autres personnes à leur profit.",
+    "answer": "도전이나 생활양식 혹은 필요에 의해 적은 돈으로 세상을 보고 싶어 하면 몇 가지 할 수 있는 방법이 있습니다. 기본적으로, 두 범주로 나뉩니다. 여행하는 동안 일을 하거나 경비에 제한을 두려고 노력하는 것입니다. 이 글은 후자에 중점을 두었습니다. 편안함, 시간 및 예측 가능성을 기꺼이 희생하고 비용을 0에 가깝게 축소하려는 사람들은 최소 예산 여행을 살펴보시기 바랍니다. 해당 조언은 여행자가 절도, 불법 침입, 불법 시장 참여, 구걸 혹은 자신의 이익을 위해 다른 사람을 착취하지 않는다고 가정합니다."
+  },
+  {
+    "id": 87,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Si vous voulez faire le tour du monde en avion en restant uniquement dans l'hémisphère sud, le choix des vols et des destinations sera limité à cause du manque de routes transocéaniques. Il n’existe aucune alliance de compagnies aériennes couvrant les jonctions des trois océans de l’hémisphère sud (et SkyTeam ne couvre aucune d’entre elles). Cependant, Star Alliance couvre tout sauf le Pacifique Sud oriental de Santiago du Chili à Tahiti, qui est un vol LATAM Oneworld. Ce vol n’est pas la seule option si vous voulez éviter le Pacifique Sud et la côte ouest de l’Amérique du Sud. (voir ci-dessous)",
+    "answer": "만약 온전히 남반구에서만 비행하는 세계 여행을 원한다면, 대양횡단 루트가 적어 비행 편과 목적지를 선택하는데 제한이 있다. 그 어떤 항공 동맹도 남반구의 3대양을 횡단하지 않습니다(스카이팀(SkyTeam)은 횡단을 전혀 하지 않습니다.). 하지만 스타얼라이언스는 산티아고에서 타이티에 이르는 남태평양 동부를 제외하고 모든 지역에 적용됩니다. LATAM Oneworld 항공편이 이 지역에 해당합니다. 남태평양과 남아메리카 서해안을 건너뛰고 싶다면 이 항공편만이 유일한 선택 사항은 아닙니다.(아래를 참조하세요)"
+  },
+  {
+    "id": 88,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Acheter de la nourriture dans les supermarchés est généralement le moyen le moins cher de se nourrir. Sans possibilité de cuisiner, les choix sont cependant limités aux aliments prêts à l'emploi. Les supermarchés proposent de manière croissante une gamme plus variée de plats cuisinés. Certains fournissent même un four à micro-ondes ou d'autres moyens pour réchauffer la nourriture. Dans certains pays ou types de lieux de vente, on trouve au moins un restaurant sur place, souvent assez informel et pratiquant des prix abordables.",
+    "answer": "슈퍼마켓에서 음식을 사는 것이 대개는 끼니를 해결할 가장 저렴한 방법입니다. 하지만 요리할 기회가 없으므로 선택은 즉석식품으로 제한됩니다. 슈퍼마켓의 즉석식품 품목이 점점 더 다양해지고 있습니다. 일부 슈퍼마켓은 음식을 데울 수 있는 전자레인지나 다른 수단을 제공하기도 합니다. 국가나 가게 유형에 따라 하나 이상의 구내식당을 갖추기도 하는데, 이는 보통 합리적인 가격의 상당히 비격식적인 곳입니다."
+  },
+  {
+    "id": 89,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Si vous visitez les régions arctiques ou antarctiques en hiver, vous pourrez découvrir la nuit polaire, durant laquelle le soleil ne se lève pas au-dessus de l'horizon. C'est une bonne occasion d'admirer les aurores boréales, car le ciel sera sombre pratiquement toute la journée. Comme les régions sont peu peuplées, et que la pollution lumineuse n'est donc souvent pas un problème, vous pourrez également profiter des étoiles.",
+    "answer": "만약 당신이 겨울에 남북극 지역을 방문한다면, 태양이 수평선 위로 떠오르지 않는 극야를 경험하게 될 것이다. 하늘이 하루 종일 어두우므로 오로라를 볼 수 있는 좋은 기회를 제공합니다. 해당 지역은 인구 밀도가 낮아서, 광공해는 문제가 되지 않는 경우가 많기 때문에, 밤하늘의 별 즐기기도 가능합니다."
+  },
+  {
+    "id": 90,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Le bouddhisme tibétain est basé sur les enseignements de Bouddha, mais a été enrichi par le chemin de l'amour mahayana et par de nombreuses techniques du yoga indien. En principe, le bouddhisme tibétain est très simple. Il se compose du Kundalini Yoga, de la méditation et de la voie de l'amour universel. Avec le Kundalini Yoga, l’énergie Kundalini (énergie d’illumination) est éveillée par des postures de yoga, des exercices de respiration, des mantras et des visualisations. Le centre de la méditation tibétaine est le yoga de la déité. C'est grâce à la visualisation de différentes déités que les canaux d'énergie sont nettoyés, les chakras activés, et la conscience d'éveil créée.",
+    "answer": "티벳 불교는 부처님의 가르침을 기반으로 하지만, 대승불교의 사랑의 관념 및 인도 요가의 많은 기술을 바탕으로 확장되었습니다. 티베트 불교는 이론상으로 매우 간단합니다. 쿤달리니 요가, 명상 및 모두를 포용하는 사랑의 길로 구성되어 있습니다. 쿤달리니 요가를 하면 요가 자세, 호흡 운동, 만트라 및 시각화를 통해 쿤달리니 에너지(계몽 에너지)가 깨어납니다. 티벳 명상의 중심에는 신성 요가(Deity Yoga)가 있다. 다양한 신을 시각화해 에너지 채널을 청소하고, 차크라를 활성화하며, 계몽 의식을 창조한다."
+  },
+  {
+    "id": 91,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Le score de Nadal en confrontations directes face au Canadien est de 7-2. Il a récemment perdu un match contre Raonic durant l'Open de Brisbane. Nadal a amassé 88 % de points nets dans le match, remportant 76 points au premier service. Après le match, le roi de la terre battue a déclaré : « Je suis tout simplement ravi d'être de retour pour les phases finales des événements les plus importants. Je suis ici pour essayer de gagner ».",
+    "answer": "나달과 이 캐나다 선수와의 정면 대결 기록은 7 대 2입니다. 그는 최근 브리즈번 오픈(Brisbane Open) 경기에서 라오니치(Raonic)에게 패했다. 나달은 첫 서브에서 76점을 획득하며 88%의 네트 포인트를 달성했습니다. 경기가 끝난 후 클레이의 왕은 “가장 중요한 종목의 마지막 라운드에 복귀한 것만으로도 기쁘다. 이번 대회에서 우승하려고 왔다.”고 말했다."
+  },
+  {
+    "id": 92,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Par ailleurs, le docteur Lee s'est dit préoccupé par les signalements d'enfants turcs qui auraient été infectés par le virus de la grippe aviaire A(H5N1) sans pour autant être malades. Certaines études suggèrent que la maladie doit devenir moins mortelle avant de pouvoir provoquer une épidémie mondiale, a-t-il noté. On craint que les patients puissent continuer à infecter davantage de personnes en vaquant à leurs occupations quotidiennes si les symptômes de la grippe restent légers.",
+    "answer": "이종욱 박사는 터키에서 아동들이 별다른 아픈 증상이 없음에도 조류인플루엔자(H5N1) 양성 판정을 받기 시작하였다는 보고에 우려를 표시하였습니다. 그는 일부 연구에 따르면 이 질병이 세계적인 전염병을 일으키기 전에 덜 치명적이 되어야 한다고 지적했습니다. 독감 증상이 경미할 경우 환자들이 아무렇지 않게 일상생활을 하면서 더 많은 사람을 계속 감염시킬 수 있다는 우려가 있다."
+  },
+  {
+    "id": 93,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Montevideo étant située au sud de l’Équateur, l’hiver dans l’hémisphère nord correspond à l’été là-bas et vice-versa. Montevideo est situé en zone subtropicale et les températures estivales dépassant les 30 °C sont courantes. L'hiver peut être trompeusement froid : les températures descendent rarement en dessous de zéro, mais le vent et l'humidité se combinent pour donner l'impression qu'il fait plus froid que ce que dit le thermomètre. Il n'y a pas vraiment de saisons « pluvieuses » et « sèches » : les précipitations sont à peu près constantes tout au long de l'année.",
+    "answer": "\"몬테비데오는 적도의 남쪽에 위치하기 때문에 북반구가 겨울일 때 그곳은 여름이고, 반대의 경우도 마찬가지입니다. 몬테비데오는 아열대 지방입니다. 여름에는 보통 온도가 30°C 이상이죠. 겨울은 믿을 수 없을 만큼 쌀쌀해지기도 한다. 영하 이하로 내려가는 날은 드물지만, 바람과 습도가 합쳐져서 실제 온도보다 더 춥게 느껴진다. \"\"\"\"\"\"우기\"\"\"\", \"\"\"\"건기\"\"\"\"가 특별히 따로 존재하지 않는다. 강수량은 연중 거의 동일한 수준이다.\"\"\""
+  },
+  {
+    "id": 94,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Il y a de nombreuses répercussions sociales et politiques telles que l'utilisation du système métrique, le passage de l'absolutisme au républicanisme, le nationalisme et la conviction que le pays appartient au peuple et non à un seul dirigeant. Aussi, après la Révolution, les métiers furent ouverts à tous les candidats masculins, permettant aux plus ambitieux et aux plus talentueux de réussir. Il en va de même pour l'armée, car le classement des armées n'est plus basé sur la classe, mais sur le calibre. La Révolution française a également inspiré de nombreuses autres classes ouvrières réprimées d’autres pays à entamer leur propre révolution.",
+    "answer": "미터법 사용, 절대주의 체제에서 공화주의로의 전환, 민족주의와 국가는 한 통치자가 아닌 여러 사람의 소유라는 생각의 발생과 같이, 사회 및 정치적인 면에 많은 영향들을 미쳤습니다. 또한 혁명 이후 직업들은 모든 남성 지원자에게 개방되어 가장 야망있고 성공 지향적인 사람들이 성공할 수 있는 길을 열어 주었습니다. 계층에 따른 군대 계급 대신 현재 능력 지표 기반의 계급이 쓰이고 있기 때문에 똑같은 방식이 군에도 적용됩니다. 또한 프랑스 혁명은 다른 나라들에서 많은 억압 받고 있는 노동자 계층에게 그들 스스로가 혁명을 일으킬 수 있도록 영감을 주었다."
+  },
+  {
+    "id": 95,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Bowen Island est une excursion populaire d'une journée ou d'un week-end qui propose du kayak, des randonnées, des boutiques, des restaurants, et plus encore. Cette communauté authentique se trouve à Howe Sound, juste à côté de Vancouver, et elle est facilement accessible par des bateaux-taxis qui partent régulièrement de Granville Island, dans le centre-ville de Vancouver. Pour ceux qui aiment les activités de plein air, une randonnée dans le couloir Sea to Sky est indispensable. Whistler (à une heure et demi de route partant de Vancouver) est cher, mais s'est fait connaître grâce aux Jeux olympiques d'hiver de 2010. En hiver, profitez de certaines des meilleurs pistes de skis d'Amérique du Nord et, en été, goûtez à d'authentiques randonnées en VTT.",
+    "answer": "보엔 아일랜드는 카약, 하이킹, 쇼핑, 레스토랑과 더 많은 즐길 거리를 제공하는 인기 있는 당일치기나 주말여행지입니다. 이 정통 커뮤니티는 밴쿠버에서 조금 떨어진 하우 사운드에 있고, 밴쿠버 시내에서 그랜빌 아일랜드로 출발하는 정기 수상 택시를 타고 쉽게 접근할 수 있다. 야외 활동을 즐긴다면 Sea to Sky 회랑에는 꼭 올라가 볼만합니다. 휘슬러(밴쿠버에서 자동차로 1.5시간 거리)는 물가가 높지만, 2010년 동계 올림픽으로 인해 유명한 지역입니다. 겨울에는 북미에서 최고의 스키를 즐기고 여름에는 진정한 산악자전거를 체험해 보세요."
+  },
+  {
+    "id": 96,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Tard dimanche, le président des États-Unis Donald Trump, dans une déclaration faite par l'intermédiaire du secrétaire de presse, a annoncé que les troupes américaines allaient se retirer de la Syrie. L’annonce a été faite après que M. Trump ait eu une conversation téléphonique avec le président turc Recep Tayyip Erdoğan. La Turquie prendrait également en charge la garde des combattants d'ISIS capturés que, selon la déclaration, les nations européennes ont refusé de rapatrier.",
+    "answer": "도널드 트럼프 미국 대통령은 늦은 일요일 시간대에 대변인을 통해 발표한 성명에서 미군이 시리아에서 철수할 것이라고 발표했다. 이 발표는 트럼프가 레제프 타이이프 에르도안 터키 대통령과 전화 통화를 한 후에 이루어졌다. 또한 터키는 유럽 국가들이 본국으로 송환하는 것을 거부한 체포된 ISIS 전투기를 보호할 것이라고 밝혔다."
+  },
+  {
+    "id": 97,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Les paralympiques se tiendront du 24 août au 5 septembre 2021. Certains événements se tiendront dans d’autres localisations à travers le Japon. Tokyo sera la seule ville asiatique à avoir accueilli deux Jeux olympiques d'été, après avoir accueilli les Jeux en 1964. Si vous avez réservé vos vols et votre hébergement en 2020 avant l'annonce du report, vous risquez d'être confronté à une situation délicate. Les politiques d'annulation varient, mais à partir de fin mars, la plupart des politiques d'annulation basées sur les coronavirus ne s'étendent pas jusqu'en juillet 2020, date à laquelle les Jeux olympiques avaient été prévus. On s'attend à ce que la plupart des billets d'événements coûtent entre 2 500 et 130 000 yens, les billets typiques coûtant environ 7 000 yens.",
+    "answer": "장애인 올림픽 대회는 2021년 8월 24일부터 9월 5일까지 개최될 예정입니다. 일부 행사는 일본 전역의 여러 지역에서 열립니다. 1964년에 하계 올림픽을 유치했던 동경은 아시아에서 하계 올림픽을 두 번 치른 유일한 도시가 될 것입니다. 연기가 발표되기 전 2020년도 항공편과 숙소를 예약했다면 조금 복잡한 상황이 발생할 수 도 있습니다. 환불 규정은 상이하지만, 3월 말 현재 코로나 바이러스로 인한 환불 규정은 대부분 2020년 7월 올림픽 기간까지 연장되어 있지 않다. 대부분의 이벤트 티켓 가격은 2,500엔에서 130,000엔 사이이며, 일반적인 티켓 가격은 7,000엔 선이다."
+  },
+  {
+    "id": 98,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "L'expérience Hershey et Chase a été l'une des principales indications que l'ADN était un matériel génétique. Hershey et Chase ont utilisé des phages, ou des virus, pour implanter leur propre ADN dans une bactérie. Ils ont mené deux expériences pour marquer soit l’ADN du phage avec un phosphore radioactif, soit la protéine du phage avec du soufre radioactif.",
+    "answer": "허쉬와 체이스의 실험은 DNA가 유전적 물질이라고 제안한 선두 연구 중 하나였습니다. 허쉬와 체이스는 박테리아를 자신의 DNA에 심기 위해 파지, 혹은 바이러스를 사용했다. 그들은 방사성 인과 있을 때 파즈 내의 DNA나 방사성 황과 있을 때 파즈의 단백질을 확인하는 두 가지 실험을 했다."
+  },
+  {
+    "id": 99,
+    "system": "Eres un traductor experto. Tu trabajo es traducir el mensaje de entrada del usuario al coreano. Muestra únicamente la traducción al coreano.",
+    "user": "Bien que les autorités aient des doutes quant à la crédibilité de la menace, le Maryland Transportation Authority a proclamé leur fermeture sous l’insistance du FBI. Des camions-bennes ont été réquisitionnés pour bloquer les entrées du métro et 80 policiers se trouvaient sur place pour orienter les automobilistes vers les déviations. On avait annoncé aucun retard lié aux embouteillages sur le boulevard périphérique ; l'autre route de la ville.",
+    "answer": "당국에서는 해당 위협의 신뢰성에 대해 의문을 제기하고 있으나, 메릴랜드 교통 당국은 FBI의 요구에 따라 이를 폐쇄했습니다. 덤프트럭을 이용해 지하철 입구를 막고, 80명의 경찰병력의 지원으로 운전자들을 우회로 쪽으로 안내하도록 했다. 도시의 대체 도로인 순환도로에는 교통 체증이 없었다."
+  }
+]

@@ -1,0 +1,870 @@
+{
+  "timestamp": "2026-02-25T05:57:28.896149",
+  "total_files": 216,
+  "files": [
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_en-tool_en/eval_results.json",
+      "hash": "4f853cfe4546fbe6ed36c4eeb9e7b26f"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_en-tool_de/eval_results.json",
+      "hash": "5a7c8d0d8758f37d53896a0cc15490b6"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_en-tool_hi/eval_results.json",
+      "hash": "ede16ce5efacc6fdd8eef7ba7042793f"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_en-tool_zh/eval_results.json",
+      "hash": "93d5812db87f7857bafae6d663d434e1"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_en-tool_es/eval_results.json",
+      "hash": "d8dd31e6996c37ff57da9d223662fb59"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_en-tool_fr/eval_results.json",
+      "hash": "2f510ec5cae7064a644c49a1878c843a"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_de-tool_en/eval_results.json",
+      "hash": "42d9a46ece748909cdaaa0c9be5f6984"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_de-tool_de/eval_results.json",
+      "hash": "5cc62edecf46c5aaa9ef888c2c39b27d"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_de-tool_hi/eval_results.json",
+      "hash": "a0e9573aa676d13d5bb28cec7cf6151a"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_de-tool_zh/eval_results.json",
+      "hash": "03259eae8ec979ae8819872e71bdd479"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_de-tool_es/eval_results.json",
+      "hash": "4ce8a28fba146230536aa94d62ca8e88"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_de-tool_fr/eval_results.json",
+      "hash": "ae1254ded8057b0e2d86ecbd65b304a1"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_hi-tool_en/eval_results.json",
+      "hash": "00fd9e18cc3350504e3c0f3b25260ac2"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_hi-tool_de/eval_results.json",
+      "hash": "8ec7ef757a7739f773817d7c6e32a5ce"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_hi-tool_hi/eval_results.json",
+      "hash": "7893f960e5e8e89cf7cada84d6100f88"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_hi-tool_zh/eval_results.json",
+      "hash": "1660c989b2b1f50a8424dae7f9d4b20c"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_hi-tool_es/eval_results.json",
+      "hash": "d47a6493c52d40b0749c02a4eabd047b"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_hi-tool_fr/eval_results.json",
+      "hash": "0232a73dcdf20c05acc30f9cb737634c"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_zh-tool_en/eval_results.json",
+      "hash": "7c95ec8574752c0305ee4f62e6af7406"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_zh-tool_de/eval_results.json",
+      "hash": "f024c89a3983b6c7978972d5e4839290"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_zh-tool_hi/eval_results.json",
+      "hash": "f613938fd9cc33dc0cbaea97fc220a59"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_zh-tool_zh/eval_results.json",
+      "hash": "b4ebb2640d07784635c5722e7df57649"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_zh-tool_es/eval_results.json",
+      "hash": "2900126e578530f644fe288afc423381"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_zh-tool_fr/eval_results.json",
+      "hash": "aa48a9e6061980901ef60980dddf1908"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_es-tool_en/eval_results.json",
+      "hash": "c564eaee1fc08b5760230d5b33cb263f"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_es-tool_de/eval_results.json",
+      "hash": "6660dace41526ebeb76a84751f59e102"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_es-tool_hi/eval_results.json",
+      "hash": "cc2b37d27c6ba4cba55065f0e0958cf3"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_es-tool_zh/eval_results.json",
+      "hash": "f3c21d3d4ad5f787c872a89fcabec3bc"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_es-tool_es/eval_results.json",
+      "hash": "f6cc3c6a5b23048dca6e4d31a02eb232"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_es-tool_fr/eval_results.json",
+      "hash": "4c725e8e7a47f64042eb8cad4e5e4765"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_fr-tool_en/eval_results.json",
+      "hash": "65f414e4b47f3588c7e333f4a68b5c9d"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_fr-tool_de/eval_results.json",
+      "hash": "1f021de5ec521ddef980c4ccd4331838"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_fr-tool_hi/eval_results.json",
+      "hash": "830cbdefb7ff4fca4b7be5883d65b3b2"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_fr-tool_zh/eval_results.json",
+      "hash": "a2682104073aa2d965876a8041c3363e"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_fr-tool_es/eval_results.json",
+      "hash": "73db241e83fae6195d6cf6f87b3be69e"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/llama/llama3.1-70b/input-sys_fr-tool_fr/eval_results.json",
+      "hash": "616d500775bef86a70260bbbb4bdc972"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_en-tool_en/eval_results.json",
+      "hash": "e885304e28355ce95ee205a3755d8952"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_en-tool_de/eval_results.json",
+      "hash": "0d97e4e4e7f32a07d19241a398befba6"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_en-tool_hi/eval_results.json",
+      "hash": "0aa663f228a42818f31bc4c683219930"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_en-tool_zh/eval_results.json",
+      "hash": "71873edf6a27b2f91b270e4e512f5632"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_en-tool_es/eval_results.json",
+      "hash": "16a55cf17aca4e398944fd9de0870298"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_en-tool_fr/eval_results.json",
+      "hash": "9ebc5aa847dc610fb2d4b00fae792e0e"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_de-tool_en/eval_results.json",
+      "hash": "e179f5ad284ac06d0d0afcc4031feda5"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_de-tool_de/eval_results.json",
+      "hash": "e73d367798774ae3518572b3d827b434"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_de-tool_hi/eval_results.json",
+      "hash": "492337f19bfe8a945af7ad58eb31c02c"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_de-tool_zh/eval_results.json",
+      "hash": "dae69617184b5a6778c2faa3039bb269"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_de-tool_es/eval_results.json",
+      "hash": "f270fbec3a89788151f80c069e09c590"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_de-tool_fr/eval_results.json",
+      "hash": "22f7f6eca631804d8774272d50a3001a"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_hi-tool_en/eval_results.json",
+      "hash": "0e1ef8965cd83eff152d73b9c67f38f9"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_hi-tool_de/eval_results.json",
+      "hash": "831267acf8f6b314d7293dc45f313ba7"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_hi-tool_hi/eval_results.json",
+      "hash": "bf736f9f6e376c23a51021df44bf2e3e"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_hi-tool_zh/eval_results.json",
+      "hash": "4f7eb7d7273a81b5db05eaaecd76ccaa"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_hi-tool_es/eval_results.json",
+      "hash": "065b660225576caee495c8fe805cfee6"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_hi-tool_fr/eval_results.json",
+      "hash": "0f01e9fd764c506e276cc9664de2ca26"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_zh-tool_en/eval_results.json",
+      "hash": "0002fc82a3a52233edd11614225de53d"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_zh-tool_de/eval_results.json",
+      "hash": "d8c134cd3f4aa0a132240652c1a3e540"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_zh-tool_hi/eval_results.json",
+      "hash": "74c873174354b60c05d0313e8b2b4c98"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_zh-tool_zh/eval_results.json",
+      "hash": "61e59bb1ffa0de7c18353478caaee6c9"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_zh-tool_es/eval_results.json",
+      "hash": "5686cf4b652498db73ee2fccf786266d"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_zh-tool_fr/eval_results.json",
+      "hash": "cc90375fb520e6de5fcf4905e8ebdc21"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_es-tool_en/eval_results.json",
+      "hash": "eb348d39f6244845098af0b1db9734a7"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_es-tool_de/eval_results.json",
+      "hash": "d786eecc13ea61f909a56251645d6062"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_es-tool_hi/eval_results.json",
+      "hash": "1cfdb7d9d3957bdf232dc0d750ab6cb3"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_es-tool_zh/eval_results.json",
+      "hash": "8ce305b8903ebfd4e4b55f094d2a243a"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_es-tool_es/eval_results.json",
+      "hash": "fcfaa6097f9170fcb648494d87b6e097"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_es-tool_fr/eval_results.json",
+      "hash": "1220a750cf5d4345d2443fd2911969f2"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_fr-tool_en/eval_results.json",
+      "hash": "8ecf64ff5ae05a92590591ac9718bc10"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_fr-tool_de/eval_results.json",
+      "hash": "6945804345009d3601e44441cb2d296d"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_fr-tool_hi/eval_results.json",
+      "hash": "6153bd28b3e5083f30fca7661df05bed"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_fr-tool_zh/eval_results.json",
+      "hash": "1f935b143298906c01e61952abd131ca"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_fr-tool_es/eval_results.json",
+      "hash": "d852e4f5e1c4d20617fcc73c2d641a12"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/llama/llama3.1-70b/input-sys_fr-tool_fr/eval_results.json",
+      "hash": "04e41dccac70ee3926d823bb0b11828d"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_en-user_en/eval_results.json",
+      "hash": "94201868decadbb28a051727d33a947f"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_en-user_de/eval_results.json",
+      "hash": "1eb5e29b444a7fa8504a540b1832ff0a"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_en-user_hi/eval_results.json",
+      "hash": "3543651b3d59d24f198a5c4f45545c7b"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_en-user_zh/eval_results.json",
+      "hash": "4bb2ae007628aeee6bd90d9f11319ef2"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_en-user_es/eval_results.json",
+      "hash": "90a8c76c8fd39779e938244d50ad5408"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_en-user_fr/eval_results.json",
+      "hash": "14b232d59d5f85b098a0664e660a6ad1"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_de-user_en/eval_results.json",
+      "hash": "f0fa00233a096e19b4a63101dfd1dbf0"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_de-user_de/eval_results.json",
+      "hash": "b7547c90af1623704709435b62cf7518"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_de-user_hi/eval_results.json",
+      "hash": "6e0a3b323fa15be16ceace7ae40de268"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_de-user_zh/eval_results.json",
+      "hash": "b21358ad4f0ac0b86758ca0e7ab76ea1"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_de-user_es/eval_results.json",
+      "hash": "9bf57d19b69b67c02466dcc68a4dfcf7"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_de-user_fr/eval_results.json",
+      "hash": "5ede6f23d50d8cb77d2f8b820a86db40"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_hi-user_en/eval_results.json",
+      "hash": "32ad4924a6ce9741263237b9c53cd408"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_hi-user_de/eval_results.json",
+      "hash": "9ab427940cdecd40b2ba00c001451c0b"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_hi-user_hi/eval_results.json",
+      "hash": "d4919116eec434eef65935ac6dab2ba5"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_hi-user_zh/eval_results.json",
+      "hash": "66a8de8efd9c4d0bee5a6e22b38e66e1"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_hi-user_es/eval_results.json",
+      "hash": "be511fa0a1c10e94a171363466a91970"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_hi-user_fr/eval_results.json",
+      "hash": "27d2e1c6356e9aced467186d6944f982"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_zh-user_en/eval_results.json",
+      "hash": "12a69122fc6e8f3bb56810d306a67c9a"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_zh-user_de/eval_results.json",
+      "hash": "11d1d28ca51272e1bfc0dbb14e32b3d5"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_zh-user_hi/eval_results.json",
+      "hash": "058d8bb8bb6c0c3a73632ef2031ae0e2"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_zh-user_zh/eval_results.json",
+      "hash": "150a2bfa2496edb1e2c254c7394c983b"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_zh-user_es/eval_results.json",
+      "hash": "102f8e5e73ea6a184eae7cf023b7ca13"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_zh-user_fr/eval_results.json",
+      "hash": "a3becbdb59207d0986ee29384ba261d0"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_es-user_en/eval_results.json",
+      "hash": "e58b63e9f7bd288fb40197e16f0dcbe5"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_es-user_de/eval_results.json",
+      "hash": "94ca204c1eae2d9d3956f255ed5a3d6c"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_es-user_hi/eval_results.json",
+      "hash": "1baa0d6aadc9c480bf5cbb580baba4c5"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_es-user_zh/eval_results.json",
+      "hash": "9e414199e441fd281db957873456c1ac"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_es-user_es/eval_results.json",
+      "hash": "5d9652e6ef28e2bcb3cb95ebde61abfa"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_es-user_fr/eval_results.json",
+      "hash": "7071761682e5c17b2bfd517cafafd983"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_fr-user_en/eval_results.json",
+      "hash": "5d860dc9aa5cf0133105581fb3637160"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_fr-user_de/eval_results.json",
+      "hash": "66b891937f864d07d573c37b714eedd6"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_fr-user_hi/eval_results.json",
+      "hash": "9468113ba2b5835a290c16f2a2d1962d"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_fr-user_zh/eval_results.json",
+      "hash": "a4c1eeb6a6e9e563d5913fc69577a277"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_fr-user_es/eval_results.json",
+      "hash": "1f21a3085ca1b247456ff53ca7bd5ed6"
+    },
+    {
+      "path": "results/persona/reference/sys-user/llama/llama3.1-70b/input-sys_fr-user_fr/eval_results.json",
+      "hash": "dfd8933a198ab59b0beff5c28f12f2f2"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_en-user_en/eval_results.json",
+      "hash": "7bfbf2b247833c9faaad863137ace375"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_en-user_de/eval_results.json",
+      "hash": "ed05b826b8f3898741179c38879db4b8"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_en-user_hi/eval_results.json",
+      "hash": "01c9d168e8b4fbcce96009f100d929e8"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_en-user_zh/eval_results.json",
+      "hash": "01781f59a56b3ca9b526945b94fec563"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_en-user_es/eval_results.json",
+      "hash": "d937ed272de414f344ae879160a11fbd"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_en-user_fr/eval_results.json",
+      "hash": "d8378a5306ae1c3ffc5984b99b422ecd"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_de-user_en/eval_results.json",
+      "hash": "a0174b23f7a2639d72d730d2665eb003"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_de-user_de/eval_results.json",
+      "hash": "0127f1769b73f4828bf05ce9224f0c31"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_de-user_hi/eval_results.json",
+      "hash": "4a317d9a26faa47184567109d09bcca5"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_de-user_zh/eval_results.json",
+      "hash": "767bc43e98808d7961732fa7d4baa756"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_de-user_es/eval_results.json",
+      "hash": "21b985620ad29a2df049c1256b9f57a3"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_de-user_fr/eval_results.json",
+      "hash": "8585889a9e8108441126c1d9e222aaa8"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_hi-user_en/eval_results.json",
+      "hash": "68d195da6ba9f851e4ca27892855989a"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_hi-user_de/eval_results.json",
+      "hash": "78e3d19c68ac16f95c1a9b1b18c0f293"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_hi-user_hi/eval_results.json",
+      "hash": "b25a432f19c9f42214817f4c68cf665e"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_hi-user_zh/eval_results.json",
+      "hash": "3647a190f450ece04ebf07ceb6625bf2"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_hi-user_es/eval_results.json",
+      "hash": "4f969a210da401279c5e20202d9ab1b9"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_hi-user_fr/eval_results.json",
+      "hash": "83c1991881755d70170ea471876bbb8f"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_zh-user_en/eval_results.json",
+      "hash": "9a0368fc155dd86e0da3f025beacb284"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_zh-user_de/eval_results.json",
+      "hash": "68a4b9464d3a980b7388ae9379a91f8a"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_zh-user_hi/eval_results.json",
+      "hash": "c5b4430eaa9faf5f08c4310f66ff9c2f"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_zh-user_zh/eval_results.json",
+      "hash": "005062935ecce0de0ee41f03a576690c"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_zh-user_es/eval_results.json",
+      "hash": "3e687e12867ac2278378d20dcca7eae8"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_zh-user_fr/eval_results.json",
+      "hash": "86f6dd24a6efcb4b8e244a03a1463038"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_es-user_en/eval_results.json",
+      "hash": "94ab785a59c3fc0d67adc90fe57e28d9"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_es-user_de/eval_results.json",
+      "hash": "0468ca3fd4589cccb8a9c1c4d1a7b3ce"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_es-user_hi/eval_results.json",
+      "hash": "a3f0dc8511a7bef3b9c48644fcd36cfc"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_es-user_zh/eval_results.json",
+      "hash": "9cdb6d38a03b1071d2e793c2af016cb7"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_es-user_es/eval_results.json",
+      "hash": "2db37d560788af6b1ecb2fc0b2582504"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_es-user_fr/eval_results.json",
+      "hash": "e9a96071359663489d6972657c2f5003"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_fr-user_en/eval_results.json",
+      "hash": "f089afd334bb0da5530479946f197d0a"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_fr-user_de/eval_results.json",
+      "hash": "1bb9f726171fd1f88f7da4c6ad038600"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_fr-user_hi/eval_results.json",
+      "hash": "d8175ff15697d9601f18761ff188b4c4"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_fr-user_zh/eval_results.json",
+      "hash": "99fe08afb9129a26209e0c06f0f6989f"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_fr-user_es/eval_results.json",
+      "hash": "bf699f5bfc3bf88fa8448f81dccbeb8d"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/llama/llama3.1-70b/input-sys_fr-user_fr/eval_results.json",
+      "hash": "796f89644c93c8339a622df81548c4aa"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_en-tool_en/eval_results.json",
+      "hash": "ebab964bffed19da6ec5dd6cf3d12672"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_en-tool_de/eval_results.json",
+      "hash": "86a871842f1a43457184ad1f924fce7a"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_en-tool_hi/eval_results.json",
+      "hash": "9b6da1bdcbcbc25c4473712e94d0d3f5"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_en-tool_zh/eval_results.json",
+      "hash": "89a4af1d3f04cdd702a5b628a2ef6fcf"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_en-tool_es/eval_results.json",
+      "hash": "559d8516fc56066212c5e97cb16fb1ee"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_en-tool_fr/eval_results.json",
+      "hash": "bc207590af11d5ece7c50319085682ae"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_de-tool_en/eval_results.json",
+      "hash": "bf4d793afe2e91f745a6c5c653396c42"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_de-tool_de/eval_results.json",
+      "hash": "bdb2e9c1946986baf8167667c0b11b55"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_de-tool_hi/eval_results.json",
+      "hash": "67880f28e1715a85b8edfed8bf57f7ad"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_de-tool_zh/eval_results.json",
+      "hash": "ba4876ca2ed5dc9cdce773042677874e"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_de-tool_es/eval_results.json",
+      "hash": "908e924554f10f2d79014d1657d068b2"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_de-tool_fr/eval_results.json",
+      "hash": "d06046cb08c444b74d2dc56de8d1fd2b"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_hi-tool_en/eval_results.json",
+      "hash": "5c6f04d4abbae56a197ba48addfb77a2"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_hi-tool_de/eval_results.json",
+      "hash": "31fbf11b558c48682189b8d1b3169c9c"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_hi-tool_hi/eval_results.json",
+      "hash": "9f8ebbf28cc871245d2346ba2c91ecc4"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_hi-tool_zh/eval_results.json",
+      "hash": "ee9eaba5b24351b6189220be76fe62ee"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_hi-tool_es/eval_results.json",
+      "hash": "bb57a8ade156fbb92645944f6ba5fc7e"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_hi-tool_fr/eval_results.json",
+      "hash": "981b1ab66992cb5cb1f9babe1bc3d625"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_zh-tool_en/eval_results.json",
+      "hash": "10829cc17f29467113dda1f984416c1d"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_zh-tool_de/eval_results.json",
+      "hash": "d026c922b7f29458d42a56ec1f0a33e5"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_zh-tool_hi/eval_results.json",
+      "hash": "6a61c21b2871433522af4ae440146b2b"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_zh-tool_zh/eval_results.json",
+      "hash": "3ecfe860e0c0049c09810ceaa3768967"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_zh-tool_es/eval_results.json",
+      "hash": "71feb0d6576fbbd4ff345c444f449fe3"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_zh-tool_fr/eval_results.json",
+      "hash": "bcf39d37c3e558dd4df731367141e268"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_es-tool_en/eval_results.json",
+      "hash": "809b261e89607c0ca6e2b6cfc3c39020"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_es-tool_de/eval_results.json",
+      "hash": "bb3a98afff5e25f2edc876ffd38b8ac2"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_es-tool_hi/eval_results.json",
+      "hash": "438f2ac0fd8d42b984c50a5dd0fd0058"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_es-tool_zh/eval_results.json",
+      "hash": "4ed61e27410ce3c4dfe3c939bea8277f"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_es-tool_es/eval_results.json",
+      "hash": "3ac60375d362f05c123126fa4155f1be"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_es-tool_fr/eval_results.json",
+      "hash": "feaead81f60fbdac3d657f5ee6951fe3"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_fr-tool_en/eval_results.json",
+      "hash": "920f82696aae3581b1c86ee4150d24a8"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_fr-tool_de/eval_results.json",
+      "hash": "76bcaeaf23e4f5129b61126cbaf879c7"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_fr-tool_hi/eval_results.json",
+      "hash": "40f46e0059fd25d7b3542ccd086d5b95"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_fr-tool_zh/eval_results.json",
+      "hash": "e2c8b12a911600d2be75dc35aea790eb"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_fr-tool_es/eval_results.json",
+      "hash": "086ac97116d388aa5c9744939f69d8d1"
+    },
+    {
+      "path": "results/persona/reference/user-tool/llama/llama3.1-70b/input-user_fr-tool_fr/eval_results.json",
+      "hash": "4bf2c158de6b26df33abcb803a6e1150"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_en-tool_en/eval_results.json",
+      "hash": "5faf2a75c261dffa7878c1b01b90a413"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_en-tool_de/eval_results.json",
+      "hash": "65109cce3b0948af287641ee6aab6a8e"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_en-tool_hi/eval_results.json",
+      "hash": "07d6a7a150a298b4a3bf4c0be0b76ed9"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_en-tool_zh/eval_results.json",
+      "hash": "88c5149b6cea8383c38e51b7f654688b"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_en-tool_es/eval_results.json",
+      "hash": "754517656f735eb7f60791322741be1f"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_en-tool_fr/eval_results.json",
+      "hash": "92f0b29a0751c04c5d510ce238feca2b"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_de-tool_en/eval_results.json",
+      "hash": "0794a30ea3f3a4fc940d86b0a5c24eb9"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_de-tool_de/eval_results.json",
+      "hash": "e37997b6e6a4619d05ee0827333c2f92"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_de-tool_hi/eval_results.json",
+      "hash": "e5a3f2f2df9c57eeb645a5b610d350da"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_de-tool_zh/eval_results.json",
+      "hash": "261d015c6d6436099fd917dd863a760a"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_de-tool_es/eval_results.json",
+      "hash": "5946e9dc11d8b43d36ff5ab1cb7cbf70"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_de-tool_fr/eval_results.json",
+      "hash": "3ac351ab0e52095f4c9cfa9f6ae4765c"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_hi-tool_en/eval_results.json",
+      "hash": "d8e1b9f6b6a5e78e46c0c8bd685cd473"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_hi-tool_de/eval_results.json",
+      "hash": "35343f1625f5b43c949c8ed2f45950eb"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_hi-tool_hi/eval_results.json",
+      "hash": "555de18b83e8c69135cb05a1f0f3ca58"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_hi-tool_zh/eval_results.json",
+      "hash": "4f8722a113c8754d61b1eb700e840a6a"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_hi-tool_es/eval_results.json",
+      "hash": "5cc2b6cf6b5ae572423ee213953692bc"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_hi-tool_fr/eval_results.json",
+      "hash": "1b7a50ba60a49d22850f9d6c5e9e4a1e"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_zh-tool_en/eval_results.json",
+      "hash": "0b3eae59821e0f405a005f34dbb52bb4"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_zh-tool_de/eval_results.json",
+      "hash": "278c68e1187134656a9ad016e1b4e502"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_zh-tool_hi/eval_results.json",
+      "hash": "b9361a81b004c01298359e55da523451"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_zh-tool_zh/eval_results.json",
+      "hash": "b11bbaf157183858ebf8c2e7a1a52dc9"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_zh-tool_es/eval_results.json",
+      "hash": "51e0efe438b8eb2d76b23cc8383622a8"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_zh-tool_fr/eval_results.json",
+      "hash": "0ccb282d77851317933d07f924de92e1"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_es-tool_en/eval_results.json",
+      "hash": "72a1161a8c6f89eb8c1174e5a399d25d"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_es-tool_de/eval_results.json",
+      "hash": "2a217965470a59bc88d5f778eb5cc985"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_es-tool_hi/eval_results.json",
+      "hash": "3993d1204c4d3518747c190c489230ae"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_es-tool_zh/eval_results.json",
+      "hash": "372bcf06b07c3253cc9e83ca07bd1e26"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_es-tool_es/eval_results.json",
+      "hash": "8417eab177e3df935a143bc45984c05a"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_es-tool_fr/eval_results.json",
+      "hash": "cc8d6c4e9f5b8670d9e297ff43cf59b9"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_fr-tool_en/eval_results.json",
+      "hash": "eebe78c15d99267f2ed55a605ff80734"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_fr-tool_de/eval_results.json",
+      "hash": "ed60ff47ed956a80241f81d6002033a5"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_fr-tool_hi/eval_results.json",
+      "hash": "93232eb2b366e49aa3962b17d29e6429"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_fr-tool_zh/eval_results.json",
+      "hash": "b07e5fda7ece41bea0813db4e2e40985"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_fr-tool_es/eval_results.json",
+      "hash": "dae6627ee3b256530559eda67ffb9a2f"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/llama/llama3.1-70b/input-user_fr-tool_fr/eval_results.json",
+      "hash": "8bd3c4be31680042ca3e3f905e48c076"
+    }
+  ]
+}

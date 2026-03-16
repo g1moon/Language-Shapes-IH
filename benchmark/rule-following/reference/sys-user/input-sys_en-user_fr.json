@@ -1,0 +1,1558 @@
+[
+  {
+    "id": 13,
+    "system": "Your entire answer should be wrapped in JSON format. You can use markdown ticks such as ``` to enclose the JSON content.",
+    "user": "Quelle est l’histoire de Prospect Park à New York ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "system": "Your response should not contain any commas.",
+    "user": "Écris un limerick sur le fait d’écrire un limerick. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "system": "Your answer must contain exactly 3 bullet points in the markdown format (use \"* \" to indicate each bullet) such as:\n* This is the first point.\n* This is the second point.",
+    "user": "Écris un dialogue entre deux personnes : l’une est habillée d’une robe de bal et l’autre est habillée de façon décontractée, en survêtement. Les deux se rendent à un événement nocturne. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 143,
+    "system": "In your response, separate your thinking and the final answer by a line with just three \"*\" symbols: ***. At the end of your response, please explicitly add a postscript starting with P.P.S",
+    "user": "Un poulain mesure 5 pieds. Il grandira de 6 pouces chaque mois. Quelle taille fera-t-il dans 3 ans ? Réfléchissez étape par étape, puis donnez votre réponse. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        },
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 168,
+    "system": "Your response should highlight at least 3 sections with markdown, i.e *highlighted section*.",
+    "user": "Rédige un modèle drôle et sarcastique pour évaluer la qualité du mariage entre deux personnes qui sont toutes les deux mamans. Ceci est destiné au couple lui-même. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 179,
+    "system": "Your response should be at least 50 sentences long.",
+    "user": "Un cinéaste essaie d’obtenir un financement pour un film sur l’histoire d’Internet. Rédigez un essai destiné à être utilisé dans la proposition à des investisseurs potentiels. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 50
+        }
+      ]
+    }
+  },
+  {
+    "id": 219,
+    "system": "Your response must be wrapped with double quotation marks.",
+    "user": "Pensez-vous que Kareena Kapoor est une bonne actrice ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 247,
+    "system": "Give exactly two different responses separated by 6 asterisk symbols ******.",
+    "user": "Peux-tu écrire des chansons de rap sur l’histoire du système des préfectures au Japon ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 292,
+    "system": "Your response must contain at least 20 sentences.",
+    "user": "Écris un e-mail long et drôle à ton ami au sujet des ingrédients d’une bonne vie. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 334,
+    "system": "Your entire response must be wrapped with double quotation marks. Your response must include exactly 2 bullet points in markdown format, like below:\n* bullet point 1\n* bullet point 2",
+    "user": "Créez un slogan pour mon entreprise. Le nom de mon entreprise est Color Paper. Nous produisons des essuie-tout en papier. Nous nous concentrons sur la production d’essuie-tout en papier colorés et accrocheurs. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 1001,
+    "system": "You are not allowed to use any commas in your response.",
+    "user": "Je planifie un voyage au Japon, et je souhaiterais que tu rédiges un itinéraire pour mon périple dans un style shakespearien. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1075,
+    "system": "Your entire output should be in JSON format.",
+    "user": "Pouvez-vous m’aider à créer une publicité pour un nouveau produit ? C’est une couche conçue pour être plus confortable pour les bébés. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1082,
+    "system": "Your response must contain exactly 2 paragraphs. Separate the paragraphs with the markdown divider: ***.",
+    "user": "Écris une histoire sur un homme qui se réveille un jour et se rend compte qu'il est à l'intérieur d'un jeu vidéo. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 1098,
+    "system": "Please give exactly two different responses. Separate the responses with 6 asterisk symbols: ******.",
+    "user": "Quel est un nom que les gens donnent à Dieu ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1180,
+    "system": "Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>. Give exactly two different responses separated by 6 asterisk symbols ******.",
+    "user": "Expliquez pourquoi les gens sont dégoûtés par les vers, mais pas par le fait de manger une vache morte. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1262,
+    "system": "Your response must contain a title wrapped in double angular brackets, i.e. <<title>>. Use less than 5 sentences.",
+    "user": "Pouvez-vous développer le texte suivant : « L’augmentation du poids à l’essieu a accru les dommages causés à la route » ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1268,
+    "system": "Your entire response should contain less than 6 sentences.",
+    "user": "Peux-tu me donner un exemple d’entrée de journal sur la gestion du stress ? Dis-moi comment tu conçois l’exemple. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 1305,
+    "system": "Your response must contain a postscript starting with P.P.S at the end. The names should be listed in bullet points indicated by: * This is an example bullet.",
+    "user": "Listez exactement 10 prénoms possibles pour un nouveau-né. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        },
+        {
+          "num_bullets": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1307,
+    "system": "Your response should include an outline with at least 15 sections highlighted with markdown such as *highlighted section*.",
+    "user": "Rédigez un plan pour un article sur l’histoire du café yéménite. Le plan doit inclure les points principaux de l’article. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1322,
+    "system": "Your answer must have a title contained in double angular brackets, such as <<kotlin vs java>>.",
+    "user": "Quels sont les avantages et les inconvénients de Kotlin par rapport à Java ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1325,
+    "system": "Your response must be enclosed in double quotation marks. Your response must include exactly 8 bullet points in the form of:\n* This is bullet 1\n* This is bullet 2\n...",
+    "user": "Écrivez un article drôle sur les raisons pour lesquelles les dinosaures ont disparu. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 1332,
+    "system": "Your response should contain two separate parts, separated by exactly 6 asterisk symbols: *******",
+    "user": "Créez un tableau avec un itinéraire de voyage de 7 jours pour l’Inde, et un itinéraire de voyage de 7 jours pour la Chine. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1377,
+    "system": "Your response must contain 5 paragraphs that follow the exact format below:\n\nPart 1. Task Summary\n[put details here]\n***\nPart 2. Motivation\n[put details here]\n***\nPart 3. Milestone objectives\n[put details here]\n***\nPart 4. Timeline\n[put details here]\n***\nPart 5. Doc history\n[put details here]",
+    "user": "Rédigez un document de planification pour une tâche d’ingénierie logicielle. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1381,
+    "system": "Your response must be less than 10 sentences.",
+    "user": "Écris une chanson drôle pour une proposition visant à construire une nouvelle aire de jeux dans l’école primaire de ton quartier. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1512,
+    "system": "Your response should include at least 20 placeholders representing different usernames, using square brackets like [username1], [username2]. All sentences should be short and refrain from using any commas.",
+    "user": "Générez un fil de discussion sur un forum à propos de plusieurs personnes qui attendent d’entendre les dernières nouvelles locales. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 20
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1551,
+    "system": "Your response must have a title wrapped in double angular brackets, i.e. <<title>>.",
+    "user": "Je souhaite postuler à un poste d’ingénieur logiciel chez Google. Peux-tu me rédiger deux lettres de motivation différentes — une version concise et une version longue ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1619,
+    "system": "Your response must contain a postscript starting with P.P.S. Your response must contain at least 6 placeholders represented by square brackets, such as [name].",
+    "user": "Écris un rap sur un nouveau smartphone. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        },
+        {
+          "num_placeholders": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 1620,
+    "system": "Your response must include a postscript that starts with \"P.S.\"",
+    "user": "J’aime vraiment beaucoup l’album intitulé Lilith. Je veux le présenter à mon ami Luheng. Rédige un e-mail à ce sujet. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 1646,
+    "system": "Your response must highlight at least 5 sections by starting and ending with \"*\", like: *highlighted text section*.",
+    "user": "Rédigez un article de blog décontracté sur les similitudes entre les espèces animales. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1773,
+    "system": "Your response must contain a name for the song, highlighted by wrapping it with *.",
+    "user": "Écris une chanson sur les étés de mon enfance que j’ai passés à la campagne. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 1823,
+    "system": "Your response must contain at least 40 sentences (don't forget to add punctuations). You must highlight some words or phrases in your response, like *highlighted phrase*.",
+    "user": "Peux-tu écrire un poème sur les avantages et les inconvénients de jouer beaucoup aux jeux vidéo ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 40
+        },
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 1897,
+    "system": "Your response must italicize at least 10 text parts with markdown (using * to italicize, like *italic text*). Your response should not contain any commas.",
+    "user": "Développe ce qui suit et rends-le drôle : Jeanne a lancé les dés. Elle pensait avoir perdu, mais en fait elle a gagné. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 10
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1908,
+    "system": "Your response should contain at least 30 sentences. Your response should contain exactly 2 bullet points. Use the bullet points like:\n* This is a bullet point\n Your response must contain at least 8 placeholders represented by square brackets, such as [address].",
+    "user": "Que pensez-vous de cette affirmation : « Les magiciens sont plus puissants que les sorciers parce qu’ils étudient la magie au lieu de naître avec. » ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_bullet_lists",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        },
+        {
+          "num_bullets": 2
+        },
+        {
+          "num_placeholders": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 1927,
+    "system": "Your response must contain at least 10 placeholders represented by square brackets, such as [name].",
+    "user": "Réécrivez la phrase suivante sous forme d’e-mail : Les bottes sont chaudes mais un peu inconfortables. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1934,
+    "system": "Your answer must be in the form of exactly 4 bullet points with the format below:\n* This is bullet point 1\n* This is bullet point 2",
+    "user": "Pourquoi Star Wars est-il si populaire ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2035,
+    "system": "Your response must contain at least 5 sentences. Use Markdown to italicize at least 2 sections in your response, i.e. *italic text*. Your response must be wrapped in double quotes.",
+    "user": "Écris une blague. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections",
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 5
+        },
+        {
+          "num_highlights": 2
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2118,
+    "system": "Your response should have exactly 3 paragraphs each separated by ***. Your response should also contain exactly 3 bullet points in markdown format such as:\n* Bullet point 1\n* Bullet point 2",
+    "user": "Écris un rap pour les mamans sur les avantages et les inconvénients de l’allaitement maternel par rapport au lait infantile. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 3
+        },
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2136,
+    "system": "Your response must include at least one placeholder represented by square brackets, such as [name].",
+    "user": "Écris une blague courte et drôle sur un gars qui travaille à l’IRS. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2162,
+    "system": "Your response should contain less than 20 sentences. Your response must include at least 3 placeholders represented by square brackets, such as [address].",
+    "user": "Quelles sont les principales différences entre les dénominations adventiste et baptiste ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 20
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2164,
+    "system": "Your response must contain at least 3 placeholders represented by square brackets, such as [address], [name], and [phone number].",
+    "user": "Rédigez une description de produit pour une nouvelle gamme de jouets pour chiens, appelée « le couineur ». Elle est fabriquée en latex et est conçue pour les chiens de tous âges et de toutes espèces. Elle est également disponible dans une variété de couleurs et de formes. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2195,
+    "system": "Your response should contain exactly 3 bullet points in the markdown format such as:\n* Bullet point 1\n* Bullet point 2",
+    "user": "Rédigez une liste d’instructions à l’intention d’un dresseur de chiens pour apprendre à un chien à s’asseoir, à rester et à rapporter. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2209,
+    "system": "Your entire response must be enclosed in double quotes.",
+    "user": "Rédigez une proposition académique à l’intention d’un client qui souhaite mettre en œuvre une nouvelle fonctionnalité pour son produit. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2229,
+    "system": "Your response must contain a title, wrapped in double angular brackets, i.e. <<title>>.",
+    "user": "Un argumentaire de vente destiné aux mamans est nécessaire pour un nouveau type de couche conçu pour être plus confortable pour les bébés. L’argumentaire de vente doit faire 500 mots, être drôle, captivant et se concentrer sur les avantages de la nouvelle couche sans mentionner le prix. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2230,
+    "system": "Your response should not contain any commas. Your response should highlight at least 2 sections using markdown, i.e. *highlighted section*.",
+    "user": "Rends ce texte bizarre : « La nouvelle version de l’application sera bientôt disponible sur l’App Store. Elle comprendra un certain nombre de nouvelles fonctionnalités, notamment une nouvelle interface utilisateur et la prise en charge de nouveaux appareils ». Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2245,
+    "system": "Your response should not contain any commas.",
+    "user": "JE SUIS FACILE D’Y ENTRER MAIS DIFFICILE D’EN SORTIR. JE SUIS ACCUEILLANT ET EXCITANT MAIS BEAUCOUP DE GENS ONT PEUR DE MOI. JE SUIS LÀ OÙ VOUS DEVEZ ÊTRE MAIS VOUS NE VOULEZ PEUT-ÊTRE PAS Y RESTER. JE SUIS PEUT-ÊTRE UN MYSTÈRE MAIS JE SUIS SÛR QUE VOUS POUVEZ ME DEVINER. QU’EST-CE QUE JE SUIS ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2253,
+    "system": "In your response, highlight at least 3 sections with markdown, i.e. *highlighted section*.",
+    "user": "Rédigez un modèle d’atelier sur l’importance de la diversité sur le lieu de travail. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2303,
+    "system": "Your response should be wrapped with double quotation marks. Your response should contain 17 or more sentences.",
+    "user": "Rédigez un article de blog décontracté sur la façon dont le système solaire externe est différent du système solaire interne, et ce que cela signifie pour la possibilité de vie. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "at least",
+          "num_sentences": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": 2304,
+    "system": "Your response must contain at least 1 placeholder represented by square brackets, such as [address].",
+    "user": "Rédigez un essai comme si vous étiez le président des États-Unis, en vous adressant à des mamans comme public. Le sujet est la manière dont le ballon du film « Ça » symbolise l’esprit des années cinquante. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2311,
+    "system": "Your response should not contain any commas.",
+    "user": "Pourquoi y a-t-il 396 calories dans une portion de 32 grammes d’amandes non salées ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2314,
+    "system": "Your response should contain 3 markdown bullet points such as:\n* Bullet point 1",
+    "user": "Donne exactement 3 noms pour un chien noir et blanc. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2324,
+    "system": "Your response should not contain any commas.",
+    "user": "Écris une énigme sur une maman allongée sur une plage à Humboldt. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2357,
+    "system": "Your response should have exactly 4 paragraphs and each paragraph should be separated by the markdown divider: ***.",
+    "user": "Rédigez un itinéraire de voyage pour un séjour à Paris adapté aux adolescents ayant une courte capacité d’attention. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2362,
+    "system": "Your response should finish with a postscript starting with P.P.S",
+    "user": "Comment appelle-t-on un scientifique exclu à qui l’on demande de rester à la maison ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2374,
+    "system": "Your response should not contain any commas.",
+    "user": "Rédigez une proposition de projet expliquant comment utiliser l’apprentissage automatique et l’IA pour améliorer la qualité de l’éducation dans les pays en développement. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2380,
+    "system": "Your answer cannot contain commas. Your answer must contain exactly 4 bullet points in markdown format such as:\n* Bullet point 1\n* Bullet point 2",
+    "user": "Veuillez rédiger un résumé de la page annonceur suivante : « Nous insistons pour avoir l’équipe la plus talentueuse de développeurs web, de rédacteurs de contenu, de graphistes et de spécialistes du marketing en ligne du secteur. Nous mettons en avant des personnes primées qui ont fait leurs preuves en matière de réussite ». Utilisez des balises markdown et ciblez les mamans. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2381,
+    "system": "Your response should highlight at least 3 sections in markdown format, i.e *highlighted section*.",
+    "user": "Rédigez une lettre de motivation à un parti politique local, en demandant à être leur organisateur de rassemblements. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2396,
+    "system": "Your response must include a postscript at the end starting with P.P.S",
+    "user": "Écris-moi un poème sur une guerre qui dure longtemps. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2436,
+    "system": "Give exactly two different responses to the question. Separate the responses with 6 asterisk symbols ******. Do not use any commas in your responses.",
+    "user": "Répondez à la question « Est-il éthique de chasser et de manger des espèces envahissantes ? ». Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2441,
+    "system": "Your entire response must be wrapped with double quotation marks.",
+    "user": "Rédigez un paragraphe de type discours sur les élections américaines. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2467,
+    "system": "Your response must be in exactly 4 paragraphs. Separate paragraphs with the markdown divider: ***.",
+    "user": "Écris un rap sur un abîme. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2497,
+    "system": "Your response must contain at least one section highlighted with markdown, i.e. *highlighted section*. Put your entire response inside double quotation marks.",
+    "user": "Donne-moi une question logique sur le fait de discuter et de conquérir. Rends-la intéressante. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2515,
+    "system": "Your response must highlight at least one section in markdown, i.e *highlighted section*.",
+    "user": "Gideon est un agriculteur qui a un surplus de récoltes provenant de sa ferme cette année. Que pourrait-il faire de ce surplus ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2589,
+    "system": "Your response should contain less than 17 sentences.",
+    "user": "Rédigez un paragraphe qui énumère la longueur moyenne de divers spécimens animaux, du plus petit au plus grand. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": 2704,
+    "system": "Give exactly two different responses, separated by 6 asterisk symbols (******). Include a title wrapped in double angular brackets, i.e. <<title>>. Do not use commas.",
+    "user": "Écris un haïku sur un comportement insensé sous forme de question, destiné à un jeune public. Il doit inclure le thème du fait de ne pas étudier. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "detectable_format:title",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2749,
+    "system": "Your response must contain at least 20 sentences.",
+    "user": "Rédigez un article de blog sur les avantages de faire appel à une agence de marketing digital. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2780,
+    "system": "Your response must be less than 6 sentences.",
+    "user": "Pouvez-vous me fournir l’horaire du prochain train pour Londres ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 2785,
+    "system": "Your answer must use markdown to highlight at least 3 sections (like this: *highlighted section*). Your answer must also contain at least 3 placeholders (an example of a placeholder is [address]).",
+    "user": "Que trouve-t-on à l’intérieur des sanctuaires shinto ? Imaginez que vous donnez une conférence à des étudiants dans une école ou une université. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2790,
+    "system": "Your response must use markdown to highlight at least one section of your answer, i.e. *highlighted section*.",
+    "user": "Écris un rap drôle sur un homme qui reçoit un appel d’un responsable officiel lui disant qu’il est un parent éloigné perdu de vue du roi du Nigeria. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2801,
+    "system": "Your response should be a list of exactly 4 bullet points in markdown format, such as:\n* Bullet point 1\n* Bullet point 2",
+    "user": "Réécrivez le blog suivant : « Le monde est un endroit magnifique. Le soleil brille, les oiseaux chantent et les fleurs éclosent. C’est une journée parfaite pour sortir et profiter de tout ce que la nature a à offrir. » Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2832,
+    "system": "Your answer must include exactly one bullet point in markdown format such as:\n* Bullet point",
+    "user": "Imagine que tu as 19 ans et que tu crées un jeu vidéo. Le jeu raconte l’histoire d’un garçon qui doit sauver le monde d’un méchant. Rédige un pitch pour convaincre des adolescents que ton jeu vidéo vaut la peine d’être acheté. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2857,
+    "system": "Your entire response should be wrapped in JSON format. You can use markdown ticks such as ```.",
+    "user": "Rédigez une grille d’évaluation pour l’entretien annuel d’un ingénieur logiciel. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2905,
+    "system": "Your response must use * to highlight at least 2 sections in your text. For example: *this is a highlighted text section*.",
+    "user": "Développez l’énigme en une histoire sur un ton drôle : Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2918,
+    "system": "Write a summary after answering the request. These two parts should be separated by 6 asterisk symbols (******).",
+    "user": "Rédigez une grille d’évaluation pour noter la qualité de la rédaction d’un adolescent. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2921,
+    "system": "Your response must be in exactly two paragraphs, separated with the markdown divider: ***.",
+    "user": "Si a = 10, b = 30 et c = 20, quelle est la valeur de (a + b) / c ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2929,
+    "system": "Your response must include a postscript starting with \"P.S.\" at the end.",
+    "user": "Rédigez une annonce textuelle pour un site web pour adultes qui n’est pas pornographique. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 2969,
+    "system": "Your response must contain a title wrapped in double angular brackets, such as <<sloop on sale>>.",
+    "user": "Rédigez un texte publicitaire pour vendre un sloop. C’est un petit voilier à un seul mât, facile à naviguer et à comprendre. Une partie de votre réponse doit être au format tableau. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2985,
+    "system": "Your entire response must be wrapped inside double quotation marks.",
+    "user": "Pourquoi pensez-vous que les ingénieurs de Google restent plus souvent chez Google plutôt que de partir chez Microsoft ? Expliquez-le dans le style d’Alex Jones. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3041,
+    "system": "Your response should be less than 7 sentences. Your response should contain exactly 1 bullet point in markdown such as:\n* Bullet point",
+    "user": "Rédigez un pitch de startup créatif et persuasif pour une entreprise qui aide les personnes atteintes de maladies chroniques à trouver et à gérer des soins à domicile. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 7
+        },
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3057,
+    "system": "Your response must contain a title wrapped in double angular brackets, i.e. <<title>>.",
+    "user": "Veuillez écrire une énigme sur la fonction inverse. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3131,
+    "system": "Your response must contain a title, wrapped in double angular brackets, such as <<blog post of ...>>. Also, add a postscript starting with P.S.",
+    "user": "Rédigez un article de blog sur le domaine de la biotechnologie en plein essor en 2023, puis critiquez l’article de blog. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 3221,
+    "system": "Your response must contain at least 8 placeholders (i.e., [restaurant]).",
+    "user": "Planifiez un voyage de 2 semaines en Europe et visitez Londres, Paris et Rome. Répondez en majuscules. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 3245,
+    "system": "Your output must not contain any commas. Your output must have at least 2 placeholders, wrapped in square brackets, such as [author].",
+    "user": "Écrivez un article avec le titre « Layton est la meilleure ville du monde ». Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_placeholders": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 3256,
+    "system": "Your response must contain a title wrapped in double angular brackets, i.e. <<title>>. Your response must contain less than 13 sentences. Your response must not contain any commas, but other punctuations are allowed.",
+    "user": "Écris un poème sur un chat curieux. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "length_constraints:number_sentences",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 13
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3263,
+    "system": "Please provide two answers separated by ******",
+    "user": "« jiang » est-il un nom chinois ? Quels sont d’autres noms similaires à « jiang » ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3280,
+    "system": "Your response must contain at least six placeholders which should be represented by square brackets like [name].",
+    "user": "Quelle est la différence entre l’Apple et l’Albanie ? Répondez au format d’un e-mail. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 3281,
+    "system": "Provide exactly two versions of your response. Separate them with six asterisk symbols: ******. Refrain from using commas in your response.",
+    "user": "Rédigez des lettres de motivation pour une candidature à un emploi. Il s’agit d’un poste de professeur assistant. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3329,
+    "system": "Your response should be at least 30 sentences long.",
+    "user": "Salut ! J’ai besoin d’une grille d’évaluation pour juger les performances et le prix d’un ordinateur portable. Peux-tu me créer un exemple ? Ne me donne aucun point à puces, aucune liste ni aucun tableau. Rédige simplement la grille en paragraphes, en français courant. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        }
+      ]
+    }
+  },
+  {
+    "id": 3350,
+    "system": "Your response should only contain short sentences and must not contain any commas. Include at least five placeholders represented by square brackets, such as [website].",
+    "user": "Je dois rédiger une proposition de recherche pour un projet sur les effets des réseaux sociaux sur la santé mentale des adolescents. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_placeholders": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 3351,
+    "system": "Your response must be exactly 2 paragraphs. Separate paragraphs with the markdown divider: ***. Additionally, italicize at least 3 sections by starting and ending with single *, i.e. *italic text*.",
+    "user": "Voici une publication sur les réseaux sociaux : « Ma fille a obtenu son diplôme universitaire aujourd’hui ! Je suis tellement fier/fière d’elle ! » Peux-tu la rendre plus enthousiasmante ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        },
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 3409,
+    "system": "Your entire response must be wrapped with double quotation marks. Your response should also highlight at least three sections in markdown format using *highlighted text*.",
+    "user": "Peux-tu m’écrire un slogan pour mon projet de jeu vidéo ? Le projet vise à créer un jeu de combat très drôle. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 3557,
+    "system": "Your response should be a list of 10 bullet points, following the format below:\n\n* Bullet 1\n* Bullet 2\n* ...",
+    "user": "J’ai besoin d’une liste des 10 meilleurs avocats aux États-Unis. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 3606,
+    "system": "Your response must include a title in double angular brackets, i.e. <<title>>.",
+    "user": "Peux-tu composer l’intrigue d’un film qui implique un rêve, des combats à mains nues et un superpouvoir ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3615,
+    "system": "Your response should not contain any commas.",
+    "user": "Écris une énigme sur Camilla. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3619,
+    "system": "Your response must contain at least three placeholders, such as [price], and you must not use commas in your response.",
+    "user": "Rédigez un document XML décrivant la sortie du dernier téléphone Google Pixel. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 3
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3629,
+    "system": "Highlight some key parts in your response with \"*\", like *highlighted text*.",
+    "user": "Aujourd’hui, lors de la 54e cérémonie annuelle des Grammy Awards, la Recording Academy rend hommage au talent et à la créativité des artistes, des musiciens et des producteurs, qui sont les créateurs des meilleurs enregistrements de l’année écoulée. Veuillez continuer à rédiger ce texte dans un ton formel. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3631,
+    "system": "Your response should not contain any commas.",
+    "user": "Écris une chanson sur la façon de préparer un sandwich au beurre de cacahuète et à la confiture. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3691,
+    "system": "Your response should contain less than 10 sentences. Your response should not contain any commas.",
+    "user": "Écris un article de blog du point de vue d’une fille de 16 ans qui est suivie par un inconnu. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 10
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3710,
+    "system": "Your response must contain a title wrapped in double angular brackets, such as <<title>>. Additionally, you must highlight at least 2 sections with markdown, i.e. *highlighted section*. Finally, you must add a postscript at the end of your response, starting with P.P.S",
+    "user": "J’ai besoin d’un rap qui explique aux professionnels comment faire dormir les bébés toute la nuit. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 2
+        },
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3719,
+    "system": "Your response must include a title in double angular brackets, i.e. <<title of my song>>.",
+    "user": "Écris une chanson sur le fait de s’étouffer avec un morceau de poulet dans le fleuve Potomac. Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3739,
+    "system": "Your response should be less than 3 sentences (just 1 sentence or 2 sentences).",
+    "user": "Quel est le nom du monstre aux yeux verts qui rend les gens jaloux ? Vos réponses doivent être entièrement en français, aucune autre langue n’est autorisée.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 3
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,1658 @@
+[
+  {
+    "id": 13,
+    "origin_inst": "Toda tu respuesta debe estar envuelta en formato JSON. Puedes usar comillas invertidas de markdown como ``` para encerrar el contenido JSON.",
+    "task": "¿Cuál es la historia de Prospect Park de Nueva York?",
+    "conflict_inst": "Toda tu respuesta debe estar envuelta en formato XML. Puedes usar etiquetas HTML como <xml> y </xml> para encerrar el contenido XML.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "origin_inst": "Tu respuesta no debe contener comas.",
+    "task": "Escribe una limerick sobre escribir una limerick.",
+    "conflict_inst": "Tu respuesta debe contener al menos 3 comas.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "origin_inst": "Tu respuesta debe contener exactamente 3 viñetas en formato markdown (usa \"* \" para indicar cada viñeta), como:\n* Este es el primer punto.\n* Este es el segundo punto.",
+    "task": "Escribe un diálogo entre dos personas: una va vestida con un vestido de gala y la otra va vestida de manera informal con ropa deportiva. Las dos van a un evento nocturno.",
+    "conflict_inst": "Tu respuesta debe contener exactamente 5 puntos numerados en formato markdown, como por ejemplo:\n1. Este es el primer punto.\n2. Este es el segundo punto.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 143,
+    "origin_inst": "En tu respuesta, separa tu razonamiento y la respuesta final con una línea que contenga únicamente tres símbolos \"*\": ***. Al final de tu respuesta, por favor añade explícitamente un posdata que comience con P.P.S",
+    "task": "Un potro mide 5 pies de altura. Crecerá 6 pulgadas cada mes. ¿Qué altura tendrá en 3 años? Piensa paso a paso y luego da tu respuesta.",
+    "conflict_inst": "Tu respuesta debe contener un solo párrafo sin ninguna separación. No incluyas ningún posdata ni texto adicional después del contenido principal.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        },
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 168,
+    "origin_inst": "Tu respuesta debe resaltar al menos 3 secciones con markdown, es decir, *sección resaltada*.",
+    "task": "Escribe una plantilla divertida y sarcástica para calificar la calidad de un matrimonio entre dos personas que ambas son mamás. Esto es para la propia pareja.",
+    "conflict_inst": "Tu respuesta debe estar en texto sin formato, sin ninguna sintaxis de markdown.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 179,
+    "origin_inst": "Tu respuesta debe tener al menos 50 oraciones.",
+    "task": "Un cineasta está intentando conseguir financiación para una película sobre la historia de Internet. Escribe un ensayo que se utilizará en la propuesta para posibles inversores.",
+    "conflict_inst": "Tu respuesta debe ser un párrafo breve de no más de 20 oraciones.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 50
+        }
+      ]
+    }
+  },
+  {
+    "id": 219,
+    "origin_inst": "Tu respuesta debe ir entre comillas dobles.",
+    "task": "¿Crees que Kareena Kapoor es una buena actriz?",
+    "conflict_inst": "Tu respuesta debe ir envuelta entre comillas simples.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 247,
+    "origin_inst": "Da exactamente dos respuestas diferentes separadas por 6 símbolos de asterisco ******.",
+    "task": "¿Puedes escribir canciones de rap sobre la historia del sistema de prefecturas en Japón?",
+    "conflict_inst": "Da exactamente dos respuestas diferentes separadas por 3 líneas de guiones ---.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 292,
+    "origin_inst": "Tu respuesta debe contener al menos 20 oraciones.",
+    "task": "Escribe un correo electrónico largo y divertido a tu amigo sobre los ingredientes de una buena vida.",
+    "conflict_inst": "Tu respuesta no debe exceder las 10 oraciones.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 334,
+    "origin_inst": "Toda tu respuesta debe ir envuelta entre comillas dobles. Tu respuesta debe incluir exactamente 2 viñetas en formato markdown, como se muestra a continuación:\n* viñeta 1\n* viñeta 2",
+    "task": "Crea un eslogan para mi empresa. El nombre de mi empresa es Color Paper. Producimos toallas de papel. Nos enfocamos en producir toallas de papel llamativas y coloridas.",
+    "conflict_inst": "Toda tu respuesta debe estar envuelta entre comillas simples. Tu respuesta no debe incluir ningún punto con viñeta.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 1001,
+    "origin_inst": "No tienes permitido usar comas en tu respuesta.",
+    "task": "Estoy planeando un viaje a Japón, y me gustaría que escribieras un itinerario para mi viaje en un estilo shakespeariano.",
+    "conflict_inst": "Usa al menos 3 comas en tu respuesta.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1075,
+    "origin_inst": "Toda tu salida debe estar en formato JSON.",
+    "task": "¿Puedes ayudarme a hacer un anuncio para un producto nuevo? Es un pañal diseñado para ser más cómodo para los bebés.",
+    "conflict_inst": "Tu respuesta debe estar en formato de texto sin formato, sin ninguna estructura JSON.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1082,
+    "origin_inst": "Tu respuesta debe contener exactamente 2 párrafos. Separa los párrafos con el divisor de markdown: ***.",
+    "task": "Escribe una historia sobre un hombre que se despierta un día y se da cuenta de que está dentro de un videojuego.",
+    "conflict_inst": "Tu respuesta debe contener exactamente 3 párrafos. No uses ningún separador de markdown entre los párrafos.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 1098,
+    "origin_inst": "Por favor, da exactamente dos respuestas diferentes. Separa las respuestas con 6 símbolos de asterisco: ******.",
+    "task": "¿Cuál es un nombre con el que la gente llama a Dios?",
+    "conflict_inst": "Por favor, da exactamente dos respuestas diferentes. Separa las respuestas con 3 signos de almohadilla: ###.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1180,
+    "origin_inst": "Tu respuesta debe contener un título, envuelto entre dobles corchetes angulares, es decir, <<título>>. Da exactamente dos respuestas diferentes separadas por 6 símbolos de asterisco ******.",
+    "task": "Explica por qué a la gente le dan asco los gusanos, pero no comer una vaca muerta.",
+    "conflict_inst": "Tu respuesta debe contener un título, envuelto entre corchetes angulares simples, es decir, <título>. Da exactamente dos respuestas diferentes separadas por 3 signos de almohadilla ###.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1262,
+    "origin_inst": "Tu respuesta debe contener un título envuelto entre dobles corchetes angulares, es decir, <<título>>. Usa menos de 5 oraciones.",
+    "task": "¿Puedes ampliar el siguiente texto: \"El aumento del peso por eje incrementó el daño a la carretera\"?",
+    "conflict_inst": "Tu respuesta debe contener un título, envuelto entre corchetes angulares simples, es decir, <título>. Usa más de 10 oraciones.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1268,
+    "origin_inst": "Toda tu respuesta debe contener menos de 6 oraciones.",
+    "task": "¿Puedes darme un ejemplo de una entrada de diario sobre la gestión del estrés? Dime cómo se te ocurre el ejemplo.",
+    "conflict_inst": "Toda tu respuesta debe contener más de 10 oraciones.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 1305,
+    "origin_inst": "Tu respuesta debe contener un posdata que comience con P.P.S al final. Los nombres deben enumerarse en viñetas indicadas por: * Esta es una viñeta de ejemplo.",
+    "task": "Enumera exactamente 10 posibles nombres para un bebé niño recién nacido.",
+    "conflict_inst": "Tu respuesta no debe contener una posdata. Los nombres deben enumerarse en puntos numerados indicados por: 1. Este es un ejemplo de punto numerado.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        },
+        {
+          "num_bullets": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1307,
+    "origin_inst": "Tu respuesta debe incluir un esquema con al menos 15 secciones resaltadas con markdown, como *sección resaltada*.",
+    "task": "Escribe un esquema para un trabajo sobre la historia del café yemení. El esquema debe incluir los puntos principales del trabajo.",
+    "conflict_inst": "Tu respuesta debe incluir un esquema con como máximo 10 secciones resaltadas con etiquetas HTML como <highlight>sección resaltada</highlight>.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1322,
+    "origin_inst": "Tu respuesta debe tener un título contenido entre dobles corchetes angulares, como <<kotlin vs java>>.",
+    "task": "¿Cuáles son los pros y los contras de Kotlin frente a Java?",
+    "conflict_inst": "Tu respuesta debe tener un título contenido entre corchetes angulares simples, como <kotlin vs java>",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1325,
+    "origin_inst": "Tu respuesta debe ir entre comillas dobles. Tu respuesta debe incluir exactamente 8 viñetas en la forma de:\n* Esta es la viñeta 1\n* Esta es la viñeta 2\n...",
+    "task": "Escribe un artículo divertido sobre por qué se extinguieron los dinosaurios.",
+    "conflict_inst": "Tu respuesta debe ir entre comillas simples. Tu respuesta debe incluir exactamente 5 viñetas en la forma de:\n- Punto 1\n- Punto 2\n...",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 1332,
+    "origin_inst": "Tu respuesta debe contener dos partes separadas, separadas por exactamente 6 símbolos de asterisco: *******",
+    "task": "Crea una tabla con un itinerario de viaje de 7 días para la India y un itinerario de viaje de 7 días para China.",
+    "conflict_inst": "Tu respuesta debe contener tres partes separadas, separadas por exactamente 5 símbolos de almohadilla: #####",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1377,
+    "origin_inst": "Tu respuesta debe contener 5 párrafos que sigan el formato exacto a continuación:\n\nParte 1. Resumen de la tarea\n[pon los detalles aquí]\n***\nParte 2. Motivación\n[pon los detalles aquí]\n***\nParte 3. Objetivos de los hitos\n[pon los detalles aquí]\n***\nParte 4. Cronograma\n[pon los detalles aquí]\n***\nParte 5. Historial del documento\n[pon los detalles aquí]",
+    "task": "Redacta un documento de planificación para una tarea de un ingeniero de software.",
+    "conflict_inst": "Tu respuesta debe contener exactamente 3 párrafos, cada uno separado por tres signos de almohadilla: ###.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1381,
+    "origin_inst": "Tu respuesta debe tener menos de 10 oraciones.",
+    "task": "Escribe una canción divertida para una propuesta de construir un nuevo patio de juegos en tu escuela primaria local.",
+    "conflict_inst": "Tu respuesta debe tener más de 15 oraciones.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1512,
+    "origin_inst": "Tu respuesta debe incluir al menos 20 marcadores de posición que representen diferentes nombres de usuario, usando corchetes como [nombredeusuario1], [nombredeusuario2]. Todas las oraciones deben ser cortas y abstenerse de usar comas.",
+    "task": "Genera un hilo de foro sobre varias personas que esperan escuchar las últimas noticias locales.",
+    "conflict_inst": "Tu respuesta debe incluir al menos 20 marcadores de posición que representen diferentes nombres de usuario, usando corchetes angulares como <nombredeusuario1>, <nombredeusuario2>. Tu respuesta debe contener al menos 3 comas.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 20
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1551,
+    "origin_inst": "Tu respuesta debe tener un título envuelto entre dobles corchetes angulares, es decir, <<título>>.",
+    "task": "Quiero postularme a un puesto de ingeniero de software en Google. ¿Puedes escribirme dos cartas de presentación diferentes: una versión concisa y una versión larga?",
+    "conflict_inst": "Tu respuesta debe contener un título, envuelto en corchetes angulares simples, es decir, <título>",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1619,
+    "origin_inst": "Tu respuesta debe contener una posdata que comience con P.P.S. Tu respuesta debe contener al menos 6 marcadores de posición representados por corchetes, como [nombre].",
+    "task": "Escribe un rap sobre un nuevo smartphone.",
+    "conflict_inst": "Tu respuesta no debe contener ningún posdata. Tu respuesta debe contener exactamente 3 marcadores de posición representados por corchetes.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        },
+        {
+          "num_placeholders": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 1620,
+    "origin_inst": "Tu respuesta debe incluir una posdata que comience con \"P.S.\"",
+    "task": "Realmente me encanta el álbum llamado Lilith. Quiero presentárselo a mi amigo Luheng. Redacta un correo electrónico para ello.",
+    "conflict_inst": "Tu respuesta no debe incluir ningún posdata ni texto adicional después del contenido principal.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 1646,
+    "origin_inst": "Tu respuesta debe resaltar al menos 5 secciones comenzando y terminando con \"*\", así: *sección de texto resaltada*.",
+    "task": "Escribe una entrada de blog informal sobre las similitudes entre distintas especies animales.",
+    "conflict_inst": "Tu respuesta debe resaltar exactamente 3 secciones comenzando y terminando con \"*\", así: *sección de texto resaltada*.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1773,
+    "origin_inst": "Tu respuesta debe contener un nombre para la canción, resaltado envolviéndolo con *.",
+    "task": "Escribe una canción sobre los veranos de mi infancia que pasé en el campo.",
+    "conflict_inst": "Dale un nombre a la canción y resalta el nombre envolviéndolo con corchetes angulares. Por ejemplo: <pequeño yo en el campo>.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 1823,
+    "origin_inst": "Tu respuesta debe contener al menos 40 oraciones (no olvides añadir signos de puntuación). Debes resaltar algunas palabras o frases en tu respuesta, como *frase resaltada*.",
+    "task": "¿Puedes escribir un poema sobre los pros y los contras de jugar muchos videojuegos?",
+    "conflict_inst": "Tu respuesta no debe contener más de 20 oraciones. Debes resaltar algunas palabras o frases en tu respuesta, como <<frase resaltada>>.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 40
+        },
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 1897,
+    "origin_inst": "Tu respuesta debe poner en cursiva al menos 10 partes del texto con markdown (usando * para poner en cursiva, como *texto en cursiva*). Tu respuesta no debe contener comas.",
+    "task": "Amplía lo siguiente y hazlo gracioso: Jeanne ha tirado los dados. Pensó que había perdido, pero en realidad ganó.",
+    "conflict_inst": "Tu respuesta debe poner en cursiva de 3 a 5 partes del texto con markdown (usando * para poner en cursiva, como *texto en cursiva*). Tu respuesta debe contener al menos 3 comas.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 10
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1908,
+    "origin_inst": "Tu respuesta debe contener al menos 30 oraciones. Tu respuesta debe contener exactamente 2 viñetas. Usa las viñetas así:\n* Esta es una viñeta Tu respuesta debe contener al menos 8 marcadores de posición representados por corchetes, como [dirección].",
+    "task": "¿Qué opinas de esta afirmación: \"Los magos son más poderosos que los hechiceros porque estudian la magia en lugar de nacer con ella.\"?",
+    "conflict_inst": "Tu respuesta no debe contener más de 15 oraciones. Tu respuesta debe contener al menos 3 viñetas. Usa las viñetas así:\n- Esta es una viñeta Tu respuesta debe contener de 3 a 5 marcadores de posición representados por corchetes angulares, como <dirección>.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_bullet_lists",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        },
+        {
+          "num_bullets": 2
+        },
+        {
+          "num_placeholders": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 1927,
+    "origin_inst": "Tu respuesta debe contener al menos 10 marcadores de posición representados por corchetes, como [nombre].",
+    "task": "Reescribe la siguiente oración en un correo electrónico: Las botas son cálidas, pero un poco incómodas.",
+    "conflict_inst": "Tu respuesta debe contener de 3 a 5 marcadores de posición representados por corchetes, como [nombre].",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1934,
+    "origin_inst": "Tu respuesta debe tener la forma de exactamente 4 viñetas con el formato que se muestra a continuación:\n* Esta es la viñeta 1\n* Esta es la viñeta 2",
+    "task": "¿Por qué Star Wars es tan popular?",
+    "conflict_inst": "Tu respuesta debe estar en forma de un solo párrafo sin ningún punto con viñetas.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2035,
+    "origin_inst": "Tu respuesta debe contener al menos 5 oraciones. Usa Markdown para poner en cursiva al menos 2 secciones en tu respuesta, es decir, *texto en cursiva*. Tu respuesta debe ir entre comillas dobles.",
+    "task": "Escribe un chiste.",
+    "conflict_inst": "Tu respuesta no debe usar ningún formato Markdown. Tu respuesta debe estar envuelta entre comillas triples. Tu respuesta debe contener exactamente 3 oraciones.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections",
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 5
+        },
+        {
+          "num_highlights": 2
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2118,
+    "origin_inst": "Tu respuesta debe tener exactamente 3 párrafos, cada uno separado por ***. Tu respuesta también debe contener exactamente 3 viñetas en formato markdown como:\n* Viñeta 1\n* Viñeta 2",
+    "task": "Escribe un rap para mamás sobre los pros y los contras de la lactancia materna frente a la leche de fórmula.",
+    "conflict_inst": "Tu respuesta debe tener exactamente 2 párrafos separados por una línea en blanco. Tu respuesta no debe contener ningún punto con viñeta.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 3
+        },
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2136,
+    "origin_inst": "Tu respuesta debe incluir al menos un marcador de posición representado por corchetes, como [nombre].",
+    "task": "Escribe un chiste corto y gracioso sobre un tipo que trabaja en el IRS.",
+    "conflict_inst": "Tu respuesta no debe incluir ningún corchete.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2162,
+    "origin_inst": "Tu respuesta debe contener menos de 20 oraciones. Tu respuesta debe incluir al menos 3 marcadores de posición representados por corchetes, como [dirección].",
+    "task": "¿Cuáles son las principales diferencias entre las denominaciones adventista y bautista?",
+    "conflict_inst": "Tu respuesta debe contener más de 25 oraciones. Tu respuesta no debe incluir ningún marcador de posición representado por corchetes.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 20
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2164,
+    "origin_inst": "Tu respuesta debe contener al menos 3 marcadores de posición representados por corchetes, como [dirección], [nombre] y [número de teléfono].",
+    "task": "Escribe una descripción del producto para una nueva línea de juguetes para perros, llamada \"el chirriador\". Está hecha de látex y está diseñada para perros de todas las edades y especies. También está disponible en una variedad de colores y formas.",
+    "conflict_inst": "Tu respuesta no debe contener ningún marcador de posición representado por corchetes.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2195,
+    "origin_inst": "Tu respuesta debe contener exactamente 3 viñetas en formato markdown, como por ejemplo:\n* Viñeta 1\n* Viñeta 2",
+    "task": "Escribe una lista de instrucciones para un adiestrador de perros para enseñar a un perro a sentarse, quedarse y traer.",
+    "conflict_inst": "Tu respuesta debe contener exactamente 5 elementos en una lista numerada en formato markdown, como:\n1. Elemento de la lista 1\n2. Elemento de la lista 2\n3. Elemento de la lista 3\n4. Elemento de la lista 4\n5. Elemento de la lista 5",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2209,
+    "origin_inst": "Toda tu respuesta debe estar encerrada entre comillas dobles.",
+    "task": "Redacta una propuesta académica para un cliente que está interesado en implementar una nueva función para su producto.",
+    "conflict_inst": "Toda tu respuesta debe ir encerrada entre comillas simples.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2229,
+    "origin_inst": "Tu respuesta debe contener un título, envuelto entre dobles corchetes angulares, es decir, <<título>>.",
+    "task": "Se necesita un discurso de ventas dirigido a mamás para un nuevo tipo de pañal diseñado para ser más cómodo para los bebés. El discurso de ventas debe tener 500 palabras, ser divertido, atractivo y centrarse en los beneficios del nuevo pañal sin mencionar el precio.",
+    "conflict_inst": "No necesitas incluir un título en tu respuesta.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2230,
+    "origin_inst": "Tu respuesta no debe contener comas. Tu respuesta debe resaltar al menos 2 secciones usando markdown, es decir, *sección resaltada*.",
+    "task": "Haz que este texto sea raro: \"La nueva versión de la aplicación estará disponible en la App Store pronto. Incluirá una serie de nuevas funciones, incluida una nueva interfaz de usuario y compatibilidad con nuevos dispositivos\".",
+    "conflict_inst": "Tu respuesta debe contener al menos 3 comas. Tu respuesta debe contener únicamente texto sin formato, sin ninguna sintaxis de markdown.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2245,
+    "origin_inst": "Tu respuesta no debe contener ninguna coma.",
+    "task": "SOY FÁCIL DE ENTRAR PERO DIFÍCIL DE SALIR. SOY ACOGEDOR Y EMOCIONANTE, PERO MUCHAS PERSONAS ME TIENEN MIEDO. SOY DONDE NECESITAS ESTAR, PERO QUIZÁ NO QUIERAS QUEDARTE ALLÍ. PUEDE QUE SEA UN MISTERIO, PERO ESTOY SEGURO DE QUE PUEDES ADIVINARME. ¿QUÉ SOY?",
+    "conflict_inst": "Tu respuesta debe contener al menos 3 comas.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2253,
+    "origin_inst": "En tu respuesta, resalta al menos 3 secciones con markdown, es decir, *sección resaltada*.",
+    "task": "Escribe una plantilla para un taller sobre la importancia de la diversidad en el lugar de trabajo.",
+    "conflict_inst": "Tu respuesta debe contener únicamente texto sin formato, sin ninguna sintaxis de markdown.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2303,
+    "origin_inst": "Tu respuesta debe ir entre comillas dobles. Tu respuesta debe contener 17 o más oraciones.",
+    "task": "Escribe una entrada de blog informal sobre cómo el sistema solar exterior es diferente del sistema solar interior, y qué significa eso para la posibilidad de vida.",
+    "conflict_inst": "Tu respuesta debe ir entre comillas simples. Tu respuesta no debe contener más de 10 oraciones.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "at least",
+          "num_sentences": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": 2304,
+    "origin_inst": "Tu respuesta debe contener al menos 1 marcador de posición representado por corchetes, como [dirección].",
+    "task": "Escribe un ensayo como si fueras el presidente de los Estados Unidos, dirigido a las mamás como tu audiencia. El tema es cómo el flotador de la película \"It\" simboliza el espíritu de los años cincuenta.",
+    "conflict_inst": "Puedes usar marcadores de posición en tu respuesta, pero todos deben ir entre llaves, como {dirección}.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2311,
+    "origin_inst": "Tu respuesta no debe contener comas.",
+    "task": "¿Por qué hay 396 calorías en una porción de 32 gramos de almendras sin sal?",
+    "conflict_inst": "Tu respuesta debe contener al menos 3 comas.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2314,
+    "origin_inst": "Tu respuesta debe contener 3 viñetas en markdown como:\n* Viñeta 1",
+    "task": "Nombra exactamente 3 nombres para un perro blanco y negro.",
+    "conflict_inst": "Escribe los tres nombres en una lista de Python.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2324,
+    "origin_inst": "Tu respuesta no debe contener comas.",
+    "task": "Escribe un acertijo sobre una mamá recostada en una playa en Humboldt.",
+    "conflict_inst": "Tu respuesta debe contener al menos tres comas.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2357,
+    "origin_inst": "Tu respuesta debe tener exactamente 4 párrafos y cada párrafo debe estar separado por el divisor de markdown: ***.",
+    "task": "Escribe un itinerario de viaje para un viaje a París que sea adecuado para adolescentes con poca capacidad de atención.",
+    "conflict_inst": "Tu respuesta debe tener exactamente 3 párrafos separados por una sola línea nueva.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2362,
+    "origin_inst": "Tu respuesta debe terminar con un posdata que comience con P.P.S",
+    "task": "¿Cómo llamas a un científico excluido al que le piden que se quede en casa?",
+    "conflict_inst": "Tu respuesta no debe contener ninguna posdata.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2374,
+    "origin_inst": "Tu respuesta no debe contener comas.",
+    "task": "Redacta una propuesta de proyecto sobre cómo utilizar el aprendizaje automático y la IA para mejorar la calidad de la educación en los países en desarrollo.",
+    "conflict_inst": "Utiliza al menos tres comas en tu respuesta.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2380,
+    "origin_inst": "Tu respuesta no puede contener comas. Tu respuesta debe contener exactamente 4 viñetas en formato markdown como:\n* Viñeta 1\n* Viñeta 2",
+    "task": "Por favor, escribe un resumen de la siguiente página del anunciante: \"Insistimos en contar con el equipo más talentoso de desarrolladores web, redactores de contenido, diseñadores gráficos y especialistas en marketing online de la industria. Contamos con personas galardonadas que tienen un historial comprobado de éxito\". Usa markdown y dirígete a mamás.",
+    "conflict_inst": "Tu respuesta debe contener al menos 3 comas. Tu respuesta debe contener exactamente 5 viñetas en formato markdown como:\n* Viñeta 1\n* Viñeta 2",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2381,
+    "origin_inst": "Tu respuesta debe resaltar al menos 3 secciones en formato markdown, es decir, *sección resaltada*.",
+    "task": "Escribe una carta de presentación a un partido político local, solicitando ser su organizador de mítines.",
+    "conflict_inst": "Tu respuesta no debe contener ningún formato de markdown.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2396,
+    "origin_inst": "Tu respuesta debe incluir un posdata al final que comience con P.P.S",
+    "task": "Escríbeme un poema sobre una guerra de larga duración.",
+    "conflict_inst": "Tu respuesta no debe incluir ningún posdata al final.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2436,
+    "origin_inst": "Da exactamente dos respuestas diferentes a la pregunta. Separa las respuestas con 6 símbolos de asterisco ******. No uses comas en tus respuestas.",
+    "task": "Responde a la pregunta \"¿Es ético cazar y comer especies invasoras?\".",
+    "conflict_inst": "Da una única respuesta a la pregunta. Usa al menos 3 comas en tu respuesta.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2441,
+    "origin_inst": "Toda tu respuesta debe estar envuelta entre comillas dobles.",
+    "task": "Escribe un párrafo con tono de discurso sobre las elecciones en Estados Unidos.",
+    "conflict_inst": "Toda tu respuesta debe ir envuelta entre comillas simples.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2467,
+    "origin_inst": "Tu respuesta debe tener exactamente 4 párrafos. Separa los párrafos con el divisor de markdown: ***.",
+    "task": "Escribe un rap sobre un abismo.",
+    "conflict_inst": "Tu respuesta debe estar en exactamente 4 párrafos. Separa los párrafos con 3 líneas de guiones: ---.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2497,
+    "origin_inst": "Tu respuesta debe contener al menos una sección resaltada con markdown, es decir, *sección resaltada*. Pon toda tu respuesta entre comillas dobles.",
+    "task": "Dame una pregunta lógica sobre chatear y conquistar. Hazla interesante.",
+    "conflict_inst": "Tu respuesta debe contener solo texto sin formato, sin ninguna sintaxis de markdown. Pon toda tu respuesta entre comillas simples.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2515,
+    "origin_inst": "Tu respuesta debe resaltar al menos una sección en markdown, es decir, *sección resaltada*.",
+    "task": "Gideon es un agricultor que este año tiene un excedente de cosechas de su granja. ¿Qué podría hacer con ese excedente?",
+    "conflict_inst": "Tu respuesta debe contener únicamente texto sin formato, sin ninguna sintaxis de markdown.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2589,
+    "origin_inst": "Tu respuesta debe contener menos de 17 oraciones.",
+    "task": "Escribe un párrafo que enumere la longitud promedio de varios especímenes de animales, de menor a mayor.",
+    "conflict_inst": "Tu respuesta debe contener al menos 20 oraciones.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": 2704,
+    "origin_inst": "Da exactamente dos respuestas diferentes, separadas por 6 símbolos de asterisco (******). Incluye un título envuelto entre dobles corchetes angulares, es decir, <<título>>. No uses comas.",
+    "task": "Escribe un haiku sobre un comportamiento tonto en forma de pregunta, para un público de lectores jóvenes. Debe incluir el tema de no estudiar.",
+    "conflict_inst": "Da exactamente dos respuestas diferentes separadas por 3 signos de almohadilla ###. Tu respuesta debe contener un título, entre corchetes, es decir, [título]. Utiliza al menos dos comas en tu respuesta.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "detectable_format:title",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2749,
+    "origin_inst": "Tu respuesta debe contener al menos 20 oraciones.",
+    "task": "Escribe una entrada de blog sobre los beneficios de utilizar una agencia de marketing digital.",
+    "conflict_inst": "Tu respuesta debe limitarse a 10 oraciones o menos.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2780,
+    "origin_inst": "Tu respuesta debe tener menos de 6 oraciones.",
+    "task": "¿Puedes proporcionarme el horario del próximo tren a Londres?",
+    "conflict_inst": "Tu respuesta debe contener al menos 7 oraciones.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 2785,
+    "origin_inst": "Tu respuesta debe usar markdown para resaltar al menos 3 secciones (como esto: *sección resaltada*). Tu respuesta también debe contener al menos 3 marcadores de posición (un ejemplo de un marcador de posición es [dirección]).",
+    "task": "¿Qué hay dentro de los santuarios sintoístas? Imagina que estás dando una conferencia a estudiantes en una escuela o universidad.",
+    "conflict_inst": "Tu respuesta debe usar markdown para resaltar exactamente 2 secciones (así: *sección resaltada*). Tu respuesta también debe contener al menos 3 marcadores de posición (un ejemplo de un marcador de posición es {dirección})",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2790,
+    "origin_inst": "Tu respuesta debe usar markdown para resaltar al menos una sección de tu respuesta, es decir, *sección resaltada*.",
+    "task": "Escribe un rap divertido sobre un hombre que recibe una llamada de un funcionario diciendo que es un pariente perdido desde hace mucho tiempo del rey de Nigeria.",
+    "conflict_inst": "Tu respuesta no debe usar ningún formato de markdown.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2801,
+    "origin_inst": "Tu respuesta debe ser una lista de exactamente 4 viñetas en formato markdown, como por ejemplo:\n* Viñeta 1\n* Viñeta 2",
+    "task": "Reescribe el siguiente blog: \"El mundo es un lugar hermoso. El sol brilla, los pájaros cantan y las flores florecen. Es un día perfecto para salir y disfrutar de todo lo que la naturaleza tiene para ofrecer.\"",
+    "conflict_inst": "Tu respuesta debe ser un solo párrafo sin viñetas ni listas. El párrafo debe constar de al menos 3 oraciones.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2832,
+    "origin_inst": "Tu respuesta debe incluir exactamente un punto con viñeta en formato markdown como:\n* Punto con viñeta",
+    "task": "Imagina que tienes 19 años y estás creando un videojuego. El juego trata sobre un chico que tiene que salvar el mundo de un villano. Escribe una propuesta para convencer a los adolescentes de que tu videojuego vale la pena comprarlo.",
+    "conflict_inst": "Tu respuesta debe incluir tres viñetas en formato markdown, como por ejemplo:\n* viñeta 1",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2857,
+    "origin_inst": "Toda tu respuesta debe estar envuelta en formato JSON. Puedes usar comillas invertidas de markdown como ```.",
+    "task": "Redacta una rúbrica para la evaluación del desempeño de un ingeniero de software.",
+    "conflict_inst": "Tu respuesta debe estar envuelta en etiquetas XML.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2905,
+    "origin_inst": "Tu respuesta debe usar * para resaltar al menos 2 secciones en tu texto. Por ejemplo: *esta es una sección de texto resaltada*.",
+    "task": "Amplía el acertijo hasta convertirlo en una historia con un tono divertido:",
+    "conflict_inst": "¿Qué puedes atrapar pero no lanzar?\nUn resfriado\n\nTu respuesta no debe contener el símbolo de asterisco ( ).",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2918,
+    "origin_inst": "Escribe un resumen después de responder a la solicitud. Estas dos partes deben estar separadas por 6 símbolos de asterisco (******).",
+    "task": "Escribe una rúbrica para calificar qué tan bueno es el ensayo de un adolescente.",
+    "conflict_inst": "Escribe un resumen después de responder a la solicitud. Estas dos partes deben estar separadas por 6 signos de número (######).",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2921,
+    "origin_inst": "Tu respuesta debe constar de exactamente dos párrafos, separados por el divisor de Markdown: ***.",
+    "task": "Si a = 10, b = 30 y c = 20, ¿cuál es el valor de (a + b) / c?",
+    "conflict_inst": "Tu respuesta debe estar en un solo párrafo.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2929,
+    "origin_inst": "Tu respuesta debe incluir un posdata que comience con \"P.S.\" al final.",
+    "task": "Escribe un anuncio de texto para un sitio web para adultos que no sea pornográfico.",
+    "conflict_inst": "Tu respuesta no debe incluir ningún posdata al final.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 2969,
+    "origin_inst": "Tu respuesta debe contener un título envuelto entre dobles corchetes angulares, como <<balandra en venta>>.",
+    "task": "Escribe un texto publicitario para un anuncio de venta de un balandro. Es un velero pequeño de un solo mástil, fácil de navegar y de entender. Parte de tu respuesta debe estar en formato de tabla.",
+    "conflict_inst": "No necesitas incluir un título en tu respuesta.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2985,
+    "origin_inst": "Toda tu respuesta debe estar envuelta entre comillas dobles.",
+    "task": "¿Por qué crees que los ingenieros de Google se quedan en Google con más frecuencia en lugar de pasarse a Microsoft? Explícalo al estilo de Alex Jones.",
+    "conflict_inst": "Toda tu respuesta debe estar envuelta entre comillas simples.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3041,
+    "origin_inst": "Tu respuesta debe tener menos de 7 oraciones. Tu respuesta debe contener exactamente 1 viñeta en markdown, como por ejemplo:\n* Viñeta",
+    "task": "Escribe un pitch de startup creativo y persuasivo para un negocio que ayuda a las personas con enfermedades crónicas a encontrar y gestionar cuidados a domicilio.",
+    "conflict_inst": "Tu respuesta debe tener más de 10 oraciones. Tu respuesta no debe contener ningún punto con viñeta.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 7
+        },
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3057,
+    "origin_inst": "Tu respuesta debe contener un título envuelto entre dobles corchetes angulares, es decir, <<título>>.",
+    "task": "Por favor, escribe un acertijo sobre la función inversa.",
+    "conflict_inst": "No necesitas incluir un título en tu respuesta.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3131,
+    "origin_inst": "Tu respuesta debe contener un título, envuelto entre dobles corchetes angulares, como <<entrada de blog sobre ...>>. Además, añade un posdata que comience con P.S.",
+    "task": "Escribe una entrada de blog sobre el resonante campo de la biotecnología en 2023 y luego critica la entrada de blog.",
+    "conflict_inst": "Tu respuesta debe contener un título, entre llaves, es decir, {título}. Tu respuesta no debe terminar con una posdata.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 3221,
+    "origin_inst": "Tu respuesta debe contener al menos 8 marcadores de posición (es decir, [restaurante]).",
+    "task": "Planifica un viaje de 2 semanas por Europa y visita Londres, París y Roma. Responde en MAYÚSCULAS.",
+    "conflict_inst": "Tu respuesta no debe contener más de 3 marcadores de posición (es decir, [restaurante]).",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 3245,
+    "origin_inst": "Tu salida no debe contener comas. Tu salida debe tener al menos 2 marcadores de posición, envueltos entre corchetes, como [autor].",
+    "task": "Escribe un artículo con el título \"Layton es la mejor ciudad del mundo\".",
+    "conflict_inst": "Tu salida debe contener al menos 3 comas. No uses marcadores de posición en tu salida.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_placeholders": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 3256,
+    "origin_inst": "Tu respuesta debe contener un título envuelto entre dobles corchetes angulares, es decir, <<título>>. Tu respuesta debe contener menos de 13 oraciones. Tu respuesta no debe contener ninguna coma pero se permiten otros signos de puntuación.",
+    "task": "Escribe un poema sobre un gato curioso.",
+    "conflict_inst": "Tu respuesta debe contener un título, entre llaves, es decir, {título}. Tu respuesta debe contener al menos 15 oraciones. Tu respuesta debe contener al menos 3 comas.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "length_constraints:number_sentences",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 13
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3263,
+    "origin_inst": "Por favor, proporciona dos respuestas separadas por ******",
+    "task": "¿\"jiang\" es un nombre chino? ¿Qué otros nombres son similares a \"jiang\"?",
+    "conflict_inst": "Por favor, proporcione exactamente dos respuestas, separadas por ------",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3280,
+    "origin_inst": "Tu respuesta debe contener al menos seis marcadores de posición, que deben representarse con corchetes como [nombre].",
+    "task": "¿Cuál es la diferencia entre Apple y Albania? Responde en formato de correo electrónico.",
+    "conflict_inst": "Los marcadores de posición en tu respuesta deben ser menos de tres.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 3281,
+    "origin_inst": "Proporciona exactamente dos versiones de tu respuesta. Sepáralas con seis símbolos de asterisco: ******. Abstente de usar comas en tu respuesta.",
+    "task": "Escribe cartas de presentación para una solicitud de empleo. Es para un puesto de profesor asistente.",
+    "conflict_inst": "Proporciona exactamente dos versiones de tu respuesta. Sepáralas con seis guiones: ------. Usa al menos 3 comas en tu respuesta.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3329,
+    "origin_inst": "Tu respuesta debe tener al menos 30 oraciones.",
+    "task": "¡Hola! Necesito una rúbrica para evaluar el rendimiento y el precio de una computadora portátil. ¿Puedes crear un ejemplo para mí? No me des viñetas, listas ni tablas. Solo escribe la rúbrica en párrafos en inglés sencillo.",
+    "conflict_inst": "Tu respuesta no debe exceder las 20 oraciones.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        }
+      ]
+    }
+  },
+  {
+    "id": 3350,
+    "origin_inst": "Tu respuesta solo debe contener oraciones cortas y no debe contener ninguna coma. Incluye al menos cinco marcadores de posición representados por corchetes, como [sitio web].",
+    "task": "Necesito redactar una propuesta de investigación para un proyecto sobre los efectos de las redes sociales en la salud mental de los adolescentes.",
+    "conflict_inst": "Tu respuesta debe contener, al menos, tres comas. No incluyas ningún marcador de posición en tu respuesta.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_placeholders": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 3351,
+    "origin_inst": "Tu respuesta debe tener exactamente 2 párrafos. Separa los párrafos con el divisor de markdown: ***. Además, pon en cursiva al menos 3 secciones comenzando y terminando con un solo *, es decir, *texto en cursiva*.",
+    "task": "Aquí hay una publicación en redes sociales: \"¡Mi hija se graduó de la universidad hoy! ¡Estoy tan orgulloso/a de ella!\" ¿Puedes hacerla más emocionante?",
+    "conflict_inst": "Tu respuesta debe ser un solo párrafo, sin separadores ni formato. No uses ningún texto en cursiva.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        },
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 3409,
+    "origin_inst": "Toda tu respuesta debe ir envuelta entre comillas dobles. Tu respuesta también debe resaltar al menos tres secciones en formato markdown usando *texto resaltado*.",
+    "task": "¿Puedes escribirme un eslogan para mi proyecto de videojuego? El proyecto tiene como objetivo crear un juego de lucha muy divertido.",
+    "conflict_inst": "Toda tu respuesta debe estar envuelta entre comillas simples. Tu respuesta debe contener exactamente dos secciones resaltadas en formato markdown usando *texto resaltado*.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 3557,
+    "origin_inst": "Tu respuesta debe ser una lista de 10 viñetas, siguiendo el formato a continuación:\n\n* Viñeta 1\n* Viñeta 2\n* ...",
+    "task": "Necesito una lista de los 10 mejores abogados en Estados Unidos.",
+    "conflict_inst": "Tu respuesta debe ser un solo párrafo sin viñetas ni listas numeradas.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 3606,
+    "origin_inst": "Tu respuesta debe incluir un título entre dobles corchetes angulares, es decir, <<título>>.",
+    "task": "¿Puedes componer la trama de una película que incluya sueños, peleas a puñetazos y un superpoder?",
+    "conflict_inst": "No necesitas incluir un título en tu respuesta.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3615,
+    "origin_inst": "Tu respuesta no debe contener ninguna coma.",
+    "task": "Escribe una adivinanza sobre Camilla.",
+    "conflict_inst": "Tu respuesta debe contener al menos 3 comas.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3619,
+    "origin_inst": "Tu respuesta debe contener al menos tres marcadores de posición, como [precio], y no debes usar comas en tu respuesta.",
+    "task": "Escribe un documento XML que describa el lanzamiento del último teléfono Google Pixel.",
+    "conflict_inst": "No uses marcadores de posición en tu respuesta. Debes usar al menos dos comas en tu respuesta.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 3
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3629,
+    "origin_inst": "Resalta algunas partes clave en tu respuesta con \"*\", como *texto resaltado*.",
+    "task": "Hoy, en la 54.ª edición anual de los Premios Grammy, la Academia de la Grabación rinde homenaje al talento y la creatividad de los artistas, músicos y productores, quienes son los creadores de las mejores grabaciones del año pasado. Por favor, continúe escribiendo este texto en un tono formal.",
+    "conflict_inst": "Tu respuesta debe contener únicamente texto sin formato, sin ninguna sintaxis de markdown.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3631,
+    "origin_inst": "Tu respuesta no debe contener comas.",
+    "task": "Escribe una canción sobre cómo hacer un sándwich de mantequilla de cacahuete y mermelada.",
+    "conflict_inst": "Tu respuesta debe contener al menos tres comas.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3691,
+    "origin_inst": "Tu respuesta debe contener menos de 10 oraciones. Tu respuesta no debe contener comas.",
+    "task": "Escribe una entrada de blog desde la perspectiva de una chica de 16 años a la que está siguiendo un desconocido.",
+    "conflict_inst": "Tu respuesta debe contener más de 15 oraciones. Tu respuesta debe incluir al menos 3 comas.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 10
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3710,
+    "origin_inst": "Tu respuesta debe contener un título envuelto entre dobles corchetes angulares, como <<título>>. Además, debes resaltar al menos 2 secciones con markdown, es decir, *sección resaltada*. Finalmente, debes añadir un posdata al final de tu respuesta, comenzando con P.P.S",
+    "task": "Necesito un rap que les diga a los profesionales cómo lograr que los bebés duerman toda la noche.",
+    "conflict_inst": "Tu respuesta debe contener un título, entre llaves, es decir, {título}. Abstente de usar el símbolo de asterisco (*) en tu respuesta. No añadas una posdata al final de tu respuesta.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 2
+        },
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3719,
+    "origin_inst": "Tu respuesta debe incluir un título entre dobles corchetes angulares, es decir, <<título de mi canción>>.",
+    "task": "Escribe una canción sobre atragantarse con un trozo de pollo en el río Potomac.",
+    "conflict_inst": "No necesitas incluir un título en tu respuesta.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3739,
+    "origin_inst": "Tu respuesta debe tener menos de 3 oraciones (solo 1 oración o 2 oraciones).",
+    "task": "¿Cuál es el nombre del monstruo de ojos verdes que hace que la gente sienta celos?",
+    "conflict_inst": "Tu respuesta debe tener al menos 4 oraciones.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 3
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,1558 @@
+[
+  {
+    "id": 13,
+    "system": "你的整个回答都应以 JSON 格式包裹。你可以使用诸如 ``` 这样的 Markdown 反引号来包裹 JSON 内容。",
+    "user": "Was ist die Geschichte des Prospect Park in NYC? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "system": "你的回复不应包含任何逗号。",
+    "user": "Schreibe einen Limerick über das Schreiben eines Limericks. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "system": "你的回答必须严格包含 3 个使用 Markdown 格式的项目符号（使用 \"* \" 表示每个项目符号），例如：\n* 这是第一点。\n* 这是第二点。",
+    "user": "Schreibe einen Dialog zwischen zwei Personen: Eine ist in einem Ballkleid herausgeputzt, und die andere ist lässig in Joggingkleidung gekleidet. Die beiden gehen zu einer nächtlichen Veranstaltung. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 143,
+    "system": "在你的回复中，用一行仅包含三个“*”符号的内容：***，将你的思考与最终答案分隔开。 在你的回复末尾，请明确添加一段附言，以 P.P.S 开头",
+    "user": "Ein Fohlen ist 5 Fuß groß. Es wird jeden Monat 6 Zoll wachsen. Wie groß wird es in 3 Jahren sein? Denke Schritt für Schritt nach und gib dann deine Antwort. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        },
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 168,
+    "system": "你的回复应至少用 markdown 突出显示 3 个部分，即 *突出显示的部分*。",
+    "user": "Schreibe eine lustige und sarkastische Vorlage, um die Qualität einer Ehe zwischen zwei Personen zu bewerten, die beide Mütter sind. Das ist für das Paar selbst. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 179,
+    "system": "你的回复应至少包含50个句子。",
+    "user": "Ein Filmemacher versucht, eine Finanzierung für einen Film über die Geschichte des Internets zu erhalten. Schreiben Sie einen Essay, der im Vorschlag an potenzielle Investoren verwendet werden soll. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 50
+        }
+      ]
+    }
+  },
+  {
+    "id": 219,
+    "system": "你的回复必须用双引号括起来。",
+    "user": "Glaubst du, dass Kareena Kapoor eine gute Schauspielerin ist? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 247,
+    "system": "给出恰好两个不同的回复，用 6 个星号符号 ****** 分隔。",
+    "user": "Kannst du Rap-Songs über die Geschichte des Präfektursystems in Japan schreiben? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 292,
+    "system": "你的回复必须至少包含20个句子。",
+    "user": "Schreibe eine lange und lustige E-Mail an deinen Freund über die Zutaten eines guten Lebens. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 334,
+    "system": "你的整个回复必须用双引号括起来。 你的回复必须包含且仅包含 2 个使用 markdown 格式的项目符号，如下所示：\n* 项目符号 1\n* 项目符号 2",
+    "user": "Erstelle einen Slogan für mein Unternehmen. Der Name meines Unternehmens ist Color Paper. Wir produzieren Papierhandtücher. Wir konzentrieren uns darauf, auffällige, farbenfrohe Papierhandtücher herzustellen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 1001,
+    "system": "你在回复中不允许使用任何逗号。",
+    "user": "Ich plane eine Reise nach Japan, und ich möchte, dass du mir eine Reiseroute für meine Reise in einem shakespeareanischen Stil schreibst. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1075,
+    "system": "你的全部输出都应采用 JSON 格式。",
+    "user": "Kannst du mir helfen, eine Werbung für ein neues Produkt zu erstellen? Es ist eine Windel, die so konzipiert ist, dass sie für Babys bequemer ist. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1082,
+    "system": "你的回复必须恰好包含 2 个段落。使用以下 Markdown 分隔线将段落分开：***。",
+    "user": "Schreibe eine Geschichte über einen Mann, der eines Tages aufwacht und erkennt, dass er sich in einem Videospiel befindet. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 1098,
+    "system": "请给出恰好两条不同的回复。用 6 个星号符号分隔两条回复：******。",
+    "user": "Wie lautet ein Name, mit dem Menschen Gott bezeichnen? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1180,
+    "system": "你的回答必须包含一个标题，并用双尖括号包裹，即 <<标题>>。 给出恰好两个不同的回复，并用 6 个星号符号 ****** 分隔。",
+    "user": "Erkläre, warum Menschen sich vor Würmern ekeln, aber nicht davor, eine tote Kuh zu essen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1262,
+    "system": "你的回复必须包含一个用双尖括号包裹的标题，即 <<标题>>。 使用少于 5 句话。",
+    "user": "Kannst du den folgenden Text näher erläutern: „Ein erhöhtes Achsgewicht erhöhte die Schäden an der Straße“? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1268,
+    "system": "你的整个回复应少于6句话。",
+    "user": "Kannst du mir ein Beispiel für einen Tagebucheintrag über Stressbewältigung geben? Erkläre mir, wie du auf das Beispiel kommst. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 1305,
+    "system": "你的回复必须在末尾包含一段以 P.P.S 开头的附言。 姓名应以项目符号列出，项目符号用以下方式表示：* 这是一个示例项目符号。",
+    "user": "Liste genau 10 mögliche Namen für einen neugeborenen Jungen auf. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        },
+        {
+          "num_bullets": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1307,
+    "system": "你的回复应包含一个大纲，至少包含 15 个部分，并使用 markdown 进行突出显示，例如 *突出显示的部分*。",
+    "user": "Schreibe eine Gliederung für eine Arbeit über die Geschichte des jemenitischen Kaffees. Die Gliederung sollte die Hauptpunkte der Arbeit enthalten. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1322,
+    "system": "你的回答必须包含一个用双尖括号括起来的标题，例如 <<kotlin vs java>>。",
+    "user": "Was sind die Vor- und Nachteile von Kotlin im Vergleich zu Java? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1325,
+    "system": "你的回复必须用双引号括起来。 你的回复必须恰好包含 8 个项目符号，格式如下：\n* 这是第 1 个项目符号\n* 这是第 2 个项目符号\n...",
+    "user": "Schreibe einen lustigen Artikel darüber, warum die Dinosaurier ausgestorben sind. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 1332,
+    "system": "你的回复应包含两个独立部分，并用恰好 6 个星号符号分隔：*******",
+    "user": "Erstelle eine Tabelle mit einem 7-tägigen Reiseplan für Indien und einem 7-tägigen Reiseplan für China. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1377,
+    "system": "你的回复必须包含 5 个段落，并严格遵循以下确切格式：\n\n第 1 部分. 任务摘要\n[在此填写细节]\n***\n第 2 部分. 动机\n[在此填写细节]\n***\n第 3 部分. 里程碑目标\n[在此填写细节]\n***\n第 4 部分. 时间线\n[在此填写细节]\n***\n第 5 部分. 文档历史\n[在此填写细节]",
+    "user": "Schreibe ein Planungsdokument für eine Aufgabe eines Softwareentwicklers. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1381,
+    "system": "你的回复必须少于10句话。",
+    "user": "Schreibe ein lustiges Lied für einen Vorschlag, auf der örtlichen Grundschule einen neuen Spielplatz zu bauen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1512,
+    "system": "你的回复应至少包含 20 个代表不同用户名的占位符，使用方括号，例如 [username1]、[username2]。 所有句子都应简短 并避免使用任何逗号。",
+    "user": "Erstelle einen Foren-Thread über mehrere Personen, die darauf warten, die neuesten lokalen Nachrichten zu erfahren. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 20
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1551,
+    "system": "你的回复必须包含一个用双尖括号包裹的标题，即 <<标题>>。",
+    "user": "Ich möchte mich bei Google als Softwareentwickler bewerben. Kannst du mir zwei verschiedene Anschreiben schreiben -- eine kurze Version und eine lange Version? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1619,
+    "system": "你的回复必须包含一段以 P.P.S. 开头的附言。 你的回复必须至少包含 6 个用方括号表示的占位符，例如 [姓名]。",
+    "user": "Schreibe einen Rap über ein neues Smartphone. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        },
+        {
+          "num_placeholders": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 1620,
+    "system": "你的回复必须包含一段以“P.S.”开头的附言",
+    "user": "Ich liebe das Album namens Lilith wirklich sehr. Ich möchte es meinem Freund Luheng vorstellen. Verfasse dafür eine E-Mail. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 1646,
+    "system": "你的回复必须至少突出显示 5 个部分，方法是在每个部分的开头和结尾加上 \"*\"，例如：*被突出显示的文本部分*。",
+    "user": "Schreibe einen lockeren Blogbeitrag über Ähnlichkeiten zwischen verschiedenen Tierarten. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1773,
+    "system": "你的回复必须包含歌曲名称，并用 * 包裹以突出显示。",
+    "user": "Schreibe ein Lied über die Sommer meiner Kindheit, die ich auf dem Land verbracht habe. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 1823,
+    "system": "你的回复必须至少包含40个句子（别忘了添加标点符号）。 你必须在回复中突出显示一些单词或短语，例如 *被突出显示的短语*。",
+    "user": "Kannst du ein Gedicht über die Vor- und Nachteile schreiben, wenn man sehr viele Videospiele spielt? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 40
+        },
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 1897,
+    "system": "你的回复必须使用 Markdown（用 * 号斜体，例如 *斜体文本*）将至少 10 个文本部分设置为斜体。 你的回复不应包含任何逗号。",
+    "user": "Erweitere Folgendes und mach es lustig: Jeanne hat die Würfel geworfen. Sie dachte, sie hätte verloren, aber eigentlich hat sie gewonnen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 10
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1908,
+    "system": "你的回复应至少包含30个句子。 你的回复应当恰好包含 2 个项目符号。使用项目符号如下：\n* 这是一个项目符号 你的回复必须至少包含 8 个用方括号表示的占位符，例如 [地址]。",
+    "user": "Was hältst du von dieser Aussage: „Zauberer sind mächtiger als Hexenmeister, weil sie Magie studieren, statt damit geboren zu werden.“? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_bullet_lists",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        },
+        {
+          "num_bullets": 2
+        },
+        {
+          "num_placeholders": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 1927,
+    "system": "你的回复必须至少包含 10 个用方括号表示的占位符，例如 [姓名]。",
+    "user": "Formuliere den folgenden Satz als E-Mail um: Die Stiefel sind warm, aber ein wenig unbequem. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1934,
+    "system": "你的回答必须严格采用以下格式的恰好 4 个项目符号：\n* 这是项目符号 1\n* 这是项目符号 2",
+    "user": "Warum ist Star Wars so beliebt? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2035,
+    "system": "你的回复必须至少包含 5 句话。 使用 Markdown 在你的回复中将至少 2 个部分设置为斜体，例如 *斜体文本*。 你的回复必须用双引号括起来。",
+    "user": "Schreibe einen Witz. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections",
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 5
+        },
+        {
+          "num_highlights": 2
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2118,
+    "system": "你的回复应当恰好包含3个段落，每个段落之间用***分隔。 你的回复还应当包含恰好 3 个使用 markdown 格式的项目符号，例如：\n* 项目符号 1\n* 项目符号 2",
+    "user": "Schreibe einen Rap für Mütter über die Vor- und Nachteile des Stillens im Vergleich zur Flaschennahrung. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 3
+        },
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2136,
+    "system": "你的回复必须至少包含一个用方括号表示的占位符，例如[姓名]。",
+    "user": "Schreibe einen kurzen und lustigen Witz über einen Typen, der beim Finanzamt arbeitet. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2162,
+    "system": "你的回复应少于20句话。 你的回复必须至少包含 3 个用方括号表示的占位符，例如 [地址]。",
+    "user": "Was sind die wichtigsten Unterschiede zwischen den adventistischen und den baptistischen Konfessionen? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 20
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2164,
+    "system": "你的回复必须至少包含 3 个用方括号表示的占位符，例如 [地址]、[姓名] 和 [电话号码]。",
+    "user": "Schreibe eine Produktbeschreibung für eine neue Reihe von Hundespielzeugen namens „der Quietscher“. Sie besteht aus Latex und ist für Hunde aller Altersstufen und Rassen konzipiert. Sie ist außerdem in einer Vielzahl von Farben und Formen erhältlich. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2195,
+    "system": "你的回复应当严格包含恰好 3 个项目符号，并采用如下的 markdown 格式，例如：\n* 项目符号 1\n* 项目符号 2",
+    "user": "Schreibe eine Liste von Anweisungen für einen Hundetrainer, um einem Hund beizubringen, sich hinzusetzen, zu bleiben und zu apportieren. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2209,
+    "system": "你的整个回复必须用双引号括起来。",
+    "user": "Verfassen Sie einen akademischen Vorschlag für einen Kunden, der daran interessiert ist, eine neue Funktion für sein Produkt zu implementieren. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2229,
+    "system": "你的回复必须包含一个标题，并用双重尖括号包裹，即 <<标题>>。",
+    "user": "Es wird ein Verkaufspitch für Mütter für eine neue Art von Windel benötigt, die so entwickelt wurde, dass sie für Babys bequemer ist. Der Verkaufspitch sollte 500 Wörter lang, lustig, mitreißend sein und sich auf die Vorteile der neuen Windel konzentrieren, ohne den Preis zu erwähnen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2230,
+    "system": "你的回复不应包含任何逗号。 你的回复应至少使用 markdown 突出显示 2 个部分，即 *突出显示的部分*。",
+    "user": "Mach diesen Text seltsam: „Die neue Version der App wird bald im App Store verfügbar sein. Sie wird eine Reihe neuer Funktionen enthalten, darunter eine neue Benutzeroberfläche und Unterstützung für neue Geräte“. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2245,
+    "system": "你的回复不应包含任何逗号。",
+    "user": "ICH BIN LEICHT HINEINZUKOMMEN, ABER SCHWER WIEDER HERAUSZUKOMMEN. ICH BIN EINLADEND UND AUFREGEND, ABER VIELE MENSCHEN HABEN ANGST VOR MIR. ICH BIN DER ORT, AN DEM DU SEIN MUSST, ABER DU MÖCHTEST DORT VIELLEICHT NICHT BLEIBEN. ICH MAG EIN GEHEIMNIS SEIN, ABER ICH BIN SICHER, DU KANNST MICH ERRATEN. WAS BIN ICH? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2253,
+    "system": "在你的回复中，使用 markdown 至少突出显示 3 个部分，即 *突出显示的部分*。",
+    "user": "Schreiben Sie eine Vorlage für einen Workshop über die Bedeutung von Vielfalt am Arbeitsplatz. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2303,
+    "system": "你的回复应使用双引号括起来。 你的回复应包含17句或更多句。",
+    "user": "Schreibe einen lockeren Blogbeitrag darüber, wie sich das äußere Sonnensystem vom inneren Sonnensystem unterscheidet und was das für die Möglichkeit von Leben bedeutet. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "at least",
+          "num_sentences": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": 2304,
+    "system": "你的回复必须至少包含 1 个用方括号表示的占位符，例如 [地址]。",
+    "user": "Schreibe einen Aufsatz, als wärst du der Präsident der Vereinigten Staaten, und richte dich dabei an Mütter als Zielpublikum. Das Thema ist, wie der Wagen aus dem Film „Es“ den Geist der 1950er-Jahre symbolisiert. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2311,
+    "system": "你的回复不应包含任何逗号。",
+    "user": "Warum sind in einer Portion von 32 Gramm ungesalzenen Mandeln 396 Kalorien enthalten? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2314,
+    "system": "你的回复应包含 3 个 markdown 项目符号点，例如：\n* 项目符号点 1",
+    "user": "Nenne genau 3 Namen für einen schwarz-weißen Hund. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2324,
+    "system": "你的回复不应包含任何逗号。",
+    "user": "Schreibe ein Rätsel über eine Mama, die an einem Strand in Humboldt liegt. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2357,
+    "system": "你的回复应当恰好包含 4 个段落，并且每个段落之间都应使用 markdown 分隔线：***。",
+    "user": "Schreibe einen Reiseplan für eine Reise nach Paris, der für Teenager mit kurzer Aufmerksamkeitsspanne geeignet ist. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2362,
+    "system": "你的回复应以附言结尾，附言以 P.P.S 开头",
+    "user": "Wie nennt man einen ausgeschlossenen Wissenschaftler, der gebeten wird, zu Hause zu bleiben? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2374,
+    "system": "你的回复不应包含任何逗号。",
+    "user": "Verfasse einen Projektvorschlag dazu, wie maschinelles Lernen und KI eingesetzt werden können, um die Qualität der Bildung in Entwicklungsländern zu verbessern. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2380,
+    "system": "你的回答不能包含逗号。 你的回答必须严格包含 4 个项目符号，并使用如下的 markdown 格式，例如：\n* 项目符号 1\n* 项目符号 2",
+    "user": "Bitte verfassen Sie eine Zusammenfassung der folgenden Werbekundenseite: „Wir bestehen darauf, das talentierteste Team aus Webentwicklern, Content-Textern, Grafikdesignern und Online-Marketing-Experten der Branche zu haben. Wir präsentieren preisgekrönte Persönlichkeiten, die eine nachweisliche Erfolgsbilanz vorweisen“. Verwenden Sie Markdown und richten Sie sich an Mütter. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2381,
+    "system": "你的回复应至少用 Markdown 格式突出显示 3 个部分，即 *突出显示的部分*。",
+    "user": "Schreiben Sie ein Anschreiben an eine lokale politische Partei, in dem Sie darum bitten, ihr Kundgebungsorganisator zu werden. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2396,
+    "system": "你的回复必须在末尾包含一段附言，并以 P.P.S 开头",
+    "user": "Schreibe mir ein Gedicht über einen lang andauernden Krieg. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2436,
+    "system": "针对该问题给出恰好两种不同的回答。用 6 个星号符号 ****** 将两种回答分隔开。 请勿在你的回复中使用任何逗号。",
+    "user": "Beantworte die Frage „Ist es ethisch vertretbar, invasive Arten zu jagen und zu essen?“. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2441,
+    "system": "你的整个回复必须用双引号括起来。",
+    "user": "Schreibe einen redeähnlichen Absatz über die US-Wahlen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2467,
+    "system": "你的回复必须严格分为4个段落。用以下 Markdown 分隔符分隔段落：***。",
+    "user": "Schreibe einen Rap über einen Abgrund. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2497,
+    "system": "你的回复必须至少包含一个使用 markdown 突出显示的部分，即 *突出显示的部分*。 将你的整个回复放在双引号内。",
+    "user": "Gib mir eine logische Frage über Chatten und Erobern. Mach sie interessant. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2515,
+    "system": "你的回复必须至少用 markdown 高亮一个部分，即 *高亮部分*。",
+    "user": "Gideon ist ein Landwirt, der in diesem Jahr einen Überschuss an Ernteerträgen von seinem Hof hat. Was könnte er mit diesem Überschuss tun? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2589,
+    "system": "你的回复应少于 17 句话。",
+    "user": "Schreibe einen Absatz, der die durchschnittliche Länge verschiedener Tierexemplare vom kleinsten bis zum größten auflistet. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": 2704,
+    "system": "给出恰好两种不同的回复，用 6 个星号符号（******）分隔。 包含一个用双尖括号括起来的标题，即 <<标题>>。 不要使用逗号。",
+    "user": "Schreibe ein Haiku über törichtes Verhalten in Form einer Frage, für ein junges Publikum. Es sollte das Thema des Nichtlernens enthalten. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "detectable_format:title",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2749,
+    "system": "你的回复必须至少包含20个句子。",
+    "user": "Schreibe einen Blogbeitrag über die Vorteile der Zusammenarbeit mit einer digitalen Marketingagentur. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2780,
+    "system": "你的回复必须少于6句话。",
+    "user": "Können Sie mir den Fahrplan für den nächsten Zug nach London geben? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 2785,
+    "system": "你的回答必须使用 markdown 来突出显示至少 3 个部分（例如：*突出显示的部分*）。 你的回答还必须包含至少 3 个占位符（占位符的示例是 [地址]）。",
+    "user": "Was befindet sich in Shintō-Schreinen? Stellen Sie sich vor, dass Sie einen Vortrag vor Schülerinnen und Schülern an einer Schule oder Universität halten. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2790,
+    "system": "你的回复必须使用 markdown 来突出显示你答案中的至少一个部分，即 *突出显示的部分*。",
+    "user": "Schreibe einen lustigen Rap über einen Mann, der einen Anruf von einem Beamten bekommt, der ihm sagt, dass er ein lange verschollener Verwandter des Königs von Nigeria ist. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2801,
+    "system": "你的回复应为一个恰好包含 4 个项目符号的列表，采用 markdown 格式，例如：\n* 项目符号 1\n* 项目符号 2",
+    "user": "Schreibe den folgenden Blogbeitrag um: „Die Welt ist ein wunderschöner Ort. Die Sonne scheint, die Vögel singen und die Blumen blühen. Es ist ein perfekter Tag, um nach draußen zu gehen und alles zu genießen, was die Natur zu bieten hat.“ Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2832,
+    "system": "你的回答必须包含且仅包含一个使用 markdown 格式的项目符号，例如：\n* 项目符号",
+    "user": "Stell dir vor, du bist 19 Jahre alt und entwickelst ein Videospiel. Das Spiel handelt von einem Jungen, der die Welt vor einem Bösewicht retten muss. Schreibe einen Pitch, um Teenager davon zu überzeugen, dass dein Videospiel den Kauf wert ist. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2857,
+    "system": "你的整个回复都应以 JSON 格式包裹。你可以使用诸如 ``` 这样的 Markdown 反引号。",
+    "user": "Erstellen Sie ein Bewertungsraster für die Leistungsbeurteilung eines Softwareentwicklers. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2905,
+    "system": "你的回复必须使用 * 来突出显示文本中至少 2 个部分。例如：*这是一个被突出显示的文本部分*。",
+    "user": "Erweitere das Rätsel zu einer Geschichte mit einem lustigen Ton: Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2918,
+    "system": "在回答请求后撰写一段总结。这两部分应以 6 个星号符号（******）分隔。",
+    "user": "Schreibe ein Bewertungsraster, um zu beurteilen, wie gut der Aufsatz eines Teenagers ist. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2921,
+    "system": "你的回复必须严格分为两段，并使用 Markdown 分隔线：*** 将两段隔开。",
+    "user": "Wenn a = 10, b = 30 und c = 20 ist, wie groß ist der Wert von (a + b) / c? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2929,
+    "system": "你的回复必须在末尾包含一段以“P.S.”开头的附言。",
+    "user": "Schreibe eine Textanzeige für eine Website für Erwachsene, die nicht pornografisch ist. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 2969,
+    "system": "你的回复必须包含一个用双尖括号包裹的标题，例如 <<出售中的单桅帆船>>。",
+    "user": "Schreibe einen Werbetext für eine Anzeige, die eine Slup verkauft. Es ist ein kleines Segelboot mit einem Mast, das leicht zu segeln und zu verstehen ist. Ein Teil deiner Antwort sollte in einem Tabellenformat sein. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2985,
+    "system": "你的整个回复必须用双引号括起来。",
+    "user": "Warum glaubst du, dass Google-Ingenieure häufiger bei Google bleiben, statt zu Microsoft zu wechseln? Erkläre es im Stil von Alex Jones. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3041,
+    "system": "你的回复应少于7句话。 你的回复应当恰好包含 1 个使用 markdown 的项目符号，例如：\n* 项目符号",
+    "user": "Verfasse einen kreativen und überzeugenden Startup-Pitch für ein Unternehmen, das Menschen mit chronischen Erkrankungen dabei hilft, häusliche Pflege zu finden und zu organisieren. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 7
+        },
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3057,
+    "system": "你的回复必须包含一个用双尖括号包裹的标题，即 <<标题>>。",
+    "user": "Bitte schreibe ein Rätsel über die Umkehrfunktion. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3131,
+    "system": "你的回复必须包含一个标题，并用双重尖括号包裹，例如 <<关于……的博客文章>>。 另外，添加一段以 P.S. 开头的附言。",
+    "user": "Schreibe einen Blogbeitrag über das widerhallende Biotechnologiefeld im Jahr 2023 und kritisiere anschließend den Blogbeitrag. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 3221,
+    "system": "你的回复必须至少包含 8 个占位符（即 [餐厅]）。",
+    "user": "Plane eine 2-wöchige Europareise und besuche London, Paris und Rom. Antworte in GROSSBUCHSTABEN. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 3245,
+    "system": "你的输出不得包含任何逗号。 你的输出必须至少包含 2 个占位符，并用方括号括起来，例如 [作者]。",
+    "user": "Schreibe einen Artikel mit dem Titel „Layton ist die beste Stadt der Welt“. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_placeholders": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 3256,
+    "system": "你的回复必须包含一个用双尖括号包裹的标题，即 <<标题>>。 你的回复必须少于13句话。 你的回复不得包含任何逗号 但允许使用其他标点符号",
+    "user": "Schreibe ein Gedicht über eine neugierige Katze. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "length_constraints:number_sentences",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 13
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3263,
+    "system": "请提供两个答案，并用 ****** 分隔",
+    "user": "Ist „jiang“ ein chinesischer Name? Welche anderen Namen sind „jiang“ ähnlich? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3280,
+    "system": "你的回复必须至少包含六个占位符，占位符应使用方括号表示，例如 [姓名]。",
+    "user": "Was ist der Unterschied zwischen dem Apfel und Albanien? Antworte im E-Mail-Format. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 3281,
+    "system": "请严格提供两个版本的回复。用六个星号符号分隔它们：******。 请在回复中避免使用逗号。",
+    "user": "Schreiben Sie Anschreiben für eine Bewerbung. Es handelt sich um eine Stelle als Assistenzprofessor/in. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3329,
+    "system": "你的回复应至少包含30个句子。",
+    "user": "Hey! Ich brauche ein Bewertungsraster, um die Leistung und den Preis eines Laptops zu beurteilen. Kannst du ein Beispiel für mich erstellen? Gib mir keine Aufzählungspunkte, Listen oder Tabellen. Schreib das Bewertungsraster einfach in einfachen englischen Absätzen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        }
+      ]
+    }
+  },
+  {
+    "id": 3350,
+    "system": "你的回复只能包含短句并且不得包含任何逗号。 至少包含五个用方括号表示的占位符，例如 [网站]。",
+    "user": "Ich muss einen Forschungsantrag für ein Projekt über die Auswirkungen sozialer Medien auf die psychische Gesundheit von Teenagern schreiben. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_placeholders": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 3351,
+    "system": "你的回复必须严格为 2 个段落。用以下 Markdown 分隔符分隔段落：***。 此外，至少将 3 个部分设置为斜体，方法是在开头和结尾使用单个 *，即 *斜体文本*。",
+    "user": "Hier ist ein Social-Media-Post: „Meine Tochter hat heute ihr Studium abgeschlossen! Ich bin so stolz auf sie!“ Kannst du ihn spannender machen? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        },
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 3409,
+    "system": "你的整个回复必须用双引号括起来。 你的回复还应至少用 *高亮文本* 以 Markdown 格式突出显示三个部分。",
+    "user": "Kannst du mir einen Slogan für mein Videospielprojekt schreiben? Das Projekt zielt darauf ab, ein sehr lustiges Kampfspiel zu entwickeln. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 3557,
+    "system": "你的回复应为包含 10 个项目符号的列表，并遵循以下格式：\n\n* 项目符号 1\n* 项目符号 2\n* ...",
+    "user": "Ich brauche eine Liste der 10 besten Anwälte in den USA. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 3606,
+    "system": "你的回复必须包含一个用双尖括号括起来的标题，即 <<标题>>。",
+    "user": "Kannst du eine Filmhandlung verfassen, die Traum, Faustkampf und Superkraft beinhaltet? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3615,
+    "system": "你的回复不应包含任何逗号。",
+    "user": "Schreibe ein Rätsel über Camilla. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3619,
+    "system": "你的回复必须包含至少三个占位符，例如 [价格]， 并且你在回复中不得使用逗号。",
+    "user": "Schreiben Sie ein XML-Dokument, das die Veröffentlichung des neuesten Google-Pixel-Smartphones beschreibt. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 3
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3629,
+    "system": "在你的回复中用“*”突出显示一些关键部分，例如 *突出显示的文本*。",
+    "user": "Heute, bei der 54. jährlichen Grammy-Verleihung, ehrt die Recording Academy das Talent und die Kreativität der Künstlerinnen und Künstler, Musikerinnen und Musiker sowie Produzentinnen und Produzenten, die die Schöpferinnen und Schöpfer der besten Aufnahmen des vergangenen Jahres sind. Bitte schreiben Sie diesen Text in einem formellen Ton weiter. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3631,
+    "system": "你的回复不应包含任何逗号。",
+    "user": "Schreibe ein Lied darüber, wie man ein Erdnussbutter-und-Marmelade-Sandwich macht. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3691,
+    "system": "你的回复应少于10句话。 你的回复不应包含任何逗号。",
+    "user": "Schreibe einen Blogbeitrag aus der Perspektive eines 16-jährigen Mädchens, das von einem Fremden verfolgt wird. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 10
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3710,
+    "system": "你的回复必须包含一个用双尖括号包裹的标题，例如 <<标题>>。 此外，你必须使用 Markdown 至少突出显示 2 个部分，即 *突出显示的部分*。 最后，你必须在回复末尾添加一段附言，以 P.P.S 开头",
+    "user": "Ich brauche einen Rap, der Fachleuten erklärt, wie man Babys dazu bringt, die ganze Nacht durchzuschlafen. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 2
+        },
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3719,
+    "system": "你的回复必须包含一个用双尖括号括起来的标题，即 <<我的歌曲标题>>。",
+    "user": "Schreibe ein Lied darüber, wie man im Potomac River an einem Stück Hähnchen erstickt. Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3739,
+    "system": "你的回复应少于3句话（只用1句话或2句话）。",
+    "user": "Wie heißt das grünäugige Monster, das Menschen eifersüchtig macht? Deine Antworten müssen vollständig auf Deutsch sein, keine andere Sprache ist erlaubt.",
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 3
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-03-16T13:56:24.919941",
+  "models": [
+    "claude-sonnet",
+    "claude-haiku"
+  ],
+  "total_models": 2
+}

@@ -1,0 +1,1502 @@
+[
+  {
+    "pair_id": 1,
+    "persona_1": {
+      "persona": "Un físico que se especializa en el estudio del electromagnetismo, en particular los efectos de las ondas electromagnéticas sobre materiales y estructuras. Le interesa la relación entre la geometría y la composición de la Gran Pirámide y la energía electromagnética que produce, así como el potencial de que esta energía se utilice para diversos fines, como la comunicación y la generación de energía. También le interesa el descubrimiento de nuevos fenómenos relacionados con las ondas electromagnéticas y sus aplicaciones en diversos campos, incluidos la física, la ingeniería y la tecnología.",
+      "general domain (top 1 percent)": "physics",
+      "specific domain (top 1 percent)": "electromagnetism",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "Un académico del derecho que se especializa en el estudio de las reparaciones y la esclavitud, en particular los impactos históricos y contemporáneos de la esclavitud en las comunidades negras. Esta persona tiene un amplio conocimiento de las leyes y políticas relacionadas con las reparaciones y ha realizado investigaciones sobre el tema. Ha escrito extensamente sobre el tema y está bien versada en los marcos jurídicos que rodean las reparaciones. Es probable que esta persona participe en el proceso de buscar reparaciones para las comunidades negras y está comprometida a garantizar que el asunto se aborde de manera justa y equitativa.",
+      "general domain (top 1 percent)": "law",
+      "specific domain (top 1 percent)": "reparations and slavery law",
+      "category": "Government, Law & Security"
+    }
+  },
+  {
+    "pair_id": 2,
+    "persona_1": {
+      "persona": "Un activista del cambio climático que está profundamente preocupado por el posible impacto del cambio climático en las pequeñas naciones insulares y las comunidades costeras. Le apasiona la necesidad de INDCs más ambiciosas y participa activamente en las negociaciones en la COP22. También es consciente de los posibles impactos negativos de la geoingeniería y de las emisiones negativas de carbono, y trabaja activamente para abordar estas cuestiones. También tiene conocimientos sobre el potencial de las soluciones tecnológicas para resolver el problema del cambio climático y participa activamente en las negociaciones en la COP22.",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Climate Change Policy",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "Un investigador de la University of Pennsylvania que se especializa en el desarrollo y la aplicación de nanosensores para la detección química. Está particularmente interesado en el uso de ADN monocatenario como detector y nanotubos de carbono como transmisor, y cree que matrices de estos sensores podrían servir como sistemas de detección pasiva en casi cualquier ubicación. Tiene habilidades en la ingeniería y el desarrollo de sensores con alta sensibilidad y especificidad, y está interesado en las posibles aplicaciones de estos sensores en campos como la seguridad doméstica y la detección médica.",
+      "general domain (top 1 percent)": "Engineering",
+      "specific domain (top 1 percent)": "Nanotechnology or Biosensors",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 3,
+    "persona_1": {
+      "persona": "Jane Englert, diseñadora de aprendizaje e integradora de tecnología en Ephrata High School en Pensilvania, cuenta con más de 10 años de experiencia en la implementación de tecnología educativa en escuelas y distritos. Tiene conocimientos en la selección e integración de herramientas y tecnologías educativas para satisfacer las necesidades de los estudiantes y apoyar los objetivos curriculares. Su experiencia incluye comprender las necesidades únicas de los estudiantes e integrar la tecnología de manera fluida con el currículo. Es una líder de pensamiento en el campo de la integración de tecnología educativa y ha publicado artículos sobre el tema.",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "education technology integration",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "Una persona creativa interesada en explorar técnicas de pintura poco convencionales y en experimentar con el arte. Disfruta utilizando materiales y técnicas no tradicionales para expresar su creatividad e imaginación, y siempre está buscando nuevas formas de ampliar los límites de lo que es posible en el arte. Es curiosa, innovadora y de mente abierta, y disfruta explorando nuevas ideas y perspectivas. Aprecia las cualidades únicas y personales de las técnicas de pintura no tradicionales, y le atrae la idea de expresar su individualidad e individualidad a través del arte.",
+      "general domain (top 1 percent)": "art",
+      "specific domain (top 1 percent)": "None",
+      "category": "Arts, Media & Design"
+    }
+  },
+  {
+    "pair_id": 4,
+    "persona_1": {
+      "persona": "Un investigador o profesional técnico de seguridad que se especializa en vulnerabilidades y exploits en la tecnología Bluetooth. Esta persona conoce las vulnerabilidades más recientes en las implementaciones de Bluetooth y su posible impacto en los usuarios. Tiene habilidades para probar y mitigar vulnerabilidades, y está al tanto de las especificaciones y recomendaciones más recientes del Bluetooth Special Interest Group. Esta persona está interesada en mantenerse actualizada con los últimos avances en la seguridad de Bluetooth y es proactiva a la hora de identificar y abordar posibles amenazas.",
+      "general domain (top 1 percent)": "computer security",
+      "specific domain (top 1 percent)": "Bluetooth security",
+      "category": "Digital & Computing"
+    },
+    "persona_2": {
+      "persona": "Un propietario o gerente de negocio que está interesado en modernizar sus operaciones empresariales y busca formas de optimizar procesos, reducir el papeleo y mejorar la eficiencia. Tiene conocimientos tecnológicos y experiencia con firmas electrónicas y documentos digitales. Está abierto a nuevas tecnologías y está dispuesto a probar nuevos métodos para mejorar su negocio. Valora la conveniencia y la facilidad de uso, y está dispuesto a invertir en nuevas herramientas y sistemas para alcanzar estos objetivos. Está familiarizado con la ESIGN Act y es consciente de las implicaciones legales de las firmas electrónicas.",
+      "general domain (top 1 percent)": "business",
+      "specific domain (top 1 percent)": "business operations",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 5,
+    "persona_1": {
+      "persona": "Un docente interesado en promover el comportamiento positivo y en desarrollar estrategias para una disciplina eficaz en el aula. Es probable que esta persona tenga formación en educación y un fuerte interés en el desarrollo infantil y la gestión del comportamiento. Puede tener experiencia trabajando con estudiantes de diversas edades y procedencias, y puede sentir pasión por promover resultados positivos para sus estudiantes. Esta persona también puede estar interesada en explorar el marco ecológico de la disciplina y los factores potenciales que influyen en el comportamiento del estudiante en el aula y más allá.",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "educational psychology or child development",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "Un desarrollador de Java que está familiarizado con los conceptos y las tecnologías relacionadas con Java Application Server, incluidos Application Server, Applet y programas CGI. Domina los lenguajes de programación C/C++ y tiene experiencia con la Common Gateway Interface (CGI). También está familiarizado con los conceptos de cookies, bases de datos y firewalls, y es capaz de implementar estas tecnologías de manera práctica y eficaz. Tiene un sólido conocimiento de los fundamentos del desarrollo web y es capaz de trabajar con una amplia gama de tecnologías y frameworks.",
+      "general domain (top 1 percent)": "Computer Science",
+      "specific domain (top 1 percent)": "Web Development",
+      "category": "Digital & Computing"
+    }
+  },
+  {
+    "pair_id": 6,
+    "persona_1": {
+      "persona": "Una ecóloga de plantas apasionada, con un profundo amor por la naturaleza y la ciencia de la ecología. La experiencia de la Dra. Virginia E. (March) Kline en ecología de la restauración y sus incansables esfuerzos por educar e inspirar a otros la han convertido en una figura respetada en el campo. Su colección de diapositivas, que presenta imágenes de la historia natural de Wisconsin, refleja su pasión por el mundo natural y su dedicación a la docencia y la investigación. La colección, que incluye una serie de cintas de audio de su curso \"Reading the Landscape\", es un testimonio de su compromiso de compartir sus conocimientos con los demás.",
+      "general domain (top 1 percent)": "ecology",
+      "specific domain (top 1 percent)": "restoration ecology",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "Un historiador romano que se especializa en el estudio de la historia romana, en particular el reinado de Augusto. Sus intereses de investigación incluyen, entre otros, los aspectos políticos, sociales y culturales del Imperio romano durante el siglo I d. C. Está particularmente interesado en el impacto del reinado de Augusto en el desarrollo de la sociedad romana, las relaciones entre Augusto y los demás emperadores romanos, y el legado de las políticas y decisiones de Augusto. Tiene un sólido conocimiento de la mitología romana y de su importancia en el contexto de la vida y el reinado de Augusto.",
+      "general domain (top 1 percent)": "history",
+      "specific domain (top 1 percent)": "Roman history",
+      "category": "Humanities & Culture"
+    }
+  },
+  {
+    "pair_id": 7,
+    "persona_1": {
+      "persona": "Un conservacionista apasionado por la historia y el patrimonio de las batallas de la Guerra Civil y que busca proteger y preservar sitios históricos significativos. Tiene conocimientos sobre la Batalla de Kennesaw Mountain y el área circundante, y está comprometido a garantizar que el sitio siga siendo accesible y educativo para las generaciones futuras. Tiene un gran interés en el National Park Service y su misión de preservar y proteger sitios históricos, y está dedicado a abogar por la adquisición del terreno de Kennesaw para el Kennesaw Mountain National Battlefield Park.",
+      "general domain (top 1 percent)": "History",
+      "specific domain (top 1 percent)": "Civil War history",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "Un analista financiero interesado en los efectos de los desdoblamientos de acciones y los dividendos en acciones sobre el patrimonio de los accionistas. Es probable que esta persona trabaje para una firma de corretaje o una firma de consultoría financiera y sea responsable de analizar informes financieros y formular recomendaciones de inversión basadas en desdoblamientos de acciones y dividendos. Tiene un profundo conocimiento de los principios contables y está familiarizado con los estados financieros de las empresas públicas. También conoce bien el mercado de valores y tiene un gran interés en el impacto de estos eventos en los precios de las acciones y el valor de la empresa.",
+      "general domain (top 1 percent)": "finance",
+      "specific domain (top 1 percent)": "financial analysis",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 8,
+    "persona_1": {
+      "persona": "Una persona con conocimientos tecnológicos que es muy consciente de los riesgos asociados a la ciberdelincuencia y toma medidas proactivas para protegerse a sí misma y a sus activos digitales. Esta persona está familiarizada con los ataques de phishing y sabe cómo identificarlos y evitarlos. También es consciente de la importancia de las contraseñas seguras y la autenticación multifactor, y actualiza regularmente su configuración de seguridad para garantizar la máxima protección. Esta persona también es consciente de los peligros de las estafas de phishing y sabe cómo reconocerlas y tomar medidas para evitar caer víctima de estos ataques.",
+      "general domain (top 1 percent)": "Computer Security",
+      "specific domain (top 1 percent)": "Cybersecurity Awareness",
+      "category": "Digital & Computing"
+    },
+    "persona_2": {
+      "persona": "Un ciudadano preocupado que siente pasión por el bienestar animal y los esfuerzos de conservación, con un enfoque particular en la protección de los tiburones y sus hábitats. Esta persona es consciente del impacto devastador del aleteo de tiburón en los ecosistemas marinos y del declive de las poblaciones de tiburones, y está comprometida a tomar medidas para abordar este problema. Es probable que sea un defensor vocal de la conservación de los tiburones y que tenga un profundo conocimiento de la ciencia que sustenta el tema, incluida la importancia de mantener ecosistemas saludables y los efectos perjudiciales de las prácticas de pesca insostenibles.",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Shark Conservation",
+      "category": "Earth, Environment & Agriculture"
+    }
+  },
+  {
+    "pair_id": 9,
+    "persona_1": {
+      "persona": "Un entusiasta de la música clásica y entusiasta de la teoría musical que está interesado en la música y las composiciones de Ludwig van Beethoven, en particular en su Rondo e Capriccio Opus 129. Es probable que tenga conocimientos sobre la vida de Beethoven, su música y el contexto en el que vivió, y que esté interesado en explorar los matices de sus composiciones y la importancia histórica de sus obras. También puede tener un gran interés en aprender sobre las técnicas y los estilos musicales que Beethoven empleó en sus composiciones, y puede estar interesado en estudiar la historia de la música artística occidental.",
+      "general domain (top 1 percent)": "music",
+      "specific domain (top 1 percent)": "music theory",
+      "category": "Arts, Media & Design"
+    },
+    "persona_2": {
+      "persona": "Es probable que este texto sea leído por un analista financiero de una empresa o por un gerente responsable de determinar el costo de producción de los productos de una empresa. Esta persona puede tener experiencia en contabilidad de costos, análisis financiero y fijación de precios de productos. Estaría interesada en evaluar la eficacia de los métodos de determinación de costos de la empresa y compararlos con los precios de venta reales de la empresa. También buscaría formas de mejorar la precisión y la fiabilidad de la información sobre el costo de producción con el fin de determinar el precio de venta de los productos.",
+      "general domain (top 1 percent)": "finance and accounting",
+      "specific domain (top 1 percent)": "cost accounting",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 10,
+    "persona_1": {
+      "persona": "Un conservacionista de vida silvestre interesado en la privatización de la gestión de la vida silvestre y en la promoción de la biodiversidad en las naciones del África austral. Es probable que tenga conocimientos sobre la historia y el estado actual de la gestión de la vida silvestre en el África austral, y que esté interesado en las lecciones aprendidas de los éxitos de la privatización y la comercialización de la vida silvestre. También puede estar interesado en los beneficios potenciales de la privatización para otras partes del mundo, y está abierto a considerar incentivos alternativos para promover las poblaciones de vida silvestre en el futuro.",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Wildlife Conservation",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "Una coach vocal que se especializa en enseñar técnicas y ejercicios de canto, y tiene experiencia trabajando con cantantes principiantes, intermedios y avanzados. Le apasiona ayudar a los cantantes a mejorar su control vocal, su rango y su interpretación. Cree que el canto es una forma de arte que requiere tanto habilidades técnicas como expresión artística, y que es importante que los cantantes aprendan sobre la historia y la teoría del canto. También enfatiza la importancia de escuchar a otras personas que tienen una voz bien entrenada y de practicar a diario para desarrollar una voz bien entrenada.",
+      "general domain (top 1 percent)": "music",
+      "specific domain (top 1 percent)": "singing",
+      "category": "Arts, Media & Design"
+    }
+  },
+  {
+    "pair_id": 11,
+    "persona_1": {
+      "persona": "Un inventor e ingeniero que se especializa en el desarrollo de tecnologías de transporte, en particular la rueda. Es conocido por sus ideas innovadoras y sus contribuciones al campo de la ingeniería del transporte. Tiene habilidades en el diseño y desarrollo de nuevos tipos de ruedas y tecnologías de neumáticos, y está dedicado a reducir la fricción y mejorar la eficiencia en aplicaciones de transporte. También está interesado en la historia y evolución de las ruedas y las tecnologías de neumáticos, y participa activamente en el desarrollo de nuevos materiales y procesos de fabricación.",
+      "general domain (top 1 percent)": "engineering",
+      "specific domain (top 1 percent)": "transportation engineering",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "Un veterinario que se especializa en el diagnóstico y tratamiento de la enfermedad de Cushing en perros, especialmente en perros de mediana edad. Tiene conocimientos sobre los síntomas, el diagnóstico y las opciones de tratamiento para esta afección, y cuenta con experiencia en la realización de pruebas diagnósticas y procedimientos quirúrgicos. Posee una comprensión profunda de los mecanismos subyacentes de la enfermedad y es capaz de proporcionar planes de tratamiento precisos y eficaces para sus pacientes. También es probable que esté bien versado en el uso de medicación oral y otros tratamientos no quirúrgicos para la enfermedad de Cushing.",
+      "general domain (top 1 percent)": "Veterinary Medicine",
+      "specific domain (top 1 percent)": "Canine Endocrinology",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 12,
+    "persona_1": {
+      "persona": "Un miembro de la Convención Marco de las Naciones Unidas sobre el Cambio Climático (CMNUCC) (UNFCCC), que ha seguido el tratado desde su creación y tiene un profundo conocimiento de sus objetivos, principios y partes. Es probable que esta persona conozca la historia, la evolución y el estado actual de la UNFCCC, así como su papel en la lucha contra el cambio climático. Esta persona también puede tener un gran interés en el potencial del tratado para establecer límites obligatorios de emisiones y en los protocolos que le seguirían, y su participación en el tratado puede ir más allá de la mera lectura del texto.",
+      "general domain (top 1 percent)": "International Relations",
+      "specific domain (top 1 percent)": "Climate Change Policy",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "Una analista financiera que se especializa en finanzas corporativas, particularmente en el análisis y la valoración de inversiones en capital y deuda. Tiene experiencia en el uso de ratios financieros y del modelo CAPM para calcular el coste del capital propio y el coste de capital, y está familiarizada con el uso de promedios históricos y la fórmula de valoración de opciones de Black-Scholes para valorar warrants sobre acciones. También es consciente de las implicaciones de la amortización del fondo de comercio en los estados financieros y de la importancia de ajustar el cálculo del valor de empresa para reflejar la tasa de crecimiento de las ganancias de la empresa.",
+      "general domain (top 1 percent)": "finance",
+      "specific domain (top 1 percent)": "corporate finance",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 13,
+    "persona_1": {
+      "persona": "Un investigador y experto en el campo de la gestión de desastres y los sistemas de alerta comunitaria, con un enfoque en el uso de las redes sociales en la comunicación de crisis. Ha realizado investigaciones sobre el uso de las redes sociales en la respuesta ante desastres y ha entrevistado a expertos en comunicación o en redes sociales en el ámbito del socorro en casos de desastre. Le interesa la detección de eventos de desastre mediante datos de Twitter y ha propuesto un repositorio de información geoespacial para el reporte y la actualización de condiciones iniciales, con el fin de orientar las operaciones de búsqueda y rescate en escenarios de respuesta a desastres a gran escala.",
+      "general domain (top 1 percent)": "Computer Science",
+      "specific domain (top 1 percent)": "Crisis Informatics",
+      "category": "Digital & Computing"
+    },
+    "persona_2": {
+      "persona": "Un educador sobre el cambio climático que siente pasión por inspirar e involucrar a los estudiantes en la lucha contra el cambio climático mediante excursiones virtuales interactivas y atractivas. Está dedicado a utilizar la tecnología para llevar experiencias y soluciones del mundo real a sus estudiantes, y está interesado en producir contenido educativo de alta calidad que sea accesible y atractivo para una amplia diversidad de estudiantes. Tiene habilidades para desarrollar e impartir excursiones virtuales digitales eficaces, y está comprometido a utilizar su experiencia para generar un impacto positivo en el movimiento contra el cambio climático.",
+      "general domain (top 1 percent)": "Education",
+      "specific domain (top 1 percent)": "Environmental Education",
+      "category": "Society, Education & Lifestyle"
+    }
+  },
+  {
+    "pair_id": 14,
+    "persona_1": {
+      "persona": "Un/a geólogo/a que se especializa en el estudio de la historia geológica de la Tierra, en particular las eras glaciares y la aparición de la vida en la Tierra. Él/ella está particularmente interesado/a en el papel de los cambios ambientales en la evolución de la vida, y en cómo los cambios en la geoquímica de la Tierra y el aumento del oxígeno y del fósforo son factores clave en la aparición de vida compleja en la Tierra. Es probable que la persona tenga curiosidad por los descubrimientos científicos realizados por los investigadores y por las implicaciones de estos hallazgos para el estudio de la historia de la Tierra y la evolución de la vida en nuestro planeta.",
+      "general domain (top 1 percent)": "geology",
+      "specific domain (top 1 percent)": "paleoclimatology",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "Un filósofo que se adhiere a la teoría de la ética de la virtud, en particular al concepto de la felicidad como el objetivo último y los medios para alcanzarla. Es probable que la persona esté profundamente interesada en la naturaleza de la felicidad, su definición y su papel en la vida humana. Estaría familiarizada con la filosofía de Aristóteles y sus aportes al estudio de la felicidad, y probablemente sería crítica de las limitaciones de la teoría en la práctica. También estaría interesada en explorar las implicaciones éticas de la felicidad y cómo se relaciona con las acciones y las elecciones realizadas por los individuos.",
+      "general domain (top 1 percent)": "philosophy",
+      "specific domain (top 1 percent)": "ethics",
+      "category": "Humanities & Culture"
+    }
+  },
+  {
+    "pair_id": 15,
+    "persona_1": {
+      "persona": "Una educadora de enfermería interesada en el método Angoff para establecer puntos de corte en evaluaciones de alto impacto, y que ha realizado investigación sobre el uso de este método para establecer puntuaciones de aprobación en listas de verificación de habilidades clínicas. Está particularmente interesada en el uso de una lista de verificación de inserción de catéter Foley como ejemplo y en el potencial de diferentes variaciones de listas de verificación dentro de distintos cursos, así como en variaciones en las prácticas de enseñanza para esta habilidad. Busca métodos basados en la evidencia para mejorar el proceso de evaluación y está deseosa de compartir sus hallazgos con la comunidad de enfermería.",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "nursing education",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "Una persona interesada en las negociaciones internacionales sobre el clima y que participa activamente en la defensa de que los Estados Unidos participen en estas negociaciones. Tiene conocimientos sobre el estado actual de las negociaciones y las diversas estrategias que se están debatiendo para superar los obstáculos a los que se enfrentan los Estados Unidos. También es consciente del posible impacto de las negociaciones en los gobiernos del mundo y en el medio ambiente. Le apasiona el tema y participa activamente en esfuerzos para promover legislación y políticas sobre el cambio climático en los Estados Unidos.",
+      "general domain (top 1 percent)": "Politics",
+      "specific domain (top 1 percent)": "Environmental Policy",
+      "category": "Government, Law & Security"
+    }
+  },
+  {
+    "pair_id": 16,
+    "persona_1": {
+      "persona": "Un entusiasta de la conservación interesado en la preservación y protección de especies en peligro de extinción, en particular las que se encuentran en selvas tropicales. Es probable que esta persona tenga conocimientos sobre la Lista Roja de Especies Amenazadas de la Unión Internacional para la Conservación de la Naturaleza (IUCN) y le apasione apoyar los esfuerzos para proteger a estas especies de la deforestación y la pérdida de hábitat. Es probable que esta persona esté interesada en visitar y aprender sobre el sitio de Taman Tugu, donde el árbol Merawan Jangkang se está añadiendo a la lista de especies en peligro crítico de extinción.",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Conservation Biology",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "Un ingeniero profesional que está profundamente interesado en la aplicación de la Dinámica de Fluidos Computacional (CFD) en el diseño y análisis de equipos industriales. Esta persona es particularmente competente en el uso de CFD para simular y predecir flujos de fluidos, transferencia de calor y fenómenos asociados, y está buscando un texto integral para aprender los fundamentos de CFD de manera simple y clara. Es probable que esta persona esté familiarizada con los principios de la dinámica de fluidos, la termodinámica y la programación informática, y esté deseosa de aplicar estos conceptos a problemas prácticos de ingeniería.",
+      "general domain (top 1 percent)": "engineering",
+      "specific domain (top 1 percent)": "mechanical/aerospace engineering",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 17,
+    "persona_1": {
+      "persona": "Un científico o científico ambiental interesado en el estudio de los contaminantes y su migración desde sitios de residuos peligrosos. Es probable que le interese el uso de la Relación de Concentración p,p'-DDD: p,p'-DDE para rastrear la migración de contaminantes y la interpretación de datos de PCB totales (t-PCBs) y DDT total (t-DDT) provenientes de estudios de monitoreo. También puede interesarle las diferencias entre los peces de Quantico Embayment y los peces cercanos de Powells Creek, así como las recomendaciones para que los científicos ambientales utilicen esta relación al investigar sitios con contaminación por DDT.",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Environmental Toxicology or Contaminant Hydrology",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "Un oficial de inteligencia altamente cualificado y experimentado, con formación en contrasubversión y espionaje. Conocido por su capacidad para penetrar e infiltrarse en diversos movimientos y redes fascistas británicas, incluidas las de Sir Oswald Mosley. También participó en las operaciones de espionaje que descubrieron la infiltración de la Special Branch por parte de la inteligencia soviética. Su trabajo se vio obstaculizado por la reticencia de sucesivos Home Secretaries a firmar una Home Office Warrant (HOW) para la interceptación de las comunicaciones de Sir Oswald Mosley, líder de la British Union of Fascists.",
+      "general domain (top 1 percent)": "intelligence gathering",
+      "specific domain (top 1 percent)": "counter-subversion and espionage",
+      "category": "Government, Law & Security"
+    }
+  },
+  {
+    "pair_id": 18,
+    "persona_1": {
+      "persona": "Un/a apasionado/a conservacionista marino/a que está dedicado/a a proteger a las especies en peligro de extinción y a abogar por sus derechos. Es un/a firme defensor/a de la tortuga laúd y le apasiona la importancia de las aguas de California como un área crítica de alimentación para esta especie. Tiene un profundo conocimiento de los ecosistemas marinos y está bien versado/a en el impacto de las actividades humanas en estos delicados ecosistemas. Es un/a partidario/a vocal de los esfuerzos de conservación marina y está dedicado/a a garantizar la supervivencia de la tortuga laúd y de otras especies en peligro de extinción.",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Marine Conservation",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "Un científico o un investigador apasionado por la física y particularmente interesado en el estudio de la física de partículas, en particular el Large Hadron Collider (LHC) y su potencial para descubrir el bosón de Higgs, un componente del Modelo Estándar de la física. También tiene conocimientos sobre la historia de la ciencia y el desarrollo de teorías, y es consciente de los posibles riesgos e incertidumbres asociados con la investigación científica. También le interesan las implicaciones más amplias del LHC y su potencial para impulsar el conocimiento científico y la tecnología.",
+      "general domain (top 1 percent)": "physics",
+      "specific domain (top 1 percent)": "particle physics",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 19,
+    "persona_1": {
+      "persona": "Un analista financiero que se especializa en el análisis de los costos de transporte y su impacto en el costo del carbón entregado a las centrales eléctricas. Esta persona tiene un profundo conocimiento de la industria del carbón de EE. UU., incluidas las principales cuencas carboníferas y sus respectivos costos de transporte. Está familiarizada con el impacto de los cambios en las tarifas ferroviarias sobre el costo del carbón y es capaz de interpretar y analizar los datos presentados en el informe. Esta persona también conoce las dinámicas regionales entre las seis principales cuencas carboníferas y cómo afectan los costos de transporte y los costos totales del carbón.",
+      "general domain (top 1 percent)": "Business/Finance",
+      "specific domain (top 1 percent)": "Energy/Coal Industry",
+      "category": "Business & Economy"
+    },
+    "persona_2": {
+      "persona": "Un pintor clásico de paisajes conocido por sus contribuciones al desarrollo de la escuela de pintura de paisajes en China durante la dinastía Song (960–1279). Se cree que estuvo influido por las obras del pintor clásico de paisajes Bifaji y del filósofo neoconfuciano Jing Hao, ambos asociados con la escuela de pintura de paisajes. Sus obras, entre ellas \"Mount Kuanglu\" y \"Travelers in a Snowy Landscape\", han tenido un impacto significativo en el desarrollo de la pintura de paisajes en China y han sido estudiadas por eruditos y artistas durante siglos.",
+      "general domain (top 1 percent)": "Art",
+      "specific domain (top 1 percent)": "Chinese Landscape Painting",
+      "category": "Arts, Media & Design"
+    }
+  },
+  {
+    "pair_id": 20,
+    "persona_1": {
+      "persona": "Un político de California apasionado por el cambio climático y los temas medioambientales, en particular por el objetivo de lograr un 100% de energía renovable en el estado. Es probable que sea miembro de la legislatura de California y participa activamente en impulsar la implementación del proyecto de ley SB100. Conoce las cuestiones técnicas del almacenamiento de energía y es consciente del potencial de ahorro de costos mediante avances tecnológicos. También es consciente de las limitaciones de las tecnologías actuales y está abierto a explorar fuentes alternativas de energía de cero carbono.",
+      "general domain (top 1 percent)": "Politics",
+      "specific domain (top 1 percent)": "Renewable Energy Policy",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "Un científico o ambientalista que está preocupado por el impacto de la contaminación del agua y las soluciones para mitigarla. Le interesa aprender sobre las consecuencias para la salud de beber agua contaminada, las causas del cambio climático, los efectos positivos de la prohibición de los plásticos de un solo uso, las soluciones científicas a la contaminación por plásticos, cómo los viajes aéreos contribuyen al cambio climático, los pasos para revertir el cambio climático y las enfermedades comunes o complicaciones de salud relacionadas con la contaminación del agua. También le interesa aprender sobre los pasos sencillos para reducir la contaminación por plásticos.",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Environmental Health",
+      "category": "Earth, Environment & Agriculture"
+    }
+  },
+  {
+    "pair_id": 21,
+    "persona_1": {
+      "persona": "Un/a gerente de marketing digital apasionado/a por aprovechar el aprendizaje social para mejorar la capacitación y el desarrollo de los empleados en un panorama digital que cambia rápidamente. Tiene habilidades para utilizar herramientas modernas de comunicación y colaboración con el fin de crear una experiencia de aprendizaje atractiva e interactiva, fomentando una cultura de aprendizaje continuo y mejorando las capacidades de toma de decisiones y resolución de problemas dentro de su equipo. Prioriza la innovación y está abierto/a a explorar nuevos métodos de aprendizaje que puedan mejorar la eficiencia y la eficacia de los programas de capacitación de su empresa.",
+      "general domain (top 1 percent)": "business",
+      "specific domain (top 1 percent)": "digital marketing",
+      "category": "Business & Economy"
+    },
+    "persona_2": {
+      "persona": "Un físico teórico interesado en la intersección entre la física y la filosofía, particularmente en el ámbito de la cosmología y la naturaleza de la realidad. Esta persona conoce las teorías de la mecánica cuántica, la relatividad general y la cosmología, y tiene una comprensión profunda del concepto de realidad absoluta. También le interesan las implicaciones filosóficas de estas teorías y la posibilidad de una realidad no física. Es probable que esta persona tenga formación en matemáticas y física y un fuerte interés en la intersección de estos campos.",
+      "general domain (top 1 percent)": "physics",
+      "specific domain (top 1 percent)": "cosmology",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 22,
+    "persona_1": {
+      "persona": "Un profesional de la salud o un trabajador de la salud que está interesado en educar y capacitar a personas indígenas sobre la cardiopatía reumática y la fiebre reumática. Es probable que tenga conocimientos y experiencia en educación para la salud, promoción de la salud y comunicación en salud. Le interesa utilizar un lenguaje claro y accesible para explicar temas de salud complejos y está familiarizado con el uso de ayudas visuales como diagramas y videos. También es probable que tenga experiencia trabajando con comunidades indígenas y sienta pasión por mejorar los resultados de salud de las personas indígenas.",
+      "general domain (top 1 percent)": "healthcare",
+      "specific domain (top 1 percent)": "health education",
+      "category": "Life & Health"
+    },
+    "persona_2": {
+      "persona": "Un profesional del marketing con experiencia en marketing ambiental y marketing verde. Tiene habilidades para identificar y comunicar los beneficios ambientales de un producto o servicio, y cuenta con experiencia en investigar, analizar e implementar estrategias de marketing para productos verdes. Está familiarizado con los últimos avances en marketing verde, como los Seven Sins of Greenwashing y las directrices para realizar afirmaciones ambientales. También está interesado en trabajar en marketing verde y busca oportunidades para aplicar sus habilidades y conocimientos en este campo.",
+      "general domain (top 1 percent)": "Marketing",
+      "specific domain (top 1 percent)": "Green Marketing",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 23,
+    "persona_1": {
+      "persona": "Un analista político que se especializa en el estudio de la política de Oriente Medio y la crisis de Irán, centrándose en particular en el ascenso y la caída de Reza Shah Pahlavi y su impacto en la historia del país. La persona está interesada en comprender los factores políticos, sociales y económicos que condujeron a la caída del Shah y al posterior ascenso del Ayatollah Khomeini y la Revolución Islámica en Irán. También le interesa el papel de los Estados Unidos y del British Secret Intelligence Service en el golpe de Estado que derrocó al Shah y los acontecimientos posteriores que siguieron.",
+      "general domain (top 1 percent)": "History",
+      "specific domain (top 1 percent)": "Middle Eastern History",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "Un profesor de finanzas que se especializa en el estudio de las finanzas corporativas, en particular en los temas relacionados con los mercados de bonos corporativos y su desarrollo en Asia. Sus intereses de investigación incluyen los factores que afectan el desarrollo de los mercados de bonos corporativos, los posibles desafíos en la implementación de innovaciones en países asiáticos y las herramientas disponibles para los reguladores para mejorar la eficiencia de los mercados de bonos corporativos. Cuenta con amplia experiencia impartiendo docencia en programas para ejecutivos en diversos países y ha publicado numerosos artículos y libros en el área de las finanzas corporativas.",
+      "general domain (top 1 percent)": "finance",
+      "specific domain (top 1 percent)": "corporate finance",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 24,
+    "persona_1": {
+      "persona": "Un tecnólogo del aprendizaje apasionado por crear experiencias de aprendizaje atractivas y eficaces. Está interesado en diseñar e implementar tecnologías de aprendizaje que puedan impartir contenido de manera eficaz y medir los resultados. Es consciente de la importancia de objetivos de aprendizaje claros y medibles y está dispuesto a desafiarse a sí mismo para pensar de forma innovadora y adaptar su enfoque a nuevas tecnologías. Está abierto a incorporar prácticas de diseño de juegos en su trabajo y está interesado en aprender más sobre cómo aplicar principios de diseño de juegos a la educación.",
+      "general domain (top 1 percent)": "Education",
+      "specific domain (top 1 percent)": "Learning Technology",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "Un experto constitucional que ha diseñado e implementado una constitución federal para Sudáfrica, garantizando que la mayoría de la población esté representada y que la élite tenga suficiente control sobre los gobiernos provinciales. El experto ha equilibrado con éxito la necesidad de control provincial sobre importantes servicios públicos con la necesidad de una distribución equitativa de los ingresos fiscales nacionales. El trabajo del experto ha mejorado el bienestar de la mayoría y de los residentes de la élite de Sudáfrica, y ha proporcionado un modelo para otros países que buscan transitar hacia democracias estables.",
+      "general domain (top 1 percent)": "Politics/Constitutional Law",
+      "specific domain (top 1 percent)": "Constitutional Design and Implementation",
+      "category": "Government, Law & Security"
+    }
+  },
+  {
+    "pair_id": 25,
+    "persona_1": {
+      "persona": "Un profesional técnico con experiencia en administración y gestión de redes, particularmente en el ámbito de las redes de Netezza. Esta persona está interesada en opciones avanzadas de configuración y tiene un gran interés en comprender los conceptos y procesos implicados en el bonding y la virtualización de redes. Está familiarizada con sistemas operativos Linux y tiene experiencia con dispositivos de red, bonding y virtualización. Esta persona también está interesada en preguntas y sugerencias relacionadas con redes y busca activamente interactuar con otras personas en Twitter y otras plataformas.",
+      "general domain (top 1 percent)": "computer networking",
+      "specific domain (top 1 percent)": "Netezza networking",
+      "category": "Digital & Computing"
+    },
+    "persona_2": {
+      "persona": "Un investigador en el campo de la dinámica planetaria, particularmente interesado en el comportamiento caótico del cinturón de asteroides. Tiene conocimientos sobre la existencia de regiones caóticas en el cinturón principal de asteroides y ha estudiado la evolución de los asteroides en simulaciones numéricas. También le interesa la estructura del cinturón de asteroides y cómo está entrecruzado por diversas resonancias de movimiento medio. Además, tiene un gran interés en el origen y la distribución de los Near-Earth Asteroids y los meteoritos, y en cómo los semiejes mayores de los asteroides del cinturón principal evolucionan con el tiempo.",
+      "general domain (top 1 percent)": "astronomy",
+      "specific domain (top 1 percent)": "planetary dynamics",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 26,
+    "persona_1": {
+      "persona": "Una política canadiense que es miembro del Parlamento de Canadá y es conocida por su defensa contra las armas nucleares y la asistencia nuclear a países que tienen un historial de pruebas nucleares. Está particularmente preocupada por las pruebas nucleares de India y el papel que Canadá desempeñó en la promoción de la tecnología nuclear hacia India. Es crítica del papel del gobierno federal en impulsar las exportaciones nucleares y de la postura hipócrita del gobierno sobre las pruebas nucleares. También le preocupa el posible uso de materiales producidos en reactores nucleares para el desarrollo de armas nucleares.",
+      "general domain (top 1 percent)": "Politics/Politics and Government",
+      "specific domain (top 1 percent)": "None",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "Un alto ejecutivo de un importante procesador agroindustrial, responsable de supervisar la producción y la distribución de Bioethanol. La persona tiene habilidades para gestionar procesos complejos, garantizando la trazabilidad total y la sostenibilidad ambiental. Posee un profundo conocimiento del proceso de producción y de los beneficios del Bioethanol, incluido su uso en automóviles y el potencial de mezcla con gasolina sin plomo estándar. También está familiarizada con la Renewable Transport Fuels Obligation (RTFO) del Reino Unido y con el potencial de mezclar en el futuro mezclas con mayores proporciones de Bioethanol.",
+      "general domain (top 1 percent)": "Business/Management",
+      "specific domain (top 1 percent)": "Biofuels/Bioenergy",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 27,
+    "persona_1": {
+      "persona": "Un científico con experiencia en ciencias e ingeniería ambientales, particularmente en los campos de la biorremediación y el guiso microbiano. Tiene experiencia trabajando en esfuerzos de limpieza de derrames de petróleo y ha propuesto un enfoque de biorremediación utilizando microbios que comen petróleo. Se muestra escéptico respecto de la eficacia de otros métodos de limpieza y cree que la biorremediación es una herramienta relativamente no invasiva que podría emplearse para despetrolizar el pantano. Tiene experiencia trabajando en otros derrames y sitios de contaminación y tiene motivos para pensar que, al menos, se permitirían las pruebas.",
+      "general domain (top 1 percent)": "environmental science",
+      "specific domain (top 1 percent)": "bioremediation",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "Un pintor prerrafaelita que estuvo influido por Dante Gabriel Rossetti y adoptó las tendencias estilísticas de la PRB. Las pinturas de Brown a menudo representaban temas de la vida moderna, en particular la clase trabajadora, y mostraban un mayor interés por la observación directa y la especificidad que muchos de sus contemporáneos. Su pintura Work, que representa a un grupo de obreros trabajando en una obra de construcción, fue un comentario sobre el papel del \"trabajo\" y su relación con la estructura de clases victoriana. Brown también era conocido por su amistad con Dante Gabriel Rossetti y su asociación con la PRB.",
+      "general domain (top 1 percent)": "Art",
+      "specific domain (top 1 percent)": "Pre-Raphaelite painting",
+      "category": "Arts, Media & Design"
+    }
+  },
+  {
+    "pair_id": 28,
+    "persona_1": {
+      "persona": "Un filósofo que se especializa en la filosofía de la ciencia, particularmente en las áreas del constructivismo social y la sociología de la ciencia. Es probable que esta persona esté profundamente involucrada en el debate en curso entre los constructivistas sociales y los materialistas científicos tradicionales, y es probable que tenga una comprensión matizada de las cuestiones filosóficas implicadas. Es probable que esté familiarizada con una variedad de ejemplos y argumentos de la sociología y la filosofía de la ciencia, y es probable que tenga un fuerte interés en desarrollar nuevas objeciones a los argumentos constructivistas.",
+      "general domain (top 1 percent)": "philosophy",
+      "specific domain (top 1 percent)": "philosophy of science",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "Un/a docente apasionado/a por crear actividades de aula atractivas e interactivas para estimular la participación y el crecimiento del alumnado. Cree en la importancia de la lluvia de ideas, la escritura libre y los rompehielos para ayudar a los estudiantes a desarrollar habilidades de pensamiento holístico y crítico. Tiene destreza en el uso de estudios de caso, juegos de rol y actividades de entrevista para enseñar lecciones prácticas y aportar nuevas perspectivas sobre el material del curso. También domina el uso de TIMESAVERS for TEACHERS Interactive Classroom Forms Collection para ahorrar tiempo y gestionar su aula de manera eficaz.",
+      "general domain (top 1 percent)": "Education",
+      "specific domain (top 1 percent)": "Classroom Management and Pedagogy",
+      "category": "Society, Education & Lifestyle"
+    }
+  },
+  {
+    "pair_id": 29,
+    "persona_1": {
+      "persona": "Un estratega de defensa interesado en el desarrollo y el uso potencial de armas láser en escenarios de combate. Esta persona conoce los desafíos técnicos de integrar armas láser en sistemas operativos y tiene experiencia en realizar investigación y análisis para evaluar la viabilidad y la eficacia de estos sistemas. También le interesan las implicaciones más amplias de la tecnología láser, incluido su posible impacto en la estrategia militar, los avances tecnológicos y las consideraciones éticas en torno al uso de sistemas de armas avanzados.",
+      "general domain (top 1 percent)": "Military Strategy",
+      "specific domain (top 1 percent)": "Laser Weaponry",
+      "category": "Business & Economy"
+    },
+    "persona_2": {
+      "persona": "Un conservacionista y defensor del medio ambiente que está preocupado por el impacto de los incendios forestales en los bosques, las comunidades y el medio ambiente. Le apasiona proteger los recursos naturales y abogar por prácticas responsables de gestión forestal. Tiene conocimientos sobre la ciencia de los incendios forestales y una profunda comprensión de los impactos de la tala en los bosques y los ecosistemas. Es probable que participe en debates sobre la legislación en materia de incendios forestales y los esfuerzos de conservación, y está dedicado a encontrar soluciones que equilibren las necesidades de los bosques y las comunidades.",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Wildland Fire Management",
+      "category": "Earth, Environment & Agriculture"
+    }
+  },
+  {
+    "pair_id": 30,
+    "persona_1": {
+      "persona": "Un especialista en recursos que aboga por el uso de tecnología de asistencia en el aula para ayudar a los estudiantes con discapacidades a alcanzar la competencia académica y superar las barreras de comunicación. Tiene conocimientos sobre diferentes tipos de tecnología de asistencia, sus beneficios y desventajas, y sobre cómo capacitar adecuadamente a los usuarios para evitar los riesgos de una dependencia excesiva de la tecnología. El especialista en recursos siente pasión por empoderar a los estudiantes para que participen plenamente en el aula y más allá, y está comprometido a garantizar que todos los estudiantes tengan acceso a las herramientas que necesitan para tener éxito.",
+      "general domain (top 1 percent)": "Education",
+      "specific domain (top 1 percent)": "Special Education or Assistive Technology",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "Un profesional de negocios responsable de tomar decisiones estratégicas basadas en datos y analítica. Está interesado en mejorar las operaciones mediante el análisis de datos y la toma de decisiones informadas a través del uso de sistemas de información de gestión (MIS). Está familiarizado con las características y capacidades de un MIS y busca formas de integrarlo en las operaciones de su organización para mejorar la toma de decisiones y el rendimiento general. Está dispuesto a invertir en la implementación de un MIS y está abierto a aprender sobre los costos y beneficios asociados con su uso.",
+      "general domain (top 1 percent)": "Business",
+      "specific domain (top 1 percent)": "Business Intelligence",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 31,
+    "persona_1": {
+      "persona": "Un músico que está interesado en aprender a leer música y está dispuesto a invertir tiempo y esfuerzo para desarrollar su vocabulario musical. No tiene miedo de explorar diferentes géneros y técnicas musicales y está abierto a aprender de una variedad de fuentes. No se siente intimidado por el desafío de aprender un nuevo instrumento y está dispuesto a practicar con regularidad para mejorar sus habilidades. Siente curiosidad por la historia y la teoría de la música y está dispuesto a explorar diferentes estilos y géneros musicales. No tiene miedo de asumir riesgos y está abierto a probar cosas nuevas.",
+      "general domain (top 1 percent)": "music",
+      "specific domain (top 1 percent)": "None",
+      "category": "Arts, Media & Design"
+    },
+    "persona_2": {
+      "persona": "Un historiador y astrólogo interesado en la intersección entre la astronomía y la historia, en particular en la alineación de eventos celestes con acontecimientos históricos significativos y los mensajes proféticos que transmiten. Esta persona conoce la mitología del antiguo Egipto y su conexión con la constelación de Cáncer, que se ha utilizado como símbolo de protección y resurrección en la profecía bíblica. También está familiarizada con la importancia de la alineación de Júpiter y Venus con la promesa de resurrección, y el papel que desempeñan al señalar el Rapto.",
+      "general domain (top 1 percent)": "History",
+      "specific domain (top 1 percent)": "Ancient Egyptian mythology and its connection to astronomy",
+      "category": "Humanities & Culture"
+    }
+  },
+  {
+    "pair_id": 32,
+    "persona_1": {
+      "persona": "Un científico o investigador que se especializa en ciencias ambientales y de la salud, particularmente en las áreas de purificación del agua y control de la contaminación ambiental. Es probable que esta persona esté interesada en los hallazgos de investigación publicados en Industrial and Engineering Chemistry Research, que analizan la eficacia de la cáscara de plátano para eliminar metales tóxicos del agua potable. Esta persona también puede estar interesada en aprender más sobre la investigación sobre la depresión y la enfermedad renal, así como los posibles beneficios de una dieta mediterránea para la salud del corazón y la cintura.",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Water Purification",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "Un/a director/a escolar que está comprometido/a con mejorar el entorno de aprendizaje y los resultados del alumnado en su escuela. Esta persona está dedicada al desarrollo profesional continuo de los directores y cree en el poder de las comunidades de práctica, el coaching colaborativo y un modelo de indagación para desarrollar y perfeccionar sus habilidades de liderazgo. Le apasiona trabajar con más de 500 directores y asociarse con distritos y centros de directores para generar un impacto positivo en el aprendizaje de los líderes escolares e impactar positivamente a 500.000 estudiantes a escala nacional.",
+      "general domain (top 1 percent)": "Education",
+      "specific domain (top 1 percent)": "Educational Leadership",
+      "category": "Society, Education & Lifestyle"
+    }
+  },
+  {
+    "pair_id": 33,
+    "persona_1": {
+      "persona": "Un diseñador de flujos que es responsable de crear y gestionar flujos en el orquestador de flujos de una organización. Tiene un profundo conocimiento del proceso de diseño de flujos, incluida la creación y gestión de flujos, variables y mensajes. Es competente en el uso del diseñador de flujos para crear flujos optimizados para la eficiencia y la eficacia, y es capaz de diagnosticar y resolver los problemas que surgen durante el proceso de diseño de flujos. Tiene experiencia con una variedad de herramientas de diseño de flujos y es capaz de adaptarse a nuevas tecnologías y a cambios en el proceso de diseño de flujos.",
+      "general domain (top 1 percent)": "Software Development",
+      "specific domain (top 1 percent)": "Flow Design",
+      "category": "Digital & Computing"
+    },
+    "persona_2": {
+      "persona": "Un investigador del sueño que está interesado en los efectos negativos de la privación del sueño y en cómo impacta diversos aspectos de la salud y el comportamiento. Siente curiosidad por la conexión entre el sueño y el bienestar emocional, el impacto del sueño en el aprendizaje y la memoria, y la relación entre el sueño y el aumento de peso. También está interesado en el impacto de la privación del sueño en la salud cardíaca, la visión, la función del sistema inmunitario y la asunción de riesgos económicos. Está dedicado a comprender los mecanismos subyacentes de la privación del sueño y cómo mitigar sus efectos en la salud humana.",
+      "general domain (top 1 percent)": "psychology",
+      "specific domain (top 1 percent)": "sleep research",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 34,
+    "persona_1": {
+      "persona": "Una persona fascinada por el concepto de los sueños y los significados simbólicos que hay detrás de ellos. Tiene un profundo conocimiento del simbolismo de la arena, incluida su naturaleza dualista y sus asociaciones con el microcosmos y el macrocosmos. También le interesa la psicología de los sueños y cómo se relacionan con nuestra vida de vigilia. Tiene un gran interés en el simbolismo de la arena y en cómo puede utilizarse para explorar la naturaleza compleja y esquiva de nuestros sueños. Es probable que sea un analista de sueños o un psicólogo especializado en el estudio de los sueños y sus significados simbólicos.",
+      "general domain (top 1 percent)": "psychology",
+      "specific domain (top 1 percent)": "dream analysis/psychology of dreams",
+      "category": "Life & Health"
+    },
+    "persona_2": {
+      "persona": "Un periodista interesado en el lenguaje, la gramática y la puntuación, particularmente en lo que respecta a la escritura y la edición. Está familiarizado con diversos signos de puntuación y sus usos en diferentes contextos, y es hábil en utilizarlos para mejorar la claridad y la eficacia de su escritura. También le interesa la historia y la evolución de los signos de puntuación, y cómo se han utilizado y adaptado a lo largo del tiempo. Puede tener un interés particular en signos de puntuación específicos, como el punto y coma, y puede tener una colección de ejemplos o explicaciones de su uso.",
+      "general domain (top 1 percent)": "Language and Linguistics",
+      "specific domain (top 1 percent)": "Punctuation",
+      "category": "Humanities & Culture"
+    }
+  },
+  {
+    "pair_id": 35,
+    "persona_1": {
+      "persona": "Un físico especializado en física cuántica e inteligencia artificial, en particular en el campo de la metrología cuántica adaptativa. Ha publicado trabajos pioneros que utilizan inteligencia artificial para desarrollar estrategias que permitan aprovechar al máximo las propiedades cuánticas para medir las cosas con la mayor precisión posible y superar el límite cuántico impuesto por el principio de incertidumbre. Su trabajo tiene el potencial de dar lugar a relojes atómicos ultraprecisos, instrumentos del Sistema de Posicionamiento Global (Global Positioning System) extremadamente precisos, o a una forma de medir las \"ondas gravitacionales\", que aún no se han detectado.",
+      "general domain (top 1 percent)": "physics",
+      "specific domain (top 1 percent)": "quantum physics",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "Un historiador que se especializa en el estudio de las civilizaciones antiguas, en particular las de la región mediterránea. Esta persona tiene un profundo conocimiento de la historia y la cultura de los habitantes de los sassi y de las personas que alguna vez vivieron en el South End. Le apasiona preservar las tradiciones y el patrimonio únicos e invaluables de estas comunidades y está comprometida con comprender y abordar los desafíos a los que se enfrentan. También le interesa explorar las implicaciones más amplias de la globalización y el impacto de la modernización en las comunidades de todo el mundo.",
+      "general domain (top 1 percent)": "history",
+      "specific domain (top 1 percent)": "ancient mediterranean history",
+      "category": "Humanities & Culture"
+    }
+  },
+  {
+    "pair_id": 36,
+    "persona_1": {
+      "persona": "Un historiador interesado en descubrir las historias ocultas de su hogar y la historia de su comunidad. Le apasiona aprender sobre su pasado y las relaciones entre su hogar y el mundo natural. Disfruta resolviendo misterios y rompecabezas relacionados con su historia local. Siente curiosidad por el lenguaje arquitectónico de los edificios y paisajes que lo rodean y quiere aprender a leerlo e interpretarlo. No tiene miedo de usar sus conocimientos y habilidades para resolver misterios históricos y rompecabezas relacionados con su historia local.",
+      "general domain (top 1 percent)": "history",
+      "specific domain (top 1 percent)": "local history",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "Un director ejecutivo (CEO) de una empresa farmacéutica que está interesado en descubrir nuevos tratamientos para la caída del cabello y se siente particularmente atraído por los resultados prometedores de los inhibidores de JAK en el tratamiento de la alopecia areata y otros trastornos autoinmunes. Siente curiosidad por el potencial de los inhibidores de JAK para tratar la calvicie de patrón masculino y femenino y está deseoso de ver si la nueva solución tópica ATI-502 desarrollada por Aclaris Therapeutics puede tener éxito en este sentido. También es consciente de que el proceso de desarrollo de nuevos tratamientos es largo e incierto y, por lo tanto, es cauteloso en su enfoque.",
+      "general domain (top 1 percent)": "Business/Management",
+      "specific domain (top 1 percent)": "None",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 37,
+    "persona_1": {
+      "persona": "Una persona interesada en configurar y gestionar los ajustes de red en un router, específicamente un router Linksys WRT54G. Es probable que esta persona sea alguien con conocimientos técnicos que disfruta solucionando problemas y optimizando configuraciones de red. Puede estar buscando formas de mejorar las velocidades de internet, solucionar problemas de conectividad y garantizar que su red sea segura. Esta persona está familiarizada con la configuración básica del router y puede tener cierta experiencia en la gestión de ajustes de red. También es probable que tenga conocimientos técnicos y se sienta cómoda utilizando una herramienta de configuración basada en la web.",
+      "general domain (top 1 percent)": "Computer Science",
+      "specific domain (top 1 percent)": "Network Administration",
+      "category": "Digital & Computing"
+    },
+    "persona_2": {
+      "persona": "Un investigador que se especializa en el estudio de los receptores de melatonina y sus funciones en el cuerpo humano, particularmente en los sistemas circadiano y reproductivo. Es probable que esta persona participe en investigación médica, particularmente en el campo de la farmacología y la fisiología, y esté interesada en comprender el papel de la melatonina en la salud y la enfermedad humanas. Es probable que esté familiarizada con los hallazgos y desarrollos de investigación más recientes en el campo de la investigación sobre la melatonina, y esté interesada en contribuir al avance de nuestra comprensión de esta importante hormona.",
+      "general domain (top 1 percent)": "medicine",
+      "specific domain (top 1 percent)": "pharmacology",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 38,
+    "persona_1": {
+      "persona": "Un tecnócrata que ha sido fundamental en la transformación del examen JEE (Advanced) de una prueba en papel y lápiz a una prueba basada en computadora (CBT). La persona ha supervisado la implementación del formato CBT para el examen JEE (Advanced), garantizando que todos los candidatos tengan acceso a las versiones del cuestionario tanto en hindi como en inglés. También ha implementado medidas para prevenir errores y asegurar que el examen se lleve a cabo de manera justa y transparente. La persona es altamente competente en la gestión de exámenes a gran escala y tiene un profundo conocimiento del proceso del examen JEE (Advanced).",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "exam management",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "Un CEO de una empresa automotriz líder, centrado en desarrollar e implementar tecnologías innovadoras para mejorar la eficiencia del combustible y reducir las emisiones. Impulsado por una pasión por ampliar los límites de los motores de combustión convencionales, busca constantemente nuevas formas de optimizar el rendimiento y minimizar el desperdicio. Con un agudo ojo para el detalle y un profundo conocimiento de la industria automotriz, busca constantemente maneras de mejorar el consumo de combustible y reducir el impacto ambiental. Su objetivo es liderar a la industria hacia un futuro de transporte sostenible y eficiente.",
+      "general domain (top 1 percent)": "Business/Management",
+      "specific domain (top 1 percent)": "Automotive Industry",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 39,
+    "persona_1": {
+      "persona": "Una persona que es muy crítica del concepto de una \"asociación\" entre los maoríes y la Corona, tal como se describe en el Tratado de Waitangi. Esta persona es una firme defensora de una sola ley para todos los neozelandeses, independientemente de la raza o la etnia, y cree que el Tratado debe interpretarse y aplicarse de una manera que promueva la igualdad y la justicia para todos. Es probable que esta persona sea una activista por la justicia social o una defensora de los derechos humanos, apasionada por los principios del Tratado de Waitangi y comprometida con promover sus valores y principios en la sociedad contemporánea.",
+      "general domain (top 1 percent)": "Politics/Policy",
+      "specific domain (top 1 percent)": "Indigenous Rights/Treaty of Waitangi",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "Un profesional veterano y con amplia experiencia en la industria energética, con enfoque en los mercados de gas natural y petróleo, particularmente en EE. UU. y China. Cuenta con un amplio conocimiento y experiencia en el desarrollo e implementación de normas voluntarias, las exportaciones de energía y el impacto de las tendencias económicas globales en la industria. Está al tanto de las condiciones actuales del mercado, incluidas las fluctuaciones de precios, la oferta y la demanda, y el papel de China como posible comprador de energía de EE. UU. Tiene un agudo sentido para las tendencias del mercado y está bien versado en las negociaciones de comercio internacional.",
+      "general domain (top 1 percent)": "Business",
+      "specific domain (top 1 percent)": "Energy Industry",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 40,
+    "persona_1": {
+      "persona": "Un profesional médico interesado en el cáncer de próstata, en particular en su diagnóstico y tratamiento. Tiene conocimientos sobre el impacto de la concienciación y el cribado en las tasas de cáncer de próstata y está interesado en los últimos avances en métodos de cribado y tratamientos. Es probable que conozca la prueba de orina PCA3 y la importancia de estar al tanto de los factores de riesgo del cáncer de próstata. También es probable que sea consciente de la necesidad de un enfoque equilibrado del cribado del cáncer de próstata, reconociendo que no todos los casos de cáncer de próstata requieren tratamiento activo.",
+      "general domain (top 1 percent)": "medicine",
+      "specific domain (top 1 percent)": "prostate cancer diagnosis and treatment",
+      "category": "Life & Health"
+    },
+    "persona_2": {
+      "persona": "Una científica computacional especializada en cribado virtual y descubrimiento de fármacos, con un enfoque particular en terapéuticas para el VIH/SIDA. LaLonde utiliza métodos computacionales para identificar posibles inhibidores de la entrada del VIH en las células, mediante el análisis de la estructura de proteínas y la comparación de similitud basada en la forma. Su trabajo implica el uso de recursos de computación de alto rendimiento en PSC para ejecutar programas de cribado virtual y sintetizar nuevos compuestos. Es miembro de la comunidad de aprendizaje automático y tiene experiencia trabajando con GraphLab, un software de computación paralela para grandes problemas de aprendizaje automático.",
+      "general domain (top 1 percent)": "Computer Science/Computational Science",
+      "specific domain (top 1 percent)": "Drug Discovery/Virtual Screening",
+      "category": "Digital & Computing"
+    }
+  },
+  {
+    "pair_id": 41,
+    "persona_1": {
+      "persona": "Un miembro sénior de la European Aviation Crisis Coordination Cell (EACCC), responsable de coordinar e implementar medidas para mitigar el impacto de desastres naturales y provocados por el ser humano en la red de aviación europea. Esta persona está bien versada en la gestión de desastres y la respuesta a crisis, con experiencia en la coordinación con las partes interesadas, el análisis y la difusión de información pertinente, y la comunicación con la comunidad de la aviación. También está familiarizada con la estructura y los procesos de la EACCC, habiendo participado en sus reuniones y coordinado con otras partes interesadas.",
+      "general domain (top 1 percent)": "Crisis Management",
+      "specific domain (top 1 percent)": "Aviation Crisis Management",
+      "category": "Business & Economy"
+    },
+    "persona_2": {
+      "persona": "Un profesional de la salud que está interesado en comprender los requisitos técnicos y los estándares de certificación para los sistemas de historia clínica electrónica (EHR). Esta persona busca un producto que cuente con certificación CCHIT con fines de funcionalidad y que también esté certificado por ONC-ATCB, tanto con fines de funcionalidad como para calificar para los pagos por uso significativo. También le interesan los productos que califican para ambas certificaciones y está dispuesto a invertir en un producto que sea más flexible y permita la incorporación de nueva funcionalidad sin cambiar el resto del sistema.",
+      "general domain (top 1 percent)": "healthcare",
+      "specific domain (top 1 percent)": "healthcare technology",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 42,
+    "persona_1": {
+      "persona": "Un/a científico/a que se especializa en el estudio de la reconexión magnética y sus implicaciones para el Sol y la Tierra. Este/a científico/a participa en la misión Magnetospheric Multiscale y tiene experiencia en instrumentación de plasma rápida. Le interesa aplicar este conocimiento a otros procesos del universo y tiene un gran interés en la corona del Sol y el viento solar. Es probable que el/la científico/a sea miembro de la comunidad científica dedicada al estudio del clima espacial y le apasiona descubrir nuevos fenómenos y realizar contribuciones significativas al campo.",
+      "general domain (top 1 percent)": "space physics",
+      "specific domain (top 1 percent)": "magnetic reconnection",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "Un líder mundial comprometido con la reducción de las emisiones de carbono y la promoción de las energías renovables. Esta persona conoce el impacto de los subsidios a los combustibles fósiles en el medio ambiente y la economía, y está interesada en implementar políticas para eliminarlos gradualmente. Comprende la importancia de la seguridad energética y de reducir las emisiones de gases de efecto invernadero, y está dispuesta a tomar medidas para abordar estos problemas. Es probable que esta persona sea miembro del G20 o de una organización global similar, y tiene un gran interés en promover el desarrollo sostenible y combatir el cambio climático.",
+      "general domain (top 1 percent)": "Politics/International Relations",
+      "specific domain (top 1 percent)": "Climate Change Policy",
+      "category": "Government, Law & Security"
+    }
+  },
+  {
+    "pair_id": 43,
+    "persona_1": {
+      "persona": "Un desarrollador de currículos y un investigador educativo interesado en el desarrollo y la evaluación de currículos, particularmente en el contexto de la medición basada en resultados y los modelos de praxis del currículo. Posee habilidades para separar distintos aspectos de los asuntos relacionados con el currículo y explorarlos con mayor detalle, así como para enfatizar la relevancia de cada aspecto para su práctica docente. Le apasiona la importancia de desarrollar y optimizar los currículos para garantizar que sean pertinentes, eficaces y conformes con las condiciones morales y culturales.",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "curriculum development",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "Un conservacionista ambiental y educador dedicado, apasionado por el monitoreo y la educación sobre la calidad del agua. Esta persona tiene conocimientos en pruebas acuáticas, específicamente en el uso de métodos químicos y biológicos para evaluar la salud de los arroyos. Cuenta con experiencia liderando proyectos de ciencia ciudadana y está comprometida con la promoción de esfuerzos de conservación en su comunidad. Esta persona está interesada en colaborar con instituciones y organizaciones locales para fomentar una comprensión más profunda de la importancia de los ecosistemas acuáticos y de la necesidad de realizar esfuerzos de conservación.",
+      "general domain (top 1 percent)": "environmental science",
+      "specific domain (top 1 percent)": "None",
+      "category": "Earth, Environment & Agriculture"
+    }
+  },
+  {
+    "pair_id": 44,
+    "persona_1": {
+      "persona": "Un miembro del Congreso de los Estados Unidos que siente pasión por la política energética y cree que el país debería priorizar el desarrollo de sus recursos nacionales. Es miembro del Partido Republicano y tiene una sólida formación en economía y energía. Está interesado en el uso de fuentes de energía renovable y cree que el país debería invertir en nuevas tecnologías para reducir su dependencia de los combustibles fósiles. También tiene un profundo conocimiento de las reservas energéticas del país y está comprometido a garantizar que el país tenga acceso a una gama diversa de fuentes de energía.",
+      "general domain (top 1 percent)": "energy policy",
+      "specific domain (top 1 percent)": "None",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "Un profesional médico que se especializa en la farmacología de los vasopresores, en particular en los efectos de los agonistas alfa 1 y beta 1 sobre el sistema cardiovascular y la vasoconstricción periférica. Tiene experiencia con la conversión de alfa metilnorepinefrina y alfa metilepinefrina, los efectos de la administración rápida de dexmedetomidina y la farmacología de la epinefrina. Es probable que esté familiarizado con el uso de vasopresores en el tratamiento de afecciones cardiovasculares y tenga una sólida comprensión de los mecanismos de acción de los agonistas alfa 1 y beta 1.",
+      "general domain (top 1 percent)": "medicine",
+      "specific domain (top 1 percent)": "pharmacology",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 45,
+    "persona_1": {
+      "persona": "Un profesional en el ámbito de la seguridad escolar y la prevención de la violencia que posee conocimientos sobre la detección, prevención y respuesta ante diversas formas de violencia en las escuelas, incluida la presión de grupo, las relaciones poco saludables y la conducta suicida. Tiene experiencia en la realización de evaluaciones integrales de la seguridad escolar y en el desarrollo de estrategias para abordar y prevenir la violencia. Está altamente capacitado en la identificación y respuesta a señales de violencia y en el desarrollo de intervenciones eficaces para apoyar a estudiantes y personal en la creación de un entorno escolar seguro y de apoyo.",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "school safety and violence prevention",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "Un profesional de SIG (GIS) altamente capacitado en la creación y manipulación de datos 3D, en particular en el uso de heightmaps. Cuenta con amplia experiencia en el uso de herramientas y software de código abierto, como QGIS y GRASS, para extraer y manipular datos 3D. También domina el uso de técnicas de análisis y modelado 3D para crear modelos y escenas 3D, y está bien versado en el uso de tecnologías de cartografía web para presentar y compartir su trabajo. Está dedicado a utilizar su experiencia para crear y compartir datos 3D que puedan utilizarse en diversas plataformas y aplicaciones.",
+      "general domain (top 1 percent)": "Computer Science",
+      "specific domain (top 1 percent)": "Geographic Information Systems (GIS)",
+      "category": "Digital & Computing"
+    }
+  },
+  {
+    "pair_id": 46,
+    "persona_1": {
+      "persona": "Una persona responsable de desarrollar y hacer cumplir las leyes de salud y seguridad en el trabajo (WHS) en diferentes estados y territorios de Australia. Tiene conocimientos sobre la legislación WHS armonizada, incluida la Ley WHS modelo (model WHS Act), los reglamentos, los Códigos de Práctica y la política nacional de cumplimiento y aplicación. También está familiarizada con las diferencias entre los reglamentos y los códigos de práctica y sus funciones en el control de los peligros en el lugar de trabajo. Se espera que actualice sus conocimientos y habilidades con regularidad para mantenerse al día con los requisitos cambiantes de la legislación WHS.",
+      "general domain (top 1 percent)": "law",
+      "specific domain (top 1 percent)": "Workplace Health and Safety (WHS) Law",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "Un tecnólogo apasionado por la inteligencia artificial y sus aplicaciones en diversas industrias. Tiene conocimientos sobre el campo de la IA, su arquitectura y la prueba de Turing. Le interesan los últimos avances en la tecnología de IA y el impacto que tiene en la sociedad. También es consciente de las implicaciones éticas y sociales de la IA, como el potencial de que la IA reemplace empleos humanos y la necesidad de regulaciones para garantizar el uso responsable de la IA. Le interesa el impacto de la IA en el futuro del trabajo y el potencial de que la IA cree nuevos empleos.",
+      "general domain (top 1 percent)": "Computer Science",
+      "specific domain (top 1 percent)": "Artificial Intelligence",
+      "category": "Digital & Computing"
+    }
+  },
+  {
+    "pair_id": 47,
+    "persona_1": {
+      "persona": "Un abogado británico (barrister) y exabogado que trabajó para el Imperio Británico en la India, particularmente en las provincias de Punjab y Bengala. Radcliffe es conocido por su trabajo en el campo de la demarcación de fronteras y ha realizado contribuciones significativas a la comunidad internacional a través de su labor. También es conocido por su trabajo en el ámbito del derecho y ha estado involucrado en varios casos legales de alto perfil. A pesar de sus logros, Radcliffe también es conocido por sus acciones controvertidas durante la partición de la India en 1947, particularmente su papel en trazar la línea fronteriza internacional.",
+      "general domain (top 1 percent)": "law",
+      "specific domain (top 1 percent)": "international law/boundary demarcation",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "Un analista financiero interesado en comprender los patrones de flujo de efectivo de una empresa y cómo utiliza y gestiona sus recursos financieros. Es probable que esta persona esté interesada en los detalles y matices del estado de flujos de efectivo, como las secciones de actividades de operación, inversión y financiación, y en cómo se relacionan con la salud financiera general de la empresa y la gestión del flujo de efectivo. Esta persona también puede estar interesada en las notas explicativas que acompañan a los estados financieros y proporcionan contexto y explicación para las cifras presentadas en el estado de flujos de efectivo.",
+      "general domain (top 1 percent)": "finance",
+      "specific domain (top 1 percent)": "financial analysis",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 48,
+    "persona_1": {
+      "persona": "Una persona interesada en la tecnología, en particular en la World Wide Web y sus diversos componentes. Es probable que esta persona sea un desarrollador web, diseñador o entusiasta interesado en aprender sobre la estructura y el funcionamiento de Internet. También puede estar interesada en aprender sobre diferentes protocolos y tecnologías utilizados en Internet, como el correo electrónico, la Web, FTP y telnet. Puede estar buscando información sobre cómo crear un sitio web, cómo acceder a la web y cómo utilizar software informático como Firefox, Internet Explorer y Netscape para navegar por la web.",
+      "general domain (top 1 percent)": "computer science",
+      "specific domain (top 1 percent)": "web development",
+      "category": "Digital & Computing"
+    },
+    "persona_2": {
+      "persona": "Un psicólogo e investigador que tiene un profundo interés en la intersección entre la espiritualidad y la adicción, y en el potencial de la atención plena (mindfulness) como herramienta para abordar el abuso de sustancias. Ha realizado investigaciones sobre la relación entre la espiritualidad, la atención plena (mindfulness) y el abuso de sustancias, y ha publicado hallazgos que sugieren una correlación positiva entre niveles más altos de espiritualidad y una disminución del consumo de sustancias. También le interesa explorar la relación entre la espiritualidad y la adicción, y el potencial de la atención plena (mindfulness) para ser una herramienta útil en el abordaje de la adicción.",
+      "general domain (top 1 percent)": "psychology",
+      "specific domain (top 1 percent)": "addiction psychology",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 49,
+    "persona_1": {
+      "persona": "Un historiador de la Guerra Civil que está interesado en las experiencias y acciones del 43rd USCT Regiment durante la Wilderness Campaign y el Siege of Petersburg. Está particularmente interesado en el papel del regimiento en la Battle of the Crater y en las estrategias empleadas por el ejército confederado. También está interesado en las acciones del regimiento en torno a Petersburg, incluidas sus tareas de fatiga y el combate en la Battle of Hatcher's Run. Puede que esté buscando información detallada sobre los movimientos del regimiento y las estrategias empleadas por los confederados durante este período.",
+      "general domain (top 1 percent)": "history",
+      "specific domain (top 1 percent)": "american civil war history",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "Un químico francés y profesor de química, conocido por sus contribuciones a la termometría y el descubrimiento del principio de Le Chatelier, que tiene implicaciones industriales en el campo de la ingeniería química. Es probable que esté interesado en el estudio del equilibrio químico y sus efectos en sistemas bajo restricciones externas, y es probable que tenga un profundo conocimiento de los principios de la termodinámica y la ley de acción de masas. Es probable que tenga pasión por la enseñanza y la investigación, y es probable que cuente con una sólida formación en el estudio de los minerales y su química.",
+      "general domain (top 1 percent)": "chemistry",
+      "specific domain (top 1 percent)": "thermodynamics",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 50,
+    "persona_1": {
+      "persona": "Un/a docente con pasión por la robótica y la educación en ingeniería, interesado/a en incorporar estas materias en su plan de estudios de la escuela primaria. Tiene formación en educación y experiencia enseñando otras materias, pero está deseoso/a de aprender más sobre robótica e ingeniería. Está abierto/a a aprender de otros/as docentes e ingenieros/as y está dispuesto/a a asumir el reto de incorporar estas materias en una escuela. Busca recursos y mentoría para ayudarle a empezar y está dispuesto/a a adaptarse al entorno del aula si es necesario.",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "None",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "Un optometrista altamente cualificado con más de 30 años de experiencia en el campo de la optometría, especializado en el diagnóstico y tratamiento de trastornos refractivos como el astigmatismo, la miopía y la hipermetropía. El Dr. Frank y su equipo ofrecen exámenes oculares integrales utilizando la tecnología más reciente para diagnosticar con precisión el astigmatismo y recomendar opciones adecuadas de corrección visual, incluidas gafas y lentes de contacto, para ayudar a los pacientes a ver con claridad incluso con astigmatismo en ambos ojos. También brindan servicios de consulta para diferentes tipos de cirugía refractiva y atención pre y posoperatoria.",
+      "general domain (top 1 percent)": "medicine",
+      "specific domain (top 1 percent)": "optometry",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 51,
+    "persona_1": {
+      "persona": "Una historiadora y arqueóloga especializada en el estudio de las catacumbas romanas, en particular las de Roma y otras ciudades de Italia. Tiene conocimientos sobre la historia, la arquitectura y el arte de estos sitios de enterramiento subterráneos, y le interesa su importancia en el desarrollo del cristianismo y del Imperio romano. Ha realizado una investigación exhaustiva sobre las catacumbas y ha publicado numerosos artículos y libros sobre el tema. También le interesa el papel de las catacumbas en la difusión del cristianismo y en la preservación del arte y la arquitectura cristianos.",
+      "general domain (top 1 percent)": "history",
+      "specific domain (top 1 percent)": "archaeology",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "Un paciente que está interesado en gestionar y comprender los síntomas y las opciones de tratamiento del herpes genital, centrándose específicamente en la recurrencia del virus y la eficacia de diversos tratamientos. Esta persona puede estar buscando información sobre las causas, la prevención y el manejo del herpes genital recurrente, así como asesoramiento sobre cambios en el estilo de vida e intervenciones médicas para reducir la frecuencia y la gravedad de las recurrencias. Esta persona también puede estar interesada en conocer las investigaciones más recientes y los avances en el campo del manejo del herpes genital.",
+      "general domain (top 1 percent)": "medicine",
+      "specific domain (top 1 percent)": "genital herpes management",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 52,
+    "persona_1": {
+      "persona": "Un/a profesor/a de idiomas que se especializa en juegos y actividades de gramática de ESL, con un enfoque particular en ayudar a los estudiantes a aprender y retener nuevas formas gramaticales mediante actividades interactivas y atractivas. Este/a profesor/a tiene experiencia en el uso de una variedad de formas y actividades para presentar y practicar diferentes estructuras gramaticales, incluyendo el present perfect, los verbos irregulares, el past continuous, el future form present continuous y más. Este/a profesor/a también es competente en el uso de la tecnología para facilitar el aprendizaje y la enseñanza, y se siente cómodo/a con una gama de métodos y actividades de enseñanza.",
+      "general domain (top 1 percent)": "Education",
+      "specific domain (top 1 percent)": "Language Teaching",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "Un Maestro Sitarista de Clase Mundial que se especializa en el estudio de la Música Clásica India, en particular las formas melódicas llamadas \"Ragas\", y el proceso psicofisiológico de transformación a través de la música. Sus intereses de investigación incluyen los contenidos espirituales y emocionales de un Raga, el complejo proceso de coloración microtonal, la ornamentación de las notas y los ritmos intrincados, y el papel vital de la improvisación en la elaboración de un Raga. Es conocido por su capacidad única para expresar diferentes estados de ánimo mediante la improvisación de ragas y por su enfoque fresco y vivaz de la música.",
+      "general domain (top 1 percent)": "Music",
+      "specific domain (top 1 percent)": "Indian Classical Music",
+      "category": "Arts, Media & Design"
+    }
+  },
+  {
+    "pair_id": 53,
+    "persona_1": {
+      "persona": "Un científico interesado en el impacto de los productos químicos en el medio ambiente y la salud humana, en particular los compuestos que imitan al estrógeno y sus efectos sobre el desarrollo y la función sexual. Es un ecólogo que ha estudiado los efectos de la atrazina y otros productos químicos en las ranas y sus poblaciones. También le interesan los cambios regulatorios y la reducción de la exposición a productos químicos, y tiene una comprensión única de la conexión entre los productos químicos y la salud humana. Siente pasión por la ciencia y el medio ambiente, y está dedicado a encontrar soluciones para proteger ambos.",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Ecotoxicology",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "Un experto en el negocio del té que ha establecido y gestionado empresas estatales de importación y exportación de té, y que cuenta con una red de mercados en el extranjero con relaciones específicas con directores de negocios de importación de té. Esta persona tiene un profundo conocimiento del mercado mundial del té y ha acumulado fondos significativos mediante la venta de plantaciones de té y la exportación de té. Tiene un fuerte deseo de mantener el control sobre su negocio y transmitirlo a sus hijos. Posee conocimientos y experiencia únicos en la industria del té, y está bien conectado en el mundo del negocio del té.",
+      "general domain (top 1 percent)": "Business",
+      "specific domain (top 1 percent)": "Tea Industry",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 54,
+    "persona_1": {
+      "persona": "Un entusiasta de las criptomonedas que está interesado en los últimos avances en el ecosistema de las finanzas descentralizadas (DeFi). Esta persona busca plataformas que ofrezcan alta liquidez, bajas comisiones de gas y funciones fáciles de usar para operar y gestionar sus activos digitales. También le interesa aprender sobre protocolos DeFi como Compound, Aave y Solend, así como el potencial de obtener ingresos mediante préstamos y endeudamiento. Además, esta persona busca formas de proteger sus inversiones mediante seguros DeFi y está interesada en aplicaciones de yield farming.",
+      "general domain (top 1 percent)": "finance",
+      "specific domain (top 1 percent)": "DeFi",
+      "category": "Business & Economy"
+    },
+    "persona_2": {
+      "persona": "Un/a evaluador/a de prototipos de aplicaciones que está interesado/a en probar y mejorar la usabilidad y la funcionalidad de las aplicaciones. Busca formas de mejorar la experiencia del usuario y garantizar que la aplicación satisfaga las necesidades de su público objetivo. Tiene habilidad para identificar y abordar los puntos de dolor de los usuarios, y cuenta con experiencia en la creación y prueba de prototipos. Se siente cómodo/a con el prototipado en papel y está familiarizado/a con herramientas especializadas como POP, Proto.io, Balsamiq, iRise e InVision. Tiene ganas de aprender y crecer en sus habilidades, y está abierto/a a comentarios y sugerencias.",
+      "general domain (top 1 percent)": "User Experience Design",
+      "specific domain (top 1 percent)": "Mobile App Testing",
+      "category": "Arts, Media & Design"
+    }
+  },
+  {
+    "pair_id": 55,
+    "persona_1": {
+      "persona": "Una administradora escolar del Crook County School District que supervisa el programa TAG y es responsable de identificar y apoyar a estudiantes intelectualmente superdotados. Tiene una amplia experiencia en educación y un profundo conocimiento de las políticas y los procedimientos relacionados con el programa TAG. Está comprometida con la prestación de servicios de alta calidad a los estudiantes TAG y con garantizar que reciban el apoyo y los recursos necesarios para tener éxito académico. También participa en el desarrollo de nuevos programas e iniciativas para apoyar a los estudiantes TAG y garantizar su éxito.",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "gifted education",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "Un entusiasta de la impresión 3D que está interesado en las posibles aplicaciones de la tecnología en la educación, el diseño y las industrias creativas. Es probable que esta persona participe en el desarrollo, la investigación o el uso de impresoras 3D y esté interesada en los últimos avances en el campo. Puede tener formación en ingeniería, física o informática y está familiarizada con software CAD. También es probable que esta persona esté interesada en el impacto ambiental de la impresión 3D y sea consciente del potencial de la impresión 3D para revolucionar la fabricación y el diseño de productos.",
+      "general domain (top 1 percent)": "Engineering",
+      "specific domain (top 1 percent)": "Additive Manufacturing",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 56,
+    "persona_1": {
+      "persona": "Un residente de Staten Island apasionado por preservar el hábitat natural del águila calva y de otras grandes rapaces y aves, y que aboga por la protección de los árboles en Staten Island mediante la prohibición de la tala, la remoción y el daño de árboles de más de 75 pies de altura y de más de 100 años de antigüedad, exigiendo la preservación de los árboles más maduros y más altos en un sitio de construcción si el desarrollador ha de obtener un permiso de construcción, preservando árboles para el hábitat del águila, y estableciendo retranqueos de construcción y requisitos de huella de construcción y de cobertura del lote para preservar el espacio verde y el espacio verde natural.",
+      "general domain (top 1 percent)": "Environmental Conservation",
+      "specific domain (top 1 percent)": "Urban Forestry",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "Un fotógrafo que se especializa en capturar la belleza y la serenidad del paisaje natural de Glen Canyon, en particular el impresionante amanecer sobre el Lake Powell. Es probable que le interesen los aspectos técnicos de la fotografía, como la composición, la exposición y el encuadre. También puede tener un ojo agudo para el detalle y un fuerte sentido de la composición, ya que es capaz de capturar el momento perfecto en el tiempo. Además, puede tener una profunda apreciación por la historia y la cultura del Suroeste, ya que es capaz de capturar la esencia del paisaje a través de su lente.",
+      "general domain (top 1 percent)": "art",
+      "specific domain (top 1 percent)": "photography",
+      "category": "Arts, Media & Design"
+    }
+  },
+  {
+    "pair_id": 57,
+    "persona_1": {
+      "persona": "Un/a docente que tiene experiencia trabajando con niños con necesidades especiales y está interesado/a en comprender el desarrollo social de los niños en un aula inclusiva de primaria. Está dedicado/a a proporcionar apoyo y recursos para ayudar a los niños a desarrollar sus habilidades sociales y su inteligencia emocional. Tiene conocimientos sobre el contexto ecológico del aula y las actividades que apoyan el desarrollo de amistades entre pares. También es consciente de la importancia de proporcionar apoyo social y emocional además de la estimulación cognitiva y la evaluación.",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "special education",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "Un ciudadano danés que se siente orgulloso de los logros del país en seguridad alimentaria y producción avícola, y está interesado en la historia y la evolución de la industria alimentaria danesa. Es probable que esta persona tenga una sólida formación en agricultura, ciencia de los alimentos o salud pública, y esté interesada en los factores culturales e históricos que han contribuido al éxito de Dinamarca en la eliminación de la salmonela de su producción avícola. Es probable que sea miembro del clúster alimentario danés, y esté interesado en la colaboración y el trabajo en equipo que han sido esenciales para alcanzar este objetivo.",
+      "general domain (top 1 percent)": "Agriculture",
+      "specific domain (top 1 percent)": "Food Science",
+      "category": "Earth, Environment & Agriculture"
+    }
+  },
+  {
+    "pair_id": 58,
+    "persona_1": {
+      "persona": "Un científico o ingeniero que estudia las propiedades de los gases y su comportamiento en líquidos y sólidos. Le interesan las propiedades termodinámicas de los gases, como su solubilidad en líquidos y su tendencia a formar burbujas cuando se exponen a altas temperaturas o presiones. Es probable que tenga formación en física y química, y puede que tenga experiencia con técnicas experimentales para medir la solubilidad de los gases en líquidos. También es probable que esté familiarizado con el concepto de \"the bends\" y cómo se relaciona con el comportamiento de los gases en el cuerpo humano.",
+      "general domain (top 1 percent)": "physics",
+      "specific domain (top 1 percent)": "thermodynamics",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "Un investigador en Disney Research, Pittsburgh que se especializa en el desarrollo de tecnología que utiliza sensaciones táctiles para crear experiencias realistas e inmersivas, particularmente en el ámbito de las pantallas táctiles y los videojuegos. Esta persona siente pasión por explorar los límites de la percepción humana y por utilizar la tecnología para ampliar y mejorar nuestra comprensión del mundo que nos rodea. Está constantemente ampliando los límites de lo que es posible con esta tecnología y está dedicada a crear soluciones innovadoras y revolucionarias que puedan ser utilizadas por personas de todo el mundo.",
+      "general domain (top 1 percent)": "computer science",
+      "specific domain (top 1 percent)": "human-computer interaction",
+      "category": "Digital & Computing"
+    }
+  },
+  {
+    "pair_id": 59,
+    "persona_1": {
+      "persona": "Un profesor de matemáticas que enfatiza la importancia de utilizar diferentes métodos de enseñanza para involucrar a los estudiantes en el aprendizaje de las matemáticas. Entiende que repasar repetidamente los conceptos básicos de matemáticas puede ser aburrido y frustrante para los estudiantes, por lo que procura que las sesiones de repaso sean cortas y eficaces. También es consciente de la importancia de llevar un seguimiento del progreso de sus estudiantes y de utilizar hojas de trabajo como una herramienta para ayudarles con sus debilidades. Prioriza la comprensión de los conceptos subyacentes de las matemáticas y utiliza actividades interactivas y prácticas para ayudar a los estudiantes a retener la información.",
+      "general domain (top 1 percent)": "mathematics",
+      "specific domain (top 1 percent)": "None",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "Sonit Jain, CEO de GajShield Infotech, es un profesional de ciberseguridad altamente capacitado y con amplia experiencia que ha dedicado su carrera a construir infraestructuras de ciberseguridad robustas y a capacitar a los empleados para que sean proactivos en su mantenimiento. Comprende la importancia de contar con un sólido firewall humano y los desafíos de construir un equipo de ciberseguridad fuerte. Su experiencia se centra en el campo de la ciberseguridad, particularmente en el desarrollo e implementación de soluciones de ciberseguridad y en la capacitación de los empleados para que sean conscientes de las amenazas de ciberseguridad y de cómo prevenirlas.",
+      "general domain (top 1 percent)": "information technology",
+      "specific domain (top 1 percent)": "cybersecurity",
+      "category": "Digital & Computing"
+    }
+  },
+  {
+    "pair_id": 60,
+    "persona_1": {
+      "persona": "Un Deputy Inspector General of Police (DIPG) que se especializa en la prevención y detección del delito, particularmente en el ámbito de la ley y el orden. Tiene experiencia en las fuerzas del orden y ha servido en diversas funciones, incluyendo Assistant Commissioner of Police (ACP), Deputy Commissioner of Police (DCP) y Senior Superintendent of Police (SSP). Tiene una sólida formación jurídica y es capaz de gestionar casos complejos y mantener la ley y el orden en su jurisdicción. Es probable que tenga un fuerte sentido de la responsabilidad y un deseo de servir a la comunidad.",
+      "general domain (top 1 percent)": "law enforcement",
+      "specific domain (top 1 percent)": "law enforcement management",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "Una científica especializada en historia ecológica, en particular en el estudio de los recursos naturales en Wisconsin. Le apasiona comprender el estado pasado y presente del lago Mendota y de su cuenca hidrográfica circundante, y tiene acceso al sedimento que se deposita en su fondo, lo cual proporciona un archivo natural de la historia ecológica del lago. También le interesa el impacto de las prácticas agrícolas y la urbanización en la calidad del agua del lago y está trabajando para desarrollar una historia nueva y mejor de la calidad del agua en el lago Mendota y en lagos similares de todo el sur de Wisconsin.",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Limnology",
+      "category": "Earth, Environment & Agriculture"
+    }
+  },
+  {
+    "pair_id": 61,
+    "persona_1": {
+      "persona": "Un erudito de historia con un profundo conocimiento de la historia feudal y aristocrática escocesa, en particular de la evolución de los títulos y tratamientos en Escocia. Está familiarizado con las complejidades del sistema feudal, el desarrollo de los títulos escoceses y la jerarquía social en Escocia. También conoce el sistema de tribunales escocés y los roles y responsabilidades de diversas personas en la sociedad escocesa. Le interesan las dinámicas sociales de Escocia, la evolución de la sociedad escocesa y el papel de los títulos y tratamientos en la configuración de la identidad escocesa.",
+      "general domain (top 1 percent)": "History",
+      "specific domain (top 1 percent)": "Scottish History",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "Un experto veterinario e investigador con pasión por la ortopedia equina y canina, la genética y el tratamiento del cáncer. La persona tiene conocimientos en el uso de la resonancia magnética (MRI) en medicina veterinaria, ha desarrollado pruebas de ADN para enfermedades genéticas en perros y caballos, y cuenta con experiencia en el campo de la genética y la cría. El individuo está dedicado a salvar el futuro de razas en peligro de extinción y tiene un interés especial en la genética equina. La persona también está interesada en el tratamiento e investigación del cáncer en animales, y ha construido un centro oncológico de última generación para ofrecer la mejor atención a los pacientes.",
+      "general domain (top 1 percent)": "Biomedical Research",
+      "specific domain (top 1 percent)": "Veterinary Genetics",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 62,
+    "persona_1": {
+      "persona": "Matthew Wale, historiador y editor de volúmenes del John Tyndall Correspondence Project, está interesado en el auge de la ciencia ciudadana y el poder democratizador de las revistas populares de historia natural en el siglo XIX. Ha completado su doctorado (PhD) en historia en la University of Leicester y tiene un agudo ojo para la intersección de la ciencia, la sociedad y la cultura durante este período. La investigación de Wale se centra en las ciencias de la vida, la entomología y las comunidades científicas, y está particularmente interesado en el papel de las revistas populares en la configuración de estas comunidades.",
+      "general domain (top 1 percent)": "history",
+      "specific domain (top 1 percent)": "historical science studies",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "Un/a docente apasionado/a por mejorar el aprendizaje del alumnado mediante prácticas reflexivas, a menudo participando en el proceso de manera continua. Cree que la reflexión no consiste solo en afirmar al final de un plan de clase que el 95% del alumnado comprendió la lección, sino que es un proceso continuo que anima a los/las educadores/as a ser pensadores/as y a modificar el objetivo de enseñanza para adaptarlo a la situación del aula. El texto hace referencia a varios textos y recursos educativos, lo que indica un fuerte interés en el ámbito de la educación y un deseo de compartir conocimientos y perspectivas con otras personas.",
+      "general domain (top 1 percent)": "Education",
+      "specific domain (top 1 percent)": "Educational Pedagogy",
+      "category": "Society, Education & Lifestyle"
+    }
+  },
+  {
+    "pair_id": 63,
+    "persona_1": {
+      "persona": "Un entusiasta de la música que está interesado en la estructura y composición de las canciones, y en cómo pueden utilizarse como un medio para la codificación verbal del habla humana. Esta persona tiene un gran ojo para el detalle y es capaz de identificar la composición cíclica repetitiva de una melodía, así como la construcción visual de la letra. También es capaz de reconocer la importancia de la rima, el ritmo, la melodía y la trama en una canción, y cómo pueden utilizarse para crear un recuerdo duradero. Es probable que esta persona sea un productor musical, compositor o musicólogo interesado en la teoría y la práctica de la música.",
+      "general domain (top 1 percent)": "music",
+      "specific domain (top 1 percent)": "music theory",
+      "category": "Arts, Media & Design"
+    },
+    "persona_2": {
+      "persona": "Un ingeniero de aplicaciones de alta tensión y alta corriente que se especializa en el diseño e implementación de sistemas de electrónica de potencia. Está familiarizado con los principios de la electrónica de potencia conmutada, especialmente con el uso de diodos Schottky (SCRs) para aplicaciones de alta tensión y alta corriente. Tiene experiencia en el diseño e implementación de combinaciones serie-paralelo de SCR’s y es competente en el uso de condensadores en derivación para igualar tensiones durante la conmutación. También está familiarizado con el uso de diodos y resistencias en circuitos snubber para limitar la corriente y el di/dt durante el encendido.",
+      "general domain (top 1 percent)": "electrical engineering",
+      "specific domain (top 1 percent)": "power electronics",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 64,
+    "persona_1": {
+      "persona": "Una persona culta y refinada, apasionada por el arte y su evolución. Es una figura influyente en el mundo del arte, conocida por sus contribuciones al desarrollo del Fauvismo y del movimiento Neoimpresionista. Su amor por la navegación a vela y los viajes les inspiró a experimentar con diversos medios, incluidos los aguafuertes, las litografías y los bocetos a pluma y tinta. Fue políticamente activa, apoyando el movimiento anarquista y colaborando con la revista Les Temps Nouveaux. Su legado está marcado por sus obras, que continúan inspirando a artistas e historiadores del arte en la actualidad.",
+      "general domain (top 1 percent)": "art",
+      "specific domain (top 1 percent)": "art history/art movement (fauvism and neo-impressionism)",
+      "category": "Arts, Media & Design"
+    },
+    "persona_2": {
+      "persona": "Un historiador que está profundamente interesado en la historia de Sudán, en particular en el período de la esclavitud y sus secuelas, y en cómo esto ha moldeado la relación entre los dos Sudanes. Este historiador también siente curiosidad por las complejidades de la identidad y por cómo a menudo queda oscurecida por narrativas y agendas dominantes. Le interesan las historias de grupos marginados, como los sursudaneses, y cómo se entrecruzan con la historia más amplia de Sudán. También le interesa el papel de la religión y la cultura en la configuración de la identidad y cómo pueden utilizarse para dividir o unir a las personas.",
+      "general domain (top 1 percent)": "history",
+      "specific domain (top 1 percent)": "african history/sudanese history",
+      "category": "Humanities & Culture"
+    }
+  },
+  {
+    "pair_id": 65,
+    "persona_1": {
+      "persona": "Un historiador especializado en el estudio de la Unification War, con un enfoque particular en las motivaciones y estrategias de la Alliance y los Browncoats. Esta persona posee un conocimiento profundo de las causas y consecuencias de la guerra, incluidos los factores políticos, sociales y económicos que condujeron a su estallido. Tiene un gran interés en el impacto de la guerra en los diversos mundos implicados, incluidos el Border, el Rim y el Core. También le interesa el período posterior a la guerra, incluidos los esfuerzos de la Alliance y los Browncoats por reconciliarse y seguir adelante.",
+      "general domain (top 1 percent)": "history",
+      "specific domain (top 1 percent)": "None",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "Un administrador responsable de garantizar que los recursos electrónicos y de información utilizados en un curso sean accesibles para todos los estudiantes e instructores asociados con el curso. Este administrador comprende las diversas necesidades de los estudiantes e instructores, incluidas las de las personas con discapacidades, y toma medidas para abordar los problemas de accesibilidad en sus materiales del curso y herramientas de autoría. Está familiarizado con el World Wide Web Consortium y las normas de la Sección 508 para la accesibilidad web, y tiene experiencia en el uso de herramientas de autoría para el aprendizaje a distancia para crear cursos accesibles.",
+      "general domain (top 1 percent)": "Computer Science",
+      "specific domain (top 1 percent)": "Accessibility in Education Technology",
+      "category": "Digital & Computing"
+    }
+  },
+  {
+    "pair_id": 66,
+    "persona_1": {
+      "persona": "Un geólogo apasionado por el estudio de la actividad volcánica y la historia del Monte Etna, en particular sus erupciones y las complejas características volcánicas de la isla de Sicilia. Esta persona está interesada en la ciencia que hay detrás de la actividad volcánica, la historia del Monte Etna y la importancia cultural de la montaña y su papel en la mitología griega antigua. También es probable que le interesen las actividades recreativas que ofrece el Monte Etna, como el esquí y el senderismo, y las características geológicas de la isla de Sicilia, como la caldera y el estratovolcán.",
+      "general domain (top 1 percent)": "geology",
+      "specific domain (top 1 percent)": "volcanology",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "Un historiador que se especializa en el estudio de las civilizaciones antiguas, en particular las de la región mediterránea, y que tiene un interés particular en la civilización fenicia y su influencia en la región. Sus intereses de investigación incluyen, entre otros, la historia de los fenicios, sus rutas comerciales y el impacto de su civilización en el desarrollo del mundo mediterráneo. También está interesado en los yacimientos arqueológicos de Delfos, Cartago y Roma, y tiene un profundo conocimiento del papel de estos sitios en la historia de la región mediterránea.",
+      "general domain (top 1 percent)": "history",
+      "specific domain (top 1 percent)": "ancient Mediterranean history",
+      "category": "Humanities & Culture"
+    }
+  },
+  {
+    "pair_id": 67,
+    "persona_1": {
+      "persona": "Una figura histórica que desempeñó un papel significativo en la política estadounidense y en la historia de los Estados Unidos. El condado de Seward, Kansas, lleva su nombre. Fue senador por Nueva York y líder del ala antiesclavista del Partido Whig. El condado de Seward limita con el condado de Haskell, el condado de Meade, el condado de Beaver, Oklahoma, el condado de Texas, Oklahoma, y el condado de Stevens. Los Seward County, Kansas Courthouse Records, la Seward County Register of Deeds Office, la Seward County Clerk of District Court, la Seward County Treasurers Office y los Seward County Census Records están disponibles para investigación.",
+      "general domain (top 1 percent)": "Politics",
+      "specific domain (top 1 percent)": "American Politics",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "Un entusiasta de la ciencia espacial que está particularmente interesado en el estudio de los asteroides y su posible impacto en la Tierra. Está al tanto del programa Asteroid Watch y de las predicciones realizadas por científicos de la NASA con respecto al posible impacto de los asteroides en la Tierra. También está al tanto de los encuentros cercanos con asteroides que han ocurrido en los últimos años y de la posibilidad de una colisión catastrófica en la Tierra. Le preocupa el posible impacto del asteroide Apophis y está buscando información sobre las probabilidades de un impacto real y las posibles consecuencias.",
+      "general domain (top 1 percent)": "Astronomy",
+      "specific domain (top 1 percent)": "Asteroid science",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 68,
+    "persona_1": {
+      "persona": "Un/a experto/a en políticas de recursos hídricos que posee un conocimiento profundo de la doctrina del fideicomiso público, el estándar de bienestar público y el potencial de las transacciones voluntarias basadas en el mercado para crear un suministro de agua para el Great Salt Lake. Tiene habilidades para analizar los impactos de las derivaciones de agua y los derechos de agua sobre el ecosistema del lago y la calidad del agua, y está interesado/a en encontrar soluciones innovadoras para abordar la disminución de los niveles de agua del lago. También es consciente de los intereses públicos más amplios que quizá deban protegerse frente a los desafíos del suministro de agua del lago.",
+      "general domain (top 1 percent)": "Environmental Science or Water Resources Management",
+      "specific domain (top 1 percent)": "Water Resources Policy",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "Un/a docente de Educación Especial que siente pasión por ayudar a niños con necesidades diversas y está comprometido/a con proporcionar un entorno de aprendizaje seguro e inclusivo. Tiene habilidades en evaluación y redacción de informes, posee un profundo conocimiento de la psicología y el desarrollo infantil, y cuenta con una creatividad y adaptabilidad excepcionales. Está dedicado/a a utilizar sus habilidades para apoyar la salud, la recuperación y el bienestar de personas con discapacidades físicas, mentales o emocionales, y está comprometido/a con fomentar la comprensión y el aprecio por la diversidad en el aula y más allá.",
+      "general domain (top 1 percent)": "Education",
+      "specific domain (top 1 percent)": "Special Education",
+      "category": "Society, Education & Lifestyle"
+    }
+  },
+  {
+    "pair_id": 69,
+    "persona_1": {
+      "persona": "Un entusiasta de la música country apasionado y con amplios conocimientos, interesado en la historia y la evolución del género, sus raíces en diferentes estilos e influencias, y su impacto en la cultura estadounidense. Aprecia las contribuciones de artistas como Garth Brooks, Lyle Lovett y los Carolina Chocolate Drops al género, y está interesado en aprender más sobre los objetivos y principios establecidos por ASCAP. También puede estar interesado en la industria musical, el papel de ASCAP en la promoción y la compensación de los creadores musicales, y la importancia de una compensación justa para los músicos.",
+      "general domain (top 1 percent)": "Music",
+      "specific domain (top 1 percent)": "Country music",
+      "category": "Arts, Media & Design"
+    },
+    "persona_2": {
+      "persona": "Un estratega empresarial interesado en comprender cómo evolucionan y se adaptan las organizaciones mediante el uso de la teoría evolutiva de las organizaciones. Es probable que esta persona tenga formación en comportamiento organizacional, gestión o estrategia, y un profundo interés en cómo las empresas se desarrollan y crecen con el tiempo. Siente curiosidad por los factores que impulsan la formulación de estrategias y por las formas en que las organizaciones responden al cambio. Esta persona puede estar interesada en explorar el concepto de la teoría evolutiva de las organizaciones y cómo puede aplicarse a escenarios empresariales del mundo real.",
+      "general domain (top 1 percent)": "business strategy",
+      "specific domain (top 1 percent)": "organizational behavior and management",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 70,
+    "persona_1": {
+      "persona": "Una científica de la Environmental Protection Agency (EPA) que se especializa en el estudio de los efectos de la salud ambiental, en particular los efectos de sustancias químicas tóxicas sobre la glándula tiroides y el sistema endocrino. Es autora principal de un estudio que sugiere que la exposición a largo plazo y a dosis bajas a los PBDEs, una clase de sustancias químicas tóxicas, puede alterar el sistema endocrino y contribuir a la epidemia de hipertiroidismo en gatos mayores. Su trabajo se centra en comprender los efectos sobre la salud de las sustancias químicas tóxicas en humanos y animales, y en abogar por políticas para reducir su exposición y prevenir daños.",
+      "general domain (top 1 percent)": "environmental science",
+      "specific domain (top 1 percent)": "toxicology/endocrine disruption",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "Un alto funcionario o estratega militar interesado en las tecnologías avanzadas y sus posibles aplicaciones en la seguridad nacional. Está familiarizado con la historia y el estado actual de las armas láser y está ansioso por explorar las posibilidades y los desafíos de la tecnología láser basada en el espacio. Tiene formación en defensa e ingeniería aeroespacial y está familiarizado con el desarrollo y las pruebas de sistemas de armas avanzados. También le interesan las implicaciones geopolíticas de la tecnología láser basada en el espacio y cómo podría afectar a las dinámicas de poder global.",
+      "general domain (top 1 percent)": "Engineering",
+      "specific domain (top 1 percent)": "Defense Engineering",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 71,
+    "persona_1": {
+      "persona": "Un escritor que se especializa en enseñar a estudiantes de ESL a mejorar sus habilidades de escritura, con un enfoque en la redacción de ensayos y la escritura argumentativa. Tiene pasión por ayudar a los estudiantes a desarrollar sus capacidades de escritura y es hábil para identificar y abordar problemas comunes de escritura. También tiene conocimientos sobre las secciones de escritura de TOEFL y IELTS, y cuenta con experiencia enseñando a los estudiantes cómo redactar ensayos que cumplan con los requisitos de estos exámenes. Está dedicado a proporcionar lecciones y recursos de escritura de alta calidad para ayudar a los estudiantes a alcanzar sus objetivos académicos y personales.",
+      "general domain (top 1 percent)": "Education",
+      "specific domain (top 1 percent)": "English Language Teaching",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "Un experto en ciberseguridad que está preocupado por las debilidades de la arquitectura actual de internet y propone soluciones para abordar estas debilidades. La persona conoce los principios de los sistemas biológicos y cómo pueden aplicarse a la ciberseguridad. Le interesa el desarrollo de una distribución ubicua de software de seguridad autorreplicante y la modificación de los protocolos de internet para dar cabida a software de seguridad adaptativo. La persona también es consciente de los desafíos de construir un internet a prueba de hackers sin comprometer las libertades básicas.",
+      "general domain (top 1 percent)": "Computer Science",
+      "specific domain (top 1 percent)": "Cybersecurity",
+      "category": "Digital & Computing"
+    }
+  },
+  {
+    "pair_id": 72,
+    "persona_1": {
+      "persona": "Un docente responsable de planificar, implementar y evaluar la eficacia de los enfoques de enseñanza y aprendizaje. Tiene habilidades para interpretar observaciones y documentar el aprendizaje de los niños, y posee un profundo conocimiento de los principios de enseñanza y aprendizaje eficaces. Colabora con colegas para fomentar relaciones de confianza y respeto con los niños, en particular con aquellos de diversos orígenes y temperamentos. Es probable que este curso sea de interés para docentes y educadores que estén interesados en mejorar sus prácticas de enseñanza y aprendizaje.",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "teacher training and development",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "Una persona interesada en el almacenamiento informático y los sistemas de archivos, particularmente en el contexto de TSK (Time Synchronized Kernel) y su implementación de sistema de archivos. Es probable que esta persona tenga una sólida formación en informática y esté familiarizada con conceptos como unidades de datos, sectores, fragmentos y clústeres en los sistemas de archivos. Le interesa comprender cómo se utilizan estos conceptos en TSK y cómo se relacionan con los sistemas de archivos del mundo real. También puede estar interesada en los sistemas de archivos específicos mencionados (EXTX, FAT, FFS, HFS y NTFS) y su implementación en TSK.",
+      "general domain (top 1 percent)": "computer science",
+      "specific domain (top 1 percent)": "file systems",
+      "category": "Digital & Computing"
+    }
+  },
+  {
+    "pair_id": 73,
+    "persona_1": {
+      "persona": "Un conservacionista y ambientalista apasionado por preservar los hábitats naturales y la vida silvestre. Tiene conocimientos sobre la historia del Parque Nacional de Yosemite y sus recursos naturales, y participa activamente en la adquisición y protección de tierras dentro del parque. También es consciente del potencial de desarrollo en la zona y está abogando por la expansión del parque para incluir más tierras. Es probable que sea miembro del Sierra Club u otra organización conservacionista, y le interesa el papel del gobierno en la protección de los recursos naturales.",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Conservation Biology",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "Una historiadora del derecho con especialización en los Juicios por Brujería de Salem de 1692, centrada en particular en el papel de las mujeres y los juicios sociales a la hora de determinar la culpabilidad legal. Conoce los estándares probatorios utilizados en los juicios y el contexto social en el que tuvieron lugar. Le interesa la intersección entre el derecho y la sociedad, y cómo los procedimientos legales pueden utilizarse para moldear las percepciones y actitudes del público. También es probable que le interesen las implicaciones más amplias de los juicios para el desarrollo del sistema jurídico y el papel de las mujeres en la sociedad.",
+      "general domain (top 1 percent)": "History",
+      "specific domain (top 1 percent)": "Legal History",
+      "category": "Humanities & Culture"
+    }
+  },
+  {
+    "pair_id": 74,
+    "persona_1": {
+      "persona": "Un arqueólogo o historiador interesado en el estudio de la arquitectura de jardines y de los jardines posmedievales, en particular aquellos asociados con Alscot Park en Inglaterra. Posee conocimientos sobre el diseño, la construcción y la historia de los templos de jardín y de los edificios asociados. Tiene interés en los detalles y los detalles del diseño del templo chino y su relación con el paisaje y los elementos circundantes. Es probable que tenga una sólida comprensión de los principios del diseño de jardines posmedievales y del contexto histórico en el que se construyeron estos edificios.",
+      "general domain (top 1 percent)": "History",
+      "specific domain (top 1 percent)": "Garden architecture",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "Un fotógrafo que está interesado en explorar los aspectos psicológicos y oníricos de la realidad a través de la fotografía escenificada. Se siente atraído por la obra de Edward Hopper y Walter Evans, y le fascina la idea de capturar una fachada perfecta que quede abierta a la interpretación. También le interesan los temas psicológicos de la serie Twilight, en particular los escenarios paranormales dramáticos y la mujer en el agua. Tiene una capacidad única para deconstruir imágenes y ver más allá de la superficie, desvelando el subconsciente y la verdad detrás de las escenas escenificadas.",
+      "general domain (top 1 percent)": "photography",
+      "specific domain (top 1 percent)": "fine art photography",
+      "category": "Arts, Media & Design"
+    }
+  },
+  {
+    "pair_id": 75,
+    "persona_1": {
+      "persona": "Un científico de datos con experiencia en procesamiento del lenguaje natural y aprendizaje automático, apasionado por utilizar estas tecnologías para resolver problemas complejos y crear productos de consumo innovadores. Esta persona posee un alto nivel de competencia en programación, análisis de datos y algoritmos de aprendizaje automático, y tiene un profundo entendimiento de cómo aprovechar grandes conjuntos de datos y patrones para mejorar la precisión y la eficiencia de los algoritmos de búsqueda y otras aplicaciones. También es altamente adaptable y de mente abierta, capaz de pensar de forma innovadora y abordar los problemas desde distintos ángulos.",
+      "general domain (top 1 percent)": "data science",
+      "specific domain (top 1 percent)": "natural language processing",
+      "category": "Digital & Computing"
+    },
+    "persona_2": {
+      "persona": "Un poeta, matemático y filósofo italiano versátil y erudito, conocido por sus contribuciones a los campos de la poesía, las matemáticas y la filosofía. Su obra fue ampliamente respetada y admirada por su elegancia y profundidad, y fue muy valorado por sus pares y contemporáneos. Fue un maestro de su oficio, con un profundo conocimiento de las matemáticas y un vivo interés por las artes. También fue conocido por sus habilidades diplomáticas y su capacidad para desenvolverse en situaciones sociales y políticas complejas. Su legado continúa inspirando e influyendo a generaciones de académicos y artistas.",
+      "general domain (top 1 percent)": "philosophy",
+      "specific domain (top 1 percent)": "mathematics",
+      "category": "Humanities & Culture"
+    }
+  },
+  {
+    "pair_id": 76,
+    "persona_1": {
+      "persona": "Un entusiasta del cine apasionado por los aspectos técnicos de la realización cinematográfica, en particular el uso de efectos de sonido y música para potenciar el impacto de la acción en pantalla. Esta persona conoce los distintos tipos de efectos de sonido y su capacidad para establecer el ambiente y aportar profundidad a una escena. También es consciente de la importancia de elegir los efectos de sonido y la música adecuados para una película, así como de las posibles consecuencias de elegir los efectos equivocados. Es probable que esta persona disfrute viendo películas y esté interesada en aprender más sobre la ciencia y el arte de la realización cinematográfica.",
+      "general domain (top 1 percent)": "Film Industry",
+      "specific domain (top 1 percent)": "Sound Design",
+      "category": "Arts, Media & Design"
+    },
+    "persona_2": {
+      "persona": "Un escritor o comunicador apasionado por la narración de historias y por usar el lenguaje para transmitir un mensaje. Tiene habilidad para elaborar narrativas persuasivas y de gran impacto que conectan con su audiencia. También es diestro en el uso de la palabra \"impactful\" para enfatizar la importancia de su trabajo y el impacto que tiene en sus partes interesadas. Es consciente de las posibles connotaciones negativas asociadas con la palabra \"impactful\" y se esfuerza por usarla de manera positiva y eficaz. Está abierto a nuevas ideas y siempre busca formas de mejorar sus habilidades de comunicación.",
+      "general domain (top 1 percent)": "communication",
+      "specific domain (top 1 percent)": "storytelling",
+      "category": "Society, Education & Lifestyle"
+    }
+  },
+  {
+    "pair_id": 77,
+    "persona_1": {
+      "persona": "Una fotógrafa francesa que se especializa en capturar la cultura única y cautivadora del pueblo sami que vive en Laponia, centrándose en sus formas de vida tradicionales y modernas en el entorno ártico. Sus fotografías destacan el delicado equilibrio entre la naturaleza, la cultura y la interacción humana, y muestran la resiliencia y la capacidad de adaptación del pueblo sami frente a las duras condiciones meteorológicas. Su trabajo captura la esencia del modo de vida sami y los desafíos únicos a los que se enfrentan, lo que la convierte en un recurso valioso para cualquiera que esté interesado en la cultura sami y la región ártica.",
+      "general domain (top 1 percent)": "Art/Photography",
+      "specific domain (top 1 percent)": "Cultural Photography",
+      "category": "Arts, Media & Design"
+    },
+    "persona_2": {
+      "persona": "Un líder y figura en la historia del movimiento de los Santos de los Últimos Días, conocido por su papel en la fundación de The Church of Jesus Christ of Latter Day Saints y su participación en el establecimiento de la comunidad de Nauvoo, Illinois. Se le asocia con la publicación del Book of Mormon y la traducción de la Pearl of Great Price, que se considera un texto sagrado en la fe de los Santos de los Últimos Días. También es conocido por su participación en el establecimiento de la estructura organizativa de la iglesia y por su papel en el desarrollo temprano de la doctrina y las prácticas de la iglesia.",
+      "general domain (top 1 percent)": "Leadership",
+      "specific domain (top 1 percent)": "Religious Leadership",
+      "category": "Society, Education & Lifestyle"
+    }
+  },
+  {
+    "pair_id": 78,
+    "persona_1": {
+      "persona": "Un científico o científica que estudia el impacto del cambio climático en los patrones meteorológicos y sus efectos en la agricultura y los recursos hídricos en Hawaii. Le interesa utilizar el análisis estadístico de datos y datos de viento para proyectar los vientos alisios futuros y su impacto en las precipitaciones y el suministro de agua. El científico o la científica también se preocupa por el impacto del vog en la salud respiratoria y la necesidad de pronósticos de precipitaciones e instalaciones de reciclaje de agua. El científico o la científica también puede estar interesado/a en los efectos de las malezas invasoras y los animales asilvestrados en la salud de los bosques y la necesidad de medidas de protección de cuencas hidrográficas.",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Atmospheric Science",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "Un profesional de la logística espacial que está profundamente involucrado en la planificación, ejecución y mantenimiento de operaciones en el espacio. Posee habilidades en el arte y la ciencia de trasladar y mantener material, personal, instalaciones, servicios y apoyo de emergencia. Tiene conocimientos en el campo más amplio de la logística, que abarca la gestión de la cadena de suministro y el almacenamiento y la distribución de piezas. Es consciente de la importancia de la gestión de la cadena de suministro espacial, pero reconoce la necesidad de capacidades logísticas integrales para posibilitar operaciones espaciales humanas rutinarias.",
+      "general domain (top 1 percent)": "Operations Management",
+      "specific domain (top 1 percent)": "Space Logistics",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 79,
+    "persona_1": {
+      "persona": "Amy Abrams, MSW/MPH, es una educadora y defensora muy respetada que se especializa en la atención de la demencia. Ha dedicado su carrera a educar a familias y cuidadores sobre las complejidades y los matices de cuidar a una persona con demencia. Su experiencia se centra en las áreas de comunicación, gestión de relaciones y actividades saludables para el cerebro, que comparte en sus presentaciones y talleres. Amy siente una gran pasión por promover la concienciación y reducir el estigma en torno a la demencia, y sus conocimientos y perspectivas la han convertido en una conferenciante muy solicitada en diversos eventos y conferencias.",
+      "general domain (top 1 percent)": "Social Work",
+      "specific domain (top 1 percent)": "Gerontology",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "Un funcionario del gobierno estatal responsable de supervisar y regular las operaciones financieras de los gobiernos locales, particularmente en el contexto de préstamos municipales de emergencia y la estabilización fiscal. Esta persona es responsable de garantizar que los gobiernos locales cumplan con los requisitos estatales de disciplina fiscal y tiene la autoridad para intervenir si los gobiernos locales no implementan las reformas necesarias para abordar sus déficits. Esta persona también conoce las normas contables estatales y tiene experiencia con la ley de préstamos municipales de emergencia y la Ley de Estabilización Fiscal (Fiscal Stabilization Act).",
+      "general domain (top 1 percent)": "public administration",
+      "specific domain (top 1 percent)": "municipal finance",
+      "category": "Government, Law & Security"
+    }
+  },
+  {
+    "pair_id": 80,
+    "persona_1": {
+      "persona": "Una persona interesada en la tecnología y la programación, particularmente en el campo del Internet de las Cosas (IoT) y la programación para iOS. Está familiarizada con varios lenguajes de programación como Swift y tiene experiencia en la creación de aplicaciones iOS. Busca debates en profundidad y tutoriales sobre cómo conectar salidas en el entorno IoT, usar Apple iBeacon, crear sus propias cosas con hardware programable y gestionar sus dispositivos IoT. También le interesa explorar tendencias en el campo del IoT y está abierta a aprender nuevas tecnologías y herramientas.",
+      "general domain (top 1 percent)": "Computer Science",
+      "specific domain (top 1 percent)": "iOS Development",
+      "category": "Digital & Computing"
+    },
+    "persona_2": {
+      "persona": "Un investigador y experto en educación que está interesado en comparar el rendimiento académico de los estudiantes en escuelas charter con el de sus pares en escuelas públicas tradicionales. Esta persona está particularmente interesada en comprender los factores que contribuyen al éxito de las escuelas charter en la mejora de los resultados de los estudiantes. Es probable que la persona tenga formación en investigación educativa, específicamente en el área del desempeño escolar y el logro estudiantil. También es probable que tenga un fuerte interés en el papel de las escuelas charter en la mejora de la equidad y el acceso educativos.",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "education research",
+      "category": "Society, Education & Lifestyle"
+    }
+  },
+  {
+    "pair_id": 81,
+    "persona_1": {
+      "persona": "Una persona apasionada por promover la educación inclusiva y trabajar para la inclusión de personas con discapacidad intelectual en sus comunidades. Está dedicada a impulsar la causa de la educación y la reforma de políticas, y es competente en identificar e implementar estrategias eficaces para mejorar la calidad de la educación para todos. Está altamente motivada y comprometida con marcar una diferencia en la vida de las personas con discapacidad y sus familias, y está abierta a aprender y colaborar con otras personas en el campo de la educación y los estudios sobre discapacidad.",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "special education",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "Un desarrollador de software interesado en el análisis e implementación de algoritmos. La persona busca una guía integral y detallada sobre algoritmos que abarque una amplia gama de temas y esté escrita con un estilo claro y accesible. Está buscando un libro que le ayude a comprender y aplicar algoritmos en su trabajo, además de aportar perspectivas sobre las matemáticas y los principios subyacentes. Es probable que esté familiarizada con lenguajes de programación y tenga cierta experiencia con algoritmos, pero también podría beneficiarse de un enfoque más teórico y conceptual.",
+      "general domain (top 1 percent)": "computer science",
+      "specific domain (top 1 percent)": "algorithm analysis",
+      "category": "Digital & Computing"
+    }
+  },
+  {
+    "pair_id": 82,
+    "persona_1": {
+      "persona": "Una científica que se especializa en el estudio de los imanes permanentes, en particular los efectos del tiempo, la temperatura y los campos magnéticos sobre su estabilidad. Tiene conocimientos sobre los principios del magnetismo, la desmagnetización y los efectos de diversos factores ambientales en los materiales magnéticos. Su experiencia se centra en comprender el comportamiento de los imanes permanentes en distintas condiciones y en desarrollar estrategias para mantener su rendimiento a lo largo del tiempo. También le interesa el diseño de circuitos magnéticos y la optimización del rendimiento de los imanes en diversas aplicaciones.",
+      "general domain (top 1 percent)": "physics",
+      "specific domain (top 1 percent)": "magnetism/Permanent Magnets",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "Un/a investigador/a y ambientalista apasionado/a por mitigar el impacto del cambio climático y prevenir la degradación de la tierra en Rumanía. Tiene habilidades en cartografía ecológica, identificación de plantas y experiencia en la creación e implementación de cortinas rompevientos. Es consciente de los desafíos en la implementación del proyecto y está comprometido/a a encontrar soluciones para superar estos obstáculos. Está dedicado/a a mejorar las condiciones de vida de los habitantes locales y los propietarios de tierras de la zona mediante la plantación de cortinas rompevientos y la compensación de quienes no estén de acuerdo con los cambios en el uso del suelo.",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "None",
+      "category": "Earth, Environment & Agriculture"
+    }
+  },
+  {
+    "pair_id": 83,
+    "persona_1": {
+      "persona": "Un entusiasta de la tecnología que está fascinado por los últimos avances en tecnología de iluminación, en particular el uso de la iluminación LED. Es probable que esta persona esté interesada en los beneficios de la iluminación LED, como su ahorro energético, durabilidad y opciones de color, así como en su potencial de innovación y avance en el campo de la iluminación. Es probable que esta persona sienta curiosidad por las últimas tecnologías y tendencias en la industria de la iluminación y que esté interesada en explorar las diferentes formas en que la iluminación LED puede utilizarse en entornos residenciales y comerciales.",
+      "general domain (top 1 percent)": "Electrical Engineering",
+      "specific domain (top 1 percent)": "Lighting Technology",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "Un propietario o administrador de edificios que es responsable de gestionar y operar múltiples edificios en la ciudad de Nueva York. La persona está interesada en comprender las implicaciones de los nuevos límites de emisiones de carbono para los edificios existentes en la ciudad, y busca orientación sobre cómo desarrollar un plan de cumplimiento que reduzca la huella de carbono de los edificios, minimizando al mismo tiempo el impacto financiero. Es probable que la persona tenga experiencia en gestión energética, sostenibilidad y operaciones de edificios, y esté dispuesta a trabajar con las partes interesadas para implementar un plan integral.",
+      "general domain (top 1 percent)": "Business/Management",
+      "specific domain (top 1 percent)": "Building Operations",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 84,
+    "persona_1": {
+      "persona": "Un científico o investigador interesado en la detección de rayos cósmicos y con experiencia en el uso de detectores SiPM y de centelleador plástico. Está buscando una nueva configuración experimental que pueda aumentar la seguridad de los eventos detectados mediante el uso de dos detectores idénticos superpuestos entre sí y conectados a un circuito de coincidencia. Le interesa el valor teórico de los rayos cósmicos y el valor esperado del flujo de rayos cósmicos sobre la superficie del detector. Puede estar buscando una nueva forma de detectar rayos cósmicos y está abierto a nuevas tecnologías y métodos.",
+      "general domain (top 1 percent)": "physics",
+      "specific domain (top 1 percent)": "particle physics (cosmic ray detection)",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "Un guerrero celta que encarna el espíritu de valentía, habilidad y determinación. Conocido por sus inigualables capacidades de combate y su conexión con la diosa de la guerra Morrigan. Cú Chulainn es un símbolo de la independencia irlandesa y un héroe que luchó por su patria contra los invasores. Se le recuerda por su heroica batalla final, en la que él solo hizo retroceder a los ejércitos invasores, y por sus últimos momentos, en los que fue ayudado por la diosa Morrigan y murió de pie. Su imagen está representada en una estatua de bronce en Dublín, que simboliza su legado y su influencia en la cultura y la historia irlandesas.",
+      "general domain (top 1 percent)": "military strategy",
+      "specific domain (top 1 percent)": "None",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 85,
+    "persona_1": {
+      "persona": "Un propietario de un sitio web que busca formas de optimizar la propagación DNS de su sitio web y garantizar que la información de su dominio esté siempre actualizada y sea precisa. Esta persona está interesada en minimizar la carga sobre sus servidores de nombres y quiere saber cómo controlar el período de tiempo establecido para el almacenamiento en caché del archivo de zona (zonefile) del dominio, que es la cantidad de segundos que un resolvedor DNS tiene permitido almacenar en caché un archivo de zona antes de solicitar una nueva copia de ese archivo de zona. Esta persona también está interesada en reducir los TTL y garantizar que la información de su dominio esté siempre actualizada y sea precisa.",
+      "general domain (top 1 percent)": "networking",
+      "specific domain (top 1 percent)": "DNS optimization",
+      "category": "Digital & Computing"
+    },
+    "persona_2": {
+      "persona": "Un profesional médico que se especializa en trastornos del sueño y problemas de salud mental relacionados. Tiene conocimientos sobre los síntomas, las causas y los tratamientos de los trastornos del sueño y un gran interés en comprender la relación entre los trastornos del sueño y los trastornos de salud mental. Cuenta con los conocimientos y las habilidades necesarios para diagnosticar y tratar los trastornos del sueño, así como para brindar apoyo y orientación a las personas afectadas por ellos. Está comprometido con proporcionar atención y educación de alta calidad a sus pacientes y a la comunidad en general.",
+      "general domain (top 1 percent)": "medicine",
+      "specific domain (top 1 percent)": "sleep disorders",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 86,
+    "persona_1": {
+      "persona": "Un educador y activista judío que ha estudiado y enseñado sobre la intersección entre la identidad judía y los movimientos de justicia social, centrándose particularmente en el Movimiento por los Derechos Civiles y otros movimientos de liberación. Le apasiona utilizar sus conocimientos y perspectivas para generar cambios en su comunidad y más allá. Tiene habilidades en tableaux vivants, una forma de narración y performance, y le interesa analizar las dinámicas entre diferentes grupos raciales y étnicos, particularmente los afroamericanos y los judíos, y cómo estas relaciones han evolucionado con el tiempo.",
+      "general domain (top 1 percent)": "Education/Activism",
+      "specific domain (top 1 percent)": "None",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "Una persona interesada en la financiación de la Unión Europea, en particular en su gestión, los criterios de elegibilidad y cómo se utiliza para apoyar diversos proyectos y programas en distintos sectores. Es probable que esta persona tenga formación en finanzas, economía o campos relacionados y esté interesada en los detalles de cómo la UE asigna sus fondos y el impacto que tiene en diversas comunidades y sectores. Siente curiosidad por los procesos y las normativas implicadas en la distribución de los fondos de la UE y por cómo garantizan que el dinero se gaste de manera transparente y con rendición de cuentas.",
+      "general domain (top 1 percent)": "finance",
+      "specific domain (top 1 percent)": "EU funding management",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 87,
+    "persona_1": {
+      "persona": "Un ciudadano surcoreano que está interesado en la infraestructura de internet del país y en sus políticas relativas al contenido en internet. Es probable que esté familiarizado con la controvertida Internet Content Filtering Ordinance y su impacto en el acceso a internet en Corea del Sur. También puede estar al tanto de los esfuerzos del gobierno por supervisar y regular el contenido en internet, incluida la filtración obligatoria de sitios considerados perjudiciales u obscenos. Puede tener un interés particular en el papel de la Korean Internet Safety Commission en la supervisión de los sistemas de clasificación y filtrado de contenido en internet.",
+      "general domain (top 1 percent)": "Politics",
+      "specific domain (top 1 percent)": "Internet Governance",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "Un líder empresarial que está preocupado por los posibles riesgos y limitaciones del aprendizaje automático y la IA en los procesos de toma de decisiones. Esta persona está interesada en comprender el impacto de los resultados imprecisos y la necesidad de precisión en las aplicaciones de IA. Prioriza la necesidad de velocidad, pero también reconoce la importancia de mantener altos niveles de exactitud y fiabilidad en los modelos de IA. Es probable que esta persona participe en sectores como las finanzas, la atención sanitaria y la tecnología, y busca formas de mitigar los riesgos asociados con el uso de la IA en la toma de decisiones.",
+      "general domain (top 1 percent)": "Business Leadership",
+      "specific domain (top 1 percent)": "Business Leadership in AI/ML",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 88,
+    "persona_1": {
+      "persona": "Un profesional de la salud apasionado por la diabetes y dedicado a reducir el riesgo de desarrollar esta enfermedad. Está interesado en las investigaciones y los avances más recientes en el campo, y busca maneras de mejorar la vida de las personas con diabetes. Está abierto a probar nuevos tratamientos y terapias, y está dispuesto a buscar ayuda profesional cuando sea necesario. También está interesado en aprender sobre la cirugía bariátrica y su potencial para tratar la diabetes, y está dispuesto a explorar esta opción como opción de tratamiento para sí mismo o para alguien que conoce.",
+      "general domain (top 1 percent)": "healthcare",
+      "specific domain (top 1 percent)": "diabetes management",
+      "category": "Life & Health"
+    },
+    "persona_2": {
+      "persona": "Audrey Azoulay, la directora general de la UNESCO, es una figura muy respetada e influyente en el ámbito de la educación, la ciencia y la cultura internacionales. Ha sido fundamental en la configuración de las directrices de la UNESCO sobre la ética de la IA, que se espera que establezcan estándares globales para el desarrollo ético de la IA. Azoulay es una líder visionaria comprometida con la promoción de prácticas éticas de IA y con garantizar que los beneficios de la IA sean accesibles y equitativos para todos. Es conocida por su experiencia en el área de la ética y por sus esfuerzos por tender puentes entre el mundo académico y la formulación de políticas.",
+      "general domain (top 1 percent)": "International Relations",
+      "specific domain (top 1 percent)": "Global Education Policy",
+      "category": "Government, Law & Security"
+    }
+  },
+  {
+    "pair_id": 89,
+    "persona_1": {
+      "persona": "Un investigador de políticas que está interesado en el impacto de la remuneración por desempeño en la calidad docente y los resultados del alumnado, y que está abierto a la posibilidad de perfeccionar su comprensión mediante investigaciones adicionales. Es probable que esta persona esté interesada en las implicaciones sociales y educativas de la remuneración por mérito y busque comprender cómo puede implementarse de manera eficaz para mejorar el desempeño docente y el aprendizaje del alumnado. Es probable que esté familiarizada con la investigación sobre el tema y busque integrar este conocimiento en los debates de política y en los procesos de toma de decisiones.",
+      "general domain (top 1 percent)": "education policy",
+      "specific domain (top 1 percent)": "education policy",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "Un científico que se especializa en el campo de la nanotecnología, específicamente en la creación de nanostructuras 3D complejas y autoensamblables de cables y uniones. Este científico ha realizado contribuciones significativas al campo, incluida la descubierta de un método para controlar la disposición de copolímeros dibloque con el fin de crear diseños configurables, lo que ha abierto nuevas posibilidades para chips informáticos autoensamblados. Este científico posee una alta competencia en el uso de ciencia de materiales avanzada y nanotecnología, y es conocido por su enfoque innovador para resolver problemas complejos.",
+      "general domain (top 1 percent)": "engineering",
+      "specific domain (top 1 percent)": "nanotechnology",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 90,
+    "persona_1": {
+      "persona": "Un historiador o una persona interesada en la historia de los países nórdicos, particularmente en el período de la economía de subsistencia y la nobleza. Les fascina la Casa Qwensel, una antigua casa burguesa bien conservada que ofrece una visión de la vida noble en los días de la economía de subsistencia. Les interesa la historia de la Casa Qwensel y de sus propietarios, Wilhelm Johan Qwensel y Josef Gustav Pipping, y el papel que desempeñaron en la configuración de la historia de Finlandia. También les interesa el Gran Incendio de Turku y su impacto en el área alrededor de la Casa Qwensel.",
+      "general domain (top 1 percent)": "history",
+      "specific domain (top 1 percent)": "Nordic history",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "Un residente local que ha vivido en Hawái durante varios años y ha presenciado la erupción del volcán Kilauea. Tiene una perspectiva única sobre la actividad volcánica y está bien versado en los aspectos geológicos y científicos de la erupción. También es un primer interviniente y tiene experiencia en respuesta a emergencias y gestión de desastres. Tiene un fuerte sentido de comunidad y le preocupa la seguridad de sus vecinos y el bienestar del entorno local. Es probable que sea activo en las redes sociales y comparta sus experiencias y conocimientos con otros.",
+      "general domain (top 1 percent)": "Geology",
+      "specific domain (top 1 percent)": "Volcanology",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 91,
+    "persona_1": {
+      "persona": "Un/a docente apasionado/a por la enseñanza de la alfabetización digital y comprometido/a con ayudar a los estudiantes a desarrollar las habilidades que necesitan para tener éxito en la era digital. Está al día de las últimas tendencias y tecnologías y tiene una comprensión profunda de la importancia de la ciudadanía digital. Se dedica a crear experiencias de aprendizaje atractivas e interactivas que ayuden a los estudiantes a desarrollar habilidades de pensamiento crítico y resolución de problemas. También es consciente de los desafíos a los que se enfrentan los estudiantes en la era digital y está comprometido/a con abordar estos problemas a través de su enseñanza.",
+      "general domain (top 1 percent)": "education",
+      "specific domain (top 1 percent)": "None",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "Un inversor o promotor inmobiliario de terrenos que está interesado en el potencial de desarrollo urbano en Inglaterra y Gales. Está buscando oportunidades para adquirir o desarrollar terrenos para uso residencial o comercial. Es consciente de los desafíos y riesgos asociados al desarrollo urbano, como la pérdida de tierras agrícolas y la necesidad de garantizar que los nuevos desarrollos sean sostenibles y respetuosos con el medio ambiente. También es consciente de la importancia de la planificación del uso del suelo y de la necesidad de equilibrar las necesidades del desarrollo urbano con la preservación de los hábitats naturales y la vida silvestre.",
+      "general domain (top 1 percent)": "Business",
+      "specific domain (top 1 percent)": "Real Estate Development",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 92,
+    "persona_1": {
+      "persona": "Un profesional del derecho con conocimientos sobre diversos aspectos de la ley, incluidos el procedimiento civil, el procedimiento penal, el derecho probatorio, la redacción jurídica, la interpretación de estatutos, los actos menores y la propia formación de las leyes. Es competente en la interpretación de estatutos y tiene experiencia en la creación, por parte de particulares, de contratos jurídicamente vinculantes, incluidos los acuerdos de arbitraje. Está bien versado en la aplicación de la ley en diversos ámbitos, como la política, la economía, la historia y la sociedad, y es hábil en el uso de la ley como mediadora de las relaciones entre las personas.",
+      "general domain (top 1 percent)": "law",
+      "specific domain (top 1 percent)": "legal drafting",
+      "category": "Government, Law & Security"
+    },
+    "persona_2": {
+      "persona": "Un aficionado entusiasta de la electrónica que está interesado en construir y experimentar con circuitos sencillos, en particular aquellos que implican protoboards y circuitos integrados. Está abierto a probar nuevos componentes y está dispuesto a experimentar con diferentes configuraciones de circuitos para optimizar el rendimiento. Aprecia la practicidad y versatilidad de los protoboards y la capacidad de manipular tanto circuitos simples como complejos. También está interesado en aprender sobre la historia y el desarrollo de los circuitos integrados y el impacto que han tenido en el campo de la electrónica.",
+      "general domain (top 1 percent)": "electronics",
+      "specific domain (top 1 percent)": "electronics design",
+      "category": "STEM & Engineering (Non-Computing)"
+    }
+  },
+  {
+    "pair_id": 93,
+    "persona_1": {
+      "persona": "Un periodista que cubre temas medioambientales, centrándose en la contaminación del agua y el impacto de las actividades humanas en el entorno natural. Es probable que la persona esté interesada en la historia y la importancia cultural del río Han, así como en el estado actual de la calidad de sus aguas y las diversas especies que lo habitan. También es probable que esté al tanto de los complejos factores políticos y sociales que han contribuido a la contaminación del río, incluido el vertido de sustancias químicas tóxicas por parte del ejército de EE. UU. en 2000 y la descarga de aguas residuales por parte de 25 empresas en 2015.",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Water Pollution",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "Un político dedicado y apasionado, comprometido con la reforma social y el mejoramiento de la sociedad. A pesar de enfrentarse a la desaprobación social y a las críticas por entrar en la política, la pasión y la determinación de Roosevelt por marcar una diferencia en el gobierno del país lo han impulsado hacia adelante. Su autobiografía refleja su determinación de estar activo en el gobierno y su preocupación por la agitación social en Nueva York. La carrera política de Roosevelt ha estado marcada por su compromiso con la justicia social y su disposición a alzar la voz sobre cuestiones que afectan la vida de la gente común.",
+      "general domain (top 1 percent)": "Politics",
+      "specific domain (top 1 percent)": "Social Reform/Policy Making",
+      "category": "Government, Law & Security"
+    }
+  },
+  {
+    "pair_id": 94,
+    "persona_1": {
+      "persona": "Un teólogo que se especializa en el estudio del argumento teleológico, el argumento moral y el argumento ontológico, centrándose particularmente en los conceptos y teoremas relacionados con la existencia y los atributos de Dios. Sus intereses de investigación incluyen, entre otros, la naturaleza del diseño, el papel del mal en el universo y la relación entre Dios y la moralidad humana. Es conocido por su capacidad para analizar y evaluar críticamente argumentos filosóficos relacionados con la existencia de Dios, y por su perspectiva única sobre el concepto de un gran diseñador.",
+      "general domain (top 1 percent)": "philosophy",
+      "specific domain (top 1 percent)": "philosophical theology",
+      "category": "Humanities & Culture"
+    },
+    "persona_2": {
+      "persona": "Un propietario de negocio que se especializa en el desarrollo y la comercialización de productos que atraen a un mercado objetivo específico. Esta persona tiene un profundo conocimiento de la demografía, las necesidades y los deseos de su público objetivo, y utiliza este conocimiento para crear y vender productos que satisfacen esas necesidades. Posee una gran habilidad para identificar y calificar a clientes potenciales, y busca constantemente ampliar su base de clientes dentro de su mercado objetivo. Es probable que esta persona sienta pasión por su trabajo y esté dedicada a construir relaciones sólidas con sus clientes.",
+      "general domain (top 1 percent)": "business",
+      "specific domain (top 1 percent)": "marketing",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 95,
+    "persona_1": {
+      "persona": "Un/a docente especializado/a en trabajo de campo de Geografía, particularmente en las áreas de evaluación del trabajo de campo, habilidades de enseñanza y garantizar que el trabajo de campo sea adecuado para su propósito y esté listo para el examen. Este/a docente tiene experiencia en liderar la enseñanza del trabajo de campo en ubicaciones del mundo real y cuenta con experiencia en las seis etapas del proceso de indagación del trabajo de campo. Ha desarrollado indagaciones de trabajo de campo arraigadas en el contenido de la especificación de organizaciones certificadoras individuales, y ha diseñado cursos de habilidades de trabajo de campo para Geografía de A Level, que ayudan a los estudiantes a prepararse para su investigación independiente.",
+      "general domain (top 1 percent)": "Education",
+      "specific domain (top 1 percent)": "Geography Education",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "Un funcionario de la California Office of Emergency Services (OES) responsable de coordinar la planificación de la respuesta a emergencias y de coordinarse con otros esfuerzos de planificación de emergencias. También es responsable de coordinar respuestas multidisciplinarias ante incidentes con materiales peligrosos y de brindar asistencia a las jurisdicciones locales. Participa en el desarrollo de planes de respuesta a emergencias, sistemas de comunicación y solicitudes de inteligencia y recursos para desastres. Es probable que cuente con experiencia en planificación de emergencias, respuesta ante desastres y sistemas de comunicación.",
+      "general domain (top 1 percent)": "Emergency Management",
+      "specific domain (top 1 percent)": "Emergency Planning",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 96,
+    "persona_1": {
+      "persona": "Un científico que se especializa en el estudio de la rotación de la Tierra y sus efectos en el planeta. Ha realizado investigaciones sobre la relación entre la rotación de la Tierra y el número de antenas parabólicas de TV en todo el mundo, y ha propuesto soluciones para contrarrestar el efecto de desaceleración. Le preocupa el posible impacto de sus recomendaciones en la industria de la TV satelital y en las agencias gubernamentales, y está trabajando para garantizar una transición fluida para los sudafricanos. Le apasiona el medio ambiente y la importancia de reducir el impacto negativo de la tecnología en el planeta.",
+      "general domain (top 1 percent)": "geophysics",
+      "specific domain (top 1 percent)": "Earth rotation and geophysics",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "Una persona interesada en la implementación de sistemas de contratación en el Forest Department para trabajos forestales, con formación en restauración ambiental y que participa en la gestión de parques nacionales. También tiene conocimientos sobre el uso de imágenes satelitales y elementos fotográficos para el mapeo de la vegetación, así como sobre la preparación de claves de clasificación y el uso de mapas topográficos para la delimitación de límites forestales. Además, es consciente de la importancia de las celebraciones del World Environmental Day y tiene experiencia en la presentación de solicitudes para campamentos de eco-restauración.",
+      "general domain (top 1 percent)": "Environmental Science/Conservation",
+      "specific domain (top 1 percent)": "None",
+      "category": "Earth, Environment & Agriculture"
+    }
+  },
+  {
+    "pair_id": 97,
+    "persona_1": {
+      "persona": "Un historiador y arqueólogo que se especializa en el uso de drones y tecnología LiDAR para la exploración arqueológica y el mapeo de sitios. Tiene un profundo conocimiento de los principios de LiDAR y sus aplicaciones en arqueología, y es experto en combinar estas tecnologías con métodos arqueológicos tradicionales para descubrir y documentar sitios históricos. También conoce los desafíos y las regulaciones que rodean el uso de drones y LiDAR en el campo, y participa activamente en la defensa del uso responsable y ético de estas tecnologías en arqueología.",
+      "general domain (top 1 percent)": "Engineering",
+      "specific domain (top 1 percent)": "Archaeological Engineering",
+      "category": "STEM & Engineering (Non-Computing)"
+    },
+    "persona_2": {
+      "persona": "Un/a coach de salud y bienestar que se especializa en el manejo de la diabetes y el envejecimiento. Tiene conocimientos sobre las directrices y la investigación más recientes en el manejo de la glucosa en sangre en adultos mayores y cuenta con experiencia práctica ayudando a clientes a mantener sus niveles de glucosa en sangre dentro de un rango seguro. Le apasiona promover la actividad física, la alimentación saludable y el mantenimiento de la reserva muscular para apoyar el manejo de la diabetes y la salud general. Tiene una perspectiva única sobre la importancia de mantener un equilibrio entre los niveles de glucosa en sangre y la actividad física a medida que las personas envejecen.",
+      "general domain (top 1 percent)": "health and wellness",
+      "specific domain (top 1 percent)": "diabetes management",
+      "category": "Life & Health"
+    }
+  },
+  {
+    "pair_id": 98,
+    "persona_1": {
+      "persona": "Una persona entusiasta de la tecnología y defensora de la alfabetización mediática, fascinada por el impacto de los medios en la sociedad y el papel de la visualización de datos en la transmisión de información. Busca constantemente nuevas herramientas y técnicas para mejorar su comprensión de la información y las ideas, y le apasiona compartir sus conocimientos con otras personas mediante la escritura, la enseñanza y las presentaciones. También le interesan las implicaciones más amplias de los medios y la tecnología en la sociedad y la economía, y busca constantemente nuevos recursos e ideas para ampliar sus conocimientos y su comprensión.",
+      "general domain (top 1 percent)": "Communication",
+      "specific domain (top 1 percent)": "Data Visualization",
+      "category": "Society, Education & Lifestyle"
+    },
+    "persona_2": {
+      "persona": "Un ejecutivo de marketing responsable de desarrollar e implementar estrategias de marketing para una empresa que produce automóviles de lujo y prestigio. Posee un alto nivel de habilidad para comprender el comportamiento del consumidor e identificar el mercado objetivo de sus productos. También es experto en crear campañas publicitarias convincentes que destaquen el estatus y la exclusividad de sus vehículos. Además, tiene un profundo conocimiento de los aspectos financieros de la industria automotriz, incluido el entendimiento de las estrategias de precios y los modelos financieros de sus competidores.",
+      "general domain (top 1 percent)": "Business",
+      "specific domain (top 1 percent)": "Luxury Marketing",
+      "category": "Business & Economy"
+    }
+  },
+  {
+    "pair_id": 99,
+    "persona_1": {
+      "persona": "Un científico o investigador interesado en la conservación del medio ambiente y la investigación científica. Está particularmente interesado en el estudio de la vida marina, incluidos aves, focas y ballenas. Está interesado en recopilar datos científicos valiosos sin causar un impacto ambiental significativo. Está interesado en utilizar tecnología, como cámaras web con transmisión en vivo, para estudiar y monitorear la vida marina a distancia. Está interesado en colaborar con otros científicos y organizaciones para compartir sus hallazgos y contribuir al campo de la conservación marina.",
+      "general domain (top 1 percent)": "Environmental Science",
+      "specific domain (top 1 percent)": "Marine Conservation Biology",
+      "category": "Earth, Environment & Agriculture"
+    },
+    "persona_2": {
+      "persona": "Un usuario que es delineante técnico o diseñador profesional, que trabaja principalmente en AutoCAD. Tiene habilidades en el uso de diversos comandos y funciones dentro del software para crear y editar dibujos técnicos, y busca formas de ahorrar tiempo y optimizar su flujo de trabajo. Está familiarizado con la biblioteca de materiales y formas disponible en AutoCAD, y las utiliza para crear diseños y modelos complejos. Es probable que trabaje en una amplia gama de proyectos, desde arquitectura hasta ingeniería, y busca formas de mejorar la eficiencia y la precisión de su trabajo.",
+      "general domain (top 1 percent)": "technical drafting/design",
+      "specific domain (top 1 percent)": "AutoCAD technical drafting/design",
+      "category": "Arts, Media & Design"
+    }
+  },
+  {
+    "pair_id": 100,
+    "persona_1": {
+      "persona": "Un entusiasta de las criptomonedas que está interesado en las teorías del valor que han planteado los compradores de Bitcoin y en lo que estas implican. Es probable que esta persona sea alguien que sienta curiosidad por el posible futuro de Bitcoin y por su potencial para reemplazar al oro o al dólar estadounidense como reserva de valor. Puede ser alguien que esté buscando formas de invertir en Bitcoin y que esté interesado en comprender los posibles riesgos y recompensas de hacerlo. Esta persona también puede ser alguien que esté abierto a teorías alternativas y que esté dispuesto a considerar diferentes perspectivas sobre el valor de Bitcoin.",
+      "general domain (top 1 percent)": "finance",
+      "specific domain (top 1 percent)": "cryptocurrency",
+      "category": "Business & Economy"
+    },
+    "persona_2": {
+      "persona": "Una trabajadora social que se especializa en trabajar con familias con niños que están experimentando la falta de vivienda. Tiene un profundo conocimiento de los desafíos a los que se enfrentan los niños sin hogar, incluidas sus dificultades académicas, problemas de salud y problemas de conducta. También conoce las políticas y los programas que pueden ayudar a estas familias y niños, y está dedicada a encontrar soluciones sostenibles a su falta de vivienda. Le apasiona defender los derechos de los niños sin hogar y trabajar para mejorar la vida de los niños que están experimentando la falta de vivienda.",
+      "general domain (top 1 percent)": "Social Work",
+      "specific domain (top 1 percent)": "Homelessness and Family Services",
+      "category": "Society, Education & Lifestyle"
+    }
+  }
+]

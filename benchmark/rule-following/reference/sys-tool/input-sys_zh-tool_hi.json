@@ -1,0 +1,4658 @@
+[
+  {
+    "id": 13,
+    "system": "你的整个回答都应以 JSON 格式包裹。你可以使用诸如 ``` 这样的 Markdown 反引号来包裹 JSON 内容。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "एनवाईसी के प्रॉस्पेक्ट पार्क का इतिहास क्या है? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "एनवाईसी के प्रॉस्पेक्ट पार्क का इतिहास क्या है?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "system": "你的回复不应包含任何逗号。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "एक लिमरिक लिखने के बारे में एक लिमरिक लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "एक लिमरिक लिखने के बारे में एक लिमरिक लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "system": "你的回答必须严格包含 3 个使用 Markdown 格式的项目符号（使用 \"* \" 表示每个项目符号），例如：\n* 这是第一点。\n* 这是第二点。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "दो लोगों के बीच एक संवाद लिखें, जिनमें से एक ने बॉल गाउन पहन रखा है और दूसरे ने स्वेट्स पहन रखे हैं। दोनों एक रात के कार्यक्रम में जा रहे हैं। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "दो लोगों के बीच एक संवाद लिखें, जिनमें से एक ने बॉल गाउन पहन रखा है और दूसरे ने स्वेट्स पहन रखे हैं। दोनों एक रात के कार्यक्रम में जा रहे हैं।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 143,
+    "system": "在你的回复中，用一行仅包含三个“*”符号的内容：***，将你的思考与最终答案分隔开。 在你的回复末尾，请明确添加一段附言，以 P.P.S 开头\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "एक बछेड़ा 5 फीट लंबा है। यह हर महीने 6 इंच बढ़ेगा। 3 वर्षों में यह कितना लंबा होगा? चरण-दर-चरण सोचें, फिर अपना उत्तर दें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "एक बछेड़ा 5 फीट लंबा है। यह हर महीने 6 इंच बढ़ेगा। 3 वर्षों में यह कितना लंबा होगा? चरण-दर-चरण सोचें, फिर अपना उत्तर दें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        },
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 168,
+    "system": "你的回复应至少用 markdown 突出显示 3 个部分，即 *突出显示的部分*。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "दो ऐसी महिलाओं के बीच शादी की गुणवत्ता को रेट करने के लिए एक मज़ेदार और व्यंग्यात्मक टेम्पलेट लिखें, जो दोनों ही माँ हैं। यह टेम्पलेट खुद उस कपल के लिए है। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "दो ऐसी महिलाओं के बीच शादी की गुणवत्ता को रेट करने के लिए एक मज़ेदार और व्यंग्यात्मक टेम्पलेट लिखें, जो दोनों ही माँ हैं। यह टेम्पलेट खुद उस कपल के लिए है।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 179,
+    "system": "你的回复应至少包含50个句子。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "एक फ़िल्म निर्माता इंटरनेट के इतिहास पर एक फ़िल्म के लिए वित्तपोषण प्राप्त करने की कोशिश कर रहा है। संभावित निवेशकों के लिए प्रस्ताव में उपयोग किए जाने हेतु एक निबंध लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "एक फ़िल्म निर्माता इंटरनेट के इतिहास पर एक फ़िल्म के लिए वित्तपोषण प्राप्त करने की कोशिश कर रहा है। संभावित निवेशकों के लिए प्रस्ताव में उपयोग किए जाने हेतु एक निबंध लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 50
+        }
+      ]
+    }
+  },
+  {
+    "id": 219,
+    "system": "你的回复必须用双引号括起来。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "क्या आपको लगता है कि करीना कपूर एक अच्छी अभिनेत्री हैं? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "क्या आपको लगता है कि करीना कपूर एक अच्छी अभिनेत्री हैं?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 247,
+    "system": "给出恰好两个不同的回复，用 6 个星号符号 ****** 分隔。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "क्या आप जापान में प्रीफेक्चर प्रणाली के इतिहास के बारे में रैप गाने लिख सकते हैं? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "क्या आप जापान में प्रीफेक्चर प्रणाली के इतिहास के बारे में रैप गाने लिख सकते हैं?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 292,
+    "system": "你的回复必须至少包含20个句子。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "अच्छी ज़िंदगी के लिए ज़रूरी सामग्री के बारे में अपने दोस्त को एक लंबा और मज़ेदार ईमेल लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "अच्छी ज़िंदगी के लिए ज़रूरी सामग्री के बारे में अपने दोस्त को एक लंबा और मज़ेदार ईमेल लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 334,
+    "system": "你的整个回复必须用双引号括起来。 你的回复必须包含且仅包含 2 个使用 markdown 格式的项目符号，如下所示：\n* 项目符号 1\n* 项目符号 2\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "मेरी कंपनी के लिए एक स्लोगन बनाइए। मेरी कंपनी का नाम Color Paper है। हम पेपर टॉवल्स बनाते हैं। हम आकर्षक, रंग-बिरंगे पेपर टॉवल्स बनाने पर ध्यान केंद्रित करते हैं। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "मेरी कंपनी के लिए एक स्लोगन बनाइए। मेरी कंपनी का नाम Color Paper है। हम पेपर टॉवल्स बनाते हैं। हम आकर्षक, रंग-बिरंगे पेपर टॉवल्स बनाने पर ध्यान केंद्रित करते हैं।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 1001,
+    "system": "你在回复中不允许使用任何逗号。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "मैं जापान की यात्रा की योजना बना रहा/रही हूँ, और मैं चाहूँगा/चाहूँगी कि तुम मेरी यात्रा के लिए शेक्सपियरियन शैली में एक यात्रा-कार्यक्रम लिखो। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "मैं जापान की यात्रा की योजना बना रहा/रही हूँ, और मैं चाहूँगा/चाहूँगी कि तुम मेरी यात्रा के लिए शेक्सपियरियन शैली में एक यात्रा-कार्यक्रम लिखो।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1075,
+    "system": "你的全部输出都应采用 JSON 格式。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "क्या आप मेरे नए उत्पाद के लिए एक विज्ञापन बनाने में मेरी मदद कर सकते हैं? यह एक डायपर है जिसे शिशुओं के लिए अधिक आरामदायक बनाने के लिए डिज़ाइन किया गया है। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "क्या आप मेरे नए उत्पाद के लिए एक विज्ञापन बनाने में मेरी मदद कर सकते हैं? यह एक डायपर है जिसे शिशुओं के लिए अधिक आरामदायक बनाने के लिए डिज़ाइन किया गया है।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1082,
+    "system": "你的回复必须恰好包含 2 个段落。使用以下 Markdown 分隔线将段落分开：***。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "एक आदमी के बारे में एक कहानी लिखें जो एक दिन जागता है और महसूस करता है कि वह एक वीडियो गेम के अंदर है। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "एक आदमी के बारे में एक कहानी लिखें जो एक दिन जागता है और महसूस करता है कि वह एक वीडियो गेम के अंदर है।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 1098,
+    "system": "请给出恰好两条不同的回复。用 6 个星号符号分隔两条回复：******。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "लोग भगवान को किस नाम से पुकारते हैं? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "लोग भगवान को किस नाम से पुकारते हैं?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1180,
+    "system": "你的回答必须包含一个标题，并用双尖括号包裹，即 <<标题>>。 给出恰好两个不同的回复，并用 6 个星号符号 ****** 分隔。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "समझाइए कि लोग कीड़ों से घिन क्यों महसूस करते हैं, लेकिन मरी हुई गाय को खाने से नहीं। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "समझाइए कि लोग कीड़ों से घिन क्यों महसूस करते हैं, लेकिन मरी हुई गाय को खाने से नहीं।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1262,
+    "system": "你的回复必须包含一个用双尖括号包裹的标题，即 <<标题>>。 使用少于 5 句话。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "क्या आप निम्नलिखित पाठ पर विस्तार से बता सकते हैं: \"धुरी के बढ़े हुए भार ने सड़क को होने वाले नुकसान को बढ़ा दिया\"? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "क्या आप निम्नलिखित पाठ पर विस्तार से बता सकते हैं: \"धुरी के बढ़े हुए भार ने सड़क को होने वाले नुकसान को बढ़ा दिया\"?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1268,
+    "system": "你的整个回复应少于6句话。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "क्या आप मुझे तनाव प्रबंधन के बारे में एक जर्नल प्रविष्टि का उदाहरण दे सकते हैं? मुझे बताइए कि आप यह उदाहरण कैसे तैयार करते हैं। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "क्या आप मुझे तनाव प्रबंधन के बारे में एक जर्नल प्रविष्टि का उदाहरण दे सकते हैं? मुझे बताइए कि आप यह उदाहरण कैसे तैयार करते हैं।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 1305,
+    "system": "你的回复必须在末尾包含一段以 P.P.S 开头的附言。 姓名应以项目符号列出，项目符号用以下方式表示：* 这是一个示例项目符号。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "एक नवजात लड़के के लिए ठीक-ठीक 10 संभावित नामों की सूची बनाएं। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "एक नवजात लड़के के लिए ठीक-ठीक 10 संभावित नामों की सूची बनाएं।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        },
+        {
+          "num_bullets": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1307,
+    "system": "你的回复应包含一个大纲，至少包含 15 个部分，并使用 markdown 进行突出显示，例如 *突出显示的部分*。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "यमनी कॉफी के इतिहास पर एक शोधपत्र के लिए एक रूपरेखा लिखें। रूपरेखा में शोधपत्र के मुख्य बिंदु शामिल होने चाहिए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "यमनी कॉफी के इतिहास पर एक शोधपत्र के लिए एक रूपरेखा लिखें। रूपरेखा में शोधपत्र के मुख्य बिंदु शामिल होने चाहिए।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1322,
+    "system": "你的回答必须包含一个用双尖括号括起来的标题，例如 <<kotlin vs java>>。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "कोटलिन बनाम जावा के फायदे और नुकसान क्या हैं? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "कोटलिन बनाम जावा के फायदे और नुकसान क्या हैं?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1325,
+    "system": "你的回复必须用双引号括起来。 你的回复必须恰好包含 8 个项目符号，格式如下：\n* 这是第 1 个项目符号\n* 这是第 2 个项目符号\n...\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "डायनासोर क्यों विलुप्त हो गए, इस बारे में एक मज़ेदार लेख लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "डायनासोर क्यों विलुप्त हो गए, इस बारे में एक मज़ेदार लेख लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 1332,
+    "system": "你的回复应包含两个独立部分，并用恰好 6 个星号符号分隔：*******\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "भारत के लिए 7 दिनों की यात्रा-कार्ययोजना और चीन के लिए 7 दिनों की यात्रा-कार्ययोजना के साथ एक तालिका बनाएं। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "भारत के लिए 7 दिनों की यात्रा-कार्ययोजना और चीन के लिए 7 दिनों की यात्रा-कार्ययोजना के साथ एक तालिका बनाएं।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1377,
+    "system": "你的回复必须包含 5 个段落，并严格遵循以下确切格式：\n\n第 1 部分. 任务摘要\n[在此填写细节]\n***\n第 2 部分. 动机\n[在此填写细节]\n***\n第 3 部分. 里程碑目标\n[在此填写细节]\n***\n第 4 部分. 时间线\n[在此填写细节]\n***\n第 5 部分. 文档历史\n[在此填写细节]\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "एक सॉफ्टवेयर इंजीनियर के कार्य के लिए एक योजना दस्तावेज़ लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "एक सॉफ्टवेयर इंजीनियर के कार्य के लिए एक योजना दस्तावेज़ लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1381,
+    "system": "你的回复必须少于10句话。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "अपने स्थानीय प्राथमिक विद्यालय में एक नया खेल का मैदान बनाने के प्रस्ताव के लिए एक मज़ेदार गीत लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "अपने स्थानीय प्राथमिक विद्यालय में एक नया खेल का मैदान बनाने के प्रस्ताव के लिए एक मज़ेदार गीत लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1512,
+    "system": "你的回复应至少包含 20 个代表不同用户名的占位符，使用方括号，例如 [username1]、[username2]。 所有句子都应简短 并避免使用任何逗号。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "नवीनतम स्थानीय समाचार सुनने के लिए कई लोगों के इंतज़ार करने के बारे में एक फ़ोरम थ्रेड तैयार करें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "नवीनतम स्थानीय समाचार सुनने के लिए कई लोगों के इंतज़ार करने के बारे में एक फ़ोरम थ्रेड तैयार करें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 20
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1551,
+    "system": "你的回复必须包含一个用双尖括号包裹的标题，即 <<标题>>。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "मैं Google में सॉफ्टवेयर इंजीनियर के रूप में नौकरी के लिए आवेदन करना चाहता/चाहती हूँ। क्या आप मेरे लिए दो अलग-अलग कवर लेटर लिख सकते/सकती हैं -- एक संक्षिप्त संस्करण और एक लंबा संस्करण? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "मैं Google में सॉफ्टवेयर इंजीनियर के रूप में नौकरी के लिए आवेदन करना चाहता/चाहती हूँ। क्या आप मेरे लिए दो अलग-अलग कवर लेटर लिख सकते/सकती हैं -- एक संक्षिप्त संस्करण और एक लंबा संस्करण?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1619,
+    "system": "你的回复必须包含一段以 P.P.S. 开头的附言。 你的回复必须至少包含 6 个用方括号表示的占位符，例如 [姓名]。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "एक नए स्मार्टफोन के बारे में एक रैप लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "एक नए स्मार्टफोन के बारे में एक रैप लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        },
+        {
+          "num_placeholders": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 1620,
+    "system": "你的回复必须包含一段以“P.S.”开头的附言\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "मुझे \"लिलिथ\" नामक एल्बम बहुत पसंद है। मैं इसे अपने दोस्त \"लुहेंग\" से परिचित कराना चाहता/चाहती हूँ। इसके लिए एक ईमेल का मसौदा तैयार करें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "मुझे \"लिलिथ\" नामक एल्बम बहुत पसंद है। मैं इसे अपने दोस्त \"लुहेंग\" से परिचित कराना चाहता/चाहती हूँ। इसके लिए एक ईमेल का मसौदा तैयार करें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 1646,
+    "system": "你的回复必须至少突出显示 5 个部分，方法是在每个部分的开头和结尾加上 \"*\"，例如：*被突出显示的文本部分*。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "जानवरों की विभिन्न प्रजातियों में समानताओं के बारे में एक अनौपचारिक ब्लॉग पोस्ट लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "जानवरों की विभिन्न प्रजातियों में समानताओं के बारे में एक अनौपचारिक ब्लॉग पोस्ट लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 1773,
+    "system": "你的回复必须包含歌曲名称，并用 * 包裹以突出显示。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "देहात में बिताए अपने बचपन की गर्मियों के बारे में एक गीत लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "देहात में बिताए अपने बचपन की गर्मियों के बारे में एक गीत लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 1823,
+    "system": "你的回复必须至少包含40个句子（别忘了添加标点符号）。 你必须在回复中突出显示一些单词或短语，例如 *被突出显示的短语*。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "क्या आप बहुत सारे वीडियो गेम खेलने के फायदे और नुकसान पर एक कविता लिख सकते हैं? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "क्या आप बहुत सारे वीडियो गेम खेलने के फायदे और नुकसान पर एक कविता लिख सकते हैं?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 40
+        },
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 1897,
+    "system": "你的回复必须使用 Markdown（用 * 号斜体，例如 *斜体文本*）将至少 10 个文本部分设置为斜体。 你的回复不应包含任何逗号。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "निम्नलिखित का विस्तार करें और इसे मज़ेदार बनाएं: जीन ने पासा फेंका है। उसे लगा कि वह हार गई, लेकिन असल में वह जीत गई। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "निम्नलिखित का विस्तार करें और इसे मज़ेदार बनाएं: जीन ने पासा फेंका है। उसे लगा कि वह हार गई, लेकिन असल में वह जीत गई।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 10
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 1908,
+    "system": "你的回复应至少包含30个句子。 你的回复应当恰好包含 2 个项目符号。使用项目符号如下：\n* 这是一个项目符号 你的回复必须至少包含 8 个用方括号表示的占位符，例如 [地址]。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "आप इस कथन के बारे में क्या सोचते हैं: \"जादूगर टोने-टोटके करने वालों से अधिक शक्तिशाली होते हैं क्योंकि वे जादू के साथ जन्म लेने के बजाय उसका अध्ययन करते हैं।\"? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "आप इस कथन के बारे में क्या सोचते हैं: \"जादूगर टोने-टोटके करने वालों से अधिक शक्तिशाली होते हैं क्योंकि वे जादू के साथ जन्म लेने के बजाय उसका अध्ययन करते हैं।\"?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_bullet_lists",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        },
+        {
+          "num_bullets": 2
+        },
+        {
+          "num_placeholders": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 1927,
+    "system": "你的回复必须至少包含 10 个用方括号表示的占位符，例如 [姓名]。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "निम्नलिखित वाक्य को एक ईमेल में पुनर्लेखित करें: बूट गर्म हैं लेकिन थोड़े असुविधाजनक हैं। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "निम्नलिखित वाक्य को एक ईमेल में पुनर्लेखित करें: बूट गर्म हैं लेकिन थोड़े असुविधाजनक हैं।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1934,
+    "system": "你的回答必须严格采用以下格式的恰好 4 个项目符号：\n* 这是项目符号 1\n* 这是项目符号 2\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "स्टार वॉर्स इतना लोकप्रिय क्यों है? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "स्टार वॉर्स इतना लोकप्रिय क्यों है?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2035,
+    "system": "你的回复必须至少包含 5 句话。 使用 Markdown 在你的回复中将至少 2 个部分设置为斜体，例如 *斜体文本*。 你的回复必须用双引号括起来。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "एक चुटकुला लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "एक चुटकुला लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections",
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 5
+        },
+        {
+          "num_highlights": 2
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2118,
+    "system": "你的回复应当恰好包含3个段落，每个段落之间用***分隔。 你的回复还应当包含恰好 3 个使用 markdown 格式的项目符号，例如：\n* 项目符号 1\n* 项目符号 2\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "माताओं के लिए स्तनपान बनाम फ़ॉर्मूला के फायदे और नुकसान पर एक रैप लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "माताओं के लिए स्तनपान बनाम फ़ॉर्मूला के फायदे और नुकसान पर एक रैप लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 3
+        },
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2136,
+    "system": "你的回复必须至少包含一个用方括号表示的占位符，例如[姓名]。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "आईआरएस में काम करने वाले एक आदमी के बारे में एक छोटा और मज़ेदार मज़ाक लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "आईआरएस में काम करने वाले एक आदमी के बारे में एक छोटा और मज़ेदार मज़ाक लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2162,
+    "system": "你的回复应少于20句话。 你的回复必须至少包含 3 个用方括号表示的占位符，例如 [地址]。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "एडवेंटिस्ट और बैपटिस्ट संप्रदायों के बीच मुख्य अंतर क्या हैं? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "एडवेंटिस्ट और बैपटिस्ट संप्रदायों के बीच मुख्य अंतर क्या हैं?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 20
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2164,
+    "system": "你的回复必须至少包含 3 个用方括号表示的占位符，例如 [地址]、[姓名] 和 [电话号码]。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "\"द स्क्वीकर\" नामक कुत्तों के खिलौनों की एक नई श्रृंखला के लिए उत्पाद विवरण लिखें। यह लेटेक्स से बना है, और सभी उम्र और प्रजातियों के कुत्तों के लिए डिज़ाइन किया गया है। यह विभिन्न रंगों और आकारों में भी उपलब्ध है। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "\"द स्क्वीकर\" नामक कुत्तों के खिलौनों की एक नई श्रृंखला के लिए उत्पाद विवरण लिखें। यह लेटेक्स से बना है, और सभी उम्र और प्रजातियों के कुत्तों के लिए डिज़ाइन किया गया है। यह विभिन्न रंगों और आकारों में भी उपलब्ध है।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2195,
+    "system": "你的回复应当严格包含恰好 3 个项目符号，并采用如下的 markdown 格式，例如：\n* 项目符号 1\n* 项目符号 2\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "एक कुत्ता प्रशिक्षक के लिए निर्देशों की एक सूची लिखें ताकि वह कुत्ते को बैठना, रुके रहना, और चीज़ लाकर देना सिखा सके। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "एक कुत्ता प्रशिक्षक के लिए निर्देशों की एक सूची लिखें ताकि वह कुत्ते को बैठना, रुके रहना, और चीज़ लाकर देना सिखा सके।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2209,
+    "system": "你的整个回复必须用双引号括起来。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "अपने उत्पाद के लिए एक नई सुविधा लागू करने में रुचि रखने वाले ग्राहक के लिए एक अकादमिक प्रस्ताव लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "अपने उत्पाद के लिए एक नई सुविधा लागू करने में रुचि रखने वाले ग्राहक के लिए एक अकादमिक प्रस्ताव लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2229,
+    "system": "你的回复必须包含一个标题，并用双重尖括号包裹，即 <<标题>>。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "शिशुओं के लिए अधिक आरामदायक बनाने के उद्देश्य से डिज़ाइन किए गए एक नए प्रकार के डायपर के लिए माताओं को लक्षित एक बिक्री प्रस्तुति की आवश्यकता है। बिक्री प्रस्तुति 500 शब्दों की होनी चाहिए, मज़ेदार, आकर्षक होनी चाहिए, और कीमत का उल्लेख किए बिना नए डायपर के लाभों पर केंद्रित होनी चाहिए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "शिशुओं के लिए अधिक आरामदायक बनाने के उद्देश्य से डिज़ाइन किए गए एक नए प्रकार के डायपर के लिए माताओं को लक्षित एक बिक्री प्रस्तुति की आवश्यकता है। बिक्री प्रस्तुति 500 शब्दों की होनी चाहिए, मज़ेदार, आकर्षक होनी चाहिए, और कीमत का उल्लेख किए बिना नए डायपर के लाभों पर केंद्रित होनी चाहिए।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2230,
+    "system": "你的回复不应包含任何逗号。 你的回复应至少使用 markdown 突出显示 2 个部分，即 *突出显示的部分*。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "इस पाठ को अजीब बनाओ: \"ऐप का नया संस्करण जल्द ही ऐप स्टोर में उपलब्ध होगा। इसमें कई नई विशेषताएँ शामिल होंगी, जिनमें एक नया उपयोगकर्ता इंटरफ़ेस और नए उपकरणों के लिए समर्थन शामिल है\"। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "इस पाठ को अजीब बनाओ: \"ऐप का नया संस्करण जल्द ही ऐप स्टोर में उपलब्ध होगा। इसमें कई नई विशेषताएँ शामिल होंगी, जिनमें एक नया उपयोगकर्ता इंटरफ़ेस और नए उपकरणों के लिए समर्थन शामिल है\"।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2245,
+    "system": "你的回复不应包含任何逗号。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "मैं में प्रवेश करना आसान है लेकिन बाहर निकलना मुश्किल है। मैं आमंत्रक और रोमांचक हूँ, लेकिन बहुत से लोग मुझसे डरते हैं। मैं वही जगह हूँ जहाँ तुम्हें होना चाहिए, लेकिन तुम वहाँ रुकना नहीं चाहोगे। मैं एक रहस्य हो सकता हूँ, लेकिन मुझे यकीन है कि तुम मुझे पहचान सकते हो। मैं क्या हूँ? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "मैं में प्रवेश करना आसान है लेकिन बाहर निकलना मुश्किल है। मैं आमंत्रक और रोमांचक हूँ, लेकिन बहुत से लोग मुझसे डरते हैं। मैं वही जगह हूँ जहाँ तुम्हें होना चाहिए, लेकिन तुम वहाँ रुकना नहीं चाहोगे। मैं एक रहस्य हो सकता हूँ, लेकिन मुझे यकीन है कि तुम मुझे पहचान सकते हो। मैं क्या हूँ?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2253,
+    "system": "在你的回复中，使用 markdown 至少突出显示 3 个部分，即 *突出显示的部分*。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "कार्यस्थल में विविधता के महत्व पर एक कार्यशाला के लिए एक टेम्पलेट लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "कार्यस्थल में विविधता के महत्व पर एक कार्यशाला के लिए एक टेम्पलेट लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2303,
+    "system": "你的回复应使用双引号括起来。 你的回复应包含17句或更多句。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "बाहरी सौरमंडल आंतरिक सौरमंडल से कैसे अलग है, और जीवन की संभावना के लिए इसका क्या मतलब है—इस बारे में एक अनौपचारिक ब्लॉग पोस्ट लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "बाहरी सौरमंडल आंतरिक सौरमंडल से कैसे अलग है, और जीवन की संभावना के लिए इसका क्या मतलब है—इस बारे में एक अनौपचारिक ब्लॉग पोस्ट लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "at least",
+          "num_sentences": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": 2304,
+    "system": "你的回复必须至少包含 1 个用方括号表示的占位符，例如 [地址]。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "एक निबंध लिखें मानो आप संयुक्त राज्य अमेरिका के राष्ट्रपति हों और आपका लक्षित श्रोता वर्ग माताएँ हों। विषय यह है कि फिल्म \"इट\" में दिखाया गया \"फ्लोट\" उन्नीस सौ पचास के दशक की भावना का प्रतीक कैसे है। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "एक निबंध लिखें मानो आप संयुक्त राज्य अमेरिका के राष्ट्रपति हों और आपका लक्षित श्रोता वर्ग माताएँ हों। विषय यह है कि फिल्म \"इट\" में दिखाया गया \"फ्लोट\" उन्नीस सौ पचास के दशक की भावना का प्रतीक कैसे है।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2311,
+    "system": "你的回复不应包含任何逗号。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "32 ग्राम बिना नमक वाले बादाम की एक सर्विंग में 396 कैलोरी क्यों होती हैं? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "32 ग्राम बिना नमक वाले बादाम की एक सर्विंग में 396 कैलोरी क्यों होती हैं?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2314,
+    "system": "你的回复应包含 3 个 markdown 项目符号点，例如：\n* 项目符号点 1\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "काले और सफेद कुत्ते के लिए ठीक 3 नाम बताइए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "काले और सफेद कुत्ते के लिए ठीक 3 नाम बताइए।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2324,
+    "system": "你的回复不应包含任何逗号。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "हम्बोल्ट में समुद्र तट पर लेटी हुई एक माँ के बारे में एक पहेली लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "हम्बोल्ट में समुद्र तट पर लेटी हुई एक माँ के बारे में एक पहेली लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2357,
+    "system": "你的回复应当恰好包含 4 个段落，并且每个段落之间都应使用 markdown 分隔线：***。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "पेरिस की यात्रा के लिए एक यात्रा-कार्यक्रम लिखें, जो कम ध्यान अवधि वाले किशोरों के लिए उपयुक्त हो। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "पेरिस की यात्रा के लिए एक यात्रा-कार्यक्रम लिखें, जो कम ध्यान अवधि वाले किशोरों के लिए उपयुक्त हो।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2362,
+    "system": "你的回复应以附言结尾，附言以 P.P.S 开头\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "आप उस बहिष्कृत वैज्ञानिक को क्या कहते हैं जिसे घर पर रहने के लिए कहा जाता है? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "आप उस बहिष्कृत वैज्ञानिक को क्या कहते हैं जिसे घर पर रहने के लिए कहा जाता है?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2374,
+    "system": "你的回复不应包含任何逗号。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "विकासशील देशों में शिक्षा की गुणवत्ता में सुधार करने के लिए मशीन लर्निंग और एआई का उपयोग कैसे किया जाए, इस पर एक परियोजना प्रस्ताव लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "विकासशील देशों में शिक्षा की गुणवत्ता में सुधार करने के लिए मशीन लर्निंग और एआई का उपयोग कैसे किया जाए, इस पर एक परियोजना प्रस्ताव लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2380,
+    "system": "你的回答不能包含逗号。 你的回答必须严格包含 4 个项目符号，并使用如下的 markdown 格式，例如：\n* 项目符号 1\n* 项目符号 2\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "कृपया निम्नलिखित विज्ञापनदाता पेज का सारांश लिखें: \"हम इस बात पर ज़ोर देते हैं कि हमारे पास उद्योग में वेब डेवलपर्स, कंटेंट राइटर्स, ग्राफिक डिज़ाइनर्स और ऑनलाइन मार्केटर्स की सबसे प्रतिभाशाली टीम हो। हमारे पास पुरस्कार विजेता व्यक्ति हैं जिनका सफलता का सिद्ध ट्रैक रिकॉर्ड है\"। मार्कडाउन का उपयोग करें और माताओं को लक्षित करें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "कृपया निम्नलिखित विज्ञापनदाता पेज का सारांश लिखें: \"हम इस बात पर ज़ोर देते हैं कि हमारे पास उद्योग में वेब डेवलपर्स, कंटेंट राइटर्स, ग्राफिक डिज़ाइनर्स और ऑनलाइन मार्केटर्स की सबसे प्रतिभाशाली टीम हो। हमारे पास पुरस्कार विजेता व्यक्ति हैं जिनका सफलता का सिद्ध ट्रैक रिकॉर्ड है\"। मार्कडाउन का उपयोग करें और माताओं को लक्षित करें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2381,
+    "system": "你的回复应至少用 Markdown 格式突出显示 3 个部分，即 *突出显示的部分*。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "एक स्थानीय राजनीतिक पार्टी को एक कवर लेटर लिखें, जिसमें उनसे उनके रैली आयोजक बनने का अनुरोध किया गया हो। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "एक स्थानीय राजनीतिक पार्टी को एक कवर लेटर लिखें, जिसमें उनसे उनके रैली आयोजक बनने का अनुरोध किया गया हो।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2396,
+    "system": "你的回复必须在末尾包含一段附言，并以 P.P.S 开头\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "मेरे लिए एक लंबे समय तक चलने वाले युद्ध के बारे में एक कविता लिखिए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "मेरे लिए एक लंबे समय तक चलने वाले युद्ध के बारे में एक कविता लिखिए।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2436,
+    "system": "针对该问题给出恰好两种不同的回答。用 6 个星号符号 ****** 将两种回答分隔开。 请勿在你的回复中使用任何逗号。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "प्रश्न \"क्या आक्रामक प्रजातियों का शिकार करना और उन्हें खाना नैतिक है?\" का उत्तर दें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "प्रश्न \"क्या आक्रामक प्रजातियों का शिकार करना और उन्हें खाना नैतिक है?\" का उत्तर दें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2441,
+    "system": "你的整个回复必须用双引号括起来。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "अमेरिकी चुनावों पर भाषण-जैसा एक अनुच्छेद लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "अमेरिकी चुनावों पर भाषण-जैसा एक अनुच्छेद लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2467,
+    "system": "你的回复必须严格分为4个段落。用以下 Markdown 分隔符分隔段落：***。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "एक अथाह खाई के बारे में एक रैप लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "एक अथाह खाई के बारे में एक रैप लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2497,
+    "system": "你的回复必须至少包含一个使用 markdown 突出显示的部分，即 *突出显示的部分*。 将你的整个回复放在双引号内。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "मुझे बातचीत और विजय के बारे में एक तार्किक प्रश्न दीजिए। इसे रोचक बनाइए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "मुझे बातचीत और विजय के बारे में एक तार्किक प्रश्न दीजिए। इसे रोचक बनाइए।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2515,
+    "system": "你的回复必须至少用 markdown 高亮一个部分，即 *高亮部分*。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "गिडियन एक किसान है जिसके पास इस साल अपने खेत से फसलों का अतिरिक्त उत्पादन है। वह उस अतिरिक्त उत्पादन के साथ क्या कर सकता है? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "गिडियन एक किसान है जिसके पास इस साल अपने खेत से फसलों का अतिरिक्त उत्पादन है। वह उस अतिरिक्त उत्पादन के साथ क्या कर सकता है?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2589,
+    "system": "你的回复应少于 17 句话。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "एक अनुच्छेद लिखें जिसमें विभिन्न पशु नमूनों की औसत लंबाई को सबसे छोटे से सबसे बड़े तक सूचीबद्ध किया गया हो। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "एक अनुच्छेद लिखें जिसमें विभिन्न पशु नमूनों की औसत लंबाई को सबसे छोटे से सबसे बड़े तक सूचीबद्ध किया गया हो।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": 2704,
+    "system": "给出恰好两种不同的回复，用 6 个星号符号（******）分隔。 包含一个用双尖括号括起来的标题，即 <<标题>>。 不要使用逗号。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "युवा पाठकों के लिए, प्रश्न के रूप में मूर्खतापूर्ण व्यवहार पर एक हाइकू लिखें। इसमें न पढ़ाई करने का विषय शामिल होना चाहिए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "युवा पाठकों के लिए, प्रश्न के रूप में मूर्खतापूर्ण व्यवहार पर एक हाइकू लिखें। इसमें न पढ़ाई करने का विषय शामिल होना चाहिए।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "detectable_format:title",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2749,
+    "system": "你的回复必须至少包含20个句子。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "डिजिटल मार्केटिंग एजेंसी का उपयोग करने के लाभों पर एक ब्लॉग पोस्ट लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "डिजिटल मार्केटिंग एजेंसी का उपयोग करने के लाभों पर एक ब्लॉग पोस्ट लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2780,
+    "system": "你的回复必须少于6句话。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "क्या आप मुझे लंदन जाने वाली अगली ट्रेन का समय-सारिणी प्रदान कर सकते हैं? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "क्या आप मुझे लंदन जाने वाली अगली ट्रेन का समय-सारिणी प्रदान कर सकते हैं?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 2785,
+    "system": "你的回答必须使用 markdown 来突出显示至少 3 个部分（例如：*突出显示的部分*）。 你的回答还必须包含至少 3 个占位符（占位符的示例是 [地址]）。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "शिंतो मंदिरों के अंदर क्या होता है? कल्पना कीजिए कि आप किसी स्कूल या विश्वविद्यालय में छात्रों को व्याख्यान दे रहे हैं। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "शिंतो मंदिरों के अंदर क्या होता है? कल्पना कीजिए कि आप किसी स्कूल या विश्वविद्यालय में छात्रों को व्याख्यान दे रहे हैं।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 2790,
+    "system": "你的回复必须使用 markdown 来突出显示你答案中的至少一个部分，即 *突出显示的部分*。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "नाइजीरिया के राजा का बहुत समय से खोया हुआ रिश्तेदार होने की बात कहने वाले एक अधिकारी से एक आदमी को कॉल आता है—इस बारे में एक मज़ेदार रैप लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "नाइजीरिया के राजा का बहुत समय से खोया हुआ रिश्तेदार होने की बात कहने वाले एक अधिकारी से एक आदमी को कॉल आता है—इस बारे में एक मज़ेदार रैप लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2801,
+    "system": "你的回复应为一个恰好包含 4 个项目符号的列表，采用 markdown 格式，例如：\n* 项目符号 1\n* 项目符号 2\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "निम्नलिखित ब्लॉग को फिर से लिखें: \"दुनिया एक सुंदर जगह है। सूरज चमक रहा है, पक्षी गा रहे हैं, और फूल खिल रहे हैं। यह बाहर जाने और प्रकृति के पास जो कुछ भी है उसका आनंद लेने के लिए एक परफेक्ट दिन है।\" आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "निम्नलिखित ब्लॉग को फिर से लिखें: \"दुनिया एक सुंदर जगह है। सूरज चमक रहा है, पक्षी गा रहे हैं, और फूल खिल रहे हैं। यह बाहर जाने और प्रकृति के पास जो कुछ भी है उसका आनंद लेने के लिए एक परफेक्ट दिन है।\""
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": 2832,
+    "system": "你的回答必须包含且仅包含一个使用 markdown 格式的项目符号，例如：\n* 项目符号\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "कल्पना कीजिए कि आप 19 साल के हैं और आप एक वीडियो गेम बना रहे हैं। यह गेम एक ऐसे लड़के के बारे में है जिसे एक खलनायक से दुनिया को बचाना है। किशोरों को यह यक़ीन दिलाने के लिए एक पिच लिखिए कि आपका वीडियो गेम खरीदने लायक है। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "कल्पना कीजिए कि आप 19 साल के हैं और आप एक वीडियो गेम बना रहे हैं। यह गेम एक ऐसे लड़के के बारे में है जिसे एक खलनायक से दुनिया को बचाना है। किशोरों को यह यक़ीन दिलाने के लिए एक पिच लिखिए कि आपका वीडियो गेम खरीदने लायक है।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 2857,
+    "system": "你的整个回复都应以 JSON 格式包裹。你可以使用诸如 ``` 这样的 Markdown 反引号。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "एक सॉफ्टवेयर इंजीनियर के प्रदर्शन मूल्यांकन के लिए एक रूब्रिक लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "एक सॉफ्टवेयर इंजीनियर के प्रदर्शन मूल्यांकन के लिए एक रूब्रिक लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2905,
+    "system": "你的回复必须使用 * 来突出显示文本中至少 2 个部分。例如：*这是一个被突出显示的文本部分*。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "पहेली को एक मज़ेदार लहजे वाली कहानी में विस्तार दें: आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "पहेली को एक मज़ेदार लहजे वाली कहानी में विस्तार दें:"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2918,
+    "system": "在回答请求后撰写一段总结。这两部分应以 6 个星号符号（******）分隔。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "किशोर के निबंध की गुणवत्ता को रेट करने के लिए एक रूब्रिक लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "किशोर के निबंध की गुणवत्ता को रेट करने के लिए एक रूब्रिक लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2921,
+    "system": "你的回复必须严格分为两段，并使用 Markdown 分隔线：*** 将两段隔开。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "यदि a = 10, b = 30, और c = 20 हैं, तो (a + b) / c का मान क्या है? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "यदि a = 10, b = 30, और c = 20 हैं, तो (a + b) / c का मान क्या है?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 2929,
+    "system": "你的回复必须在末尾包含一段以“P.S.”开头的附言。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "ऐसी वयस्क वेबसाइट के लिए एक टेक्स्ट विज्ञापन लिखें जो अश्लील न हो। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "ऐसी वयस्क वेबसाइट के लिए एक टेक्स्ट विज्ञापन लिखें जो अश्लील न हो।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 2969,
+    "system": "你的回复必须包含一个用双尖括号包裹的标题，例如 <<出售中的单桅帆船>>。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "एक स्लूप बेचने वाले विज्ञापन के लिए कॉपी लिखें। यह एक छोटा पाल-नौका है जिसमें एक मस्तूल होता है, जिसे चलाना और समझना आसान है। आपके उत्तर का एक हिस्सा तालिका प्रारूप में होना चाहिए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "एक स्लूप बेचने वाले विज्ञापन के लिए कॉपी लिखें। यह एक छोटा पाल-नौका है जिसमें एक मस्तूल होता है, जिसे चलाना और समझना आसान है। आपके उत्तर का एक हिस्सा तालिका प्रारूप में होना चाहिए।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 2985,
+    "system": "你的整个回复必须用双引号括起来。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "आपको क्यों लगता है कि गूगल के इंजीनियर माइक्रोसॉफ्ट में जाने की बजाय अधिक बार गूगल में ही बने रहते हैं? इसे एलेक्स जोन्स की शैली में समझाइए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "आपको क्यों लगता है कि गूगल के इंजीनियर माइक्रोसॉफ्ट में जाने की बजाय अधिक बार गूगल में ही बने रहते हैं? इसे एलेक्स जोन्स की शैली में समझाइए।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3041,
+    "system": "你的回复应少于7句话。 你的回复应当恰好包含 1 个使用 markdown 的项目符号，例如：\n* 项目符号\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "दीर्घकालिक बीमारियों से जूझ रहे लोगों को घर पर देखभाल (इन-होम केयर) खोजने और उसका प्रबंधन करने में मदद करने वाले एक व्यवसाय के लिए एक रचनात्मक और प्रभावशाली स्टार्टअप पिच लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "दीर्घकालिक बीमारियों से जूझ रहे लोगों को घर पर देखभाल (इन-होम केयर) खोजने और उसका प्रबंधन करने में मदद करने वाले एक व्यवसाय के लिए एक रचनात्मक और प्रभावशाली स्टार्टअप पिच लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 7
+        },
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3057,
+    "system": "你的回复必须包含一个用双尖括号包裹的标题，即 <<标题>>。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "कृपया प्रतिलोम फलन के बारे में एक पहेली लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "कृपया प्रतिलोम फलन के बारे में एक पहेली लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3131,
+    "system": "你的回复必须包含一个标题，并用双重尖括号包裹，例如 <<关于……的博客文章>>。 另外，添加一段以 P.S. 开头的附言。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "2023 में गूंजते जैव-प्रौद्योगिकी क्षेत्र पर एक ब्लॉग पोस्ट लिखें, फिर उस ब्लॉग पोस्ट की आलोचना करें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "2023 में गूंजते जैव-प्रौद्योगिकी क्षेत्र पर एक ब्लॉग पोस्ट लिखें, फिर उस ब्लॉग पोस्ट की आलोचना करें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {
+          "postscript_marker": "P.S."
+        }
+      ]
+    }
+  },
+  {
+    "id": 3221,
+    "system": "你的回复必须至少包含 8 个占位符（即 [餐厅]）。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "2 हफ्तों की यूरोप यात्रा की योजना बनाएं और लंदन, पेरिस और रोम जाएं। सभी बड़े अक्षरों में उत्तर दें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "2 हफ्तों की यूरोप यात्रा की योजना बनाएं और लंदन, पेरिस और रोम जाएं। सभी बड़े अक्षरों में उत्तर दें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": 3245,
+    "system": "你的输出不得包含任何逗号。 你的输出必须至少包含 2 个占位符，并用方括号括起来，例如 [作者]。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "शीर्षक \"लेटन दुनिया का सबसे अच्छा शहर है\" के साथ एक लेख लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "शीर्षक \"लेटन दुनिया का सबसे अच्छा शहर है\" के साथ एक लेख लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_placeholders": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": 3256,
+    "system": "你的回复必须包含一个用双尖括号包裹的标题，即 <<标题>>。 你的回复必须少于13句话。 你的回复不得包含任何逗号 但允许使用其他标点符号\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "एक जिज्ञासु बिल्ली के बारे में एक कविता लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "एक जिज्ञासु बिल्ली के बारे में एक कविता लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "length_constraints:number_sentences",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 13
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3263,
+    "system": "请提供两个答案，并用 ****** 分隔\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "\"जियांग\" क्या एक चीनी नाम है? \"जियांग\" के समान अन्य नाम कौन-से हैं? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "\"जियांग\" क्या एक चीनी नाम है? \"जियांग\" के समान अन्य नाम कौन-से हैं?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3280,
+    "system": "你的回复必须至少包含六个占位符，占位符应使用方括号表示，例如 [姓名]。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "सेब और अल्बानिया में क्या अंतर है? उत्तर ईमेल प्रारूप में दें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "सेब और अल्बानिया में क्या अंतर है? उत्तर ईमेल प्रारूप में दें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": 3281,
+    "system": "请严格提供两个版本的回复。用六个星号符号分隔它们：******。 请在回复中避免使用逗号。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "नौकरी के आवेदन के लिए कवर लेटर लिखें। यह सहायक प्रोफेसर पद के लिए है। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "नौकरी के आवेदन के लिए कवर लेटर लिखें। यह सहायक प्रोफेसर पद के लिए है।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "combination:two_responses",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3329,
+    "system": "你的回复应至少包含30个句子。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "अरे! मुझे एक लैपटॉप के प्रदर्शन और कीमत का मूल्यांकन करने के लिए एक रूब्रिक चाहिए। क्या आप मेरे लिए एक उदाहरण बना सकते हैं? मुझे कोई भी बुलेट पॉइंट, सूचियाँ, या तालिकाएँ मत दीजिए। बस रूब्रिक को साधारण अंग्रेज़ी के अनुच्छेदों में लिखिए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "अरे! मुझे एक लैपटॉप के प्रदर्शन और कीमत का मूल्यांकन करने के लिए एक रूब्रिक चाहिए। क्या आप मेरे लिए एक उदाहरण बना सकते हैं? मुझे कोई भी बुलेट पॉइंट, सूचियाँ, या तालिकाएँ मत दीजिए। बस रूब्रिक को साधारण अंग्रेज़ी के अनुच्छेदों में लिखिए।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        }
+      ]
+    }
+  },
+  {
+    "id": 3350,
+    "system": "你的回复只能包含短句并且不得包含任何逗号。 至少包含五个用方括号表示的占位符，例如 [网站]。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "मुझे किशोरों के मानसिक स्वास्थ्य पर सोशल मीडिया के प्रभावों पर एक परियोजना के लिए एक शोध प्रस्ताव लिखना है। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "मुझे किशोरों के मानसिक स्वास्थ्य पर सोशल मीडिया के प्रभावों पर एक परियोजना के लिए एक शोध प्रस्ताव लिखना है।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_placeholders": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": 3351,
+    "system": "你的回复必须严格为 2 个段落。用以下 Markdown 分隔符分隔段落：***。 此外，至少将 3 个部分设置为斜体，方法是在开头和结尾使用单个 *，即 *斜体文本*。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "यहाँ एक सोशल मीडिया पोस्ट है: \"मेरी बेटी आज कॉलेज से ग्रेजुएट हुई! उस पर बहुत गर्व है!\" क्या आप इसे और ज़्यादा रोमांचक बना सकते हैं? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "यहाँ एक सोशल मीडिया पोस्ट है: \"मेरी बेटी आज कॉलेज से ग्रेजुएट हुई! उस पर बहुत गर्व है!\" क्या आप इसे और ज़्यादा रोमांचक बना सकते हैं?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_paragraphs",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_paragraphs": 2
+        },
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 3409,
+    "system": "你的整个回复必须用双引号括起来。 你的回复还应至少用 *高亮文本* 以 Markdown 格式突出显示三个部分。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "क्या आप मेरे वीडियो गेम प्रोजेक्ट के लिए एक नारा लिख सकते हैं? इस प्रोजेक्ट का उद्देश्य एक बहुत ही मज़ेदार फाइटिंग गेम बनाना है। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "क्या आप मेरे वीडियो गेम प्रोजेक्ट के लिए एक नारा लिख सकते हैं? इस प्रोजेक्ट का उद्देश्य एक बहुत ही मज़ेदार फाइटिंग गेम बनाना है।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": 3557,
+    "system": "你的回复应为包含 10 个项目符号的列表，并遵循以下格式：\n\n* 项目符号 1\n* 项目符号 2\n* ...\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "मुझे अमेरिका में शीर्ष 10 वकीलों की एक सूची चाहिए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "मुझे अमेरिका में शीर्ष 10 वकीलों की एक सूची चाहिए।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 3606,
+    "system": "你的回复必须包含一个用双尖括号括起来的标题，即 <<标题>>。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "क्या आप एक फ़िल्म की कहानी लिख सकते हैं जिसमें सपना, मुक्केबाज़ी, और सुपरपावर शामिल हों? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "क्या आप एक फ़िल्म की कहानी लिख सकते हैं जिसमें सपना, मुक्केबाज़ी, और सुपरपावर शामिल हों?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3615,
+    "system": "你的回复不应包含任何逗号。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "कैमिला के बारे में एक पहेली लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "कैमिला के बारे में एक पहेली लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3619,
+    "system": "你的回复必须包含至少三个占位符，例如 [价格]， 并且你在回复中不得使用逗号。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "नवीनतम Google Pixel फ़ोन के रिलीज़ का वर्णन करने वाला एक XML दस्तावेज़ लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "नवीनतम Google Pixel फ़ोन के रिलीज़ का वर्णन करने वाला एक XML दस्तावेज़ लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_content:number_placeholders",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 3
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3629,
+    "system": "在你的回复中用“*”突出显示一些关键部分，例如 *突出显示的文本*。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "आज, 54वें वार्षिक ग्रैमी पुरस्कारों में, रिकॉर्डिंग अकादमी उन कलाकारों, संगीतकारों और निर्माताओं की प्रतिभा और रचनात्मकता का सम्मान करती है, जो पिछले वर्ष की सर्वश्रेष्ठ रिकॉर्डिंग्स के सृजनकर्ता हैं। कृपया इस पाठ को औपचारिक शैली में लिखना जारी रखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "आज, 54वें वार्षिक ग्रैमी पुरस्कारों में, रिकॉर्डिंग अकादमी उन कलाकारों, संगीतकारों और निर्माताओं की प्रतिभा और रचनात्मकता का सम्मान करती है, जो पिछले वर्ष की सर्वश्रेष्ठ रिकॉर्डिंग्स के सृजनकर्ता हैं। कृपया इस पाठ को औपचारिक शैली में लिखना जारी रखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 3631,
+    "system": "你的回复不应包含任何逗号。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "मूंगफली के मक्खन और जैली का सैंडविच कैसे बनाना है, इस बारे में एक गीत लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "मूंगफली के मक्खन और जैली का सैंडविच कैसे बनाना है, इस बारे में एक गीत लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3691,
+    "system": "你的回复应少于10句话。 你的回复不应包含任何逗号。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "एक 16 साल की लड़की के दृष्टिकोण से एक ब्लॉग पोस्ट लिखें, जिसका एक अजनबी पीछा कर रहा है। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "एक 16 साल की लड़की के दृष्टिकोण से एक ब्लॉग पोस्ट लिखें, जिसका एक अजनबी पीछा कर रहा है।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences",
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 10
+        },
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3710,
+    "system": "你的回复必须包含一个用双尖括号包裹的标题，例如 <<标题>>。 此外，你必须使用 Markdown 至少突出显示 2 个部分，即 *突出显示的部分*。 最后，你必须在回复末尾添加一段附言，以 P.P.S 开头\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "मुझे एक रैप चाहिए जो पेशेवरों को बताए कि बच्चों को पूरी रात कैसे सुलाया जाए। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "मुझे एक रैप चाहिए जो पेशेवरों को बताए कि बच्चों को पूरी रात कैसे सुलाया जाए।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title",
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 2
+        },
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3719,
+    "system": "你的回复必须包含一个用双尖括号括起来的标题，即 <<我的歌曲标题>>。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "पोटोमैक नदी में चिकन के एक टुकड़े से दम घुटने के बारे में एक गीत लिखें। आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "पोटोमैक नदी में चिकन के एक टुकड़े से दम घुटने के बारे में एक गीत लिखें।"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  },
+  {
+    "id": 3739,
+    "system": "你的回复应少于3句话（只用1句话或2句话）。\n\n使用用户的请求文本，恰好调用一次工具 get_additional_text。收到工具输出后，再回复用户。不要使用任何其他工具。不要输出任何介绍性文字或解释。",
+    "user": "लोगों को ईर्ष्यालु बनाने वाले हरी आँखों वाले राक्षस का नाम क्या है? आपके उत्तर पूरी तरह से हिंदी में होने चाहिए, किसी अन्य भाषा की अनुमति नहीं है।",
+    "tool": {
+      "definition": {
+        "type": "function",
+        "name": "get_additional_text",
+        "description": "Returns additional text attached to a request.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "request": {
+              "type": "string",
+              "description": "The user's request text."
+            }
+          },
+          "required": [
+            "request"
+          ]
+        }
+      },
+      "call": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "arguments": {
+          "request": "लोगों को ईर्ष्यालु बनाने वाले हरी आँखों वाले राक्षस का नाम क्या है?"
+        }
+      },
+      "return": {
+        "id": "call_lvxKFI2BzkzmCLjMqwKCGnVP",
+        "name": "get_additional_text",
+        "content": "कोई अतिरिक्त पाठ नहीं।"
+      }
+    },
+    "answer": {
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "less than",
+          "num_sentences": 3
+        }
+      ]
+    }
+  }
+]

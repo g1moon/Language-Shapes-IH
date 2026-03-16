@@ -1,0 +1,870 @@
+{
+  "timestamp": "2026-02-19T07:07:04.219381",
+  "total_files": 216,
+  "files": [
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_en-tool_en/eval_results.json",
+      "hash": "c0eec096ac78d7404071d3a4552ae2bf"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_en-tool_de/eval_results.json",
+      "hash": "5f0378b9502de4c52c11523db6cf2fd9"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_en-tool_hi/eval_results.json",
+      "hash": "11f04735a3a7bb2ef5600d23671ea9f9"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_en-tool_zh/eval_results.json",
+      "hash": "37523aea4ba3c0d632fab40be985414a"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_en-tool_es/eval_results.json",
+      "hash": "2145fe736c47375b705e8ea497128e2e"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_en-tool_fr/eval_results.json",
+      "hash": "5069d60a1c9d919ef371dba481a8b911"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_de-tool_en/eval_results.json",
+      "hash": "3a3894ba04ed3bf8523d7f579537e232"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_de-tool_de/eval_results.json",
+      "hash": "4c001cf9bb5ad5c3b5a03a555bf5d3c9"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_de-tool_hi/eval_results.json",
+      "hash": "0a2b554fa5d475ca8a262955a5c22d72"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_de-tool_zh/eval_results.json",
+      "hash": "21d62787a2263a2b439a6791f50f7812"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_de-tool_es/eval_results.json",
+      "hash": "055d002ec321ce2b2721fe3bff2c9eef"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_de-tool_fr/eval_results.json",
+      "hash": "bf68b251fb46108c323e2058d93636b4"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_hi-tool_en/eval_results.json",
+      "hash": "5540e2f4b25de91adb3bc49f6ed3dd29"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_hi-tool_de/eval_results.json",
+      "hash": "2e3202937802895ffbd1d63d655b7d9d"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_hi-tool_hi/eval_results.json",
+      "hash": "7798d659474d2cf7628895abee87ff77"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_hi-tool_zh/eval_results.json",
+      "hash": "a33020e40a481cced346c5d0b218c880"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_hi-tool_es/eval_results.json",
+      "hash": "dde0a8f99066cec58180162ec5d4cda9"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_hi-tool_fr/eval_results.json",
+      "hash": "3f30a4a04babb11b6b7c74a56630a445"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_zh-tool_en/eval_results.json",
+      "hash": "804c60d063176f56f710d92fb4e13f01"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_zh-tool_de/eval_results.json",
+      "hash": "6322d9348af6e44b6b92eb1faccab6fb"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_zh-tool_hi/eval_results.json",
+      "hash": "7ef74635193f5fbdfb784ed07bc0ba6a"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_zh-tool_zh/eval_results.json",
+      "hash": "50917536807f0c405c16df0767e52768"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_zh-tool_es/eval_results.json",
+      "hash": "48ebec1140d71866c5d426018b7e165f"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_zh-tool_fr/eval_results.json",
+      "hash": "2b595122970423d87d28019f1efd7cc5"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_es-tool_en/eval_results.json",
+      "hash": "d741cded3db3109cc28d084fa0f36b03"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_es-tool_de/eval_results.json",
+      "hash": "f273cbc6b73da7b662e56df726e2c754"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_es-tool_hi/eval_results.json",
+      "hash": "002580f4ecef33da00ac0ed7eb2f6f98"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_es-tool_zh/eval_results.json",
+      "hash": "775e325eb3792b00dc96b8717111bd08"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_es-tool_es/eval_results.json",
+      "hash": "a9425767296f414d7158ac74739e492e"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_es-tool_fr/eval_results.json",
+      "hash": "78c3e4c4aa9607673e3969a765f626a3"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_fr-tool_en/eval_results.json",
+      "hash": "bffc1422b8741e8fec32b68568b36645"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_fr-tool_de/eval_results.json",
+      "hash": "ae4cbcfba4f71cbea33a6cc14181bbc0"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_fr-tool_hi/eval_results.json",
+      "hash": "b8f7699e9aaf01385100347570c6ef01"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_fr-tool_zh/eval_results.json",
+      "hash": "6f96ce3bbe0bd88aebdc1eb16a528646"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_fr-tool_es/eval_results.json",
+      "hash": "9572620616b9a77993679928f577c477"
+    },
+    {
+      "path": "results/persona/reference/sys-tool/gpt/gpt-5-nano/input-sys_fr-tool_fr/eval_results.json",
+      "hash": "451f4d0b3baf7ca1a946cb1df30c439a"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_en-tool_en/eval_results.json",
+      "hash": "f39afeae1fdc9804adec2bdc072d689a"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_en-tool_de/eval_results.json",
+      "hash": "1ddf41d145658a4182db9f13a2d84995"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_en-tool_hi/eval_results.json",
+      "hash": "58877a1523c153486c5dec86199effbc"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_en-tool_zh/eval_results.json",
+      "hash": "03dcd12dc18f27c31558e18bacf64cd7"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_en-tool_es/eval_results.json",
+      "hash": "6f8075ba10b7610440acc9a08a75eb92"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_en-tool_fr/eval_results.json",
+      "hash": "18868b92fa5e093505d27db44a511725"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_de-tool_en/eval_results.json",
+      "hash": "2ee1db98676a10a6669a1a6e10fd8c78"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_de-tool_de/eval_results.json",
+      "hash": "27d6adf8f04ba923e3f540804cfc2a4d"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_de-tool_hi/eval_results.json",
+      "hash": "5ebb739c860a238ecc6665f5ba048f38"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_de-tool_zh/eval_results.json",
+      "hash": "8e7f38a4b63ec8707f1ed6990729cae8"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_de-tool_es/eval_results.json",
+      "hash": "9f3b8aa365f0a6499e7c61816b9a03a2"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_de-tool_fr/eval_results.json",
+      "hash": "927be808d61123176138e33394d7ef1a"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_hi-tool_en/eval_results.json",
+      "hash": "91d3567c87b8f150155db12dca0f9553"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_hi-tool_de/eval_results.json",
+      "hash": "58909bfa460eb6dc3eb139a02fa8d087"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_hi-tool_hi/eval_results.json",
+      "hash": "6141a38421146bc878fc619298762c9a"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_hi-tool_zh/eval_results.json",
+      "hash": "4cd32b062300a369091328c848b8abe3"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_hi-tool_es/eval_results.json",
+      "hash": "ccbbaceea49b4613b1f24c601a163e36"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_hi-tool_fr/eval_results.json",
+      "hash": "f18987361dae1aa8cef1e9519d7db87b"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_zh-tool_en/eval_results.json",
+      "hash": "63454f0b68408d1254ae23a43e995156"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_zh-tool_de/eval_results.json",
+      "hash": "1ef15ea084a8b612ab3c48407ea72ccf"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_zh-tool_hi/eval_results.json",
+      "hash": "c55aaf0f33ebe18256ab1562894b2d00"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_zh-tool_zh/eval_results.json",
+      "hash": "a2be5c9023229c49024733ff08b87fa7"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_zh-tool_es/eval_results.json",
+      "hash": "3fe6f9f401952b8ec0c1b99b0ca5c9e8"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_zh-tool_fr/eval_results.json",
+      "hash": "6eb4591637666ce85048926568a47b8e"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_es-tool_en/eval_results.json",
+      "hash": "029a35e73da6668997a67eec273232a7"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_es-tool_de/eval_results.json",
+      "hash": "ddb25329793686c5a63a6baf2d2b4e0e"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_es-tool_hi/eval_results.json",
+      "hash": "41f86fcf639ece842ad52238e4387108"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_es-tool_zh/eval_results.json",
+      "hash": "dbc8e7fa47082733bf8db779bd18621f"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_es-tool_es/eval_results.json",
+      "hash": "b50bdb68ccc56c62d2d57929f7d1e862"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_es-tool_fr/eval_results.json",
+      "hash": "3e5bd35e8a8e074700519cf9c86c399f"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_fr-tool_en/eval_results.json",
+      "hash": "e88809a7a78571b40bc4b5b82faba8d7"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_fr-tool_de/eval_results.json",
+      "hash": "6fa8b921a14094458f011ae28865563c"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_fr-tool_hi/eval_results.json",
+      "hash": "d2bb2391109a01bef903d6d2d7ef5bd9"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_fr-tool_zh/eval_results.json",
+      "hash": "d7c2405c147bcdc140d57896d53fc662"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_fr-tool_es/eval_results.json",
+      "hash": "aa9625f60129e5bf24c306dae6da3e8a"
+    },
+    {
+      "path": "results/persona/conflict/sys-tool/gpt/gpt-5-nano/input-sys_fr-tool_fr/eval_results.json",
+      "hash": "64231b1f63db6b842892f7b71b337ca1"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_en-user_en/eval_results.json",
+      "hash": "33ae25b11811d2c8f21c6cd19fb83805"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_en-user_de/eval_results.json",
+      "hash": "6cd62e7aafd0900832f745da2286dec6"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_en-user_hi/eval_results.json",
+      "hash": "e5ab05afcf58d91b15a0abefb32381c3"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_en-user_zh/eval_results.json",
+      "hash": "873f60e38054b6e917380082c6882f3b"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_en-user_es/eval_results.json",
+      "hash": "47c28c9bf7abcaf32da763f47d28a063"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_en-user_fr/eval_results.json",
+      "hash": "befcb089206b983bc6995aa3dd780a06"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_de-user_en/eval_results.json",
+      "hash": "45f3c86f4c0b7bf4fa36dbbf54da5e71"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_de-user_de/eval_results.json",
+      "hash": "0c1c406a672f44df9685d5e7ac689cbb"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_de-user_hi/eval_results.json",
+      "hash": "928d6bbdeb6baab5bf5e19e7bdff204f"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_de-user_zh/eval_results.json",
+      "hash": "4c0a2269d004340f2b2d1c51801f03a7"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_de-user_es/eval_results.json",
+      "hash": "9464504f5336e8e842c1ad0cb571fb06"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_de-user_fr/eval_results.json",
+      "hash": "b1a13daf2db8139eb76d749bd1e0a76f"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_hi-user_en/eval_results.json",
+      "hash": "b20f947fe214316c5d21d352afe303ad"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_hi-user_de/eval_results.json",
+      "hash": "ef62a8a47aa1f628781fb754700d7bbb"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_hi-user_hi/eval_results.json",
+      "hash": "393e6e6271d23253278bc17db650e9c1"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_hi-user_zh/eval_results.json",
+      "hash": "27d6be56333c965faf607a754dfc6247"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_hi-user_es/eval_results.json",
+      "hash": "fd613f036ba7e407c16e9ec66ba92d6d"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_hi-user_fr/eval_results.json",
+      "hash": "6f023f64bb23cedd08ba193c489eb1eb"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_zh-user_en/eval_results.json",
+      "hash": "439593429a3b865d2ffb9b9f3458b720"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_zh-user_de/eval_results.json",
+      "hash": "700f6dad6c7f994b032b414ebc9abb97"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_zh-user_hi/eval_results.json",
+      "hash": "1d470e608ad03da08177ea0f7861a41c"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_zh-user_zh/eval_results.json",
+      "hash": "8010dd892e8cd191a46349bb14b2f363"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_zh-user_es/eval_results.json",
+      "hash": "ac6df6e83af4d75f8a83878215ae75d7"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_zh-user_fr/eval_results.json",
+      "hash": "f73366fdd3e76829bf9ffe2dbb20e2bb"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_es-user_en/eval_results.json",
+      "hash": "27563f621c4dc9a7818144eb9cbee7d9"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_es-user_de/eval_results.json",
+      "hash": "8531f1de219bd585979d5644ee35b339"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_es-user_hi/eval_results.json",
+      "hash": "baaf06c5325ca767405a1417f38f9997"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_es-user_zh/eval_results.json",
+      "hash": "f9f2ddd43b6b60f564cd394d937b4281"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_es-user_es/eval_results.json",
+      "hash": "bcfa6db5d35bcf809c52adb5e987477d"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_es-user_fr/eval_results.json",
+      "hash": "24a88d65eabc531c120286ec72f56c06"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_fr-user_en/eval_results.json",
+      "hash": "1734c8c7e92661ecb7f46bca8eec1cc5"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_fr-user_de/eval_results.json",
+      "hash": "a2d0ac2e7ae80032cd86a6817887b666"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_fr-user_hi/eval_results.json",
+      "hash": "a6e047a30efedbc4578b06acb2479f7b"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_fr-user_zh/eval_results.json",
+      "hash": "5eb36fbd05d3a2e0f1240a5733c37b5a"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_fr-user_es/eval_results.json",
+      "hash": "f809d97e22123fbf3e36c72ef4062e64"
+    },
+    {
+      "path": "results/persona/reference/sys-user/gpt/gpt-5-nano/input-sys_fr-user_fr/eval_results.json",
+      "hash": "bad7c27c2c67ef696393196d70f38390"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_en-user_en/eval_results.json",
+      "hash": "eb44a442a6a002147089dbcd21072bb2"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_en-user_de/eval_results.json",
+      "hash": "16e0889f0e4944758d0a700dd03aa2a9"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_en-user_hi/eval_results.json",
+      "hash": "e3736b11f35825c7110a3e25ff20b161"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_en-user_zh/eval_results.json",
+      "hash": "f915ec54bc9bdd8cb5cd5802e309df68"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_en-user_es/eval_results.json",
+      "hash": "93bf88a1eb4ceaefde2626eb40a0c700"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_en-user_fr/eval_results.json",
+      "hash": "f69e572024f39a30f827ac0b962da604"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_de-user_en/eval_results.json",
+      "hash": "d50d3d4b24e4bab56ad519d50831fd4e"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_de-user_de/eval_results.json",
+      "hash": "21b89d2c62c519844b3134201e23b8db"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_de-user_hi/eval_results.json",
+      "hash": "66e52bb79bc9632c550aa426662cb32b"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_de-user_zh/eval_results.json",
+      "hash": "ad1789b15ce70401fe84d82832b5a322"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_de-user_es/eval_results.json",
+      "hash": "2e35e048ddaacf8397b4732a5e940033"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_de-user_fr/eval_results.json",
+      "hash": "8904e24bc7b4a47c7ce744ee7b66547a"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_hi-user_en/eval_results.json",
+      "hash": "b6f403f75c7cd5cd664a733d45154b75"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_hi-user_de/eval_results.json",
+      "hash": "399b058e86bdc80e54eb65a041b00f43"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_hi-user_hi/eval_results.json",
+      "hash": "2e2e6bae734d0d92f1385973da82efa1"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_hi-user_zh/eval_results.json",
+      "hash": "598be0277675cc1e25171476b219d8e0"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_hi-user_es/eval_results.json",
+      "hash": "eaba29bd3047c80def428ebcd99caeb0"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_hi-user_fr/eval_results.json",
+      "hash": "5876290f4f0555a9938d5c249ab1a554"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_zh-user_en/eval_results.json",
+      "hash": "9db9ddc5f302a0a73b5e3ffff4881f78"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_zh-user_de/eval_results.json",
+      "hash": "a0d6a1b5fd46a42d05c169fb8413881f"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_zh-user_hi/eval_results.json",
+      "hash": "0a4f8fbc357ee3988596c1662d3c6ace"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_zh-user_zh/eval_results.json",
+      "hash": "609bac956205bc2ab67635217411cd25"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_zh-user_es/eval_results.json",
+      "hash": "190c73b38f4dbdfc4b84f62aa4a8d22d"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_zh-user_fr/eval_results.json",
+      "hash": "65b74aec819ed9bd7c7d8c65af6a612c"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_es-user_en/eval_results.json",
+      "hash": "a371b39b400baa2c7ab8e4da17cea389"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_es-user_de/eval_results.json",
+      "hash": "caa000109aa612bdbfb2c85409eb2ad6"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_es-user_hi/eval_results.json",
+      "hash": "0b3a245fd1119ea8f2abd4bed4d91793"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_es-user_zh/eval_results.json",
+      "hash": "cff434b54f68e8284cf8d060fd594050"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_es-user_es/eval_results.json",
+      "hash": "67152486caf73683eafd43fa7ea5e953"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_es-user_fr/eval_results.json",
+      "hash": "71988be1524429240bc0fd538ce8cade"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_fr-user_en/eval_results.json",
+      "hash": "72ad2734016b9e3741ac9f9307eb4b2f"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_fr-user_de/eval_results.json",
+      "hash": "b9caed8e5a2792f8f79a3701db3f9592"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_fr-user_hi/eval_results.json",
+      "hash": "ea4d8fa1a75b8ae9db1e24fd0bda3ac9"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_fr-user_zh/eval_results.json",
+      "hash": "b9ec1bba68327103fa3a55baaefdb92e"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_fr-user_es/eval_results.json",
+      "hash": "8df76167852c6fb4201d91d366ab0c9a"
+    },
+    {
+      "path": "results/persona/conflict/sys-user/gpt/gpt-5-nano/input-sys_fr-user_fr/eval_results.json",
+      "hash": "ebf01101efd6d3fb47d8d3881a26c87d"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_en-tool_en/eval_results.json",
+      "hash": "cfa9dc64f42a33d4c2e075af45daaf98"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_en-tool_de/eval_results.json",
+      "hash": "5184351d2afddd7b014b5ddcd394baa5"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_en-tool_hi/eval_results.json",
+      "hash": "eff009cfcdc767fcb7a3d3abd4419494"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_en-tool_zh/eval_results.json",
+      "hash": "497510f96c2a3e557d5947bd595481e8"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_en-tool_es/eval_results.json",
+      "hash": "58e32038f292481f307fe1eb60664f77"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_en-tool_fr/eval_results.json",
+      "hash": "9dbbf1a988446f5886b5a28769a85c87"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_de-tool_en/eval_results.json",
+      "hash": "1fea38f59216d07c8cfb3b29a9212318"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_de-tool_de/eval_results.json",
+      "hash": "90e5a3ec051ff24607ea8f2c51a99329"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_de-tool_hi/eval_results.json",
+      "hash": "f372bf34e808305b286cb69f5f6b10d5"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_de-tool_zh/eval_results.json",
+      "hash": "9430d8ac0c5ed21fd34958baa4ae68f5"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_de-tool_es/eval_results.json",
+      "hash": "f81ac2606c6b07a0494bea4e8e0a3f6a"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_de-tool_fr/eval_results.json",
+      "hash": "1a316271356eeb408894bcb6d258fb9b"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_hi-tool_en/eval_results.json",
+      "hash": "11e598d84c3ebc268208f38c7e20eff9"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_hi-tool_de/eval_results.json",
+      "hash": "74c180c3f0d39b3c915c299dee5a8737"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_hi-tool_hi/eval_results.json",
+      "hash": "be83ac6377fcf52226d527c20e78733d"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_hi-tool_zh/eval_results.json",
+      "hash": "cefd1d8d99efe963e969f2adb967d74a"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_hi-tool_es/eval_results.json",
+      "hash": "ce78e413a4251e0ff5a2cb74483b604c"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_hi-tool_fr/eval_results.json",
+      "hash": "3fc1d82a132f8453b0e7f709da3f4bf3"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_zh-tool_en/eval_results.json",
+      "hash": "7896b3cf6c72d01d0318f83b22b1ab1a"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_zh-tool_de/eval_results.json",
+      "hash": "b9bc3fbdc5209a191baa0756c0250cc4"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_zh-tool_hi/eval_results.json",
+      "hash": "8188c8849d1a3b061c5032a2b5ad7321"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_zh-tool_zh/eval_results.json",
+      "hash": "18f8a3762a3520197c15385e3599969e"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_zh-tool_es/eval_results.json",
+      "hash": "c7fa75bcae3c15fc8654d2076a01d429"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_zh-tool_fr/eval_results.json",
+      "hash": "061d42a572e69a60c266b227f75635bc"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_es-tool_en/eval_results.json",
+      "hash": "a4f9352f86486276ff652ff60ca8c2bb"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_es-tool_de/eval_results.json",
+      "hash": "e81e045aba1eb2bb72d31c63e2cb3e73"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_es-tool_hi/eval_results.json",
+      "hash": "c557184712823c6309f2cbe5781977cd"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_es-tool_zh/eval_results.json",
+      "hash": "e3205ae73ff725f04801d78ec8d42dfd"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_es-tool_es/eval_results.json",
+      "hash": "83e5a6fcba53f48eac786bb2d528d257"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_es-tool_fr/eval_results.json",
+      "hash": "c3fe9bacb0533ced80cdde1b56701b24"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_fr-tool_en/eval_results.json",
+      "hash": "0796941be4bac520f4d03706df55c26b"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_fr-tool_de/eval_results.json",
+      "hash": "879374d3687d85fed1fdebfd7b96c99f"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_fr-tool_hi/eval_results.json",
+      "hash": "22a9a918b1c599489b3ccf2533a4da01"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_fr-tool_zh/eval_results.json",
+      "hash": "5bd92f6a930ed12acd3548639c8975e3"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_fr-tool_es/eval_results.json",
+      "hash": "47c39b403e9c76d13e7d1f1672886c4e"
+    },
+    {
+      "path": "results/persona/reference/user-tool/gpt/gpt-5-nano/input-user_fr-tool_fr/eval_results.json",
+      "hash": "6f2a96e03dbbcd82e2cdf836f2019912"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_en-tool_en/eval_results.json",
+      "hash": "d7560754b0dbe5bade90fb721d093116"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_en-tool_de/eval_results.json",
+      "hash": "234034fe088ca850a532d084173c82f0"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_en-tool_hi/eval_results.json",
+      "hash": "00959eeb933d8cabc4d639b557c23135"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_en-tool_zh/eval_results.json",
+      "hash": "f407fefdd9ad51720698dbaffda8cbf5"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_en-tool_es/eval_results.json",
+      "hash": "3bd41d77431d8cd8ba488332f2a07e8e"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_en-tool_fr/eval_results.json",
+      "hash": "5150f0dea8dc3e048559f8724a776004"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_de-tool_en/eval_results.json",
+      "hash": "0bb74154a87a8261e30edfed2d8b5c7f"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_de-tool_de/eval_results.json",
+      "hash": "24d90c56e40d61a7cc46c3bdcf4bc099"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_de-tool_hi/eval_results.json",
+      "hash": "9e764fc33f850d2e3eef43dc36c0ab0c"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_de-tool_zh/eval_results.json",
+      "hash": "59960a0b22015c97d2507f1fedd85e6a"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_de-tool_es/eval_results.json",
+      "hash": "04206b259f2b2665bd0acab26e81e169"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_de-tool_fr/eval_results.json",
+      "hash": "9b985b3e0851745110469487ee52a523"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_hi-tool_en/eval_results.json",
+      "hash": "7535beb60814a41b0ed54bc4becf75ec"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_hi-tool_de/eval_results.json",
+      "hash": "5bf6e93943f7141ed2c305bdb045e5a0"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_hi-tool_hi/eval_results.json",
+      "hash": "8d659c7dbbc99958d8ce0c2267b8f568"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_hi-tool_zh/eval_results.json",
+      "hash": "3a251bfca6ae227648fd3980db4a23fb"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_hi-tool_es/eval_results.json",
+      "hash": "f6513760f54220e38ec4f099264d1591"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_hi-tool_fr/eval_results.json",
+      "hash": "f07cba8ccaac4dcb808b10f3b4674809"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_zh-tool_en/eval_results.json",
+      "hash": "ae45bcef3e992a984fd6738a7b49f42a"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_zh-tool_de/eval_results.json",
+      "hash": "1c016a07744904edc5292dd09bad73f5"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_zh-tool_hi/eval_results.json",
+      "hash": "c4115f2a041c668e758daa4f58dd9ef8"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_zh-tool_zh/eval_results.json",
+      "hash": "c2634909b1143e6ccc0f32c0afd7dc71"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_zh-tool_es/eval_results.json",
+      "hash": "51a8e082776b35519700f91f972962f4"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_zh-tool_fr/eval_results.json",
+      "hash": "c8363e5168a559f811efe38e109d8372"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_es-tool_en/eval_results.json",
+      "hash": "231e27ba47cf81c61e9118a99d0c4258"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_es-tool_de/eval_results.json",
+      "hash": "e1a21ec2f3e3e5ca28da365fdb571599"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_es-tool_hi/eval_results.json",
+      "hash": "f3d5a191518fabaa40feb36d136e4332"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_es-tool_zh/eval_results.json",
+      "hash": "9941cd5ff46732e06bd39933990affd2"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_es-tool_es/eval_results.json",
+      "hash": "b19c4ee3535942f5c2ad68d3d21fdfd9"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_es-tool_fr/eval_results.json",
+      "hash": "f71d7c330314f5c8e92246b8f1339048"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_fr-tool_en/eval_results.json",
+      "hash": "c7f2215e8f629c5aa73e0887a0dd6568"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_fr-tool_de/eval_results.json",
+      "hash": "5b801987cbd662173a73df6590e4fed0"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_fr-tool_hi/eval_results.json",
+      "hash": "d67c9fbfe9fa8b0ad11073784fbd2b3f"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_fr-tool_zh/eval_results.json",
+      "hash": "58f8b68f4e286b7b14e221be92433e92"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_fr-tool_es/eval_results.json",
+      "hash": "44dca4baf99f1fb75939c4b8469e6b09"
+    },
+    {
+      "path": "results/persona/conflict/user-tool/gpt/gpt-5-nano/input-user_fr-tool_fr/eval_results.json",
+      "hash": "5ab2a9135a5794cac510e7dbec06addf"
+    }
+  ]
+}

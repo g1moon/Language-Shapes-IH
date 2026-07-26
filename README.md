@@ -1,4 +1,4 @@
-# XIH-Bench: Language Shapes Instruction Hierarchy Compliance in Multilingual LLMs
+# Language Shapes Instruction Hierarchy Compliance in Multilingual LLMs
 
 ## Abstract
 

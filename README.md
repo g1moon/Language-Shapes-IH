@@ -1,5 +1,9 @@
 # Language Shapes Instruction Hierarchy Compliance in Multilingual LLMs
 
+[![arXiv](https://img.shields.io/badge/arXiv-2607.23545-b31b1b.svg)](https://arxiv.org/abs/2607.23545)
+[![HuggingFace Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-XIH--Bench-yellow)](https://huggingface.co/datasets/g1moon/XIH-Bench)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 ## Abstract
 
 Instruction hierarchy (IH) requires models to prioritize instructions by source, ensuring that higher-priority instructions override lower-priority ones. Despite its importance for safe and controllable deployment, existing evaluations have focused almost exclusively on English, leaving it unclear whether IH compliance remains stable in multilingual settings. We introduce XIH-Bench, a benchmark for multilingual IH evaluation with both same-language and cross-language conflicts across six languages, four domains, and three IH settings. Across models, we find two consistent patterns. First, IH compliance exhibits a clear language-dependent asymmetry: a language that strengthens compliance in the higher-priority position can become disruptive in the lower-priority position. Second, cross-language conflicts yield higher compliance than same-language conflicts, a phenomenon we term the Language Boundary Effect. We further show that language specialization can make lower-priority instructions in model-favored languages harder to override, creating multilingual reliability and security risks.
@@ -45,6 +49,31 @@ export ANTHROPIC_API_KEY="your-anthropic-key"
 
 ## Benchmark Structure
 
+The benchmark is included in this repository under `benchmark/`. It is also published on the
+HuggingFace Hub, which additionally provides Parquet configs with the language pair, hierarchy
+setting and role as first-class columns:
+
+```python
+from datasets import load_dataset
+
+d = load_dataset("g1moon/XIH-Bench", "rule-following", split="conflict")   # 10,800
+d.filter(lambda x: x["lang_pair"] == "en-zh")                              # one 6x6 cell
+```
+
+To reproduce the paper with the code in this repository against the Hub copy of the raw tree:
+
+```bash
+hf download g1moon/XIH-Bench --repo-type dataset --include 'raw/*' --local-dir /tmp/xih
+ln -s /tmp/xih/raw/benchmark ./benchmark
+```
+
+The Hub release is built and verified by `src/hf/` (see `requirements-hf.txt`):
+
+```bash
+python src/hf/build_hf_dataset.py --benchmark-root benchmark --out hf
+python src/hf/verify_release.py --staging hf --benchmark benchmark
+```
+
 ```
 benchmark/
 ├── rule-following/
@@ -62,6 +91,32 @@ benchmark/
 ```
 
 **Language pair convention**: `input-{higher_role}_{higher_lang}-{lower_role}_{lower_lang}.json`
+
+### Benchmark notes
+
+The pipeline in `src/` handles all of the following. They matter if you write your own evaluator
+(for example on top of the HuggingFace Parquet release), because each fails *silently* — you get
+plausible-looking numbers rather than an error.
+
+- **`safety/reference` is not a 6x6 grid.** It exists only on the diagonal: 6 same-language pairs
+  x 3 hierarchy settings x 183 items = 3,294 instances, because the reference condition does not
+  vary with the lower-priority language. Safety HCR therefore uses the diagonal reference of the
+  matching higher-priority language as the denominator for every language paired with it — see
+  `src/model/aggregate_matrix_scores.py:328-333`.
+- **`personas` order is semantic.** `personas[0]` is Persona A and `personas[1]` is Persona B, and
+  the mapping is bound to `label` (0 → A, 1 → B) in `src/persona/evaluate/eval_persona.py:49-53`.
+  Sorting or shuffling within a record silently inverts the judge's scoring.
+- **`answer.kwargs` is positional.** It is a list parallel to `answer.instruction_id_list`, and
+  entry *i* is splatted into the verifier for instruction *i*
+  (`src/rule_following/evaluate/evaluation_main.py:106-113`). An empty `{}` is meaningful.
+- **Rule-following evaluation is per file.** The evaluator joins model responses to items by
+  *prompt string*, not by id (`src/rule_following/evaluate/evaluation_main.py:102,192`). Prompts
+  repeat across language-pair files — a single domain/setting/hierarchy has 3,600 items but only
+  600 distinct `user` strings — so evaluating a merged set collapses colliding prompts.
+- **`answer.system_prompt` holds both language variants** and the leak check takes the maximum
+  chrF++ overlap across them (`src/safety/evaluate/eval_tensortrust.py:96`).
+- **Strings must round-trip byte-for-byte** with `ensure_ascii=False` and no normalization, since
+  chrF++ compares against exact reference strings.
 
 ---
 
@@ -191,10 +246,32 @@ model-scores/{model_family}/{model}/results/{domain}/{hierarchy}/
 ## Validation Utilities
 
 ```bash
-# Check for missing result files
-python check_missing_results.py
+# Verify the HuggingFace release: round-trip byte equality against benchmark/,
+# per-config row counts, and structural invariants
+python src/hf/verify_release.py --staging hf --benchmark benchmark
+```
 
-# Check for null/empty model outputs
-python check_null_outputs.py
+---
+
+## License
+
+XIH-Bench is released under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+See [LICENSE](LICENSE) for the upstream source attributions (IFEval, TensorTrust, Belebele,
+PersonaHub) whose terms also apply.
+
+---
+
+## Citation
+
+```bibtex
+@article{moon2026language,
+  title         = {Language Shapes Instruction Hierarchy Compliance in Multilingual LLMs},
+  author        = {Moon, Jiwon and Hwang, Yerin and Jung, Kyomin},
+  year          = {2026},
+  eprint        = {2607.23545},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2607.23545}
+}
 ```
 

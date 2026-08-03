@@ -1,0 +1,55 @@
+XIH-Bench and the accompanying code in this repository are licensed under the
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+(CC BY-NC-SA 4.0).
+
+  Human-readable summary: https://creativecommons.org/licenses/by-nc-sa/4.0/
+  Full legal code:        https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+  SPDX identifier:        CC-BY-NC-SA-4.0
+
+The full legal code at the URL above governs; the summary below is for
+convenience only and is not a substitute for it.
+
+You are free to:
+  - Share  — copy and redistribute the material in any medium or format
+  - Adapt  — remix, transform, and build upon the material
+
+Under the following terms:
+  - Attribution  — You must give appropriate credit, provide a link to the
+    license, and indicate if changes were made.
+  - NonCommercial — You may not use the material for commercial purposes.
+  - ShareAlike   — If you remix, transform, or build upon the material, you
+    must distribute your contributions under the same license as the original.
+  - No additional restrictions — You may not apply legal terms or technological
+    measures that legally restrict others from doing anything the license
+    permits.
+
+--------------------------------------------------------------------------------
+Upstream sources
+--------------------------------------------------------------------------------
+
+XIH-Bench is derived from publicly available research resources. Their own terms
+continue to apply to the portions derived from them:
+
+  IFEval       Apache-2.0
+               https://github.com/google-research/google-research/tree/master/instruction_following_eval
+               -> rule-following prompts and verifiers
+
+  TensorTrust  no explicit license file; used with attribution for research
+               https://github.com/HumanCompatibleAI/tensor-trust-data
+               -> safety access-control attacks
+
+  Belebele     CC BY-SA 4.0
+               https://huggingface.co/datasets/facebook/belebele
+               -> task-execution passages
+
+  PersonaHub   CC BY-NC-SA 4.0, research use only
+               https://huggingface.co/datasets/proj-persona/PersonaHub
+               -> persona descriptions (elite_persona split)
+
+CC BY-NC-SA 4.0 was chosen as the most permissive license compatible with the
+above: PersonaHub's NonCommercial-ShareAlike terms and Belebele's ShareAlike
+term both propagate to any derived collection.
+
+IHEval (Zhang et al., NAACL 2025, https://github.com/ytyz1307zzh/IHEval) is the
+methodological reference for the instruction-hierarchy setup and evaluator
+design. Benchmark items are taken from IFEval and TensorTrust directly.

@@ -1,0 +1,4 @@
+*.parquet filter=lfs diff=lfs merge=lfs -text
+# raw/**/*.json is intentionally NOT in LFS: the largest file is 675 KB, and
+# plain blobs keep the Hub file preview working and dedupe better under Xet.
+*.json text eol=lf

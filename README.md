@@ -67,7 +67,7 @@ hf download g1moon/XIH-Bench --repo-type dataset --include 'raw/*' --local-dir /
 ln -s /tmp/xih/raw/benchmark ./benchmark
 ```
 
-The Hub release is built and verified by `src/hf/` (see `requirements-hf.txt`):
+The Hub release is built and verified by `src/hf/`:
 
 ```bash
 python src/hf/build_hf_dataset.py --benchmark-root benchmark --out hf

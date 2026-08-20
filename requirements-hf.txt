@@ -1,5 +1,0 @@
-# Extra dependencies for building and publishing the HuggingFace release.
-# Not needed to run inference or evaluation; see requirements.txt for those.
-pyarrow>=17
-datasets>=3.0
-huggingface_hub>=0.34

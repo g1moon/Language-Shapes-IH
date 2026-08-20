@@ -11,6 +11,12 @@ httpx
 fastapi
 PyICU
 
+# Building and publishing the HuggingFace release (src/hf/) only;
+# not needed to run inference or evaluation.
+pyarrow>=17
+datasets>=3.0
+huggingface_hub>=0.34
+
 # GPU-required packages (install separately based on your CUDA version):
 # torch>=2.9.0
 # vllm>=0.13.0  (requires CUDA 12.x)
